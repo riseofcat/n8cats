@@ -1,0 +1,6 @@
+{
+  "name": "b8cats",
+  "description": "b8cats website Heroku Kotlin Ktor",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
