@@ -16,19 +16,21 @@ import org.jetbrains.ktor.http.ContentType
 import org.jetbrains.ktor.http.HttpStatusCode
 import org.jetbrains.ktor.http.withCharset
 import org.jetbrains.ktor.jetty.Jetty
+import org.jetbrains.ktor.request.host
 import org.jetbrains.ktor.request.uri
 import org.jetbrains.ktor.request.userAgent
 import org.jetbrains.ktor.response.header
 import org.jetbrains.ktor.response.respondText
-import org.jetbrains.ktor.routing.Routing
-import org.jetbrains.ktor.routing.get
+import org.jetbrains.ktor.routing.*
+import org.jetbrains.ktor.websocket.webSocket
 import java.io.File
 
 val html_utf8 = ContentType.Text.Html.withCharset(Charsets.UTF_8)
 
 fun Application.module() {
     intercept(ApplicationCallPipeline.Call) {
-        if (call.request.uri == "/intercept")
+        val uri = call.request.uri
+        if (uri == "/intercept")
             call.respondText("Test intercept")
     }
     install(DefaultHeaders)
@@ -46,17 +48,22 @@ fun Application.module() {
     }
 
     install(Routing) {
-        serveClasspathResources("public")
 
-        get("/") {
-            if (false) {
-                logDb(call, call.request.queryParameters.get("from"))
-            }
-            printHtml(call)
+        select(DomainSelector("tank")).get("/") {
+            call.respond("subdomain tank. Host: ${call.request.host()}")
         }
 
-        get("logme") {
-            logDb(call, call.request.queryParameters.get("from"))
+        route("/tank") {
+            serveClasspathResources("public/tank")
+            get("/vk") {
+                logDb(call)
+                printHtml(call)
+            }
+        }
+
+        serveClasspathResources("public/n8cats")
+        get("/") {
+            logDb(call, "root")
             printHtml(call)
         }
 
@@ -75,6 +82,12 @@ fun Application.module() {
             }
             call.respond(result)
         }
+
+        if(false) {
+            webSocket("ws") {
+                //https://github.com/Kotlin/ktor/blob/master/ktor-samples/ktor-samples-websocket/src/org/jetbrains/ktor/samples/chat/ChatApplication.kt
+            }
+        }
     }
 }
 
@@ -86,12 +99,18 @@ suspend fun printHtml(call: ApplicationCall) {
     call.respond(htmlContent);
 }
 
-fun logDb(call: ApplicationCall, from: String?) {
-    dataSource!!.connection.use { connection ->
-        connection.createStatement().run {
-            //            executeUpdate("DROP TABLE IF EXISTS loads")
-            executeUpdate("CREATE TABLE IF NOT EXISTS loads (time timestamp, frm text, host text, agent text)")
-            executeUpdate("INSERT INTO loads VALUES (now(), '$from', '${call.request.local.remoteHost}', '${call.request.userAgent()}')");
+fun logDb(call: ApplicationCall, tag:String="") {
+    val envJdbcUrl:String? = System.getenv("JDBC_DATABASE_URL")
+    if(envJdbcUrl != null) {
+        val from = "${tag} ${call.request.queryParameters.get("from")}"
+        dataSource!!.connection.use { connection ->
+            connection.createStatement().run {
+                if(false) {
+                    executeUpdate("DROP TABLE IF EXISTS loads")
+                }
+                executeUpdate("CREATE TABLE IF NOT EXISTS loads (time timestamp, frm text, host text, agent text)")
+                executeUpdate("INSERT INTO loads VALUES (now(), '$from', '${call.request.local.remoteHost}', '${call.request.userAgent()}')");
+            }
         }
     }
 }
@@ -103,7 +122,7 @@ fun main(args: Array<String>) {
     } catch(e: Exception) {
 
     }
-    embeddedServer(Jetty, port, reloadPackages = listOf("heroku"), module = Application::module).start()
+    embeddedServer(Jetty, port, reloadPackages = listOf("heroku"), module = Application::module/*, host = "localhost"*/).start()
 //    embeddedServer(Netty, port, reloadPackages = listOf("heroku"), module = Application::module).start()
 //    embeddedServer(MyServer,port, reloadPackages = listOf("heroku"), module = Application::module).start()
 }

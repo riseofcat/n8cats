@@ -15,6 +15,11 @@
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.ktor</groupId>
+            <artifactId>ktor-websockets</artifactId>
+            <version>${ktor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.ktor</groupId>
             <artifactId>ktor-netty</artifactId>
             <version>${ktor.version}</version>
         </dependency>
