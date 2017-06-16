@@ -7,10 +7,13 @@ import org.jetbrains.ktor.routing.RoutingResolveContext
 class PathSelector() :RouteSelector {
 
     override fun evaluate(context: RoutingResolveContext, index: Int): RouteSelectorEvaluation {
-        val from = context.path.get(1).toLowerCase()
-        if(from.toLowerCase().length == 2) {
-            return RouteSelectorEvaluation(true, 0.8);
+        if(context.path.size != 2) {
+            return RouteSelectorEvaluation.Missing
         }
-        return RouteSelectorEvaluation.Missing
+        val from = context.path.get(1)
+        if(from.contains(".")) {
+            return RouteSelectorEvaluation.Missing
+        }
+        return RouteSelectorEvaluation(true, 0.8)
     }
 }
