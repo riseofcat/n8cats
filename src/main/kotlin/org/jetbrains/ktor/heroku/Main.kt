@@ -52,7 +52,7 @@ fun Application.module() {
                 select(PathSelector()).get("/{from}") {
                     val from = call.parameters["from"]?.toLowerCase();
                     logDb(call, "$project " + from)
-                    if(from == "vk") {
+                    if (from == "vk") {
                         printHtml(call, "$project/vk.html")
                     } else {
                         printHtml(call, "$project/index.html")
@@ -83,7 +83,7 @@ fun Application.module() {
             call.respond(result)
         }
 
-        if(false) {
+        if (false) {
             intercept(ApplicationCallPipeline.Call) {
                 val uri = call.request.uri
                 if (uri == "/intercept")
@@ -99,7 +99,7 @@ fun Application.module() {
     }
 }
 
-suspend fun printHtml(call: ApplicationCall, htmlPath:String) {
+suspend fun printHtml(call: ApplicationCall, htmlPath: String) {
     call.response.header("Content-Type", "text/html; charset=UTF-8")
     call.response.header("my_header", "my_value")
     call.response.status(HttpStatusCode.OK)
@@ -107,13 +107,13 @@ suspend fun printHtml(call: ApplicationCall, htmlPath:String) {
     call.respond(htmlContent);
 }
 
-fun logDb(call: ApplicationCall, tag:String?) {
-    val envJdbcUrl:String? = System.getenv("JDBC_DATABASE_URL")
-    if(envJdbcUrl != null) {
+fun logDb(call: ApplicationCall, tag: String?) {
+    val envJdbcUrl: String? = System.getenv("JDBC_DATABASE_URL")
+    if (envJdbcUrl != null) {
 //        val from = "${tag} ${call.request.queryParameters.get("from")}"
         dataSource!!.connection.use { connection ->
             connection.createStatement().run {
-                if(false) {
+                if (false) {
                     executeUpdate("DROP TABLE IF EXISTS loads")
                 }
                 executeUpdate("CREATE TABLE IF NOT EXISTS loads (time timestamp, frm text, host text, agent text)")
@@ -135,8 +135,12 @@ fun main(args: Array<String>) {
 //    embeddedServer(MyServer,port, reloadPackages = listOf("heroku"), module = Application::module).start()
 }
 
+private var _dataSource: HikariDataSource? = null
 var dataSource: HikariDataSource? = null
-    get() = HikariDataSource(HikariConfig().apply {
-        jdbcUrl = System.getenv("JDBC_DATABASE_URL")
-    })
+    get() {
+        if (_dataSource == null) {
+            _dataSource = HikariDataSource(HikariConfig().apply { jdbcUrl = System.getenv("JDBC_DATABASE_URL") })
+        }
+        return _dataSource
+    }
 
