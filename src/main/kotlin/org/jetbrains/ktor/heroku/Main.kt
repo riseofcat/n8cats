@@ -21,18 +21,16 @@ import org.jetbrains.ktor.request.uri
 import org.jetbrains.ktor.request.userAgent
 import org.jetbrains.ktor.response.header
 import org.jetbrains.ktor.response.respondText
-import org.jetbrains.ktor.routing.*
+import org.jetbrains.ktor.routing.Routing
+import org.jetbrains.ktor.routing.get
+import org.jetbrains.ktor.routing.route
 import org.jetbrains.ktor.websocket.webSocket
 import java.io.File
 
 val html_utf8 = ContentType.Text.Html.withCharset(Charsets.UTF_8)
+val projects = listOf("tank", "parking")
 
 fun Application.module() {
-    intercept(ApplicationCallPipeline.Call) {
-        val uri = call.request.uri
-        if (uri == "/intercept")
-            call.respondText("Test intercept")
-    }
     install(DefaultHeaders)
     install(ConditionalHeaders)
     install(PartialContentSupport)
@@ -48,23 +46,25 @@ fun Application.module() {
     }
 
     install(Routing) {
-
-        select(DomainSelector("tank")).get("/") {
-            call.respond("subdomain tank. Host: ${call.request.host()}")
-        }
-
-        route("/tank") {
-            serveClasspathResources("public/tank")
-            get("/vk") {
-                logDb(call)
-                printHtml(call)
+        for (project in projects) {
+            route(project) {
+                serveClasspathResources("public/$project")
+                select(PathSelector()).get("/{from}") {
+                    val from = call.parameters["from"]?.toLowerCase();
+                    logDb(call, "$project " + from)
+                    if(from == "vk") {
+                        printHtml(call, "$project/vk.html")
+                    } else {
+                        printHtml(call, "$project/index.html")
+                    }
+                }
             }
         }
 
         serveClasspathResources("public/n8cats")
         get("/") {
             logDb(call, "root")
-            printHtml(call)
+            printHtml(call, "n8cats/index.html")
         }
 
         get("/db") {
@@ -84,6 +84,14 @@ fun Application.module() {
         }
 
         if(false) {
+            intercept(ApplicationCallPipeline.Call) {
+                val uri = call.request.uri
+                if (uri == "/intercept")
+                    call.respondText("Test intercept")
+            }
+            select(DomainSelector("tank")).get("/") {
+                call.respond("subdomain tank. Host: ${call.request.host()}")
+            }
             webSocket("ws") {
                 //https://github.com/Kotlin/ktor/blob/master/ktor-samples/ktor-samples-websocket/src/org/jetbrains/ktor/samples/chat/ChatApplication.kt
             }
@@ -91,25 +99,25 @@ fun Application.module() {
     }
 }
 
-suspend fun printHtml(call: ApplicationCall) {
+suspend fun printHtml(call: ApplicationCall, htmlPath:String) {
     call.response.header("Content-Type", "text/html; charset=UTF-8")
     call.response.header("my_header", "my_value")
     call.response.status(HttpStatusCode.OK)
-    val htmlContent = File("src/main/resources/public/index.html").readText()
+    val htmlContent = File("src/main/resources/public/${htmlPath}").readText()
     call.respond(htmlContent);
 }
 
-fun logDb(call: ApplicationCall, tag:String="") {
+fun logDb(call: ApplicationCall, tag:String?) {
     val envJdbcUrl:String? = System.getenv("JDBC_DATABASE_URL")
     if(envJdbcUrl != null) {
-        val from = "${tag} ${call.request.queryParameters.get("from")}"
+//        val from = "${tag} ${call.request.queryParameters.get("from")}"
         dataSource!!.connection.use { connection ->
             connection.createStatement().run {
                 if(false) {
                     executeUpdate("DROP TABLE IF EXISTS loads")
                 }
                 executeUpdate("CREATE TABLE IF NOT EXISTS loads (time timestamp, frm text, host text, agent text)")
-                executeUpdate("INSERT INTO loads VALUES (now(), '$from', '${call.request.local.remoteHost}', '${call.request.userAgent()}')");
+                executeUpdate("INSERT INTO loads VALUES (now(), '$tag', '${call.request.local.remoteHost}', '${call.request.userAgent()}')");
             }
         }
     }
