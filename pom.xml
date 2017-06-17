@@ -10,6 +10,7 @@
     <properties>
         <kotlin.version>1.1.1</kotlin.version>
         <ktor.version>0.3.1</ktor.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -69,9 +70,15 @@
             <artifactId>kotlinx-html-jvm</artifactId>
             <version>0.6.3</version>
         </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-core</artifactId>
+            <version>3.4.1</version>
+        </dependency>
     </dependencies>
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
+        <!--<sourceDirectory>src/main/java</sourceDirectory>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

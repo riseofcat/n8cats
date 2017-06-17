@@ -133,6 +133,7 @@ fun main(args: Array<String>) {
     embeddedServer(Jetty, port, reloadPackages = listOf("heroku"), module = Application::module/*, host = "localhost"*/).start()
 //    embeddedServer(Netty, port, reloadPackages = listOf("heroku"), module = Application::module).start()
 //    embeddedServer(MyServer,port, reloadPackages = listOf("heroku"), module = Application::module).start()
+    JavaSocket.run()
 }
 
 private var _dataSource: HikariDataSource? = null
