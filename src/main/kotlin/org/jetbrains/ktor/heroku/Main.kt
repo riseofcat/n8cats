@@ -24,6 +24,8 @@ import org.jetbrains.ktor.response.respondText
 import org.jetbrains.ktor.routing.Routing
 import org.jetbrains.ktor.routing.get
 import org.jetbrains.ktor.routing.route
+import org.jetbrains.ktor.sessions.sessionOrNull
+import org.jetbrains.ktor.websocket.Frame
 import org.jetbrains.ktor.websocket.webSocket
 import java.io.File
 
@@ -45,7 +47,16 @@ fun Application.module() {
         }
     }
 
+//    install(WebSockets) {
+//        pingPeriod = Duration.ofMinutes(1)
+//    }
+
     install(Routing) {
+        webSocket("") {
+            //https://github.com/Kotlin/ktor/blob/master/ktor-samples/ktor-samples-websocket/src/org/jetbrains/ktor/samples/chat/ChatApplication.kt
+            logDb(call, "socket")
+            this.send(Frame.Text("hello from ktor websocket"))
+        }
         for (project in projects) {
             route(project) {
                 serveClasspathResources("public/$project")
@@ -92,9 +103,10 @@ fun Application.module() {
             select(DomainSelector("tank")).get("/") {
                 call.respond("subdomain tank. Host: ${call.request.host()}")
             }
-            webSocket("ws") {
-                //https://github.com/Kotlin/ktor/blob/master/ktor-samples/ktor-samples-websocket/src/org/jetbrains/ktor/samples/chat/ChatApplication.kt
-            }
+//            static {
+//                defaultResource("index.html", "web")
+//                resources("web")
+//            }
         }
     }
 }
