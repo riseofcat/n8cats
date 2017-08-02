@@ -24,7 +24,6 @@ import org.jetbrains.ktor.response.respondText
 import org.jetbrains.ktor.routing.Routing
 import org.jetbrains.ktor.routing.get
 import org.jetbrains.ktor.routing.route
-import org.jetbrains.ktor.sessions.sessionOrNull
 import org.jetbrains.ktor.websocket.Frame
 import org.jetbrains.ktor.websocket.webSocket
 import java.io.File
@@ -52,7 +51,7 @@ fun Application.module() {
 //    }
 
     install(Routing) {
-        webSocket("") {
+        webSocket("/socket") {
             //https://github.com/Kotlin/ktor/blob/master/ktor-samples/ktor-samples-websocket/src/org/jetbrains/ktor/samples/chat/ChatApplication.kt
             logDb(call, "socket")
             this.send(Frame.Text("hello from ktor websocket"))
@@ -61,7 +60,7 @@ fun Application.module() {
             route(project) {
                 serveClasspathResources("public/$project")
                 select(PathSelector()).get("/{from}") {
-                    val from = call.parameters["from"]?.toLowerCase();
+                    val from = call.parameters["from"]?.toLowerCase()
                     logDb(call, "$project " + from)
                     if (from == "vk") {
                         printHtml(call, "$project/vk.html")
@@ -115,8 +114,8 @@ suspend fun printHtml(call: ApplicationCall, htmlPath: String) {
     call.response.header("Content-Type", "text/html; charset=UTF-8")
     call.response.header("my_header", "my_value")
     call.response.status(HttpStatusCode.OK)
-    val htmlContent = File("src/main/resources/public/${htmlPath}").readText()
-    call.respond(htmlContent);
+    val htmlContent = File("src/main/resources/public/$htmlPath").readText()
+    call.respond(htmlContent)
 }
 
 fun logDb(call: ApplicationCall, tag: String?) {
@@ -129,7 +128,7 @@ fun logDb(call: ApplicationCall, tag: String?) {
                     executeUpdate("DROP TABLE IF EXISTS loads")
                 }
                 executeUpdate("CREATE TABLE IF NOT EXISTS loads (time timestamp, frm text, host text, agent text)")
-                executeUpdate("INSERT INTO loads VALUES (now(), '$tag', '${call.request.local.remoteHost}', '${call.request.userAgent()}')");
+                executeUpdate("INSERT INTO loads VALUES (now(), '$tag', '${call.request.local.remoteHost}', '${call.request.userAgent()}')")
             }
         }
     }
@@ -145,7 +144,9 @@ fun main(args: Array<String>) {
     embeddedServer(Jetty, port, reloadPackages = listOf("heroku"), module = Application::module/*, host = "localhost"*/).start()
 //    embeddedServer(Netty, port, reloadPackages = listOf("heroku"), module = Application::module).start()
 //    embeddedServer(MyServer,port, reloadPackages = listOf("heroku"), module = Application::module).start()
-    JavaSocket.run()
+    if(false) {
+        JavaSocket.run()
+    }
 }
 
 private var _dataSource: HikariDataSource? = null
