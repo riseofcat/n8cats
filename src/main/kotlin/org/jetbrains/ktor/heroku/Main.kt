@@ -29,7 +29,7 @@ import org.jetbrains.ktor.websocket.webSocket
 import java.io.File
 
 val html_utf8 = ContentType.Text.Html.withCharset(Charsets.UTF_8)
-val projects = listOf("tank", "parking", "ispace")
+val projects = listOf("tank", "parking", "ispace", "websocket")
 
 fun Application.module() {
     install(DefaultHeaders)
