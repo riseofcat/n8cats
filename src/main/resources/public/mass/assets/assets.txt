@@ -8,7 +8,7 @@ d:shader/mesh:0:application/unknown
 b:shader/mesh/default.vert:100:application/unknown
 b:shader/mesh/default.frag:234:application/unknown
 d:shader/background:0:application/unknown
-b:shader/background/stars.frag:4479:application/unknown
+b:shader/background/stars.frag:4489:application/unknown
 d:shader/background/backup:0:application/unknown
 b:shader/background/backup/stars2.frag:2967:application/unknown
 b:shader/background/backup/stars1.frag:2682:application/unknown

@@ -116,15 +116,15 @@ void main (void)
   float dx = mouse.x*30.0;
   float dy = mouse.y*30.0;
   vec2 offset = vec2(dx*cos(dx/100.0),dy*sin(dy/100.0));
-  vec3 rainbow = getrainbow(p.xy+offset*30.0,11.0)*0.1;
+  //vec3 rainbow = getrainbow(p.xy+offset*30.0,11.0)*0.1;
   //gl_FragColor = vec4(rainbow, 1.0);
 
 
   gl_FragColor = vec4(color, 1.0);//1
-  float r = 1.0 - (1.0 - color.r) * (1.0 - rainbow.r);//2
-  float g = 1.0 - (1.0 - color.g) * (1.0 - rainbow.g);//2
-  float b = 1.0 - (1.0 - color.b) * (1.0 - rainbow.b);//2
-  gl_FragColor = vec4(r, g, b, 1.0);//2
+  //float r = 1.0 - (1.0 - color.r) * (1.0 - rainbow.r);//2
+  //float g = 1.0 - (1.0 - color.g) * (1.0 - rainbow.g);//2
+  //float b = 1.0 - (1.0 - color.b) * (1.0 - rainbow.b);//2
+  //gl_FragColor = vec4(r, g, b, 1.0);//2
 
 
   //todo test:
