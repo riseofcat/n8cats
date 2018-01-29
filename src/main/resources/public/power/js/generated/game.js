@@ -143,7 +143,7 @@ var game = function (_, Kotlin) {
   Mode_0.prototype = Object.create(Enum.prototype);
   Mode_0.prototype.constructor = Mode_0;
   function date() {
-    return '20:30:56 29-January-18';
+    return '20:43:28 29-January-18';
   }
   function breakpoint(info) {
     if (info === void 0)
@@ -4935,7 +4935,7 @@ var game = function (_, Kotlin) {
     this.html = new HTMLElements();
     this.vertex = compileShader(this.gl, '\nattribute vec2 a_position;\nattribute vec2 a_boundingBox;\nattribute vec2 a_texCoord;\nattribute float a_scale;\nattribute float a_rotation;\nattribute float a_divide;\nuniform mat4 u_projectionView;\nvarying vec2 v_textCoord;\nvarying vec4 myColor;\nvarying vec4 arr[gl_MaxVaryingVectors-2];//28-29\nvarying float v_divide;\n\nmat4 scale(float scale) {\n  return mat4(\n    vec4(scale, 0.0,   0.0,   0.0),\n    vec4(0.0,   scale, 0.0,   0.0),\n    vec4(0.0,   0.0,   scale, 0.0),\n    vec4(0.0,   0.0,   0.0,   1.0)\n  );\n}\nmat4 rotateZ(float angle) {\n  return mat4(\n    vec4(cos(angle),   sin(angle),  0.0,  0.0),\n    vec4(-sin(angle),  cos(angle),  0.0,  0.0),\n    vec4(0.0,          0.0,         1.0,  0.0),\n    vec4(0.0,          0.0,         0.0,  1.0)\n  );\n}\nvoid main(void) {\n  v_divide = a_divide;\n  v_textCoord = a_texCoord;\n  vec4 scaledBox = vec4(a_boundingBox, 1.0, 1.0) * scale(a_scale) * rotateZ(a_rotation);\n  //myColor = vec4(1.0,0.3,0.3,0.5);\n  myColor = vec4(1.0,1.0,1.0,1.0);\n  gl_Position = u_projectionView * vec4(a_position + scaledBox.xy, 1.0, 1.0);\n  }\n', WebGLRenderingContext.VERTEX_SHADER);
     this.shaderProgram = createWebGLProgram_0(this.gl, this.vertex, compileShader(this.gl, '\nprecision mediump float;\nuniform sampler2D u_sampler;\nuniform lowp int u_test_array_size;\nuniform lowp float u_arr[3];\nuniform lowp vec4 u_vec_arr[gl_MaxVertexUniformVectors - 5];\nvarying vec2 v_textCoord;\nvarying vec4 myColor;\nvarying vec4 arr[gl_MaxVaryingVectors-2];//28-29\nvarying float v_divide;\nvoid main(void) {\n  gl_FragColor = myColor * texture2D(u_sampler, v_textCoord);\n  gl_FragColor.a = gl_FragColor.a / v_divide/v_divide/v_divide/v_divide/v_divide/v_divide;\n  //gl_FragColor.a = gl_FragColor.a * (u_arr[0] + u_arr[1]);\n}\n', WebGLRenderingContext.FRAGMENT_SHADER));
-    this.shaderProgram2 = createWebGLProgram_0(this.gl, this.vertex, compileShader(this.gl, '\nprecision mediump float;\nuniform sampler2D u_sampler;\nuniform lowp int u_test_array_size;\nuniform lowp float u_arr[3];\nuniform lowp vec4 u_vec_arr[gl_MaxVertexUniformVectors - 5];\nvarying vec2 v_textCoord;\nvarying vec4 myColor;\nvarying vec4 arr[gl_MaxVaryingVectors-2];//28-29\nvarying float v_divide;\nvoid main(void) {\n  gl_FragColor = myColor;\n}\n', WebGLRenderingContext.FRAGMENT_SHADER));
+    this.shaderProgram2 = createWebGLProgram_0(this.gl, this.vertex, compileShader(this.gl, '\nprecision mediump float;\nuniform sampler2D u_sampler;\nuniform lowp int u_test_array_size;\nuniform lowp float u_arr[3];\nuniform lowp vec4 u_vec_arr[gl_MaxVertexUniformVectors - 5];\nvarying vec2 v_textCoord;\nvarying vec4 myColor;\nvarying vec4 arr[gl_MaxVaryingVectors*1002];//28-29\nvarying float v_divide;\nvoid main(void) {\n  gl_FragColor = myColor;\n}\n', WebGLRenderingContext.FRAGMENT_SHADER));
     var $receiver = listOf([new Attr('a_position', 2), new Attr('a_boundingBox', 2), new Attr('a_texCoord', 2), new Attr('a_scale', 1), new Attr('a_rotation', 1), new Attr('a_divide', 1)]);
     var ArrayList_init = Kotlin.kotlin.collections.ArrayList_init_ww73n8$;
     var result = ArrayList_init();
