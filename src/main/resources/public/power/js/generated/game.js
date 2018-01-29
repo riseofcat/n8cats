@@ -143,7 +143,7 @@ var game = function (_, Kotlin) {
   Mode_0.prototype = Object.create(Enum.prototype);
   Mode_0.prototype.constructor = Mode_0;
   function date() {
-    return '20:38:35 28-January-18';
+    return '20:30:56 29-January-18';
   }
   function breakpoint(info) {
     if (info === void 0)
@@ -4965,7 +4965,8 @@ var game = function (_, Kotlin) {
     window.onload = MassPower_init$lambda_0(this);
     window.requestAnimationFrame(MassPower_init$lambda_1(this));
     document.onmousemove = MassPower_init$lambda_2(this);
-    document.onkeypress = MassPower_init$lambda_3(this);
+    document.onclick = MassPower_init$lambda_3;
+    document.onkeypress = MassPower_init$lambda_4(this);
     this.previousTime = this.time;
     this.averageConst = 30;
     this.fps = 60.0;
@@ -5986,7 +5987,10 @@ var game = function (_, Kotlin) {
       }
     };
   }
-  function MassPower_init$lambda_3(this$MassPower) {
+  function MassPower_init$lambda_3(event) {
+    JsUtil_getInstance().error_yhszz7$(['document.onclick']);
+  }
+  function MassPower_init$lambda_4(this$MassPower) {
     return function (event) {
       var tmp$;
       if (Kotlin.isType(event, KeyboardEvent)) {
@@ -6132,9 +6136,17 @@ var game = function (_, Kotlin) {
   var IllegalStateException_init = Kotlin.kotlin.IllegalStateException;
   JsUtil.prototype.error_yhszz7$ = function (args) {
     var tmp$;
+    var destination = ArrayList_init(args.length);
     var tmp$_0;
     for (tmp$_0 = 0; tmp$_0 !== args.length; ++tmp$_0) {
-      var element = args[tmp$_0];
+      var item = args[tmp$_0];
+      destination.add_11rb$(toString(item));
+    }
+    var errStr = 'error: ' + joinToString(destination, ', ');
+    (new HTMLElements()).container.innerText = errStr;
+    var tmp$_1;
+    for (tmp$_1 = 0; tmp$_1 !== args.length; ++tmp$_1) {
+      var element = args[tmp$_1];
       console.log(element);
     }
     if (args.length > 0) {
