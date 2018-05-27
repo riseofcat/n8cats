@@ -23,6 +23,7 @@ import org.jetbrains.ktor.response.header
 import org.jetbrains.ktor.response.respondText
 import org.jetbrains.ktor.routing.Routing
 import org.jetbrains.ktor.routing.get
+import org.jetbrains.ktor.routing.post
 import org.jetbrains.ktor.routing.route
 import org.jetbrains.ktor.websocket.Frame
 import org.jetbrains.ktor.websocket.webSocket
@@ -95,7 +96,7 @@ fun Application.module() {
 
         if (false) {
             intercept(ApplicationCallPipeline.Call) {
-                logDb(call, "intercept")
+                if(false)logDb(call, "intercept")
                 val uri = call.request.uri
                 if (uri == "/intercept")
                     call.respondText("Test intercept")
@@ -107,6 +108,10 @@ fun Application.module() {
 //                defaultResource("index.html", "web")
 //                resources("web")
 //            }
+        }
+
+        post("/tg") {
+            logDb(call, "tg")
         }
     }
 }
