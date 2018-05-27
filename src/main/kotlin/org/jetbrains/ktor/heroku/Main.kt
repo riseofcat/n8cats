@@ -111,7 +111,7 @@ fun Application.module() {
         }
 
         post("/tg") {
-            logDb(call, "tg")
+//            logDb(call, "tg")
         }
     }
 }
