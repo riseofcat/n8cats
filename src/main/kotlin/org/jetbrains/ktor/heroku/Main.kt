@@ -95,6 +95,7 @@ fun Application.module() {
 
         if (false) {
             intercept(ApplicationCallPipeline.Call) {
+                logDb(call, "intercept")
                 val uri = call.request.uri
                 if (uri == "/intercept")
                     call.respondText("Test intercept")
