@@ -10,6 +10,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   var Kind_OBJECT = Kotlin.Kind.OBJECT;
   var toString = Kotlin.toString;
   var Unit = Kotlin.kotlin.Unit;
+  var L10000 = Kotlin.Long.fromInt(10000);
   var Kind_CLASS = Kotlin.Kind.CLASS;
   var println = Kotlin.kotlin.io.println_s8jyv4$;
   var getCallableRef = Kotlin.getCallableRef;
@@ -34,7 +35,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   var ensureNotNull = Kotlin.ensureNotNull;
   var lazy = Kotlin.kotlin.lazy_klfg04$;
   var properties = Kotlin.kotlin.properties;
-  var kotlin_js_internal_IntCompanionObject = Kotlin.kotlin.js.internal.IntCompanionObject;
   var joinToString = Kotlin.kotlin.collections.joinToString_fmv235$;
   var toList = Kotlin.kotlin.text.toList_gw00vp$;
   var toInt = Kotlin.kotlin.text.toInt_pdl1vz$;
@@ -85,39 +85,69 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   var Iterable = Kotlin.kotlin.collections.Iterable;
   var union = Kotlin.kotlin.collections.union_q4559j$;
   var intersect = Kotlin.kotlin.collections.intersect_q4559j$;
+  var Long$Companion$MAX_VALUE = Kotlin.Long.MAX_VALUE;
+  var L1537228672809129301 = new Kotlin.Long(1431655765, 357913941);
   var UnknownFieldException = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.UnknownFieldException;
   var SerialClassDescImpl = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.internal.SerialClassDescImpl;
   var KSerializer = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.KSerializer;
   var MissingFieldException = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.MissingFieldException;
   var JSON_0 = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.json.JSON;
+  var println_0 = Kotlin.kotlin.io.println;
+  var kotlin_js_internal_ByteCompanionObject = Kotlin.kotlin.js.internal.ByteCompanionObject;
+  var toByte = Kotlin.toByte;
   var Kind_INTERFACE = Kotlin.Kind.INTERFACE;
   var substringBefore = Kotlin.kotlin.text.substringBefore_8cymmc$;
   var Enum = Kotlin.kotlin.Enum;
   var throwISE = Kotlin.throwISE;
   var flatten = Kotlin.kotlin.collections.flatten_u0ad8z$;
-  var toByte = Kotlin.toByte;
   var ArrayList_init = Kotlin.kotlin.collections.ArrayList_init_ww73n8$;
-  var getKClass = Kotlin.getKClass;
-  var HashSet_init = Kotlin.kotlin.collections.HashSet_init_287e2$;
-  var math = Kotlin.kotlin.math;
+  var IllegalStateException_init = Kotlin.kotlin.IllegalStateException_init_pdl1vj$;
+  var IndexOutOfBoundsException_init = Kotlin.kotlin.IndexOutOfBoundsException_init;
+  var L4294967295 = new Kotlin.Long(-1, 0);
+  var Any = Object;
   var defineInlineFunction = Kotlin.defineInlineFunction;
   var wrapFunction = Kotlin.wrapFunction;
+  var getKClass = Kotlin.getKClass;
+  var HashSet_init = Kotlin.kotlin.collections.HashSet_init_287e2$;
+  var L300 = Kotlin.Long.fromInt(300);
+  var asSequence = Kotlin.kotlin.collections.asSequence_7wnvza$;
+  var filter = Kotlin.kotlin.sequences.filter_euau3h$;
+  var toMutableList = Kotlin.kotlin.collections.toMutableList_4c7yge$;
+  var math = Kotlin.kotlin.math;
   var listOf_0 = Kotlin.kotlin.collections.listOf_mh5how$;
   var mutableListOf = Kotlin.kotlin.collections.mutableListOf_i5x0yv$;
+  var L10 = Kotlin.Long.fromInt(10);
   var toList_0 = Kotlin.kotlin.collections.toList_7wnvza$;
-  var Any = Object;
+  var hashCode = Kotlin.hashCode;
+  var last = Kotlin.kotlin.collections.last_2p1efm$;
+  var first = Kotlin.kotlin.collections.first_2p1efm$;
+  var toChar = Kotlin.toChar;
+  var L150 = Kotlin.Long.fromInt(150);
+  var L1000 = Kotlin.Long.fromInt(1000);
   var removeAll = Kotlin.kotlin.collections.removeAll_qafx1e$;
   var max = Kotlin.kotlin.collections.max_exjks8$;
   var min = Kotlin.kotlin.collections.min_exjks8$;
+  var L100 = Kotlin.Long.fromInt(100);
   var lastOrNull = Kotlin.kotlin.collections.lastOrNull_2p1efm$;
+  var L0 = Kotlin.Long.ZERO;
   var Throwable = Error;
   var abs = Kotlin.kotlin.math.abs_s8cxhz$;
   var CBOR = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.cbor.CBOR;
   var internal = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.internal;
-  var toMutableList = Kotlin.kotlin.collections.toMutableList_4c7yge$;
+  var L16 = Kotlin.Long.fromInt(16);
+  var L2500 = Kotlin.Long.fromInt(2500);
+  var toShort = Kotlin.toShort;
+  var kotlin_js_internal_ShortCompanionObject = Kotlin.kotlin.js.internal.ShortCompanionObject;
   var ArrayListSerializer = $module$kotlinx_serialization_runtime_js.kotlinx.serialization.internal.ArrayListSerializer;
-  var abs_0 = Kotlin.kotlin.math.abs_za3lpa$;
+  var get_sign = Kotlin.kotlin.math.get_sign_s8ev3n$;
   var Comparable = Kotlin.kotlin.Comparable;
+  var Appendable = Kotlin.kotlin.text.Appendable;
+  var IllegalArgumentException_init_0 = Kotlin.kotlin.IllegalArgumentException_init;
+  var unboxChar = Kotlin.unboxChar;
+  var UnsupportedOperationException_init = Kotlin.kotlin.UnsupportedOperationException_init;
+  var coerceAtLeast = Kotlin.kotlin.ranges.coerceAtLeast_dqglrj$;
+  var coerceAtMost = Kotlin.kotlin.ranges.coerceAtMost_dqglrj$;
+  var StringBuilder_init = Kotlin.kotlin.text.StringBuilder_init_za3lpa$;
   Common$Companion$createWebSocket$ObjectLiteral.prototype = Object.create(LibWebSocket.prototype);
   Common$Companion$createWebSocket$ObjectLiteral.prototype.constructor = Common$Companion$createWebSocket$ObjectLiteral;
   testFirst$lambda$A_1.prototype = Object.create(testFirst$lambda$S.prototype);
@@ -148,6 +178,14 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   PieceType.prototype.constructor = PieceType;
   TetriesScreen.prototype = Object.create(Game.prototype);
   TetriesScreen.prototype.constructor = TetriesScreen;
+  BufferView$Companion$Pool$ObjectLiteral.prototype = Object.create(DefaultPool.prototype);
+  BufferView$Companion$Pool$ObjectLiteral.prototype.constructor = BufferView$Companion$Pool$ObjectLiteral;
+  BufferView$Companion$NoPool$ObjectLiteral.prototype = Object.create(NoPoolImpl.prototype);
+  BufferView$Companion$NoPool$ObjectLiteral.prototype.constructor = BufferView$Companion$NoPool$ObjectLiteral;
+  ByteOrder.prototype = Object.create(Enum.prototype);
+  ByteOrder.prototype.constructor = ByteOrder;
+  EOFException.prototype = Object.create(Exception.prototype);
+  EOFException.prototype.constructor = EOFException;
   DrawMode.prototype = Object.create(Enum.prototype);
   DrawMode.prototype.constructor = DrawMode;
   Game$ImgSprite.prototype = Object.create(Game$Sprite.prototype);
@@ -180,11 +218,19 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   LibWebSocket$State.prototype.constructor = LibWebSocket$State;
   libObj$logObj$LogMode.prototype = Object.create(Enum.prototype);
   libObj$logObj$LogMode.prototype.constructor = libObj$logObj$LogMode;
+  EmptyBufferViewPool.prototype = Object.create(NoPoolImpl.prototype);
+  EmptyBufferViewPool.prototype.constructor = EmptyBufferViewPool;
+  BufferLimitExceededException.prototype = Object.create(Exception.prototype);
+  BufferLimitExceededException.prototype.constructor = BufferLimitExceededException;
+  ByteReadPacket$Companion$Empty$ObjectLiteral.prototype = Object.create(NoPoolImpl.prototype);
+  ByteReadPacket$Companion$Empty$ObjectLiteral.prototype.constructor = ByteReadPacket$Companion$Empty$ObjectLiteral;
+  MalformedUTF8InputException.prototype = Object.create(Exception.prototype);
+  MalformedUTF8InputException.prototype.constructor = MalformedUTF8InputException;
   function Gen() {
     Gen_instance = this;
   }
   Gen.prototype.date = function () {
-    return '09:54:42 21-April-2018';
+    return '09:26:11 29-May-2018';
   };
   Gen.$metadata$ = {
     kind: Kind_OBJECT,
@@ -220,10 +266,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       closure$l.onOpen();
     };
   }
+  function Common$Companion$createWebSocket$ObjectLiteral$addListener$lambda$lambda(closure$l) {
+    return function (it) {
+      closure$l.onByteMessage_fqrh44$(readBytes(it));
+      return Unit;
+    };
+  }
   function Common$Companion$createWebSocket$ObjectLiteral$addListener$lambda_0(closure$l) {
     return function (e) {
-      if (Kotlin.isType(e, MessageEvent))
-        closure$l.onMessage_61zpoe$(toString(e.data));
+      if (Kotlin.isType(e, MessageEvent)) {
+        if (Kotlin.isCharSequence(e.data)) {
+          closure$l.onMessage_61zpoe$(toString(e.data));
+        }
+         else {
+          getPacket(e, Common$Companion$createWebSocket$ObjectLiteral$addListener$lambda$lambda(closure$l));
+        }
+      }
     };
   }
   function Common$Companion$createWebSocket$ObjectLiteral$addListener$lambda_1(closure$l) {
@@ -244,11 +302,29 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Common$Companion$createWebSocket$ObjectLiteral.prototype.send_61zpoe$ = function (message) {
     this.closure$webSocket.send(message);
   };
+  Common$Companion$createWebSocket$ObjectLiteral.prototype.sendByte_fqrh44$ = function (message) {
+    var tmp$ = this.closure$webSocket;
+    var buildPacket$result;
+    var builder = BytePacketBuilder(0);
+    try {
+      builder.writeFully_fqrh44$(message);
+      buildPacket$result = builder.build();
+    }
+     catch (t) {
+      if (Kotlin.isType(t, Throwable)) {
+        builder.release();
+        throw t;
+      }
+       else
+        throw t;
+    }
+    sendPacket(tmp$, buildPacket$result);
+  };
   Object.defineProperty(Common$Companion$createWebSocket$ObjectLiteral.prototype, 'state', {
     get: function () {
       switch (this.closure$webSocket.readyState) {
         case 0:
-          return compareTo(minus(lib.time, this.closure$createTime), new Duration(Kotlin.Long.fromInt(10000))) < 0 ? LibWebSocket$State$CONNECTING_getInstance() : LibWebSocket$State$TIMEOUT_getInstance();
+          return compareTo(minus(lib.time, this.closure$createTime), new Duration(L10000)) < 0 ? LibWebSocket$State$CONNECTING_getInstance() : LibWebSocket$State$TIMEOUT_getInstance();
         case 1:
           return LibWebSocket$State$OPEN_getInstance();
         case 2:
@@ -281,9 +357,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return '[js]';
   };
   Common$Companion.prototype.measureNanoTime_o14v8n$ = function (block) {
-    var start = lib.time;
+    var start = this.permormanceNowMs();
     block();
-    return minus(lib.time, start).ms.multiply(Kotlin.Long.fromInt(1000000));
+    var end = this.permormanceNowMs();
+    var result = (end - start) * 1000000;
+    return Kotlin.Long.fromNumber(result);
   };
   Common$Companion.prototype.permormanceNowMs = function () {
     return performance.now();
@@ -390,7 +468,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   function testFirst$lambda_1() {
     var tmp$;
-    tmp$ = step(reversed(new IntRange(1 - 5 | 0, 11 + 2 | 0)), 2).iterator();
+    tmp$ = step(reversed(new IntRange(-4, 13)), 2).iterator();
     while (tmp$.hasNext()) {
       var i = tmp$.next();
       print(i.toString() + ',');
@@ -464,7 +542,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return Unit;
   }
   function testFirst$lambda$lambda() {
-    return 1 + 1 | 0;
+    return 2;
   }
   function testFirst$lambda_4() {
     var funRef = testFirst$lambda$lambda;
@@ -632,9 +710,9 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return Unit;
   }
   function testFirst$lambda_11() {
-    15 & 240;
-    15 | 240;
-    1 << 4;
+    0;
+    255;
+    16;
     return Unit;
   }
   function testFirst$lambda$ж(й) {
@@ -926,7 +1004,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     while (tmp$.hasNext()) {
       var element = tmp$.next();
       var tmp$_0;
-      if (((tmp$_0 = element.i) != null ? tmp$_0 : -1 % 2) !== 0)
+      if (((tmp$_0 = element.i) != null ? tmp$_0 : -1) !== 0)
         destination.add_11rb$(element);
     }
     maxBy$break: do {
@@ -937,11 +1015,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       }
       var maxElem = iterator.next();
       var tmp$_1;
-      var maxValue = (tmp$_1 = maxElem.i) != null ? tmp$_1 : kotlin_js_internal_IntCompanionObject.MIN_VALUE;
+      var maxValue = (tmp$_1 = maxElem.i) != null ? tmp$_1 : -2147483648;
       while (iterator.hasNext()) {
         var e = iterator.next();
         var tmp$_2;
-        var v = (tmp$_2 = e.i) != null ? tmp$_2 : kotlin_js_internal_IntCompanionObject.MIN_VALUE;
+        var v = (tmp$_2 = e.i) != null ? tmp$_2 : -2147483648;
         if (Kotlin.compareTo(maxValue, v) < 0) {
           maxElem = e;
           maxValue = v;
@@ -2100,22 +2178,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   function testFirst$lambda_65() {
     var longValueMinus1 = testFirst$lambda$longValueMinus1;
-    var longMax = new Kotlin.Long(-1, 2147483647);
+    var longMax = Long$Companion$MAX_VALUE;
     println('longMax = 9223372036854775807');
-    println('longMax-1 = ' + longValueMinus1(new Kotlin.Long(-1, 2147483647)));
-    var randomLong = new Kotlin.Long(1431655765, 357913941);
+    println('longMax-1 = ' + longValueMinus1(longMax));
+    var randomLong = L1537228672809129301;
     println('randomLong = 1537228672809129301');
-    println('randomLong-1 = ' + longValueMinus1(new Kotlin.Long(1431655765, 357913941)));
+    println('randomLong-1 = ' + longValueMinus1(randomLong));
     println(getCallableRef('testLong', function () {
-      var longMax = new Kotlin.Long(-1, 2147483647);
+      var longMax = Long$Companion$MAX_VALUE;
       println('longMax = 9223372036854775807');
-      println('longMax-1 = ' + longValueMinus1(new Kotlin.Long(-1, 2147483647)));
-      var randomLong = new Kotlin.Long(1431655765, 357913941);
+      println('longMax-1 = ' + longValueMinus1(longMax));
+      var randomLong = L1537228672809129301;
       println('randomLong = 1537228672809129301');
-      println('randomLong-1 = ' + longValueMinus1(new Kotlin.Long(1431655765, 357913941)));
+      println('randomLong-1 = ' + longValueMinus1(randomLong));
       return Unit;
     }));
-    kotlin_js_internal_IntCompanionObject.MAX_VALUE;
+    2147483647;
     breakpoint('Long and Int');
     return Unit;
   }
@@ -2331,8 +2409,177 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       println('boxedData == boxedData2');
     return Unit;
   }
+  function testFirst$lambda$lambda_16(closure$SIZE, closure$sum, closure$arr) {
+    return function () {
+      var tmp$, tmp$_0;
+      tmp$ = closure$SIZE;
+      for (var i1 = 0; i1 < tmp$; i1++) {
+        tmp$_0 = closure$SIZE;
+        for (var i2 = 0; i2 < tmp$_0; i2++) {
+          closure$sum.v = closure$sum.v + closure$arr[i1][i2] | 0;
+        }
+      }
+      return Unit;
+    };
+  }
+  function testFirst$lambda$lambda_17(closure$SIZE, closure$sum, closure$arr) {
+    return function () {
+      var tmp$, tmp$_0;
+      tmp$ = closure$SIZE;
+      for (var i1 = 0; i1 < tmp$; i1++) {
+        tmp$_0 = closure$SIZE;
+        for (var i2 = 0; i2 < tmp$_0; i2++) {
+          closure$sum.v = closure$sum.v + closure$arr[i2][i1] | 0;
+        }
+      }
+      return Unit;
+    };
+  }
+  function testFirst$lambda_67() {
+    var SIZE = 2000;
+    var array = Array_0(SIZE);
+    var tmp$;
+    tmp$ = array.length - 1 | 0;
+    for (var i = 0; i <= tmp$; i++) {
+      var array_0 = Array_0(SIZE);
+      var tmp$_0;
+      tmp$_0 = array_0.length - 1 | 0;
+      for (var i_0 = 0; i_0 <= tmp$_0; i_0++) {
+        array_0[i_0] = lib.rnd_vux9f0$(1, 2);
+      }
+      array[i] = array_0;
+    }
+    var arr = array;
+    var sum = {v: 0};
+    var timeA = Common$Companion_getInstance().measureNanoTime_o14v8n$(testFirst$lambda$lambda_16(SIZE, sum, arr));
+    sum.v = 0;
+    var timeB = Common$Companion_getInstance().measureNanoTime_o14v8n$(testFirst$lambda$lambda_17(SIZE, sum, arr));
+    println('timeA: ' + timeA);
+    println('timeB: ' + timeB);
+    println('timeB/timeA: ' + timeB.div(timeA));
+    breakpoint();
+    return Unit;
+  }
+  function testFirst$lambda_68() {
+    var a = 1;
+    var b = 2;
+    a = a ^ b;
+    b = b ^ a;
+    a = a ^ b;
+    println('a=' + a + ', b=' + b);
+    a = a + b | 0;
+    b = a - b | 0;
+    a = a - b | 0;
+    println('a=' + a + ', b=' + b);
+    return Unit;
+  }
+  function testFirst$lambda_69() {
+    println_0();
+    var tree = new RedBlackTree();
+    tree.insert_ncwa5f$(5, '5');
+    tree.insert_ncwa5f$(2, '2');
+    tree.insert_ncwa5f$(7, '7');
+    tree.insert_ncwa5f$(1, '1');
+    tree.insert_ncwa5f$(1, '1');
+    var tmp$;
+    tmp$ = tree.iterator();
+    while (tmp$.hasNext()) {
+      var element = tmp$.next();
+      println(element.first.toString());
+    }
+    return Unit;
+  }
+  function testFirst$lambda$BooleanMatrix256(arr) {
+    if (arr === void 0) {
+      var array = Array_0(2048);
+      var tmp$;
+      tmp$ = array.length - 1 | 0;
+      for (var i = 0; i <= tmp$; i++) {
+        array[i] = 0;
+      }
+      arr = array;
+    }
+    this.arr = arr;
+  }
+  testFirst$lambda$BooleanMatrix256.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BooleanMatrix256',
+    interfaces: []
+  };
+  function testFirst$lambda$copy($receiver) {
+    return new testFirst$lambda$BooleanMatrix256($receiver.arr.slice());
+  }
+  function testFirst$lambda$get($receiver, col, row) {
+    return ($receiver.arr[((col - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) * 8 | 0) + ((row - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) / 32 | 0) | 0] & 1 << (row - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) % 32) !== 0;
+  }
+  function testFirst$lambda$set(closure$get) {
+    return function ($receiver, col, row, value) {
+      if (closure$get($receiver, col, row) !== value) {
+        var index = ((col - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) * 8 | 0) + ((row - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) / 32 | 0) | 0;
+        $receiver.arr[index] = $receiver.arr[index] ^ 1 << (row - kotlin_js_internal_ByteCompanionObject.MIN_VALUE) % 32;
+      }
+    };
+  }
+  function testFirst$lambda$countTrue($receiver) {
+    var $receiver_0 = $receiver.arr;
+    var tmp$;
+    var accumulator = 0;
+    for (tmp$ = 0; tmp$ !== $receiver_0.length; ++tmp$) {
+      var element = $receiver_0[tmp$];
+      accumulator = accumulator + countOnes(element) | 0;
+    }
+    return accumulator;
+  }
+  function testFirst$lambda_70() {
+    var copy = testFirst$lambda$copy;
+    var get = testFirst$lambda$get;
+    var set = testFirst$lambda$set(get);
+    var countTrue = testFirst$lambda$countTrue;
+    Kotlin.booleanArray(10);
+    new Int32Array(8);
+    var m256 = new testFirst$lambda$BooleanMatrix256();
+    var counter = {v: 0};
+    for (var index = 0; index < 1000000; index++) {
+      var i = toByte(lib.rnd_vux9f0$(0, 255));
+      var j = toByte(lib.rnd_vux9f0$(0, 255));
+      var target = lib.rnd_vux9f0$(0, 1) !== 0;
+      set(m256, i, j, target);
+      if (get(m256, i, j) === target) {
+        counter.v = counter.v + 1 | 0;
+      }
+    }
+    println('BooleanMatrix256 success counter: ' + counter.v);
+    var m2 = new testFirst$lambda$BooleanMatrix256();
+    set(m2, 0, 0, true);
+    set(m2, 0, 1, true);
+    set(m2, 0, 2, true);
+    set(m2, 0, 3, true);
+    set(m2, 0, 4, true);
+    set(m2, 1, 5, true);
+    set(m2, 0, 6, true);
+    set(m2, 0, 7, true);
+    set(m2, 0, 8, true);
+    set(m2, 0, toByte(255), true);
+    set(m2, toByte(255), 0, true);
+    set(m2, toByte(255), toByte(255), true);
+    set(m2, toByte(128), toByte(128), true);
+    println('m2.countTrue(): ' + countTrue(m2));
+    var tmp$;
+    tmp$ = m2.arr.length;
+    for (var i_0 = 0; i_0 < tmp$; i_0++)
+      if (m2.arr[i_0] !== 0) {
+        for (var left = 0; left < 32; left++)
+          if ((m2.arr[i_0] >>> left & 1) !== 0) {
+            println('[' + toByte(i_0 / 8 | 0) + ', ' + toByte((i_0 % 8 * 32 | 0) + left | 0) + ']');
+          }
+      }
+    return Unit;
+  }
+  function testFirst$lambda_71() {
+    return Unit;
+  }
   function testFirst() {
-    (new ExecuteMe()).ne(testFirst$lambda).ne(testFirst$lambda_0).ne(testFirst$lambda_1).e(testFirst$lambda_2).e(testFirst$lambda_3).e(testFirst$lambda_4).e(testFirst$lambda_5).e(testFirst$lambda_6).ne(testFirst$lambda_7).e(testFirst$lambda_8).e(testFirst$lambda_9).e(testFirst$lambda_10).ne(testFirst$lambda_11).ne(testFirst$lambda_12).ne(testFirst$lambda_13).ne(testFirst$lambda_14).e(testFirst$lambda_15).e(testFirst$lambda_16).e(testFirst$lambda_17).e(testFirst$lambda_18).e(testFirst$lambda_19).e(testFirst$lambda_20).e(testFirst$lambda_21).e(testFirst$lambda_22).e(testFirst$lambda_23).e(testFirst$lambda_24).e(testFirst$lambda_25).ne(testFirst$lambda_26).e(testFirst$lambda_27).ne(testFirst$lambda_28).ne(testFirst$lambda_29).e(testFirst$lambda_30).e(testFirst$lambda_31).e(testFirst$lambda_32).e(testFirst$lambda_33).e(testFirst$lambda_34).ne(testFirst$lambda_35).e(testFirst$lambda_36).e(testFirst$lambda_37).e(testFirst$lambda_38).e(testFirst$lambda_39).e(testFirst$lambda_40).ne(testFirst$lambda_41).e(testFirst$lambda_42).e(testFirst$lambda_43).ne(testFirst$lambda_44).e(testFirst$lambda_45).e(testFirst$lambda_46).ne(testFirst$lambda_47).e(testFirst$lambda_48).e(testFirst$lambda_49).e(testFirst$lambda_50).e(testFirst$lambda_51).e(testFirst$lambda_52).e(testFirst$lambda_53).e(testFirst$lambda_54).e(testFirst$lambda_55).e(testFirst$lambda_56).e(testFirst$lambda_57).e(testFirst$lambda_58).ne(testFirst$lambda_59).e(testFirst$lambda_60).e(testFirst$lambda_61).e(testFirst$lambda_62).e(testFirst$lambda_63).e(testFirst$lambda_64).e(testFirst$lambda_65).e(testFirst$lambda_66);
+    (new ExecuteMe()).ne(testFirst$lambda).ne(testFirst$lambda_0).ne(testFirst$lambda_1).e(testFirst$lambda_2).e(testFirst$lambda_3).e(testFirst$lambda_4).e(testFirst$lambda_5).e(testFirst$lambda_6).ne(testFirst$lambda_7).e(testFirst$lambda_8).e(testFirst$lambda_9).e(testFirst$lambda_10).ne(testFirst$lambda_11).ne(testFirst$lambda_12).ne(testFirst$lambda_13).ne(testFirst$lambda_14).e(testFirst$lambda_15).e(testFirst$lambda_16).e(testFirst$lambda_17).e(testFirst$lambda_18).e(testFirst$lambda_19).e(testFirst$lambda_20).e(testFirst$lambda_21).e(testFirst$lambda_22).e(testFirst$lambda_23).e(testFirst$lambda_24).e(testFirst$lambda_25).ne(testFirst$lambda_26).e(testFirst$lambda_27).ne(testFirst$lambda_28).ne(testFirst$lambda_29).e(testFirst$lambda_30).e(testFirst$lambda_31).e(testFirst$lambda_32).e(testFirst$lambda_33).e(testFirst$lambda_34).ne(testFirst$lambda_35).e(testFirst$lambda_36).e(testFirst$lambda_37).e(testFirst$lambda_38).e(testFirst$lambda_39).e(testFirst$lambda_40).ne(testFirst$lambda_41).e(testFirst$lambda_42).e(testFirst$lambda_43).ne(testFirst$lambda_44).e(testFirst$lambda_45).e(testFirst$lambda_46).ne(testFirst$lambda_47).e(testFirst$lambda_48).e(testFirst$lambda_49).e(testFirst$lambda_50).e(testFirst$lambda_51).e(testFirst$lambda_52).e(testFirst$lambda_53).e(testFirst$lambda_54).e(testFirst$lambda_55).e(testFirst$lambda_56).e(testFirst$lambda_57).e(testFirst$lambda_58).ne(testFirst$lambda_59).e(testFirst$lambda_60).e(testFirst$lambda_61).e(testFirst$lambda_62).e(testFirst$lambda_63).e(testFirst$lambda_64).e(testFirst$lambda_65).e(testFirst$lambda_66).e(testFirst$lambda_67).e(testFirst$lambda_68).e(testFirst$lambda_69).e(testFirst$lambda_70).e(testFirst$lambda_71);
   }
   function get_round($receiver) {
     return numberToInt($receiver + 0.5);
@@ -2615,7 +2862,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     $receiver.bindBuffer(WebGLRenderingContext.ARRAY_BUFFER, (tmp$ = $receiver.createBuffer()) != null ? tmp$ : lib.log.fatalError_nez7ok$('Unable to create webgl buffer!'));
     var location = $receiver.getAttribLocation(this.shaderProgram_0, 'a_position');
     $receiver.enableVertexAttribArray(location);
-    $receiver.vertexAttribPointer(location, 2, WebGLRenderingContext.FLOAT, false, 2 * 4 | 0, 0);
+    $receiver.vertexAttribPointer(location, 2, WebGLRenderingContext.FLOAT, false, 8, 0);
   }
   function Dots$render$lambda(this$Dots) {
     return function (it) {
@@ -2942,7 +3189,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     Block_instance = this;
   }
   Block.prototype.create_mx4ult$ = function (hue) {
-    var array = new Uint8Array((4 * 8 | 0) * 8 | 0);
+    var array = new Uint8Array(256);
     var light = Color_getInstance().hslToRgb_y2kzbl$(hue, SATURATION, LIGHT);
     var normal = Color_getInstance().hslToRgb_y2kzbl$(hue, SATURATION, NORMAL);
     var dark = Color_getInstance().hslToRgb_y2kzbl$(hue, SATURATION, DARK);
@@ -2951,8 +3198,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * ((index * 8 | 0) + 7 | 0) | 0);
     }
     for (var index_0 = 1; index_0 <= 6; index_0++) {
-      array.set([toByte(light[0]), toByte(light[1]), toByte(light[2]), toByte(255)], 4 * ((0 * 8 | 0) + index_0 | 0) | 0);
-      array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * ((7 * 8 | 0) + index_0 | 0) | 0);
+      array.set([toByte(light[0]), toByte(light[1]), toByte(light[2]), toByte(255)], 4 * (0 + index_0 | 0) | 0);
+      array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * (56 + index_0 | 0) | 0);
     }
     for (var x = 1; x <= 6; x++) {
       for (var y = 1; y <= 6; y++) {
@@ -2962,7 +3209,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return array;
   };
   Block.prototype.createGrey_mx4ult$ = function (lightness) {
-    var array = new Uint8Array((4 * 8 | 0) * 8 | 0);
+    var array = new Uint8Array(256);
     var light = Color_getInstance().hslToRgb_y2kzbl$(0.0, 0.0, lightness + 0.1);
     var normal = Color_getInstance().hslToRgb_y2kzbl$(0.0, 0.0, lightness);
     var dark = Color_getInstance().hslToRgb_y2kzbl$(0.0, 0.0, lightness - 0.1);
@@ -2971,8 +3218,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * ((index * 8 | 0) + 7 | 0) | 0);
     }
     for (var index_0 = 1; index_0 <= 6; index_0++) {
-      array.set([toByte(light[0]), toByte(light[1]), toByte(light[2]), toByte(255)], 4 * ((0 * 8 | 0) + index_0 | 0) | 0);
-      array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * ((7 * 8 | 0) + index_0 | 0) | 0);
+      array.set([toByte(light[0]), toByte(light[1]), toByte(light[2]), toByte(255)], 4 * (0 + index_0 | 0) | 0);
+      array.set([toByte(dark[0]), toByte(dark[1]), toByte(dark[2]), toByte(255)], 4 * (56 + index_0 | 0) | 0);
     }
     for (var x = 1; x <= 6; x++) {
       for (var y = 1; y <= 6; y++) {
@@ -3775,6 +4022,902 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     TilesetIndex.call($this, null, 0.0, 0.0, 0.0, 0.0, 0.0);
     return $this;
   }
+  function BufferView(content, origin) {
+    BufferView$Companion_getInstance();
+    this.content_0 = content;
+    this.origin_8be2vx$ = origin;
+    this.refCount_0 = 1;
+    this.readPosition_0 = 0;
+    this.writePosition_0 = 0;
+    this.limit_0 = this.content_0.byteLength;
+    this.view_0 = this.content_0 === BufferView$Companion_getInstance().EmptyBuffer_0 ? BufferView$Companion_getInstance().EmptyDataView_0 : new DataView(this.content_0);
+    this.i8_0 = this.content_0 === BufferView$Companion_getInstance().EmptyBuffer_0 ? BufferView$Companion_getInstance().Empty8_0 : new Int8Array(this.content_0, 0, this.limit_0);
+    this.littleEndian_0 = false;
+    this.attachment = null;
+    this.next = null;
+  }
+  Object.defineProperty(BufferView.prototype, 'capacity', {
+    get: function () {
+      return this.content_0.byteLength;
+    }
+  });
+  Object.defineProperty(BufferView.prototype, 'readRemaining', {
+    get: function () {
+      return this.writePosition_0 - this.readPosition_0 | 0;
+    }
+  });
+  Object.defineProperty(BufferView.prototype, 'writeRemaining', {
+    get: function () {
+      return this.limit_0 - this.writePosition_0 | 0;
+    }
+  });
+  BufferView.prototype.canRead = function () {
+    return this.writePosition_0 > this.readPosition_0;
+  };
+  BufferView.prototype.canWrite = function () {
+    return this.writePosition_0 < this.limit_0;
+  };
+  BufferView.prototype.reserveStartGap_za3lpa$ = function (n) {
+    if (this.readPosition_0 > 0)
+      throw IllegalStateException_init('Start gap is already reserved');
+    if (this.writePosition_0 > 0)
+      throw IllegalStateException_init('Start gap is already reserved');
+    this.writePosition_0 = n;
+    this.readPosition_0 = n;
+  };
+  BufferView.prototype.reserveEndGap_za3lpa$ = function (n) {
+    if (this.limit_0 !== this.content_0.byteLength)
+      throw IllegalStateException_init('End gap is already reserved');
+    this.limit_0 = this.limit_0 - n | 0;
+  };
+  Object.defineProperty(BufferView.prototype, 'startGap', {
+    get: function () {
+      return this.readPosition_0;
+    }
+  });
+  Object.defineProperty(BufferView.prototype, 'endGap', {
+    get: function () {
+      return this.content_0.byteLength - this.limit_0 | 0;
+    }
+  });
+  Object.defineProperty(BufferView.prototype, 'byteOrder', {
+    get: function () {
+      return this.littleEndian_0 ? ByteOrder$LITTLE_ENDIAN_getInstance() : ByteOrder$BIG_ENDIAN_getInstance();
+    },
+    set: function (value) {
+      var tmp$;
+      switch (value.name) {
+        case 'BIG_ENDIAN':
+          tmp$ = false;
+          break;
+        case 'LITTLE_ENDIAN':
+          tmp$ = true;
+          break;
+        default:tmp$ = Kotlin.noWhenBranchMatched();
+          break;
+      }
+      this.littleEndian_0 = tmp$;
+    }
+  });
+  BufferView.prototype.readByte = function () {
+    if (this.readRemaining < 0)
+      throw IllegalStateException_init('No bytes available for read');
+    var value = this.i8_0[this.readPosition_0];
+    this.readPosition_0 = this.readPosition_0 + 1 | 0;
+    return value;
+  };
+  BufferView.prototype.writeByte_s8j3t7$ = function (v) {
+    if (this.writeRemaining < 1)
+      throw IllegalStateException_init('No space left for writing');
+    this.i8_0[this.writePosition_0] = v;
+    this.writePosition_0 = this.writePosition_0 + 1 | 0;
+  };
+  BufferView.prototype.readShort = function () {
+    if (this.readRemaining < 2)
+      throw IllegalStateException_init('Not enough bytes available to read a short');
+    var value = this.view_0.getInt16(this.readPosition_0, this.littleEndian_0);
+    this.readPosition_0 = this.readPosition_0 + 2 | 0;
+    return value;
+  };
+  BufferView.prototype.writeShort_mq22fl$ = function (v) {
+    if (this.writeRemaining < 2)
+      throw IllegalStateException_init('Not enough space left to write a short');
+    this.view_0.setInt16(this.writePosition_0, v, this.littleEndian_0);
+    this.writePosition_0 = this.writePosition_0 + 2 | 0;
+  };
+  BufferView.prototype.readInt = function () {
+    if (this.readRemaining < 4)
+      throw IllegalStateException_init('Not enough bytes available to read an int');
+    var value = this.view_0.getInt32(this.readPosition_0, this.littleEndian_0);
+    this.readPosition_0 = this.readPosition_0 + 4 | 0;
+    return value;
+  };
+  BufferView.prototype.writeInt_za3lpa$ = function (v) {
+    if (this.writeRemaining < 4)
+      throw IllegalStateException_init('Not enough space left to write an int');
+    this.view_0.setInt32(this.writePosition_0, v, this.littleEndian_0);
+    this.writePosition_0 = this.writePosition_0 + 4 | 0;
+  };
+  BufferView.prototype.readFloat = function () {
+    if (this.readRemaining < 4)
+      throw IllegalStateException_init('Not enough bytes available to read a float');
+    var value = this.view_0.getFloat32(this.readPosition_0, this.littleEndian_0);
+    this.readPosition_0 = this.readPosition_0 + 4 | 0;
+    return value;
+  };
+  BufferView.prototype.writeFloat_mx4ult$ = function (v) {
+    if (this.writeRemaining < 4)
+      throw IllegalStateException_init('Not enough space left to write a float');
+    this.view_0.setFloat32(this.writePosition_0, v, this.littleEndian_0);
+    this.writePosition_0 = this.writePosition_0 + 4 | 0;
+  };
+  BufferView.prototype.readDouble = function () {
+    if (this.readRemaining < 8)
+      throw IllegalStateException_init('Not enough bytes available to read a double');
+    var value = this.view_0.getFloat64(this.readPosition_0, this.littleEndian_0);
+    this.readPosition_0 = this.readPosition_0 + 8 | 0;
+    return value;
+  };
+  BufferView.prototype.writeDouble_14dthe$ = function (v) {
+    if (this.writeRemaining < 8)
+      throw IllegalStateException_init('Not enough space left to write a double');
+    this.view_0.setFloat64(this.writePosition_0, v, this.littleEndian_0);
+    this.writePosition_0 = this.writePosition_0 + 8 | 0;
+  };
+  BufferView.prototype.read_mj6st8$ = function (dst, offset, length) {
+    var tmp$;
+    if (this.readRemaining < length)
+      throw IllegalStateException_init('Not enough bytes available (' + this.readRemaining + ') to read ' + length + ' bytes');
+    var rp = this.readPosition_0;
+    var i8 = this.i8_0;
+    tmp$ = length - 1 | 0;
+    for (var idx = 0; idx <= tmp$; idx++) {
+      dst[offset + idx | 0] = i8[rp + idx | 0];
+    }
+    this.readPosition_0 = this.readPosition_0 + length | 0;
+  };
+  BufferView.prototype.read_fbg2zd$ = function (dst, offset, length) {
+    var tmp$;
+    if (this.readRemaining < length)
+      throw IllegalStateException_init('Not enough bytes available (' + this.readRemaining + ') to read ' + length + ' bytes');
+    var rp = this.readPosition_0;
+    var i8 = this.i8_0;
+    tmp$ = length - 1 | 0;
+    for (var idx = 0; idx <= tmp$; idx++) {
+      dst[offset + idx | 0] = i8[rp + idx | 0];
+    }
+    this.readPosition_0 = this.readPosition_0 + length | 0;
+  };
+  BufferView.prototype.read_qmgm5g$ = function (dst, offset, length) {
+    var tmp$;
+    if (this.readRemaining < length)
+      throw IllegalStateException_init('Not enough bytes available (' + this.readRemaining + ') to read ' + length + ' bytes');
+    var to = new Int8Array(dst, offset, length);
+    var rp = this.readPosition_0;
+    var rem = this.writePosition_0 - rp | 0;
+    var i8 = this.i8_0;
+    if (rp === 0 && length === rem) {
+      to.set(i8, offset);
+    }
+     else if (length < 100) {
+      tmp$ = length - 1 | 0;
+      for (var i = 0; i <= tmp$; i++) {
+        to[offset + i | 0] = i8[rp + i | 0];
+      }
+    }
+     else {
+      var from = new Int8Array(this.content_0, rp, length);
+      to.set(from);
+    }
+    this.readPosition_0 = rp + length | 0;
+  };
+  BufferView.prototype.read_gsnag5$ = function (dst, offset, length) {
+    var tmp$;
+    if (this.readRemaining < length)
+      throw IllegalStateException_init('Not enough bytes available (' + this.readRemaining + ') to read ' + length + ' bytes');
+    var rp = this.readPosition_0;
+    var rem = this.writePosition_0 - rp | 0;
+    var i8 = this.i8_0;
+    if (rp === 0 && rem === length) {
+      dst.set(i8, offset);
+    }
+     else if (length < 100) {
+      tmp$ = length - 1 | 0;
+      for (var i = 0; i <= tmp$; i++) {
+        dst[offset + i | 0] = i8[rp + i | 0];
+      }
+    }
+     else {
+      var from = new Int8Array(this.content_0, rp, length);
+      dst.set(from, offset);
+    }
+    this.readPosition_0 = rp + length | 0;
+  };
+  BufferView.prototype.write_mj6st8$ = function (array, offset, length) {
+    var tmp$;
+    if (this.writeRemaining < length)
+      throw IllegalStateException_init('Not enough space left (' + this.writeRemaining + ') to write ' + length + ' bytes');
+    var wp = this.writePosition_0;
+    var i8 = this.i8_0;
+    tmp$ = length - 1 | 0;
+    for (var idx = 0; idx <= tmp$; idx++) {
+      i8[wp + idx | 0] = array[offset + idx | 0];
+    }
+    this.writePosition_0 = wp + length | 0;
+  };
+  BufferView.prototype.write_gsnag5$ = function (src, offset, length) {
+    var tmp$;
+    if (this.writeRemaining < length)
+      throw IllegalStateException_init('Not enough space left (' + this.writeRemaining + ') to write ' + length + ' bytes');
+    var wp = this.writePosition_0;
+    var rem = this.limit_0 - wp | 0;
+    var i8 = this.i8_0;
+    if (length > rem)
+      throw IndexOutOfBoundsException_init();
+    if (offset === 0 && length === src.length) {
+      i8.set(src, wp);
+    }
+     else if (length < 100) {
+      tmp$ = length - 1 | 0;
+      for (var i = 0; i <= tmp$; i++) {
+        i8[wp + i | 0] = src[offset + i | 0];
+      }
+    }
+     else {
+      var from = new Int8Array(src.buffer, src.byteOffset + offset | 0, length);
+      i8.set(from, wp);
+    }
+    this.writePosition_0 = wp + length | 0;
+  };
+  BufferView.prototype.readLong = function () {
+    var tmp$;
+    if (this.readRemaining < 8)
+      throw IllegalStateException_init('Not enough bytes available to read a long');
+    var m = L4294967295;
+    var a = Kotlin.Long.fromInt(this.readInt()).and(m);
+    var b = Kotlin.Long.fromInt(this.readInt()).and(m);
+    if (this.littleEndian_0) {
+      tmp$ = b.shiftLeft(32).or(a);
+    }
+     else {
+      tmp$ = a.shiftLeft(32).or(b);
+    }
+    return tmp$;
+  };
+  BufferView.prototype.writeLong_s8cxhz$ = function (v) {
+    if (this.writeRemaining < 8)
+      throw IllegalStateException_init('Not enough space left to write a long');
+    var m = L4294967295;
+    var a = v.shiftRight(32).toInt();
+    var b = v.and(m).toInt();
+    if (this.littleEndian_0) {
+      this.writeInt_za3lpa$(b);
+      this.writeInt_za3lpa$(a);
+    }
+     else {
+      this.writeInt_za3lpa$(a);
+      this.writeInt_za3lpa$(b);
+    }
+  };
+  BufferView.prototype.discardExact_za3lpa$ = function (n) {
+    var rem = this.readRemaining;
+    if (n > rem)
+      throw IllegalArgumentException_init("Can't discard " + n + ' bytes: only ' + rem + ' bytes available');
+    this.readPosition_0 = this.readPosition_0 + n | 0;
+  };
+  BufferView.prototype.pushBack_za3lpa$ = function (n) {
+    if (this.readPosition_0 === 0)
+      throw IllegalStateException_init('Nothing to push back');
+    this.readPosition_0 = this.readPosition_0 - 1 | 0;
+  };
+  BufferView.prototype.resetForWrite = function () {
+    this.resetForWrite_za3lpa$(this.content_0.byteLength);
+  };
+  BufferView.prototype.resetForWrite_za3lpa$ = function (limit) {
+    if (!(limit <= this.content_0.byteLength)) {
+      var message = "Limit shouldn't be bigger than buffer size: limit = " + limit + ', size = ' + this.content_0.byteLength;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    this.readPosition_0 = 0;
+    this.writePosition_0 = 0;
+    this.limit_0 = limit;
+  };
+  BufferView.prototype.resetForRead = function () {
+    this.readPosition_0 = 0;
+    this.limit_0 = this.content_0.byteLength;
+    this.writePosition_0 = this.limit_0;
+  };
+  BufferView.prototype.isExclusivelyOwned = function () {
+    return this.refCount_0 === 1;
+  };
+  BufferView.prototype.makeView = function () {
+    var tmp$;
+    var o = (tmp$ = this.origin_8be2vx$) != null ? tmp$ : this;
+    o.acquire_0();
+    var view = new BufferView(this.content_0, o);
+    view.attachment = this.attachment;
+    view.readPosition_0 = this.readPosition_0;
+    view.writePosition_0 = this.writePosition_0;
+    view.limit_0 = this.limit_0;
+    return view;
+  };
+  BufferView.prototype.release_2r3c1x$ = function (pool) {
+    if (this.release_0()) {
+      this.resetForWrite();
+      if (this.origin_8be2vx$ != null) {
+        this.unlink_8be2vx$();
+        this.origin_8be2vx$.release_2r3c1x$(pool);
+      }
+       else {
+        pool.recycle_trkh7z$(this);
+      }
+    }
+  };
+  BufferView.prototype.writeBuffer_nicutx$ = function (src, length) {
+    if (!(length <= src.readRemaining)) {
+      var message = 'length is too large: not enough bytes to read ' + length + ' > ' + src.readRemaining;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    if (!(length <= this.writeRemaining)) {
+      var message_0 = 'length is too large: not enough room to write ' + length + ' > ' + this.writeRemaining;
+      throw IllegalArgumentException_init(message_0.toString());
+    }
+    var otherEnd = src.readPosition_0 + length | 0;
+    var sub = src.i8_0.subarray(src.readPosition_0, otherEnd);
+    this.i8_0.set(sub, this.writePosition_0);
+    src.readPosition_0 = otherEnd;
+    this.writePosition_0 = this.writePosition_0 + length | 0;
+    return length;
+  };
+  BufferView.prototype.readText_pzahgr$ = function (decoder, out, lastBuffer, max) {
+    if (max === void 0)
+      max = 2147483647;
+    var tmp$, tmp$_0, tmp$_1;
+    if (!(max >= 0)) {
+      var message = "max shouldn't be negative: " + max;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    if (this.readRemaining === 0)
+      return 0;
+    var buffer = this.i8_0.subarray(this.readPosition_0, this.writePosition_0);
+    var tmp$_2;
+    if (!lastBuffer) {
+      tmp$_2 = decoder.decode(buffer, STREAM_TRUE);
+    }
+     else {
+      tmp$_2 = decoder.decode(buffer);
+    }
+    var rawResult = tmp$_2;
+    if (rawResult.length <= max) {
+      this.readPosition_0 = this.writePosition_0;
+      tmp$_1 = rawResult;
+    }
+     else {
+      var actual = rawResult.substring(0, max);
+      var subDecoder = TextDecoderFatal(decoder.encoding, true);
+      var subArray = new Int8Array(1);
+      var subDecoded = 0;
+      tmp$ = this.readPosition_0;
+      tmp$_0 = this.writePosition_0;
+      for (var i = tmp$; i < tmp$_0; i++) {
+        subArray[0] = this.i8_0[i];
+        var tmp$_3 = subDecoded;
+        var tmp$_4;
+        if (true) {
+          tmp$_4 = subDecoder.decode(subArray, STREAM_TRUE);
+        }
+         else {
+          tmp$_4 = subDecoder.decode(subArray);
+        }
+        subDecoded = tmp$_3 + tmp$_4.length | 0;
+        if (subDecoded >= max) {
+          this.readPosition_0 = i + 1 | 0;
+          break;
+        }
+      }
+      if (subDecoded < max) {
+        subDecoded = subDecoded + subDecoder.decode().length | 0;
+        if (subDecoded >= max) {
+          this.readPosition_0 = this.writePosition_0;
+        }
+         else {
+          throw IllegalStateException_init("Failed to readText: don't know how to update read position");
+        }
+      }
+      tmp$_1 = actual;
+    }
+    var result = tmp$_1;
+    out.append_gw00v9$(result);
+    return result.length;
+  };
+  BufferView.prototype.writeBufferPrepend_wscfq8$ = function (other) {
+    var size = other.readRemaining;
+    if (!(size <= this.startGap)) {
+      var message = 'size should be greater than startGap (size = ' + size + ', startGap = ' + this.startGap + ')';
+      throw IllegalArgumentException_init(message.toString());
+    }
+    var otherEnd = other.readPosition_0 + size | 0;
+    var sub = other.i8_0.subarray(other.readPosition_0, otherEnd);
+    this.i8_0.set(sub, this.readPosition_0 - size | 0);
+    this.readPosition_0 = this.readPosition_0 - size | 0;
+    other.readPosition_0 = other.readPosition_0 + size | 0;
+  };
+  BufferView.prototype.writeBufferAppend_xdubrm$ = function (other, maxSize) {
+    var a = other.readRemaining;
+    var size = Math_0.min(a, maxSize);
+    if (!(size <= (this.writeRemaining + this.endGap | 0))) {
+      var message = 'should should be greater than write space + end gap (size = ' + size + ', ' + ('writeRemaining = ' + this.writeRemaining + ', endGap = ' + this.endGap + ', rem+gap = ' + (this.writeRemaining + this.endGap | 0));
+      throw IllegalArgumentException_init(message.toString());
+    }
+    var otherEnd = other.readPosition_0 + size | 0;
+    var sub = other.i8_0.subarray(other.readPosition_0, otherEnd);
+    this.i8_0.set(sub, this.writePosition_0);
+    this.writePosition_0 = this.writePosition_0 + size | 0;
+    if (this.writePosition_0 > this.limit_0) {
+      this.limit_0 = this.writePosition_0;
+    }
+    other.readPosition_0 = other.readPosition_0 + size | 0;
+  };
+  BufferView.prototype.unlink_8be2vx$ = function () {
+    if (this.refCount_0 !== 0)
+      throw IllegalStateException_init('Unable to unlink buffers: buffer view is in use');
+    this.content_0 = BufferView$Companion_getInstance().EmptyBuffer_0;
+    this.i8_0 = BufferView$Companion_getInstance().Empty8_0;
+    this.view_0 = BufferView$Companion_getInstance().EmptyDataView_0;
+    this.resetForWrite();
+  };
+  BufferView.prototype.acquire_0 = function () {
+    var v = this.refCount_0;
+    if (v === 0)
+      throw IllegalStateException_init('Failed to acquire buffer: buffer has been already released');
+    this.refCount_0 = v + 1 | 0;
+  };
+  BufferView.prototype.release_0 = function () {
+    if (this === BufferView$Companion_getInstance().Empty)
+      throw IllegalStateException_init('attempted to release BufferView.Empty');
+    var v = this.refCount_0;
+    if (v === 0)
+      throw IllegalStateException_init('Unable to release: buffer has been already released');
+    var newCount = v - 1 | 0;
+    this.refCount_0 = newCount;
+    return newCount === 0;
+  };
+  function BufferView$Companion() {
+    BufferView$Companion_instance = this;
+    this.EmptyBuffer_0 = new ArrayBuffer(0);
+    this.EmptyDataView_0 = new DataView(this.EmptyBuffer_0);
+    this.Empty8_0 = new Int8Array(0);
+    this.Empty = new BufferView(this.EmptyBuffer_0, null);
+    this.Pool = new BufferView$Companion$Pool$ObjectLiteral(100);
+    this.NoPool = new BufferView$Companion$NoPool$ObjectLiteral();
+  }
+  function BufferView$Companion$Pool$ObjectLiteral(capacity) {
+    DefaultPool.call(this, capacity);
+  }
+  BufferView$Companion$Pool$ObjectLiteral.prototype.produceInstance = function () {
+    return new BufferView(new ArrayBuffer(4096), null);
+  };
+  BufferView$Companion$Pool$ObjectLiteral.prototype.clearInstance_trkh7z$ = function (instance) {
+    var $receiver = DefaultPool.prototype.clearInstance_trkh7z$.call(this, instance);
+    instance.resetForWrite();
+    instance.next = null;
+    instance.attachment = null;
+    if (instance.refCount_0 !== 0)
+      throw IllegalStateException_init('Unable to clear instance: refCount is ' + instance.refCount_0 + ' != 0');
+    instance.refCount_0 = 1;
+    return $receiver;
+  };
+  BufferView$Companion$Pool$ObjectLiteral.prototype.validateInstance_trkh7z$ = function (instance) {
+    DefaultPool.prototype.validateInstance_trkh7z$.call(this, instance);
+    if (!(instance.refCount_0 === 0)) {
+      var message = 'unable to recycle buffer: buffer view is in use (refCount = ' + instance.refCount_0 + ')';
+      throw IllegalArgumentException_init(message.toString());
+    }
+    if (!(instance.origin_8be2vx$ == null)) {
+      var message_0 = "Unable to recycle buffer view: view copy shouldn't be recycled";
+      throw IllegalArgumentException_init(message_0.toString());
+    }
+  };
+  BufferView$Companion$Pool$ObjectLiteral.prototype.disposeInstance_trkh7z$ = function (instance) {
+    instance.unlink_8be2vx$();
+  };
+  BufferView$Companion$Pool$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [DefaultPool]
+  };
+  function BufferView$Companion$NoPool$ObjectLiteral() {
+    NoPoolImpl.call(this);
+  }
+  BufferView$Companion$NoPool$ObjectLiteral.prototype.borrow = function () {
+    return new BufferView(new ArrayBuffer(4096), null);
+  };
+  BufferView$Companion$NoPool$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [NoPoolImpl]
+  };
+  BufferView$Companion.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'Companion',
+    interfaces: []
+  };
+  var BufferView$Companion_instance = null;
+  function BufferView$Companion_getInstance() {
+    if (BufferView$Companion_instance === null) {
+      new BufferView$Companion();
+    }
+    return BufferView$Companion_instance;
+  }
+  BufferView.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BufferView',
+    interfaces: []
+  };
+  function ByteOrder(name, ordinal) {
+    Enum.call(this);
+    this.name$ = name;
+    this.ordinal$ = ordinal;
+  }
+  function ByteOrder_initFields() {
+    ByteOrder_initFields = function () {
+    };
+    ByteOrder$BIG_ENDIAN_instance = new ByteOrder('BIG_ENDIAN', 0);
+    ByteOrder$LITTLE_ENDIAN_instance = new ByteOrder('LITTLE_ENDIAN', 1);
+    ByteOrder$Companion_getInstance();
+  }
+  var ByteOrder$BIG_ENDIAN_instance;
+  function ByteOrder$BIG_ENDIAN_getInstance() {
+    ByteOrder_initFields();
+    return ByteOrder$BIG_ENDIAN_instance;
+  }
+  var ByteOrder$LITTLE_ENDIAN_instance;
+  function ByteOrder$LITTLE_ENDIAN_getInstance() {
+    ByteOrder_initFields();
+    return ByteOrder$LITTLE_ENDIAN_instance;
+  }
+  function ByteOrder$Companion() {
+    ByteOrder$Companion_instance = this;
+    this.native_0 = null;
+    var buffer = new ArrayBuffer(4);
+    var arr = new Int32Array(buffer);
+    var view = new DataView(buffer);
+    arr[0] = 287454020;
+    this.native_0 = view.getInt32(0, true) === 287454020 ? ByteOrder$LITTLE_ENDIAN_getInstance() : ByteOrder$BIG_ENDIAN_getInstance();
+  }
+  ByteOrder$Companion.prototype.nativeOrder = function () {
+    return this.native_0;
+  };
+  ByteOrder$Companion.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'Companion',
+    interfaces: []
+  };
+  var ByteOrder$Companion_instance = null;
+  function ByteOrder$Companion_getInstance() {
+    ByteOrder_initFields();
+    if (ByteOrder$Companion_instance === null) {
+      new ByteOrder$Companion();
+    }
+    return ByteOrder$Companion_instance;
+  }
+  ByteOrder.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'ByteOrder',
+    interfaces: [Enum]
+  };
+  function ByteOrder$values() {
+    return [ByteOrder$BIG_ENDIAN_getInstance(), ByteOrder$LITTLE_ENDIAN_getInstance()];
+  }
+  ByteOrder.values = ByteOrder$values;
+  function ByteOrder$valueOf(name) {
+    switch (name) {
+      case 'BIG_ENDIAN':
+        return ByteOrder$BIG_ENDIAN_getInstance();
+      case 'LITTLE_ENDIAN':
+        return ByteOrder$LITTLE_ENDIAN_getInstance();
+      default:throwISE('No enum constant kotlinx.io.core.ByteOrder.' + name);
+    }
+  }
+  ByteOrder.valueOf_61zpoe$ = ByteOrder$valueOf;
+  var PACKET_MAX_COPY_SIZE;
+  var BUFFER_VIEW_POOL_SIZE;
+  var BUFFER_VIEW_SIZE;
+  function BytePacketBuilder(headerSizeHint) {
+    return new BytePacketBuilder_0(headerSizeHint, BufferView$Companion_getInstance().Pool);
+  }
+  function EOFException(message) {
+    Exception_init(message, this);
+    this.name = 'EOFException';
+  }
+  EOFException.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'EOFException',
+    interfaces: [Exception]
+  };
+  function readText($receiver, encoding, max) {
+    if (max === void 0)
+      max = 2147483647;
+    var $receiver_0 = StringBuilder_init($receiver.remaining);
+    readText_0($receiver, encoding, $receiver_0, max);
+    return $receiver_0.toString();
+  }
+  function readText_0($receiver, encoding, out, max) {
+    if (encoding === void 0)
+      encoding = 'UTF-8';
+    if (max === void 0)
+      max = 2147483647;
+    if (!(max >= 0)) {
+      var message = "max shouldn't be negative, got " + max;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    var decoder = TextDecoderFatal(encoding);
+    var decoded = {v: 0};
+    while (decoded.v < max) {
+      var current = $receiver.head_0;
+      if (current !== BufferView.Companion.Empty) {
+        decoded.v = decoded.v + current.readText_pzahgr$(decoder, out, current.next == null, max - decoded.v | 0) | 0;
+        if (!current.canRead()) {
+          $receiver.releaseHead_wscfq8$(current);
+        }
+      }
+      if ($receiver.isEmpty)
+        break;
+    }
+    return decoded.v;
+  }
+  var STREAM_TRUE;
+  var FATAL_TRUE;
+  function TextDecoderFatal(encoding, fatal) {
+    if (fatal === void 0)
+      fatal = true;
+    if (typeof TextDecoder == 'undefined') {
+      var module_0 = require('text-encoding');
+      if (module_0.TextDecoder === undefined)
+        throw IllegalStateException_init('TextDecoder is not supported by your browser and no text-encoding module found');
+      var ctor = module_0.TextDecoder;
+      var objPrototype = Object.create(ctor.prototype);
+      return fatal ? ctor.call(objPrototype, encoding, FATAL_TRUE) : ctor.call(objPrototype, encoding);
+    }
+    return fatal ? new TextDecoder(encoding, FATAL_TRUE) : new TextDecoder(encoding);
+  }
+  var decodeStream = defineInlineFunction('game.kotlinx.io.js.decodeStream_ggodax$', function ($receiver, buffer, stream) {
+    var tmp$;
+    if (stream) {
+      tmp$ = $receiver.decode(buffer, STREAM_TRUE);
+    }
+     else {
+      tmp$ = $receiver.decode(buffer);
+    }
+    return tmp$;
+  });
+  function readAvailable($receiver, dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.byteLength - offset | 0;
+    var tmp$;
+    var read = 0;
+    var b = $receiver.remaining;
+    var rem = Math_0.min(length, b);
+    while (rem > 0) {
+      tmp$ = $receiver.prepareRead_kcn2v3$(1);
+      if (tmp$ == null) {
+        break;
+      }
+      var bb = tmp$;
+      var a = rem;
+      var b_0 = bb.readRemaining;
+      var size = Math_0.min(a, b_0);
+      bb.read_gsnag5$(dst, offset + read | 0, size);
+      read = read + size | 0;
+      rem = rem - size | 0;
+      if (bb.readRemaining === 0) {
+        $receiver.releaseHead_wscfq8$(bb);
+      }
+    }
+    return read;
+  }
+  function readAvailable_0($receiver, dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.byteLength - offset | 0;
+    return readAvailable($receiver, new Int8Array(dst), offset, length);
+  }
+  function readFully($receiver, dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.byteLength - offset | 0;
+    return readFully_0($receiver, new Int8Array(dst), offset, length);
+  }
+  function readFully_0($receiver, dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.length - offset | 0;
+    if (!(length <= $receiver.remaining)) {
+      var message = 'Failed requirement.';
+      throw IllegalArgumentException_init(message.toString());
+    }
+    readAvailable($receiver, dst, offset, length);
+  }
+  function readArrayBuffer($receiver, n) {
+    if (n === void 0)
+      n = $receiver.remaining;
+    var buffer = new ArrayBuffer(n);
+    readFully($receiver, buffer);
+    return buffer;
+  }
+  function writeFully($receiver, src, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = src.byteLength - offset | 0;
+    writeFully_0($receiver, new Int8Array(src), offset, length);
+  }
+  function writeFully_0($receiver, src, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = src.length - offset | 0;
+    var written = {v: 0};
+    var rem = {v: length};
+    while (rem.v > 0) {
+      var tmp$;
+      var buffer = (tmp$ = $receiver.last_0()) != null ? tmp$.writeRemaining >= 1 ? tmp$ : null : null;
+      var tmp$_0;
+      tmp$_0 = $receiver.size;
+      var tmp$_1;
+      if (buffer == null) {
+        var bb = $receiver.appendNewBuffer_0();
+        var a = bb.writeRemaining;
+        var b = rem.v;
+        var size = Math_0.min(a, b);
+        bb.write_gsnag5$(src, written.v + offset | 0, size);
+        written.v = written.v + size | 0;
+        rem.v = rem.v - size | 0;
+        tmp$_1 = size;
+      }
+       else {
+        var a_0 = buffer.writeRemaining;
+        var b_0 = rem.v;
+        var size_0 = Math_0.min(a_0, b_0);
+        buffer.write_gsnag5$(src, written.v + offset | 0, size_0);
+        written.v = written.v + size_0 | 0;
+        rem.v = rem.v - size_0 | 0;
+        tmp$_1 = size_0;
+      }
+      $receiver.size = tmp$_0 + tmp$_1 | 0;
+    }
+  }
+  function sendPacket($receiver, packet) {
+    $receiver.send(readArrayBuffer(packet));
+  }
+  var sendPacket_0 = defineInlineFunction('game.kotlinx.io.js.sendPacket_wglm47$', wrapFunction(function () {
+    var sendPacket = _.kotlinx.io.js.sendPacket_tx3ju1$;
+    var BytePacketBuilder = _.kotlinx.io.core.BytePacketBuilder_za3lpa$;
+    var Throwable = Error;
+    return function ($receiver, block) {
+      var buildPacket$result;
+      var builder = BytePacketBuilder(0);
+      try {
+        block(builder);
+        buildPacket$result = builder.build();
+      }
+       catch (t) {
+        if (Kotlin.isType(t, Throwable)) {
+          builder.release();
+          throw t;
+        }
+         else
+          throw t;
+      }
+      sendPacket($receiver, buildPacket$result);
+    };
+  }));
+  function getPacket$lambda(closure$callback, closure$fileReader) {
+    return function (event) {
+      var tmp$;
+      closure$callback(new ByteReadPacket(new BufferView(Kotlin.isType(tmp$ = closure$fileReader.result, ArrayBuffer) ? tmp$ : throwCCE(), null), BufferView$Companion_getInstance().NoPool));
+      return Unit;
+    };
+  }
+  function getPacket($receiver, callback) {
+    var tmp$;
+    if (Kotlin.isType($receiver.data, Blob)) {
+      var fileReader = new FileReader();
+      fileReader.onload = getPacket$lambda(callback, fileReader);
+      fileReader.readAsArrayBuffer(Kotlin.isType(tmp$ = $receiver.data, Blob) ? tmp$ : throwCCE());
+    }
+     else {
+      callback(new ByteReadPacket(new BufferView($receiver.data, null), BufferView$Companion_getInstance().NoPool));
+    }
+  }
+  var sendPacket_1 = defineInlineFunction('game.kotlinx.io.js.sendPacket_eks1ru$', wrapFunction(function () {
+    var sendPacket = _.kotlinx.io.js.sendPacket_8zvei$;
+    var BytePacketBuilder = _.kotlinx.io.core.BytePacketBuilder_za3lpa$;
+    var Throwable = Error;
+    return function ($receiver, block) {
+      var buildPacket$result;
+      var builder = BytePacketBuilder(0);
+      try {
+        block(builder);
+        buildPacket$result = builder.build();
+      }
+       catch (t) {
+        if (Kotlin.isType(t, Throwable)) {
+          builder.release();
+          throw t;
+        }
+         else
+          throw t;
+      }
+      sendPacket($receiver, buildPacket$result);
+    };
+  }));
+  function sendPacket_2($receiver, packet) {
+    $receiver.send(readArrayBuffer(packet));
+  }
+  function responsePacket($receiver) {
+    var tmp$;
+    tmp$ = $receiver.responseType;
+    if (equals(tmp$, 'arraybuffer'))
+      return new ByteReadPacket(new BufferView($receiver.response, null), BufferView$Companion_getInstance().NoPool);
+    else {
+      if (equals(tmp$, ''))
+        return ByteReadPacket$Companion_getInstance().Empty;
+      else
+        throw IllegalStateException_init('Incompatible type ' + $receiver.responseType + ': only ARRAYBUFFER and EMPTY are supported');
+    }
+  }
+  function DefaultPool(capacity) {
+    this.capacity_3ksqj2$_0 = capacity;
+    this.instances_3r1z6a$_0 = Kotlin.newArray(this.capacity, null);
+    this.size_xp9yxl$_0 = 0;
+  }
+  Object.defineProperty(DefaultPool.prototype, 'capacity', {
+    get: function () {
+      return this.capacity_3ksqj2$_0;
+    }
+  });
+  DefaultPool.prototype.disposeInstance_trkh7z$ = function (instance) {
+  };
+  DefaultPool.prototype.clearInstance_trkh7z$ = function (instance) {
+    return instance;
+  };
+  DefaultPool.prototype.validateInstance_trkh7z$ = function (instance) {
+  };
+  DefaultPool.prototype.borrow = function () {
+    var tmp$;
+    if (this.size_xp9yxl$_0 === 0)
+      return this.produceInstance();
+    var idx = (this.size_xp9yxl$_0 = this.size_xp9yxl$_0 - 1 | 0, this.size_xp9yxl$_0);
+    var instance = Kotlin.isType(tmp$ = this.instances_3r1z6a$_0[idx], Any) ? tmp$ : throwCCE();
+    this.instances_3r1z6a$_0[idx] = null;
+    return this.clearInstance_trkh7z$(instance);
+  };
+  DefaultPool.prototype.recycle_trkh7z$ = function (instance) {
+    var tmp$;
+    this.validateInstance_trkh7z$(instance);
+    if (this.size_xp9yxl$_0 === this.capacity)
+      this.disposeInstance_trkh7z$(instance);
+    this.instances_3r1z6a$_0[tmp$ = this.size_xp9yxl$_0, this.size_xp9yxl$_0 = tmp$ + 1 | 0, tmp$] = instance;
+  };
+  DefaultPool.prototype.dispose = function () {
+    var tmp$, tmp$_0;
+    tmp$ = this.size_xp9yxl$_0;
+    for (var i = 0; i < tmp$; i++) {
+      var instance = Kotlin.isType(tmp$_0 = this.instances_3r1z6a$_0[i], Any) ? tmp$_0 : throwCCE();
+      this.instances_3r1z6a$_0[i] = null;
+      this.disposeInstance_trkh7z$(instance);
+    }
+    this.size_xp9yxl$_0 = 0;
+  };
+  DefaultPool.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'DefaultPool',
+    interfaces: [ObjectPool]
+  };
   function Matrix4() {
     this.matrix_8be2vx$ = new Float32Array([1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]);
     this.temp_8be2vx$ = new Float32Array(16);
@@ -5251,46 +6394,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'ImgCache',
     interfaces: []
   };
-  function RenderData(x, y, gameSize, imgData) {
-    this.x = x;
-    this.y = y;
-    this.gameSize = gameSize;
-    this.imgData = imgData;
-  }
-  RenderData.$metadata$ = {
-    kind: Kind_CLASS,
-    simpleName: 'RenderData',
-    interfaces: []
-  };
-  RenderData.prototype.component1 = function () {
-    return this.x;
-  };
-  RenderData.prototype.component2 = function () {
-    return this.y;
-  };
-  RenderData.prototype.component3 = function () {
-    return this.gameSize;
-  };
-  RenderData.prototype.component4 = function () {
-    return this.imgData;
-  };
-  RenderData.prototype.copy_7oadzn$ = function (x, y, gameSize, imgData) {
-    return new RenderData(x === void 0 ? this.x : x, y === void 0 ? this.y : y, gameSize === void 0 ? this.gameSize : gameSize, imgData === void 0 ? this.imgData : imgData);
-  };
-  RenderData.prototype.toString = function () {
-    return 'RenderData(x=' + Kotlin.toString(this.x) + (', y=' + Kotlin.toString(this.y)) + (', gameSize=' + Kotlin.toString(this.gameSize)) + (', imgData=' + Kotlin.toString(this.imgData)) + ')';
-  };
-  RenderData.prototype.hashCode = function () {
-    var result = 0;
-    result = result * 31 + Kotlin.hashCode(this.x) | 0;
-    result = result * 31 + Kotlin.hashCode(this.y) | 0;
-    result = result * 31 + Kotlin.hashCode(this.gameSize) | 0;
-    result = result * 31 + Kotlin.hashCode(this.imgData) | 0;
-    return result;
-  };
-  RenderData.prototype.equals = function (other) {
-    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.x, other.x) && Kotlin.equals(this.y, other.y) && Kotlin.equals(this.gameSize, other.gameSize) && Kotlin.equals(this.imgData, other.imgData)))));
-  };
   function View() {
   }
   View.$metadata$ = {
@@ -5380,25 +6483,63 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   IterAttr.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.attr, other.attr) && Kotlin.equals(this.location, other.location) && Kotlin.equals(this.offset, other.offset)))));
   };
+  function Color_1(r, g, b) {
+    this.r = r;
+    this.g = g;
+    this.b = b;
+  }
+  Color_1.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'Color',
+    interfaces: []
+  };
+  Color_1.prototype.component1 = function () {
+    return this.r;
+  };
+  Color_1.prototype.component2 = function () {
+    return this.g;
+  };
+  Color_1.prototype.component3 = function () {
+    return this.b;
+  };
+  Color_1.prototype.copy_y2kzbl$ = function (r, g, b) {
+    return new Color_1(r === void 0 ? this.r : r, g === void 0 ? this.g : g, b === void 0 ? this.b : b);
+  };
+  Color_1.prototype.toString = function () {
+    return 'Color(r=' + Kotlin.toString(this.r) + (', g=' + Kotlin.toString(this.g)) + (', b=' + Kotlin.toString(this.b)) + ')';
+  };
+  Color_1.prototype.hashCode = function () {
+    var result = 0;
+    result = result * 31 + Kotlin.hashCode(this.r) | 0;
+    result = result * 31 + Kotlin.hashCode(this.g) | 0;
+    result = result * 31 + Kotlin.hashCode(this.b) | 0;
+    return result;
+  };
+  Color_1.prototype.equals = function (other) {
+    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.r, other.r) && Kotlin.equals(this.g, other.g) && Kotlin.equals(this.b, other.b)))));
+  };
   function MassPower(view) {
     if (view === void 0)
-      view = new FixedWidth(1000.0, 1000.0, 1000.0);
+      view = new FixedWidth(1000.0, 400.0, 2000.0);
     this.view = view;
     this.gameScale_trt3k4$_0 = new SmoothByRenderCalls(MassPower$gameScale$lambda(this));
-    this.cameraGamePos_jsgx4n$_0 = new CacheByRenderCalls(new XY(), MassPower$cameraGamePos$lambda(this));
+    this.targetGameScale = 3.0;
+    this.myCar = null;
+    this.previousCameraPos = new XY();
     this.html = new HTMLElements();
     this.textureShader = new MassPower$ShaderFull(this, new MassPower$ShaderVertex(this, MASS_POWER_TEXTURE_VERTEX, listOf([new Attr('a_center_x', 1), new Attr('a_center_y', 1), new Attr('a_angle', 1), new Attr('a_game_radius', 1), new Attr('a_relative_radius', 1)])), MASS_POWER_TEXTURE_FRAG);
     this.foodShader = new MassPower$ShaderFull(this, new MassPower$ShaderVertex(this, MASS_POWER_FOOD_VERTEX, listOf([new Attr('a_center_x', 1), new Attr('a_center_y', 1), new Attr('a_angle', 1), new Attr('a_game_radius', 1), new Attr('a_color', 4)])), MASS_POWER_FOOD_FRAG);
+    this.reactiveShader = new MassPower$ShaderFull(this, new MassPower$ShaderVertex(this, MASS_POWER_REACTIVE_VERTEX, listOf([new Attr('a_center_x', 1), new Attr('a_center_y', 1), new Attr('a_angle', 1), new Attr('a_game_radius', 1), new Attr('a_color', 4)])), MASS_POWER_FOOD_FRAG);
     this.backgroundShader = new MassPower$ShaderFull(this, new MassPower$ShaderVertex(this, shader_mesh_default_vert, listOf_0(new Attr('aVertexPosition', 2))), shader_background_stars_frag);
-    this.imgCache_0 = HashMap_init();
-    this.mousePos = new XY();
+    this.imgCache_0 = LinkedHashMap_init();
+    this.mousePos = new SXY();
     var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3;
     tmp$ = new Tick(0);
     tmp$_0 = new Welcome(new PlayerId(1), lib.time);
-    tmp$_1 = new State(mutableListOf([new Car(new PlayerId(1), GameConst_getInstance().DEFAULT_CAR_SIZE * 3 | 0, new XY(), new XY())]));
-    tmp$_2 = new Duration(Kotlin.Long.fromInt(10));
+    tmp$_1 = new State(mutableListOf([new Car(new PlayerId(1), 9000, new SXY(), new SXY())]));
+    tmp$_2 = new Duration(L10);
     var $receiver = ArrayList_init();
-    for (var i = 2; i <= 15; i++) {
+    for (var i = 2; i <= 50; i++) {
       var pid = new PlayerId(i);
       $receiver.add_11rb$(new AllCommand(new Tick(10 + (i * 1 | 0) | 0), pid, new NewCarCommand(pid)));
     }
@@ -5411,6 +6552,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     this.model = new ClientModel(tmp$_3, SLOW_POKE);
     this.mouseDown = false;
+    this.mouseEventXY = new XY();
     window.onfocus;
     window.onblur;
     window.onresize = MassPower_init$lambda(this);
@@ -5420,7 +6562,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     document.onclick = MassPower_init$lambda_3(this);
     document.onmousedown = MassPower_init$lambda_4(this);
     document.onmouseup = MassPower_init$lambda_5(this);
-    document.onkeypress = MassPower_init$lambda_6;
+    document.onkeypress = MassPower_init$lambda_6(this);
+    this.userScale = 1.0;
     this.previousTime = this.time;
     this.fps30 = 30.0;
     this.fps500 = 30.0;
@@ -5434,9 +6577,16 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     this.imgViolet = new ImgData('img/smiley_small_rect_violet.png');
     this.imgGray = new ImgData('img/smiley_small_rect_gray.png');
     this.imgNonQuadrat = new ImgData('img/rect_long.png');
-    this.colors = listOf([this.imgRed, this.imgGreen, this.imgBlue, this.imgYellow, this.imgViolet]);
+    this.pngs = listOf([this.imgRed, this.imgGreen, this.imgBlue, this.imgYellow, this.imgViolet]);
+    this.red = new Color_1(1.0, 0.0, 0.0);
+    this.green = new Color_1(0.0, 1.0, 0.0);
+    this.blue = new Color_1(0.0, 0.0, 1.0);
+    this.yellow = new Color_1(0.9, 0.9, 0.5);
+    this.violet = new Color_1(0.9, 0.5, 0.9);
+    this.colors = listOf([this.red, this.green, this.blue, this.yellow, this.violet]);
     this.backOffset = new MassPower$BackOffset(this);
     this.previousMouseDownHandle = lib.time;
+    this.state = null;
     var $receiver_0 = toList_0(new IntRange(0, 9));
     var destination = ArrayList_init(collectionSizeOrDefault($receiver_0, 10));
     var tmp$_4;
@@ -5470,22 +6620,78 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   var MassPower$gameScale_metadata = new PropertyMetadata('gameScale');
   Object.defineProperty(MassPower.prototype, 'gameScale', {
     get: function () {
-      return this.gameScale_trt3k4$_0.getValue_lrcp0p$(this, MassPower$gameScale_metadata);
+      return this.gameScale_trt3k4$_0.getValue_t0xcdd$(this, MassPower$gameScale_metadata);
     }
   });
-  var MassPower$cameraGamePos_metadata = new PropertyMetadata('cameraGamePos');
   Object.defineProperty(MassPower.prototype, 'cameraGamePos', {
-    get: function () {
-      return this.cameraGamePos_jsgx4n$_0.getValue_lrcp0p$(this, MassPower$cameraGamePos_metadata);
-    }
+    get: defineInlineFunction('game.masspower.MassPower.get_cameraGamePos', wrapFunction(function () {
+      var realXY = _.com.riseofcat.share.mass.realXY_wzlaku$;
+      return function () {
+        var tmp$, tmp$_0, tmp$_1, tmp$_2;
+        var tmp$_3;
+        if ((tmp$_0 = (tmp$ = this.myCar) != null ? tmp$.pos : null) != null) {
+          var tmp$_4;
+          tmp$_3 = (tmp$_4 = this.state) != null ? realXY(tmp$_4, tmp$_0) : null;
+        }
+         else
+          tmp$_3 = null;
+        var tmp$_5;
+        if ((tmp$_1 = tmp$_3) != null) {
+          this.previousCameraPos = tmp$_1;
+          tmp$_5 = tmp$_1;
+        }
+         else
+          tmp$_5 = null;
+        return (tmp$_2 = tmp$_5) != null ? tmp$_2 : this.previousCameraPos;
+      };
+    }))
   });
   Object.defineProperty(MassPower.prototype, 'gl', {
     get: function () {
       return this.html.webgl;
     }
   });
-  MassPower.prototype.screenToGame_zgo1bu$ = function ($receiver, screen) {
-    return new XY((screen.x - this.get_borderLeft_kpbpt9$($receiver)) * this.get_gameWidth_kpbpt9$($receiver) / this.get_windowWidth_kpbpt9$($receiver) - this.get_gameWidth_kpbpt9$($receiver) / 2 + this.cameraGamePos.x, this.get_gameHeight_kpbpt9$($receiver) / 2 - (screen.y - this.get_borderTop_kpbpt9$($receiver)) * this.get_gameHeight_kpbpt9$($receiver) / this.get_windowHeight_kpbpt9$($receiver) + this.cameraGamePos.y);
+  MassPower.prototype.screenToGame_76k8xu$ = function ($receiver, state, screen) {
+    var tmp$;
+    if (state == null)
+      tmp$ = new SXY();
+    else {
+      var tmp$_0 = (screen.x - this.get_borderLeft_kpbpt9$($receiver)) * this.get_gameWidth_kpbpt9$($receiver) / this.get_windowWidth_kpbpt9$($receiver) - this.get_gameWidth_kpbpt9$($receiver) / 2;
+      var tmp$_1, tmp$_2, tmp$_3, tmp$_4;
+      var tmp$_5;
+      if ((tmp$_2 = (tmp$_1 = this.myCar) != null ? tmp$_1.pos : null) != null) {
+        var tmp$_6;
+        tmp$_5 = (tmp$_6 = this.state) != null ? realXY(tmp$_6, tmp$_2) : null;
+      }
+       else
+        tmp$_5 = null;
+      var tmp$_7;
+      if ((tmp$_3 = tmp$_5) != null) {
+        this.previousCameraPos = tmp$_3;
+        tmp$_7 = tmp$_3;
+      }
+       else
+        tmp$_7 = null;
+      var tmp$_8 = doubleToShort(state, tmp$_0 + ((tmp$_4 = tmp$_7) != null ? tmp$_4 : this.previousCameraPos).x);
+      var tmp$_9 = this.get_gameHeight_kpbpt9$($receiver) / 2 - (screen.y - this.get_borderTop_kpbpt9$($receiver)) * this.get_gameHeight_kpbpt9$($receiver) / this.get_windowHeight_kpbpt9$($receiver);
+      var tmp$_10, tmp$_11, tmp$_12, tmp$_13;
+      var tmp$_14;
+      if ((tmp$_11 = (tmp$_10 = this.myCar) != null ? tmp$_10.pos : null) != null) {
+        var tmp$_15;
+        tmp$_14 = (tmp$_15 = this.state) != null ? realXY(tmp$_15, tmp$_11) : null;
+      }
+       else
+        tmp$_14 = null;
+      var tmp$_16;
+      if ((tmp$_12 = tmp$_14) != null) {
+        this.previousCameraPos = tmp$_12;
+        tmp$_16 = tmp$_12;
+      }
+       else
+        tmp$_16 = null;
+      tmp$ = new SXY(tmp$_8, doubleToShort(state, tmp$_9 + ((tmp$_13 = tmp$_16) != null ? tmp$_13 : this.previousCameraPos).y));
+    }
+    return tmp$;
   };
   MassPower.prototype.get_xy_apx4ki$ = function ($receiver) {
     return new XY(getX($receiver, this.html.container), getY($receiver, this.html.container));
@@ -5513,43 +6719,62 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     this.gl.viewport(0, 0, numberToInt(this.get_windowWidth_kpbpt9$(this.view)), numberToInt(this.get_windowWidth_kpbpt9$(this.view)));
     this.gl.canvas.setAttribute('style', 'position: absolute; left: ' + this.get_borderLeft_kpbpt9$(this.view) + 'px; top: ' + this.get_borderTop_kpbpt9$(this.view) + 'px; z-index: 5; width: ' + this.get_windowWidth_kpbpt9$(this.view) + 'px; height: ' + this.get_windowHeight_kpbpt9$(this.view) + 'px;');
     this.html.canvas2d.canvas.setAttribute('style', 'position: absolute; left: ' + this.get_borderLeft_kpbpt9$(this.view) + 'px; top: ' + this.get_borderTop_kpbpt9$(this.view) + 'px; z-index: 10; width: ' + this.get_windowWidth_kpbpt9$(this.view) + 'px; height: ' + this.get_windowHeight_kpbpt9$(this.view) + 'px;');
-    this.setUniformf_vcwmuq$('resolution', new Float32Array([this.get_windowWidth_kpbpt9$(this.view), this.get_windowHeight_kpbpt9$(this.view)]));
+    this.setUniformf_vcwmuq$('windowResolution', new Float32Array([this.get_windowWidth_kpbpt9$(this.view), this.get_windowHeight_kpbpt9$(this.view)]));
   };
   Object.defineProperty(MassPower.prototype, 'time', {
     get: function () {
       return (new Date()).getTime() / 1000.0;
     }
   });
+  MassPower.prototype.get_png_e78gx9$ = function ($receiver) {
+    var it = this.pngs;
+    return it.get_za3lpa$($receiver.id % it.size);
+  };
   MassPower.prototype.get_color_e78gx9$ = function ($receiver) {
     var it = this.colors;
     return it.get_za3lpa$($receiver.id % it.size);
   };
   function MassPower$BackOffset($outer) {
     this.$outer = $outer;
-    this.previosCameraPos = null;
+    this.previousRelativeCameraPos = null;
     this.previousResult = new XY();
   }
   MassPower$BackOffset.prototype.getValue_lvbgq3$ = function (state) {
     var tmp$;
     var result = {v: this.previousResult};
-    if ((tmp$ = this.previosCameraPos) != null) {
-      this.$outer;
-      var $receiver = this.$outer.cameraGamePos;
-      var change = $receiver.copy_lu1900$($receiver.x - tmp$.x, $receiver.y - tmp$.y);
-      if (change.x > get_width(state) / 2)
-        change.x = change.x - get_width(state);
-      else if (change.x < -get_width(state) / 2)
-        change.x = change.x + get_width(state);
-      if (change.y > get_height(state) / 2)
-        change.y = change.y - get_height(state);
-      else if (change.y < -get_height(state) / 2)
-        change.y = change.y + get_height(state);
-      var $receiver_0 = result.v;
-      var a = times_3(change, 1.0E-4);
-      result.v = $receiver_0.copy_lu1900$($receiver_0.x + a.x, $receiver_0.y + a.y);
+    var $this = this.$outer;
+    var tmp$_0, tmp$_1, tmp$_2, tmp$_3;
+    var tmp$_4;
+    if ((tmp$_1 = (tmp$_0 = $this.myCar) != null ? tmp$_0.pos : null) != null) {
+      var tmp$_5;
+      tmp$_4 = (tmp$_5 = $this.state) != null ? realXY(tmp$_5, tmp$_1) : null;
+    }
+     else
+      tmp$_4 = null;
+    var tmp$_6;
+    if ((tmp$_2 = tmp$_4) != null) {
+      $this.previousCameraPos = tmp$_2;
+      tmp$_6 = tmp$_2;
+    }
+     else
+      tmp$_6 = null;
+    var relativeCameraPos = times_4((tmp$_3 = tmp$_6) != null ? tmp$_3 : $this.previousCameraPos, 1 / state.size);
+    if ((tmp$ = this.previousRelativeCameraPos) != null) {
+      var change = new XY(relativeCameraPos.x - tmp$.x, relativeCameraPos.y - tmp$.y);
+      if (change.x > 0.5)
+        change.x = change.x - 1;
+      else if (change.x < -0.5)
+        change.x = change.x + 1;
+      if (change.y > 0.5)
+        change.y = change.y - 1;
+      else if (change.y < -0.5)
+        change.y = change.y + 1;
+      var $receiver = result.v;
+      var a = times_4(change, 0.9);
+      result.v = new XY($receiver.x + a.x, $receiver.y + a.y);
     }
     this.previousResult = result.v;
-    this.previosCameraPos = this.$outer.cameraGamePos;
+    this.previousRelativeCameraPos = relativeCameraPos;
     return result.v;
   };
   MassPower$BackOffset.$metadata$ = {
@@ -5557,7 +6782,49 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'BackOffset',
     interfaces: []
   };
+  function MassPower$gameLoop$lambda$renderDebugScreenPoint$lambda(angle) {
+    return new Float32Array([0.0, 0.0, 0.0, 0.0]);
+  }
+  function MassPower$gameLoop$lambda$renderDebugScreenPoint(this$MassPower, closure$st) {
+    return function (xy) {
+      var gamePos = this$MassPower.screenToGame_76k8xu$(this$MassPower.view, this$MassPower.state, xy);
+      var tmp$ = closure$st;
+      var tmp$_0 = realXY(closure$st, gamePos);
+      var $this = this$MassPower;
+      var tmp$_1, tmp$_2, tmp$_3, tmp$_4;
+      var tmp$_5;
+      if ((tmp$_2 = (tmp$_1 = $this.myCar) != null ? tmp$_1.pos : null) != null) {
+        var tmp$_6;
+        tmp$_5 = (tmp$_6 = $this.state) != null ? realXY(tmp$_6, tmp$_2) : null;
+      }
+       else
+        tmp$_5 = null;
+      var tmp$_7;
+      if ((tmp$_3 = tmp$_5) != null) {
+        $this.previousCameraPos = tmp$_3;
+        tmp$_7 = tmp$_3;
+      }
+       else
+        tmp$_7 = null;
+      var mous = calcRenderXY(tmp$, tmp$_0, (tmp$_4 = tmp$_7) != null ? tmp$_4 : $this.previousCameraPos);
+      this$MassPower.renderCircle10_yxq3cr$(mous.x, mous.y, 100.0, null, new Float32Array([1.0, 1.0, 1.0, 1.0]), new MassPower$CircleData(this$MassPower.defaultBlend, MassPower$gameLoop$lambda$renderDebugScreenPoint$lambda));
+    };
+  }
+  function MassPower$gameLoop$lambda$lambda(closure$cameraShortPos, closure$sw, closure$sh) {
+    return function (it) {
+      var x = closure$cameraShortPos.x - it.pos.x << 16 >> 16;
+      var mask = x >> 31;
+      var dx = (mask ^ x) - mask | 0;
+      var x_0 = closure$cameraShortPos.y - it.pos.y << 16 >> 16;
+      var mask_0 = x_0 >> 31;
+      var dy = (mask_0 ^ x_0) - mask_0 | 0;
+      return dx < closure$sw && dy < closure$sh;
+    };
+  }
   function MassPower$gameLoop$lambda$lambda$lambda(angle) {
+    return new Float32Array([0.0, 0.0, 0.0, 0.0]);
+  }
+  function MassPower$gameLoop$lambda$lambda$lambda_0(angle) {
     return new Float32Array([0.0, 0.0, 0.0, 0.0]);
   }
   function MassPower$gameLoop$lambda$lambda$lambda$lambda(it) {
@@ -5580,6 +6847,25 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return this.closure$comparison(a, b);
   };
   Comparator$ObjectLiteral.$metadata$ = {kind: Kind_CLASS, interfaces: [Comparator]};
+  function MassPower$gameLoop$lambda$lambda_0(closure$st, closure$filterDisplayZone) {
+    return function () {
+      var $receiver = closure$st.cars;
+      var predicate = closure$filterDisplayZone;
+      var destination = ArrayList_init();
+      var tmp$;
+      tmp$ = $receiver.iterator();
+      while (tmp$.hasNext()) {
+        var element = tmp$.next();
+        if (predicate(element))
+          destination.add_11rb$(element);
+      }
+      var $receiver_0 = toMutableList(destination);
+      if ($receiver_0.size > 1) {
+        sortWith($receiver_0, new Comparator$ObjectLiteral(compareBy$lambda(MassPower$gameLoop$lambda$lambda$lambda$lambda)));
+      }
+      return $receiver_0;
+    };
+  }
   function MassPower$gameLoop$lambda$lambda$lambda$lambda_0(this$MassPower, closure$img, this$) {
     return function (it) {
       var tmp$;
@@ -5604,17 +6890,56 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   var Float32Array_0 = Float32Array;
   var WebGLRenderingContext$Companion = WebGLRenderingContext;
-  var MassPower$render$lambda = wrapFunction(function () {
-    return function (closure$allFloatArgsCount, this$MassPower) {
-      return function () {
-        var tmp$, tmp$_0, tmp$_1;
-        if (closure$allFloatArgsCount <= 0)
-          package$lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
-        tmp$_0 = ensureNotNull((tmp$ = this$MassPower.currentShader) != null ? tmp$.blockSize : null);
-        if (closure$allFloatArgsCount % tmp$_0 !== 0) {
-          package$lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + closure$allFloatArgsCount + ',  verticesBlockSize: ' + ensureNotNull((tmp$_1 = this$MassPower.currentShader) != null ? tmp$_1.blockSize : null));
-        }
+  function libObj$measure$lambda$lambda(closure$block, closure$result) {
+    return function () {
+      closure$result.v = closure$block();
+      return Unit;
+    };
+  }
+  var libObj$measure$lambda$lambda_0 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj) {
+      return function (it) {
+        println('#' + it.key + ': ' + it.value);
         return Unit;
+      };
+    };
+  });
+  var libObj$measure$lambda = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj, closure$block, closure$hashTag) {
+      return function () {
+        var tmp$;
+        if (this$libObj.measurementsBegin == null) {
+          this$libObj.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(closure$block, result)).toNumber() / 1.0E9;
+        var $receiver = this$libObj.measurements;
+        var key = closure$hashTag;
+        var tmp$_0;
+        var value = $receiver.get_11rb$(key);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver.put_xwzc9p$(key, answer);
+          tmp$_0 = answer;
+        }
+         else {
+          tmp$_0 = value;
+        }
+        tmp$_0.add_14dthe$(t);
+        if (compareTo(this$libObj.time, plus_1(this$libObj.previousMeasurePrint, new Duration(L10000))) > 0) {
+          this$libObj.previousMeasurePrint = this$libObj.time;
+          println('measure: ');
+          var tmp$_1;
+          tmp$_1 = this$libObj.measurements.entries.iterator();
+          while (tmp$_1.hasNext()) {
+            var element = tmp$_1.next();
+            println('#' + element.key + ': ' + element.value);
+          }
+        }
+        return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
       };
     };
   });
@@ -5623,24 +6948,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     saveInvoke_klfg04$break: do {
       try {
         var tmp$, tmp$_0, tmp$_1, tmp$_2;
-        if (compareTo(lib.time, plus_1(this.previousMouseDownHandle, new Duration(Kotlin.Long.fromInt(300)))) > 0) {
+        if (compareTo(lib.time, plus_1(this.previousMouseDownHandle, new Duration(L300))) > 0) {
           this.previousMouseDownHandle = lib.time;
           if (this.mouseDown) {
-            touch(this.model, this.mousePos);
+            _touch(this.model, (tmp$ = this.myCar) != null ? tmp$.pos : null, this.mousePos);
           }
         }
-        onRender();
-        this.fps30 = (this.fps30 * 30 + 1.0 / (this.time - this.previousTime)) / (30 + 1 | 0);
-        this.fps500 = (this.fps500 * 200 + 1.0 / (this.time - this.previousTime)) / (200 + 1 | 0);
+        if (false)
+          this.onRender();
+        this.fps30 = (this.fps30 * 30 + 1.0 / (this.time - this.previousTime)) / 31;
+        this.fps500 = (this.fps500 * 200 + 1.0 / (this.time - this.previousTime)) / 201;
         this.previousTime = this.time;
+        var st = this.model.calcDisplayState();
+        this.state = st;
         if (TEXT) {
           var lines = ArrayList_init();
-          if (Kotlin.isType(this.model.ping, FakePingClient)) {
-            lines.add_11rb$('\u0421\u0435\u0440\u0432\u0435\u0440 \u043D\u0435 \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442');
-            lines.add_11rb$('\u041D\u0430\u0432\u0435\u0440\u043D\u043E\u0435 \u043F\u043E\u043F\u0430\u043B \u043F\u043E\u0434 \u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0443');
-            lines.add_11rb$('OFFLINE \u0440\u0435\u0436\u0438\u043C');
-          }
-           else {
+          if (!Kotlin.isType(this.model.ping, FakePingClient)) {
             lines.add_11rb$(this.model.ping.state.toString());
             if (!this.model.ping.state.good) {
               this.model.ping.close();
@@ -5648,15 +6971,17 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
             }
           }
           lines.add_11rb$('fps: ' + lib.formatDouble_12fank$(this.fps30, 2));
-          if (false) {
-            lines.add_11rb$('mouse: ' + this.mousePos);
-            lines.add_11rb$('fps30: ' + this.fps30);
-            lines.add_11rb$(Gen_getInstance().date());
+          lines.add_11rb$('mouse: ' + this.mousePos);
+          lines.add_11rb$('mouseEventXY: ' + this.mouseEventXY);
+          lines.add_11rb$(Gen_getInstance().date());
+          if (false)
             lines.add_11rb$('realtimeTick: ' + toString(this.model.realtimeTick));
+          if (false)
             lines.add_11rb$('serverTime: ' + toString(get_s(this.model.ping.serverTime)));
+          if (false)
             lines.add_11rb$('smartPingDelay: ' + toString(this.model.ping.smartPingDelay));
-            lines.add_11rb$('size: ' + toString((tmp$ = this.model.calcDisplayState()) != null ? tmp$.size : null));
-          }
+          lines.add_11rb$('size: ' + st.size);
+          lines.add_11rb$('foods: ' + st.foods.size);
           this.html.canvas2d.clearRect(0.0, 0.0, this.get_gameWidth_kpbpt9$(this.view), this.get_gameHeight_kpbpt9$(this.view));
           this.html.canvas2d.fillStyle = 'white';
           this.html.canvas2d.font = 'bold 24pt Arial';
@@ -5666,17 +6991,48 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         }
         this.gl.clearColor(0.0, 0.0, 0.0, 1.0);
         this.gl.clear(WebGLRenderingContext.COLOR_BUFFER_BIT);
-        var state = this.model.calcDisplayState();
-        if (state != null) {
-          if ((tmp$_1 = this.model.myCar) != null) {
-            this.setUniformf_vcwmuq$('u_game_camera_x', new Float32Array([tmp$_1.pos.x]));
-            this.setUniformf_vcwmuq$('u_game_camera_y', new Float32Array([tmp$_1.pos.y]));
+        this.myCar = (tmp$_2 = (tmp$_1 = this.model.welcome) != null ? tmp$_1.id : null) != null ? getCar(st, tmp$_2) : null;
+        this.onRender();
+        if (this.myCar != null) {
+          var tmp$_3 = Float32Array;
+          var tmp$_4, tmp$_5, tmp$_6, tmp$_7;
+          var tmp$_8;
+          if ((tmp$_5 = (tmp$_4 = this.myCar) != null ? tmp$_4.pos : null) != null) {
+            var tmp$_9;
+            tmp$_8 = (tmp$_9 = this.state) != null ? realXY(tmp$_9, tmp$_5) : null;
           }
-          var tmp$_3 = this.backOffset.getValue_lvbgq3$(state);
-          var offsetX = tmp$_3.component1()
-          , offsetY = tmp$_3.component2();
-          this.setUniformf_vcwmuq$('mouse', new Float32Array([offsetX, offsetY]));
+           else
+            tmp$_8 = null;
+          var tmp$_10;
+          if ((tmp$_6 = tmp$_8) != null) {
+            this.previousCameraPos = tmp$_6;
+            tmp$_10 = tmp$_6;
+          }
+           else
+            tmp$_10 = null;
+          this.setUniformf_vcwmuq$('u_game_camera_x', new tmp$_3([((tmp$_7 = tmp$_10) != null ? tmp$_7 : this.previousCameraPos).x]));
+          var tmp$_11 = Float32Array;
+          var tmp$_12, tmp$_13, tmp$_14, tmp$_15;
+          var tmp$_16;
+          if ((tmp$_13 = (tmp$_12 = this.myCar) != null ? tmp$_12.pos : null) != null) {
+            var tmp$_17;
+            tmp$_16 = (tmp$_17 = this.state) != null ? realXY(tmp$_17, tmp$_13) : null;
+          }
+           else
+            tmp$_16 = null;
+          var tmp$_18;
+          if ((tmp$_14 = tmp$_16) != null) {
+            this.previousCameraPos = tmp$_14;
+            tmp$_18 = tmp$_14;
+          }
+           else
+            tmp$_18 = null;
+          this.setUniformf_vcwmuq$('u_game_camera_y', new tmp$_11([((tmp$_15 = tmp$_18) != null ? tmp$_15 : this.previousCameraPos).y]));
         }
+        var tmp$_19 = this.backOffset.getValue_lvbgq3$(st);
+        var offsetX = tmp$_19.component1()
+        , offsetY = tmp$_19.component2();
+        this.setUniformf_vcwmuq$('mouse', new Float32Array([offsetX, offsetY]));
         this.setUniformf_vcwmuq$('u_game_width', new Float32Array([this.get_gameWidth_kpbpt9$(this.view)]));
         this.setUniformf_vcwmuq$('u_game_height', new Float32Array([this.get_gameHeight_kpbpt9$(this.view)]));
         this.backgroundShader.activate();
@@ -5684,76 +7040,173 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         this.setUniformf_vcwmuq$('time', new Float32Array([pow2in14 - lib.pillarTimeS_mx4ult$(2 * pow2in14)]));
         var mode = Mode$TRIANGLE_getInstance();
         var allArgs = new Float32Array([-1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0]);
-        var tmp$_4;
-        var mesh = true ? Kotlin.isType(tmp$_4 = allArgs, Float32Array_0) ? tmp$_4 : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
-        var tmp$_5;
+        var tmp$_20;
+        var mesh = true ? Kotlin.isType(tmp$_20 = allArgs, Float32Array_0) ? tmp$_20 : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
+        var tmp$_21;
+        var tmp$_22, tmp$_23;
+        if (allArgs.length <= 0)
+          package$lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+        if (allArgs.length % ensureNotNull((tmp$_22 = this.currentShader) != null ? tmp$_22.blockSize : null) !== 0) {
+          package$lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_23 = this.currentShader) != null ? tmp$_23.blockSize : null));
+        }
         if (true)
           this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
         this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
-        this.gl.drawArrays(mode.glMode, 0, allArgs.length / ensureNotNull((tmp$_5 = this.currentShader) != null ? tmp$_5.blockSize : null) | 0);
+        this.gl.drawArrays(mode.glMode, 0, allArgs.length / ensureNotNull((tmp$_21 = this.currentShader) != null ? tmp$_21.blockSize : null) | 0);
+        var renderDebugScreenPoint = MassPower$gameLoop$lambda$renderDebugScreenPoint(this, st);
+        var tmp$_24, tmp$_25, tmp$_26, tmp$_27;
+        var tmp$_28;
+        if ((tmp$_25 = (tmp$_24 = this.myCar) != null ? tmp$_24.pos : null) != null) {
+          var tmp$_29;
+          tmp$_28 = (tmp$_29 = this.state) != null ? realXY(tmp$_29, tmp$_25) : null;
+        }
+         else
+          tmp$_28 = null;
+        var tmp$_30;
+        if ((tmp$_26 = tmp$_28) != null) {
+          this.previousCameraPos = tmp$_26;
+          tmp$_30 = tmp$_26;
+        }
+         else
+          tmp$_30 = null;
+        var cameraShortPos = realToShort(st, (tmp$_27 = tmp$_30) != null ? tmp$_27 : this.previousCameraPos);
+        var drawBox = 0.75;
+        var sw = floatToShortInt(st, this.get_gameWidth_kpbpt9$(this.view) / 2 * drawBox);
+        var sh = floatToShortInt(st, this.get_gameHeight_kpbpt9$(this.view) / 2 * drawBox);
         this.foodShader.activate();
-        var visibleRadius = this.get_gameWidth_kpbpt9$(this.view) * 0.75;
-        if ((tmp$_2 = state != null ? state.foods : null) != null) {
-          var tmp$_6;
-          tmp$_6 = tmp$_2.iterator();
-          while (tmp$_6.hasNext()) {
-            var element = tmp$_6.next();
-            var xy = calcRenderXY(state, new XY(element.pos.x, element.pos.y), this.cameraGamePos);
-            var $receiver = this.cameraGamePos;
-            if (get_len($receiver.copy_lu1900$($receiver.x - xy.x, $receiver.y - xy.y)) < visibleRadius) {
-              var fan = new MassPower$CircleData(this.defaultBlend, MassPower$gameLoop$lambda$lambda$lambda);
-              this.renderCircle10_yxq3cr$(xy.x, xy.y, get_radius(element) * FOOD_SCALE, null, new Float32Array([1.5, 1.5, 1.5, 1.0]), fan);
-            }
+        var filterDisplayZone = MassPower$gameLoop$lambda$lambda(cameraShortPos, sw, sh);
+        var tmp$_31;
+        tmp$_31 = filter(asSequence(st.foods), filterDisplayZone).iterator();
+        while (tmp$_31.hasNext()) {
+          var element = tmp$_31.next();
+          var tmp$_32 = realXY(st, element.pos);
+          var tmp$_33, tmp$_34, tmp$_35, tmp$_36;
+          var tmp$_37;
+          if ((tmp$_34 = (tmp$_33 = this.myCar) != null ? tmp$_33.pos : null) != null) {
+            var tmp$_38;
+            tmp$_37 = (tmp$_38 = this.state) != null ? realXY(tmp$_38, tmp$_34) : null;
           }
+           else
+            tmp$_37 = null;
+          var tmp$_39;
+          if ((tmp$_35 = tmp$_37) != null) {
+            this.previousCameraPos = tmp$_35;
+            tmp$_39 = tmp$_35;
+          }
+           else
+            tmp$_39 = null;
+          var xy = calcRenderXY(st, tmp$_32, (tmp$_36 = tmp$_39) != null ? tmp$_36 : this.previousCameraPos);
+          var fan = new MassPower$CircleData(this.defaultBlend, MassPower$gameLoop$lambda$lambda$lambda);
+          var tmp$_40 = xy.x;
+          var tmp$_41 = xy.y;
+          var x = element.size;
+          this.renderCircle10_yxq3cr$(tmp$_40, tmp$_41, Math_0.sqrt(x) * FOOD_SCALE, null, new Float32Array([1.5, 1.5, 1.5, 1.0]), fan);
         }
+        this.reactiveShader.activate();
+        var tmp$_42;
+        tmp$_42 = filter(asSequence(st.reactive), filterDisplayZone).iterator();
+        while (tmp$_42.hasNext()) {
+          var element_0 = tmp$_42.next();
+          var clr = this.get_color_e78gx9$(element_0.owner);
+          var tmp$_43 = realXY(st, element_0.pos);
+          var tmp$_44, tmp$_45, tmp$_46, tmp$_47;
+          var tmp$_48;
+          if ((tmp$_45 = (tmp$_44 = this.myCar) != null ? tmp$_44.pos : null) != null) {
+            var tmp$_49;
+            tmp$_48 = (tmp$_49 = this.state) != null ? realXY(tmp$_49, tmp$_45) : null;
+          }
+           else
+            tmp$_48 = null;
+          var tmp$_50;
+          if ((tmp$_46 = tmp$_48) != null) {
+            this.previousCameraPos = tmp$_46;
+            tmp$_50 = tmp$_46;
+          }
+           else
+            tmp$_50 = null;
+          var xy_0 = calcRenderXY(st, tmp$_43, (tmp$_47 = tmp$_50) != null ? tmp$_47 : this.previousCameraPos);
+          var fan_0 = new MassPower$CircleData(this.defaultBlend, MassPower$gameLoop$lambda$lambda$lambda_0);
+          var tmp$_51 = xy_0.x;
+          var tmp$_52 = xy_0.y;
+          var x_0 = element_0.size;
+          this.renderCircle10_yxq3cr$(tmp$_51, tmp$_52, Math_0.sqrt(x_0) * 1.43, null, new Float32Array([clr.r, clr.g, clr.b, 1.0]), fan_0);
+        }
+        renderDebugScreenPoint(this.mouseEventXY);
         this.textureShader.activate();
-        var $receiver_0 = ArrayList_init();
-        if (state != null) {
-          var tmp$_7;
-          tmp$_7 = state.reactive.iterator();
-          while (tmp$_7.hasNext()) {
-            var element_0 = tmp$_7.next();
-            $receiver_0.add_11rb$(new RenderData(element_0.pos.x, element_0.pos.y, get_radius(element_0), this.get_color_e78gx9$(element_0.owner)));
-          }
-          var $receiver_1 = state.cars;
-          if ($receiver_1.size > 1) {
-            sortWith($receiver_1, new Comparator$ObjectLiteral(compareBy$lambda(MassPower$gameLoop$lambda$lambda$lambda$lambda)));
-          }
-          var tmp$_8;
-          tmp$_8 = $receiver_1.iterator();
-          while (tmp$_8.hasNext()) {
-            var element_1 = tmp$_8.next();
-            $receiver_0.add_11rb$(new RenderData(element_1.pos.x, element_1.pos.y, get_radius(element_1), this.get_color_e78gx9$(element_1.owner)));
+        var $this_0 = lib;
+        var hashTag = 'sort cars';
+        var tmp$_53;
+        if ($this_0.measurementsBegin == null) {
+          $this_0.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(MassPower$gameLoop$lambda$lambda_0(st, filterDisplayZone), result)).toNumber() / 1.0E9;
+        var $receiver = $this_0.measurements;
+        var tmp$_54;
+        var value = $receiver.get_11rb$(hashTag);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver.put_xwzc9p$(hashTag, answer);
+          tmp$_54 = answer;
+        }
+         else {
+          tmp$_54 = value;
+        }
+        tmp$_54.add_14dthe$(t);
+        if (compareTo($this_0.time, plus_1($this_0.previousMeasurePrint, new Duration(L10000))) > 0) {
+          $this_0.previousMeasurePrint = $this_0.time;
+          println('measure: ');
+          var tmp$_55;
+          tmp$_55 = $this_0.measurements.entries.iterator();
+          while (tmp$_55.hasNext()) {
+            var element_1 = tmp$_55.next();
+            println('#' + element_1.key + ': ' + element_1.value);
           }
         }
-        var tmp$_9;
-        tmp$_9 = $receiver_0.iterator();
-        while (tmp$_9.hasNext()) {
-          var element_2 = tmp$_9.next();
-          var tmp$_10, tmp$_11;
-          var tmp$_12;
-          if ((tmp$_10 = this.imgCache_0.get_11rb$(element_2.imgData)) != null)
-            tmp$_12 = tmp$_10;
-          else {
-            var $receiver_2 = new ImgCache();
-            var $receiver_3 = this.imgCache_0;
-            var key = element_2.imgData;
-            $receiver_3.put_xwzc9p$(key, $receiver_2);
-            var img = createElement(document, 'img', getKClass(HTMLImageElement));
-            img.onload = MassPower$gameLoop$lambda$lambda$lambda$lambda_0(this, img, $receiver_2);
-            img.src = element_2.imgData.url;
-            tmp$_12 = $receiver_2;
+        var tmp$_56;
+        tmp$_56 = ((tmp$_53 = result.v) == null || Kotlin.isType(tmp$_53, Any) ? tmp$_53 : throwCCE()).iterator();
+        while (tmp$_56.hasNext()) {
+          var element_2 = tmp$_56.next();
+          var tmp$_57, tmp$_58;
+          var tmp$_59 = realXY(st, element_2.pos);
+          var tmp$_60, tmp$_61, tmp$_62, tmp$_63;
+          var tmp$_64;
+          if ((tmp$_61 = (tmp$_60 = this.myCar) != null ? tmp$_60.pos : null) != null) {
+            var tmp$_65;
+            tmp$_64 = (tmp$_65 = this.state) != null ? realXY(tmp$_65, tmp$_61) : null;
           }
-          var cache = tmp$_12;
-          if ((tmp$_11 = cache.texture) != null) {
-            var fan_0 = new MassPower$CircleData(this.defaultBlend, MassPower$gameLoop$lambda$lambda$lambda$lambda_1);
+           else
+            tmp$_64 = null;
+          var tmp$_66;
+          if ((tmp$_62 = tmp$_64) != null) {
+            this.previousCameraPos = tmp$_62;
+            tmp$_66 = tmp$_62;
+          }
+           else
+            tmp$_66 = null;
+          var xy_1 = calcRenderXY(st, tmp$_59, (tmp$_63 = tmp$_66) != null ? tmp$_63 : this.previousCameraPos);
+          var tmp$_67;
+          if ((tmp$_57 = this.imgCache_0.get_11rb$(this.get_png_e78gx9$(element_2.owner))) != null)
+            tmp$_67 = tmp$_57;
+          else {
+            var $receiver_0 = new ImgCache();
+            var $receiver_1 = this.imgCache_0;
+            var key = this.get_png_e78gx9$(element_2.owner);
+            $receiver_1.put_xwzc9p$(key, $receiver_0);
+            var img = createElement(document, 'img', getKClass(HTMLImageElement));
+            img.onload = MassPower$gameLoop$lambda$lambda$lambda$lambda_0(this, img, $receiver_0);
+            img.src = this.get_png_e78gx9$(element_2.owner).url;
+            tmp$_67 = $receiver_0;
+          }
+          var cache = tmp$_67;
+          if ((tmp$_58 = cache.texture) != null) {
+            var fan_1 = new MassPower$CircleData(this.defaultBlend, MassPower$gameLoop$lambda$lambda$lambda$lambda_1);
             var strip = new MassPower$CircleData(this.stripBlend, MassPower$gameLoop$lambda$lambda$lambda$lambda_2);
-            if (state != null) {
-              var tmp$_13 = calcRenderXY(state, XY_init_0(element_2.x, element_2.y), this.cameraGamePos);
-              var x = tmp$_13.component1()
-              , y = tmp$_13.component2();
-              this.renderCircle10_yxq3cr$(x, y, element_2.gameSize, tmp$_11.glTexture, new Float32Array([0.0]), fan_0, strip);
-            }
+            var tmp$_68 = xy_1.x;
+            var tmp$_69 = xy_1.y;
+            var x_1 = element_2.size;
+            this.renderCircle10_yxq3cr$(tmp$_68, tmp$_69, Math_0.sqrt(x_1), tmp$_58.glTexture, new Float32Array([0.0]), fan_1, strip);
           }
         }
         if (HIDDEN) {
@@ -5943,6 +7396,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var tmp$;
     var mesh = true ? Kotlin.isType(tmp$ = allArgs, Float32Array_0) ? tmp$ : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
     var tmp$_0;
+    var tmp$_1, tmp$_2;
+    if (allArgs.length <= 0)
+      package$lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+    if (allArgs.length % ensureNotNull((tmp$_1 = this.currentShader) != null ? tmp$_1.blockSize : null) !== 0) {
+      package$lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_2 = this.currentShader) != null ? tmp$_2.blockSize : null));
+    }
     if (true)
       this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
     this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
@@ -5962,25 +7421,38 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       this.gl.blendFunc(strip.blend.src.value, strip.blend.dst.value);
       var mode_0 = Mode$TRIANGLE_STRIP_getInstance();
       var allArgs_0 = Kotlin.primitiveArrayConcat(new Float32Array([x, y, this.radian10[0], gr]), f0, new Float32Array([x, y, this.radian10[0], stripRadius]), s0, new Float32Array([x, y, this.radian10[1], gr]), f1, new Float32Array([x, y, this.radian10[1], stripRadius]), s1, new Float32Array([x, y, this.radian10[2], gr]), f2, new Float32Array([x, y, this.radian10[2], stripRadius]), s2, new Float32Array([x, y, this.radian10[3], gr]), f3, new Float32Array([x, y, this.radian10[3], stripRadius]), s3, new Float32Array([x, y, this.radian10[4], gr]), f4, new Float32Array([x, y, this.radian10[4], stripRadius]), s4, new Float32Array([x, y, this.radian10[5], gr]), f5, new Float32Array([x, y, this.radian10[5], stripRadius]), s5, new Float32Array([x, y, this.radian10[6], gr]), f6, new Float32Array([x, y, this.radian10[6], stripRadius]), s6, new Float32Array([x, y, this.radian10[7], gr]), f7, new Float32Array([x, y, this.radian10[7], stripRadius]), s7, new Float32Array([x, y, this.radian10[8], gr]), f8, new Float32Array([x, y, this.radian10[8], stripRadius]), s8, new Float32Array([x, y, this.radian10[9], gr]), f9, new Float32Array([x, y, this.radian10[9], stripRadius]), s9, new Float32Array([x, y, this.radian10[0], gr]), f0, new Float32Array([x, y, this.radian10[0], stripRadius]), s0);
-      var tmp$_1;
-      var mesh_0 = true ? Kotlin.isType(tmp$_1 = allArgs_0, Float32Array_0) ? tmp$_1 : throwCCE() : new Float32Array_0(toTypedArray(allArgs_0));
-      var tmp$_2;
+      var tmp$_3;
+      var mesh_0 = true ? Kotlin.isType(tmp$_3 = allArgs_0, Float32Array_0) ? tmp$_3 : throwCCE() : new Float32Array_0(toTypedArray(allArgs_0));
+      var tmp$_4;
+      var tmp$_5, tmp$_6;
+      if (allArgs_0.length <= 0)
+        package$lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+      if (allArgs_0.length % ensureNotNull((tmp$_5 = this.currentShader) != null ? tmp$_5.blockSize : null) !== 0) {
+        package$lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs_0.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_6 = this.currentShader) != null ? tmp$_6.blockSize : null));
+      }
       if (true)
         this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
       this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh_0, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
-      this.gl.drawArrays(mode_0.glMode, 0, allArgs_0.length / ensureNotNull((tmp$_2 = this.currentShader) != null ? tmp$_2.blockSize : null) | 0);
+      this.gl.drawArrays(mode_0.glMode, 0, allArgs_0.length / ensureNotNull((tmp$_4 = this.currentShader) != null ? tmp$_4.blockSize : null) | 0);
     }
   };
   MassPower.prototype.render_57bhe4$ = defineInlineFunction('game.masspower.MassPower.render_57bhe4$', wrapFunction(function () {
     var Float32Array_0 = Float32Array;
     var throwCCE = Kotlin.throwCCE;
     var toTypedArray = Kotlin.kotlin.collections.toTypedArray_rjqryz$;
+    var lib = _.com.riseofcat.lib;
     var ensureNotNull = Kotlin.ensureNotNull;
     var WebGLRenderingContext$Companion = WebGLRenderingContext;
     return function (mode, allArgs) {
       var tmp$;
       var mesh = true ? Kotlin.isType(tmp$ = allArgs, Float32Array_0) ? tmp$ : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
       var tmp$_0;
+      var tmp$_1, tmp$_2;
+      if (allArgs.length <= 0)
+        lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+      if (allArgs.length % ensureNotNull((tmp$_1 = this.currentShader) != null ? tmp$_1.blockSize : null) !== 0) {
+        lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_2 = this.currentShader) != null ? tmp$_2.blockSize : null));
+      }
       if (true)
         this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
       this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
@@ -5991,12 +7463,19 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var Float32Array_0 = Float32Array;
     var throwCCE = Kotlin.throwCCE;
     var toTypedArray = Kotlin.kotlin.collections.toTypedArray_rjqryz$;
+    var lib = _.com.riseofcat.lib;
     var ensureNotNull = Kotlin.ensureNotNull;
     var WebGLRenderingContext$Companion = WebGLRenderingContext;
     return function (mode, allArgs) {
       var tmp$;
       var mesh = true ? Kotlin.isType(tmp$ = allArgs, Float32Array_0) ? tmp$ : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
       var tmp$_0;
+      var tmp$_1, tmp$_2;
+      if (allArgs.length <= 0)
+        lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+      if (allArgs.length % ensureNotNull((tmp$_1 = this.currentShader) != null ? tmp$_1.blockSize : null) !== 0) {
+        lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_2 = this.currentShader) != null ? tmp$_2.blockSize : null));
+      }
       if (true)
         this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
       this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
@@ -6015,6 +7494,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var Float32Array_0 = Float32Array;
     var throwCCE = Kotlin.throwCCE;
     var toTypedArray = Kotlin.kotlin.collections.toTypedArray_rjqryz$;
+    var lib = _.com.riseofcat.lib;
     var ensureNotNull = Kotlin.ensureNotNull;
     var WebGLRenderingContext$Companion = WebGLRenderingContext;
     return function (mode, lambda) {
@@ -6024,6 +7504,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       var tmp$;
       var mesh = true ? Kotlin.isType(tmp$ = allArgs, Float32Array_0) ? tmp$ : throwCCE() : new Float32Array_0(toTypedArray(allArgs));
       var tmp$_0;
+      var tmp$_1, tmp$_2;
+      if (allArgs.length <= 0)
+        lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+      if (allArgs.length % ensureNotNull((tmp$_1 = this.currentShader) != null ? tmp$_1.blockSize : null) !== 0) {
+        lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allArgs.length + ',  verticesBlockSize: ' + ensureNotNull((tmp$_2 = this.currentShader) != null ? tmp$_2.blockSize : null));
+      }
       if (true)
         this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
       this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
@@ -6031,10 +7517,17 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     };
   }));
   MassPower.prototype.render_da5qnj$ = defineInlineFunction('game.masspower.MassPower.render_da5qnj$', wrapFunction(function () {
+    var lib = _.com.riseofcat.lib;
     var ensureNotNull = Kotlin.ensureNotNull;
     var WebGLRenderingContext$Companion = WebGLRenderingContext;
     return function (mode, mesh, allFloatArgsCount) {
       var tmp$;
+      var tmp$_0, tmp$_1;
+      if (allFloatArgsCount <= 0)
+        lib.lib.log.error_nez7ok$('allFloatArgsCount<=0');
+      if (allFloatArgsCount % ensureNotNull((tmp$_0 = this.currentShader) != null ? tmp$_0.blockSize : null) !== 0) {
+        lib.lib.log.error_nez7ok$('Number of vertices not a multiple of the attribute block size! allFloatArgsCount: ' + allFloatArgsCount + ',  verticesBlockSize: ' + ensureNotNull((tmp$_1 = this.currentShader) != null ? tmp$_1.blockSize : null));
+      }
       if (true)
         this.gl.activeTexture(WebGLRenderingContext$Companion.TEXTURE0);
       this.gl.bufferData(WebGLRenderingContext$Companion.ARRAY_BUFFER, mesh, WebGLRenderingContext$Companion.DYNAMIC_DRAW);
@@ -6136,22 +7629,25 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'ShaderFull',
     interfaces: []
   };
-  function MassPower$gameScale$lambda(this$MassPower) {
-    return function () {
-      var car = this$MassPower.model.myCar;
+  MassPower.prototype.onRender = function () {
+    renderCalls = renderCalls + 1 | 0;
+    var car = true ? this.myCar : this.model.myCar;
+    this.targetGameScale = 2.0 * this.userScale;
+    if (false) {
       if (car != null) {
-        var result = 1.5 * lib.Fun.arg0toInf_dleff0$(get_radius_0(car.size), get_radius_0(GameConst_getInstance().DEFAULT_CAR_SIZE)) + 3 * lib.Fun.arg0toInf_lu1900$(get_len(car.speed), 1000.0);
-        return Math_0.max(result, 1.0);
+        lib.Fun;
+        var x = car.size;
+        Math_0.sqrt(x);
+        throw new NotImplementedError_init('An operation is not implemented: ' + 'GameConst.DEFAULT_CAR_SIZE.radius');
       }
        else {
-        return 3.0;
+        this.targetGameScale = 3.0 * this.userScale;
       }
-    };
-  }
-  function MassPower$cameraGamePos$lambda(this$MassPower) {
+    }
+  };
+  function MassPower$gameScale$lambda(this$MassPower) {
     return function () {
-      var tmp$, tmp$_0;
-      return (tmp$_0 = (tmp$ = this$MassPower.model.myCar) != null ? tmp$.pos : null) != null ? tmp$_0.copy_lu1900$() : null;
+      return this$MassPower.targetGameScale;
     };
   }
   function MassPower_init$lambda(this$MassPower) {
@@ -6178,14 +7674,16 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   function MassPower_init$lambda_2(this$MassPower) {
     return function (event) {
       if (Kotlin.isType(event, MouseEvent)) {
-        this$MassPower.mousePos = this$MassPower.screenToGame_zgo1bu$(this$MassPower.view, this$MassPower.get_xy_apx4ki$(event));
+        this$MassPower.mousePos = this$MassPower.screenToGame_76k8xu$(this$MassPower.view, this$MassPower.state, this$MassPower.get_xy_apx4ki$(event));
+        this$MassPower.mouseEventXY = this$MassPower.get_xy_apx4ki$(event);
       }
     };
   }
   function MassPower_init$lambda_3(this$MassPower) {
     return function (event) {
+      var tmp$;
       if (Kotlin.isType(event, MouseEvent)) {
-        touch(this$MassPower.model, this$MassPower.screenToGame_zgo1bu$(this$MassPower.view, this$MassPower.get_xy_apx4ki$(event)));
+        _touch(this$MassPower.model, (tmp$ = this$MassPower.myCar) != null ? tmp$.pos : null, this$MassPower.screenToGame_76k8xu$(this$MassPower.view, this$MassPower.state, this$MassPower.get_xy_apx4ki$(event)));
       }
     };
   }
@@ -6199,11 +7697,17 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       this$MassPower.mouseDown = false;
     };
   }
-  function MassPower_init$lambda_6(event) {
-    if (Kotlin.isType(event, KeyboardEvent)) {
-      var code = event.keyCode;
-      var key = Key$Companion_getInstance().getByCode_za3lpa$(code);
-    }
+  function MassPower_init$lambda_6(this$MassPower) {
+    return function (event) {
+      if (Kotlin.isType(event, KeyboardEvent)) {
+        var code = event.keyCode;
+        var key = Key$Companion_getInstance().getByCode_za3lpa$(code);
+        if (equals(key, Key$MINUS_getInstance()))
+          this$MassPower.userScale *= 1.3;
+        else if (equals(key, Key$PLUS_getInstance()))
+          this$MassPower.userScale /= 1.3;
+      }
+    };
   }
   MassPower.$metadata$ = {
     kind: Kind_CLASS,
@@ -6260,15 +7764,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   Mode_0.valueOf_61zpoe$ = Mode$valueOf_0;
   var renderCalls;
-  function onRender() {
-    renderCalls = renderCalls + 1 | 0;
-  }
   function SmoothByRenderCalls(lambda) {
     this.lambda = lambda;
     this.current = null;
     this.currentRenderCall = null;
   }
-  SmoothByRenderCalls.prototype.getValue_lrcp0p$ = function (t, property) {
+  SmoothByRenderCalls.prototype.getValue_t0xcdd$ = function (t, property) {
     var tmp$, tmp$_0;
     if (this.currentRenderCall !== renderCalls) {
       var result = (tmp$ = this.current) != null ? tmp$ : 0.0;
@@ -6286,19 +7787,27 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'SmoothByRenderCalls',
     interfaces: []
   };
-  function CacheByRenderCalls(defaultValue, lambda) {
-    this.defaultValue = defaultValue;
+  function CacheByRenderCalls(lambda) {
     this.lambda = lambda;
-    this.cache = null;
+    this.cache_y7rg8t$_0 = this.cache_y7rg8t$_0;
     this.cachedRenderCall = null;
   }
+  Object.defineProperty(CacheByRenderCalls.prototype, 'cache', {
+    get: function () {
+      if (this.cache_y7rg8t$_0 == null)
+        return throwUPAE('cache');
+      return this.cache_y7rg8t$_0;
+    },
+    set: function (cache) {
+      this.cache_y7rg8t$_0 = cache;
+    }
+  });
   CacheByRenderCalls.prototype.getValue_lrcp0p$ = function (t, property) {
-    var tmp$;
-    if (this.cachedRenderCall !== renderCalls) {
+    if (this.cache_y7rg8t$_0 == null || this.cachedRenderCall !== renderCalls) {
       this.cachedRenderCall = renderCalls;
       this.cache = this.lambda();
     }
-    return (tmp$ = this.cache) != null ? tmp$ : this.defaultValue;
+    return this.cache;
   };
   CacheByRenderCalls.$metadata$ = {
     kind: Kind_CLASS,
@@ -6336,6 +7845,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     Key$SEVEN_instance = new Key('SEVEN', 13, 55, true);
     Key$EIGHT_instance = new Key('EIGHT', 14, 56, true);
     Key$NINE_instance = new Key('NINE', 15, 57, true);
+    Key$PLUS_instance = new Key('PLUS', 16, 61);
+    Key$MINUS_instance = new Key('MINUS', 17, 45);
     Key$Companion_getInstance();
   }
   var Key$Q_instance;
@@ -6418,6 +7929,16 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     Key_initFields();
     return Key$NINE_instance;
   }
+  var Key$PLUS_instance;
+  function Key$PLUS_getInstance() {
+    Key_initFields();
+    return Key$PLUS_instance;
+  }
+  var Key$MINUS_instance;
+  function Key$MINUS_getInstance() {
+    Key_initFields();
+    return Key$MINUS_instance;
+  }
   Object.defineProperty(Key.prototype, 'numValue', {
     get: function () {
       return this.code - 48 | 0;
@@ -6456,7 +7977,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     interfaces: [Enum]
   };
   function Key$values() {
-    return [Key$Q_getInstance(), Key$W_getInstance(), Key$E_getInstance(), Key$R_getInstance(), Key$T_getInstance(), Key$Y_getInstance(), Key$ZERO_getInstance(), Key$ONE_getInstance(), Key$TWO_getInstance(), Key$THREE_getInstance(), Key$FOUR_getInstance(), Key$FIVE_getInstance(), Key$SIX_getInstance(), Key$SEVEN_getInstance(), Key$EIGHT_getInstance(), Key$NINE_getInstance()];
+    return [Key$Q_getInstance(), Key$W_getInstance(), Key$E_getInstance(), Key$R_getInstance(), Key$T_getInstance(), Key$Y_getInstance(), Key$ZERO_getInstance(), Key$ONE_getInstance(), Key$TWO_getInstance(), Key$THREE_getInstance(), Key$FOUR_getInstance(), Key$FIVE_getInstance(), Key$SIX_getInstance(), Key$SEVEN_getInstance(), Key$EIGHT_getInstance(), Key$NINE_getInstance(), Key$PLUS_getInstance(), Key$MINUS_getInstance()];
   }
   Key.values = Key$values;
   function Key$valueOf(name) {
@@ -6493,6 +8014,10 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         return Key$EIGHT_getInstance();
       case 'NINE':
         return Key$NINE_getInstance();
+      case 'PLUS':
+        return Key$PLUS_getInstance();
+      case 'MINUS':
+        return Key$MINUS_getInstance();
       default:throwISE('No enum constant masspower.Key.' + name);
     }
   }
@@ -6548,36 +8073,36 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'ImgCache',
     interfaces: []
   };
-  function RenderData_0(x, y, scale, imgData) {
+  function RenderData(x, y, scale, imgData) {
     this.x = x;
     this.y = y;
     this.scale = scale;
     this.imgData = imgData;
   }
-  RenderData_0.$metadata$ = {
+  RenderData.$metadata$ = {
     kind: Kind_CLASS,
     simpleName: 'RenderData',
     interfaces: []
   };
-  RenderData_0.prototype.component1 = function () {
+  RenderData.prototype.component1 = function () {
     return this.x;
   };
-  RenderData_0.prototype.component2 = function () {
+  RenderData.prototype.component2 = function () {
     return this.y;
   };
-  RenderData_0.prototype.component3 = function () {
+  RenderData.prototype.component3 = function () {
     return this.scale;
   };
-  RenderData_0.prototype.component4 = function () {
+  RenderData.prototype.component4 = function () {
     return this.imgData;
   };
-  RenderData_0.prototype.copy_qzv60i$ = function (x, y, scale, imgData) {
-    return new RenderData_0(x === void 0 ? this.x : x, y === void 0 ? this.y : y, scale === void 0 ? this.scale : scale, imgData === void 0 ? this.imgData : imgData);
+  RenderData.prototype.copy_qzv60i$ = function (x, y, scale, imgData) {
+    return new RenderData(x === void 0 ? this.x : x, y === void 0 ? this.y : y, scale === void 0 ? this.scale : scale, imgData === void 0 ? this.imgData : imgData);
   };
-  RenderData_0.prototype.toString = function () {
+  RenderData.prototype.toString = function () {
     return 'RenderData(x=' + Kotlin.toString(this.x) + (', y=' + Kotlin.toString(this.y)) + (', scale=' + Kotlin.toString(this.scale)) + (', imgData=' + Kotlin.toString(this.imgData)) + ')';
   };
-  RenderData_0.prototype.hashCode = function () {
+  RenderData.prototype.hashCode = function () {
     var result = 0;
     result = result * 31 + Kotlin.hashCode(this.x) | 0;
     result = result * 31 + Kotlin.hashCode(this.y) | 0;
@@ -6585,7 +8110,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     result = result * 31 + Kotlin.hashCode(this.imgData) | 0;
     return result;
   };
-  RenderData_0.prototype.equals = function (other) {
+  RenderData.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.x, other.x) && Kotlin.equals(this.y, other.y) && Kotlin.equals(this.scale, other.scale) && Kotlin.equals(this.imgData, other.imgData)))));
   };
   function View_0() {
@@ -7067,20 +8592,19 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         var imgData2 = new ImgData_0(BIG_TEXTURE ? 'img/smiley.png' : 'img/smiley_small_rect.png');
         var imgData = new ImgData_0(BIG_TEXTURE ? 'img/smiley.png' : 'img/smiley_small_rect_green.png');
         var scale = BIG_TEXTURE ? SCALE : 8 * SCALE;
-        var $receiver = mutableListOf([new RenderData_0(500.0, 500.0, scale, imgData)]);
-        var size = COUNT;
-        var list = ArrayList_init(size);
-        for (var index = 0; index < size; index++) {
+        var $receiver = mutableListOf([new RenderData(500.0, 500.0, scale, imgData)]);
+        var list = ArrayList_init(100);
+        for (var index = 0; index < 100; index++) {
           var tmp$_2 = list.add_11rb$;
           var x = this.time * index;
           var x_0 = 400.0 + Math_0.sin(x) * 300.0;
           var tmp$_3 = this.view.gameHeight / 2.0;
           var x_1 = this.time / 2.5 * index;
           var y = tmp$_3 + Math_0.cos(x_1) * 300.0;
-          tmp$_2.call(list, new RenderData_0(x_0, y, scale, index % 2 === 0 ? imgData2 : imgData));
+          tmp$_2.call(list, new RenderData(x_0, y, scale, index % 2 === 0 ? imgData2 : imgData));
         }
         $receiver.addAll_brywnq$(list);
-        $receiver.add_11rb$(new RenderData_0(this.mouseX, this.mouseY, scale, imgData));
+        $receiver.add_11rb$(new RenderData(this.mouseX, this.mouseY, scale, imgData));
         var tmp$_4;
         tmp$_4 = $receiver.iterator();
         while (tmp$_4.hasNext()) {
@@ -7899,12 +9423,863 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   function max_1($receiver, other) {
     return Math_0.max($receiver, other);
   }
+  function Tree() {
+  }
+  Tree.$metadata$ = {
+    kind: Kind_INTERFACE,
+    simpleName: 'Tree',
+    interfaces: []
+  };
+  function BinarySearchTree() {
+    this.root = null;
+  }
+  BinarySearchTree.prototype.insert_ncwa5f$ = function (key, value) {
+    var father = null;
+    var current = this.root;
+    while (current != null) {
+      father = current;
+      if (Kotlin.compareTo(key, current.key) < 0)
+        current = current.left;
+      else if (Kotlin.compareTo(key, current.key) > 0)
+        current = current.right;
+      else if (equals(key, current.key)) {
+        current.value = value;
+        return;
+      }
+    }
+    if (father == null) {
+      this.root = new Node(key, value);
+      return;
+    }
+    if (Kotlin.compareTo(key, father.key) < 0)
+      father.left = new Node(key, value, father);
+    else
+      father.right = new Node(key, value, father);
+  };
+  BinarySearchTree.prototype.delete_mef7kx$ = function (key) {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4;
+    tmp$ = this.findNode_0(key);
+    if (tmp$ == null) {
+      return;
+    }
+    var delNode = tmp$;
+    var delParent = delNode.parent;
+    if (delNode.left == null && delNode.right == null) {
+      if (delNode.parent == null) {
+        this.root = null;
+        return;
+      }
+      if (equals(delNode, delParent != null ? delParent.left : null))
+        delParent.left = null;
+      if (equals(delNode, delParent != null ? delParent.right : null))
+        delParent.right = null;
+    }
+     else if (delNode.left == null || delNode.right == null) {
+      if (delNode.left == null) {
+        if (equals(delParent != null ? delParent.left : null, delNode))
+          delParent.left = delNode.right;
+        else
+          delParent != null ? (delParent.right = delNode.right) : null;
+        (tmp$_0 = delNode.right) != null ? (tmp$_0.parent = delParent) : null;
+      }
+       else {
+        if (equals(delParent != null ? delParent.left : null, delNode))
+          delParent.left = delNode.left;
+        else
+          delParent != null ? (delParent.right = delNode.left) : null;
+        (tmp$_1 = delNode.left) != null ? (tmp$_1.parent = delParent) : null;
+      }
+    }
+     else {
+      var successor = ensureNotNull(this.min_0(delNode.right));
+      delNode.key = successor.key;
+      if (equals((tmp$_2 = successor.parent) != null ? tmp$_2.left : null, successor)) {
+        (tmp$_3 = successor.parent) != null ? (tmp$_3.left = successor.right) : null;
+        if (successor.right != null)
+          ensureNotNull(successor.right).parent = successor.parent;
+      }
+       else {
+        (tmp$_4 = successor.parent) != null ? (tmp$_4.right = successor.right) : null;
+        if (successor.right != null)
+          ensureNotNull(successor.right).parent = successor.parent;
+      }
+    }
+  };
+  BinarySearchTree.prototype.find_mef7kx$ = function (key) {
+    var result = this.findNode_0(key);
+    if (result == null)
+      return null;
+    else
+      return new Pair(result.key, result.value);
+  };
+  BinarySearchTree.prototype.findNode_0 = function (key) {
+    var current = this.root;
+    while (current != null) {
+      if (equals(key, current.key))
+        return current;
+      if (Kotlin.compareTo(key, current.key) < 0)
+        current = current.left;
+      else
+        current = current.right;
+    }
+    return null;
+  };
+  function BinarySearchTree$iterator$ObjectLiteral(this$BinarySearchTree) {
+    this.this$BinarySearchTree = this$BinarySearchTree;
+    this.node = this$BinarySearchTree.max_0(this$BinarySearchTree.root);
+    this.nxt = this$BinarySearchTree.max_0(this$BinarySearchTree.root);
+    this.lst = this$BinarySearchTree.min_0(this$BinarySearchTree.root);
+  }
+  BinarySearchTree$iterator$ObjectLiteral.prototype.hasNext = function () {
+    return this.node != null && Kotlin.compareTo(ensureNotNull(this.node).key, ensureNotNull(this.lst).key) >= 0;
+  };
+  BinarySearchTree$iterator$ObjectLiteral.prototype.next = function () {
+    this.nxt = this.node;
+    this.node = this.this$BinarySearchTree.nextSmaller_0(this.node);
+    return new Pair(ensureNotNull(this.nxt).key, ensureNotNull(this.nxt).value);
+  };
+  BinarySearchTree$iterator$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [Iterator]
+  };
+  BinarySearchTree.prototype.iterator = function () {
+    return new BinarySearchTree$iterator$ObjectLiteral(this);
+  };
+  BinarySearchTree.prototype.nextSmaller_0 = function (node) {
+    var tmp$, tmp$_0;
+    if (node == null) {
+      return null;
+    }
+    var smaller = node;
+    if (smaller.left != null) {
+      return this.max_0(ensureNotNull(smaller.left));
+    }
+     else if (equals(smaller, (tmp$ = smaller.parent) != null ? tmp$.left : null)) {
+      while (equals(smaller, (tmp$_0 = smaller.parent) != null ? tmp$_0.left : null))
+        smaller = ensureNotNull(smaller.parent);
+    }
+    return smaller.parent;
+  };
+  BinarySearchTree.prototype.min_0 = function (rootNode) {
+    if ((rootNode != null ? rootNode.left : null) == null)
+      return rootNode;
+    else
+      return this.min_0(rootNode.left);
+  };
+  BinarySearchTree.prototype.max_0 = function (rootNode) {
+    if ((rootNode != null ? rootNode.right : null) == null)
+      return rootNode;
+    else
+      return this.max_0(rootNode.right);
+  };
+  BinarySearchTree.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BinarySearchTree',
+    interfaces: [Iterable, Tree]
+  };
+  function Node(key, value, parent) {
+    if (parent === void 0)
+      parent = null;
+    this.key = key;
+    this.value = value;
+    this.parent = parent;
+    this.left = null;
+    this.right = null;
+  }
+  Node.prototype.equals = function (other) {
+    var tmp$;
+    if (this === other)
+      return true;
+    if (!Kotlin.isType(other, Node))
+      return false;
+    Kotlin.isType(tmp$ = other, Node) ? tmp$ : throwCCE();
+    if (!equals(this.key, other.key))
+      return false;
+    if (!equals(this.value, other.value))
+      return false;
+    if (!equals(this.parent, other.parent))
+      return false;
+    if (!equals(this.left, other.left))
+      return false;
+    if (!equals(this.right, other.right))
+      return false;
+    return true;
+  };
+  Node.prototype.hashCode = function () {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5, tmp$_6;
+    var result = hashCode(this.key);
+    result = (31 * result | 0) + ((tmp$_0 = (tmp$ = this.value) != null ? hashCode(tmp$) : null) != null ? tmp$_0 : 0) | 0;
+    result = (31 * result | 0) + ((tmp$_2 = (tmp$_1 = this.parent) != null ? tmp$_1.hashCode() : null) != null ? tmp$_2 : 0) | 0;
+    result = (31 * result | 0) + ((tmp$_4 = (tmp$_3 = this.left) != null ? tmp$_3.hashCode() : null) != null ? tmp$_4 : 0) | 0;
+    result = (31 * result | 0) + ((tmp$_6 = (tmp$_5 = this.right) != null ? tmp$_5.hashCode() : null) != null ? tmp$_6 : 0) | 0;
+    return result;
+  };
+  Node.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'Node',
+    interfaces: []
+  };
+  function Printer() {
+  }
+  Printer.prototype.printTree_c68fpk$ = function (tree) {
+    var tmp$;
+    this.printNode_ea9f08$(void 0, (Kotlin.isType(tmp$ = tree, BinarySearchTree) ? tmp$ : throwCCE()).root);
+  };
+  Printer.prototype.printNode_ea9f08$ = function (height, node) {
+    if (height === void 0)
+      height = 0;
+    if (node == null)
+      return;
+    this.printNode_ea9f08$(height + 1 | 0, node.right);
+    for (var i = 1; i <= height; i++)
+      print(' |');
+    println(node.key.toString() + toString(node.value));
+    this.printNode_ea9f08$(height + 1 | 0, node.left);
+  };
+  Printer.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'Printer',
+    interfaces: []
+  };
+  function BNode(isLeaf) {
+    if (isLeaf === void 0)
+      isLeaf = true;
+    this.isLeaf = isLeaf;
+    this.keys = ArrayList_init();
+    this.children = ArrayList_init();
+  }
+  BNode.prototype.splitChildren_vux9f0$ = function (t, i) {
+    var tmp$, tmp$_0;
+    var splitNode = this.children.get_za3lpa$(i);
+    var newNode = new BNode(splitNode.isLeaf);
+    tmp$ = t - 2 | 0;
+    for (var j = 0; j <= tmp$; j++) {
+      newNode.keys.add_11rb$(splitNode.keys.get_za3lpa$(t));
+      splitNode.keys.removeAt_za3lpa$(t);
+    }
+    if (!splitNode.isLeaf) {
+      tmp$_0 = t - 1 | 0;
+      for (var j_0 = 0; j_0 <= tmp$_0; j_0++) {
+        newNode.children.add_11rb$(splitNode.children.get_za3lpa$(t));
+        splitNode.children.removeAt_za3lpa$(t);
+      }
+    }
+    this.children.add_wxm5ur$(i + 1 | 0, newNode);
+    this.keys.add_wxm5ur$(i, splitNode.keys.get_za3lpa$(t - 1 | 0));
+    splitNode.keys.removeAt_za3lpa$(t - 1 | 0);
+  };
+  BNode.prototype.mergeChildren_za3lpa$ = function (i) {
+    var left = this.children.get_za3lpa$(i);
+    var right = this.children.get_za3lpa$(i + 1 | 0);
+    var key = this.keys.get_za3lpa$(i);
+    left.keys.add_11rb$(key);
+    left.keys.addAll_brywnq$(right.keys);
+    if (!right.isLeaf)
+      left.children.addAll_brywnq$(right.children);
+    this.keys.removeAt_za3lpa$(i);
+    this.children.removeAt_za3lpa$(i + 1 | 0);
+  };
+  BNode.prototype.equals = function (other) {
+    var tmp$;
+    if (this === other)
+      return true;
+    if (!Kotlin.isType(other, BNode))
+      return false;
+    Kotlin.isType(tmp$ = other, BNode) ? tmp$ : throwCCE();
+    if (this.isLeaf !== other.isLeaf)
+      return false;
+    if (!equals(this.keys, other.keys))
+      return false;
+    if (!equals(this.children, other.children))
+      return false;
+    return true;
+  };
+  BNode.prototype.hashCode = function () {
+    var result = hashCode(this.isLeaf);
+    result = (31 * result | 0) + hashCode(this.keys) | 0;
+    result = (31 * result | 0) + hashCode(this.children) | 0;
+    return result;
+  };
+  BNode.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BNode',
+    interfaces: []
+  };
+  function BTree(t) {
+    this.t = t;
+    this.root = null;
+  }
+  BTree.prototype.insert_mef7kx$ = function (key) {
+    if (this.root == null)
+      this.root = new BNode();
+    if (ensureNotNull(this.root).keys.size === ((2 * this.t | 0) - 1 | 0)) {
+      var newNode = new BNode(false);
+      newNode.children.add_11rb$(ensureNotNull(this.root));
+      newNode.splitChildren_vux9f0$(this.t, 0);
+      this.root = newNode;
+      this.insertNonfull_0(key, newNode);
+    }
+     else
+      this.insertNonfull_0(key, ensureNotNull(this.root));
+  };
+  BTree.prototype.insertNonfull_0 = function (key, node) {
+    var i = 0;
+    while (i < node.keys.size && Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0) {
+      i = i + 1 | 0;
+    }
+    if (node.isLeaf)
+      node.keys.add_wxm5ur$(i, key);
+    else {
+      if (node.children.get_za3lpa$(i).keys.size === ((2 * this.t | 0) - 1 | 0)) {
+        node.splitChildren_vux9f0$(this.t, i);
+        if (Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0) {
+          i = i + 1 | 0;
+        }
+      }
+      this.insertNonfull_0(key, node.children.get_za3lpa$(i));
+    }
+  };
+  BTree.prototype.delete_mef7kx$ = function (key) {
+    if (this.find_mef7kx$(key) == null)
+      return;
+    if (this.root == null)
+      return;
+    this.deletePrivate_0(key, ensureNotNull(this.root));
+    if (ensureNotNull(this.root).keys.size === 0)
+      this.root = null;
+  };
+  BTree.prototype.deletePrivate_0 = function (key, node) {
+    var i = 0;
+    while (i < node.keys.size && Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0) {
+      i = i + 1 | 0;
+    }
+    if (node.keys.size > i && equals(node.keys.get_za3lpa$(i), key)) {
+      if (node.isLeaf) {
+        node.keys.removeAt_za3lpa$(i);
+      }
+       else if (node.children.get_za3lpa$(i).keys.size > (this.t - 1 | 0)) {
+        var prevNode = this.prevKey_0(key, node);
+        node.keys.set_wxm5ur$(i, last(prevNode.keys));
+        this.deletePrivate_0(last(prevNode.keys), node.children.get_za3lpa$(i));
+      }
+       else if (node.children.get_za3lpa$(i + 1 | 0).keys.size > (this.t - 1 | 0)) {
+        var nextNode = this.nextKey_0(key, node);
+        node.keys.set_wxm5ur$(i, first(nextNode.keys));
+        this.deletePrivate_0(first(nextNode.keys), node.children.get_za3lpa$(i + 1 | 0));
+      }
+       else {
+        node.mergeChildren_za3lpa$(i);
+        if (node.keys.isEmpty()) {
+          this.root = node.children.get_za3lpa$(i);
+        }
+        this.deletePrivate_0(key, node.children.get_za3lpa$(i));
+      }
+    }
+     else {
+      if (node.children.get_za3lpa$(i).keys.size < this.t) {
+        var tmp$;
+        if (!((tmp$ = node.children.get_za3lpa$(i)) != null ? tmp$.equals(last(node.children)) : null) && node.children.get_za3lpa$(i + 1 | 0).keys.size > (this.t - 1 | 0)) {
+          node.children.get_za3lpa$(i).keys.add_11rb$(node.keys.get_za3lpa$(i));
+          node.keys.set_wxm5ur$(i, first(node.children.get_za3lpa$(i + 1 | 0).keys));
+          node.children.get_za3lpa$(i + 1 | 0).keys.removeAt_za3lpa$(0);
+          if (!node.children.get_za3lpa$(i).isLeaf) {
+            node.children.get_za3lpa$(i).children.add_11rb$(first(node.children.get_za3lpa$(i + 1 | 0).children));
+            node.children.get_za3lpa$(i + 1 | 0).children.removeAt_za3lpa$(0);
+          }
+        }
+         else {
+          var tmp$_0;
+          if (!((tmp$_0 = node.children.get_za3lpa$(i)) != null ? tmp$_0.equals(first(node.children)) : null) && node.children.get_za3lpa$(i - 1 | 0).keys.size > (this.t - 1 | 0)) {
+            node.children.get_za3lpa$(i).keys.add_wxm5ur$(0, node.keys.get_za3lpa$(i - 1 | 0));
+            node.keys.set_wxm5ur$(i - 1 | 0, last(node.children.get_za3lpa$(i - 1 | 0).keys));
+            node.children.get_za3lpa$(i - 1 | 0).keys.removeAt_za3lpa$(node.children.get_za3lpa$(i - 1 | 0).keys.size - 1 | 0);
+            if (!node.children.get_za3lpa$(i).isLeaf) {
+              node.children.get_za3lpa$(i).children.add_wxm5ur$(0, last(node.children.get_za3lpa$(i - 1 | 0).children));
+              node.children.get_za3lpa$(i - 1 | 0).children.removeAt_za3lpa$(node.children.get_za3lpa$(i - 1 | 0).children.size - 1 | 0);
+            }
+          }
+           else {
+            var tmp$_1;
+            if (!((tmp$_1 = node.children.get_za3lpa$(i)) != null ? tmp$_1.equals(last(node.children)) : null)) {
+              node.mergeChildren_za3lpa$(i);
+              if (node.keys.isEmpty()) {
+                this.root = node.children.get_za3lpa$(i);
+              }
+            }
+             else {
+              var tmp$_2;
+              if (!((tmp$_2 = node.children.get_za3lpa$(i)) != null ? tmp$_2.equals(first(node.children)) : null)) {
+                node.mergeChildren_za3lpa$(i - 1 | 0);
+                if (node.keys.isEmpty()) {
+                  this.root = node.children.get_za3lpa$(i - 1 | 0);
+                }
+                i = i - 1 | 0;
+              }
+            }
+          }
+        }
+      }
+      this.deletePrivate_0(key, node.children.get_za3lpa$(i));
+    }
+  };
+  BTree.prototype.prevKey_0 = function (key, node) {
+    var currentNode = node.children.get_za3lpa$(node.keys.indexOf_11rb$(key));
+    while (!currentNode.isLeaf)
+      currentNode = last(currentNode.children);
+    return currentNode;
+  };
+  BTree.prototype.nextKey_0 = function (key, node) {
+    var currentNode = node.children.get_za3lpa$(node.keys.indexOf_11rb$(key) + 1 | 0);
+    while (!currentNode.isLeaf)
+      currentNode = first(currentNode.children);
+    return currentNode;
+  };
+  BTree.prototype.find_mef7kx$ = function (key) {
+    var tmp$;
+    tmp$ = this.root;
+    if (tmp$ == null) {
+      return null;
+    }
+    var node = tmp$;
+    var i = 0;
+    while (i < (ensureNotNull(node).keys.size - 1 | 0) && Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0) {
+      i = i + 1 | 0;
+    }
+    while (!equals(ensureNotNull(node).keys.get_za3lpa$(i), key)) {
+      if (node.isLeaf)
+        return null;
+      if (Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) < 0)
+        node = node.children.get_za3lpa$(i);
+      else if (Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0)
+        node = node.children.get_za3lpa$(i + 1 | 0);
+      i = 0;
+      while (i < (node.keys.size - 1 | 0) && Kotlin.compareTo(key, node.keys.get_za3lpa$(i)) > 0) {
+        i = i + 1 | 0;
+      }
+    }
+    return key;
+  };
+  BTree.prototype.iterator = function () {
+    throw new NotImplementedError_init('An operation is not implemented: ' + 'LinkedList in JS');
+  };
+  BTree.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BTree',
+    interfaces: [Iterable]
+  };
+  function RBNode(key, value, parent, colorBlack) {
+    if (parent === void 0)
+      parent = null;
+    if (colorBlack === void 0)
+      colorBlack = false;
+    this.key = key;
+    this.value = value;
+    this.parent = parent;
+    this.colorBlack = colorBlack;
+    this.left = null;
+    this.right = null;
+  }
+  RBNode.prototype.isLeaf = function () {
+    return this.left == null && this.right == null;
+  };
+  RBNode.prototype.brother = function () {
+    var tmp$, tmp$_0;
+    if (equals(this, (tmp$ = this.parent) != null ? tmp$.left : null))
+      return ensureNotNull(this.parent).right;
+    return (tmp$_0 = this.parent) != null ? tmp$_0.left : null;
+  };
+  RBNode.prototype.rotateLeft = function () {
+    var tmp$, tmp$_0;
+    tmp$ = this.right;
+    if (tmp$ == null) {
+      return;
+    }
+    var rightChild = tmp$;
+    var dad = this.parent;
+    this.swapColors_0(rightChild);
+    (tmp$_0 = rightChild.left) != null ? (tmp$_0.parent = this) : null;
+    this.right = rightChild.left;
+    rightChild.left = this;
+    if (equals(this, dad != null ? dad.left : null))
+      dad.left = rightChild;
+    else if (equals(this, dad != null ? dad.right : null))
+      dad.right = rightChild;
+    this.parent = rightChild;
+    rightChild.parent = dad;
+  };
+  RBNode.prototype.rotateRight = function () {
+    var tmp$, tmp$_0;
+    tmp$ = this.left;
+    if (tmp$ == null) {
+      return;
+    }
+    var leftChild = tmp$;
+    var dad = this.parent;
+    this.swapColors_0(leftChild);
+    (tmp$_0 = leftChild.right) != null ? (tmp$_0.parent = this) : null;
+    this.left = leftChild.right;
+    leftChild.right = this;
+    if (equals(this, dad != null ? dad.left : null))
+      dad.left = leftChild;
+    else if (equals(this, dad != null ? dad.right : null))
+      dad.right = leftChild;
+    this.parent = leftChild;
+    leftChild.parent = dad;
+  };
+  RBNode.prototype.swapColors_0 = function (node2) {
+    var node1color = this.colorBlack;
+    if (node2 != null) {
+      this.colorBlack = node2.colorBlack;
+      node2.colorBlack = node1color;
+    }
+  };
+  RBNode.prototype.equals = function (other) {
+    var tmp$;
+    if (this === other)
+      return true;
+    if (!Kotlin.isType(other, RBNode))
+      return false;
+    Kotlin.isType(tmp$ = other, RBNode) ? tmp$ : throwCCE();
+    if (!equals(this.key, other.key))
+      return false;
+    if (!equals(this.value, other.value))
+      return false;
+    if (!equals(this.parent, other.parent))
+      return false;
+    if (this.colorBlack !== other.colorBlack)
+      return false;
+    if (!equals(this.left, other.left))
+      return false;
+    if (!equals(this.right, other.right))
+      return false;
+    return true;
+  };
+  RBNode.prototype.hashCode = function () {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5, tmp$_6;
+    var result = hashCode(this.key);
+    result = (31 * result | 0) + ((tmp$_0 = (tmp$ = this.value) != null ? hashCode(tmp$) : null) != null ? tmp$_0 : 0) | 0;
+    result = (31 * result | 0) + ((tmp$_2 = (tmp$_1 = this.parent) != null ? tmp$_1.hashCode() : null) != null ? tmp$_2 : 0) | 0;
+    result = (31 * result | 0) + hashCode(this.colorBlack) | 0;
+    result = (31 * result | 0) + ((tmp$_4 = (tmp$_3 = this.left) != null ? tmp$_3.hashCode() : null) != null ? tmp$_4 : 0) | 0;
+    result = (31 * result | 0) + ((tmp$_6 = (tmp$_5 = this.right) != null ? tmp$_5.hashCode() : null) != null ? tmp$_6 : 0) | 0;
+    return result;
+  };
+  RBNode.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'RBNode',
+    interfaces: []
+  };
+  function RBPrinter() {
+  }
+  RBPrinter.prototype.printTree_c68fpk$ = function (tree) {
+    var tmp$;
+    this.printNode_5yu9yl$(void 0, (Kotlin.isType(tmp$ = tree, RedBlackTree) ? tmp$ : throwCCE()).root);
+  };
+  RBPrinter.prototype.printNode_5yu9yl$ = function (height, node) {
+    if (height === void 0)
+      height = 0;
+    if (node == null)
+      return;
+    this.printNode_5yu9yl$(height + 1 | 0, node.right);
+    for (var i = 1; i <= height; i++)
+      print(' |');
+    if (!node.colorBlack) {
+      var $receiver = toChar(27);
+      var other = '[31m' + node.key;
+      println(String.fromCharCode($receiver) + other + toString(node.value) + String.fromCharCode(toBoxedChar(toChar(27))) + '[0m');
+    }
+     else {
+      var $receiver_0 = toChar(27);
+      var other_0 = '[30m' + node.key;
+      println(String.fromCharCode($receiver_0) + other_0 + toString(node.value) + String.fromCharCode(toBoxedChar(toChar(27))) + '[0m');
+    }
+    this.printNode_5yu9yl$(height + 1 | 0, node.left);
+  };
+  RBPrinter.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'RBPrinter',
+    interfaces: []
+  };
+  function RedBlackTree() {
+    this.root = null;
+  }
+  RedBlackTree.prototype.insert_ncwa5f$ = function (key, value) {
+    var father = null;
+    var current = this.root;
+    while (current != null) {
+      father = current;
+      if (Kotlin.compareTo(key, current.key) < 0)
+        current = current.left;
+      else if (Kotlin.compareTo(key, current.key) > 0)
+        current = current.right;
+      else if (equals(key, current.key)) {
+        current.value = value;
+        return;
+      }
+    }
+    if (father == null) {
+      this.root = new RBNode(key, value, father, true);
+      return;
+    }
+    if (Kotlin.compareTo(key, father.key) < 0) {
+      father.left = new RBNode(key, value, father, false);
+      this.insertFixup_0(father.left);
+    }
+     else {
+      father.right = new RBNode(key, value, father, false);
+      this.insertFixup_0(father.right);
+    }
+  };
+  RedBlackTree.prototype.insertFixup_0 = function (node) {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5, tmp$_6, tmp$_7, tmp$_8, tmp$_9, tmp$_10, tmp$_11, tmp$_12, tmp$_13, tmp$_14, tmp$_15, tmp$_16, tmp$_17, tmp$_18, tmp$_19, tmp$_20, tmp$_21, tmp$_22, tmp$_23, tmp$_24;
+    var uncle;
+    var current = node;
+    while (((tmp$ = current != null ? current.parent : null) != null ? tmp$.colorBlack : null) === false) {
+      if (equals(current.parent, (tmp$_1 = (tmp$_0 = current.parent) != null ? tmp$_0.parent : null) != null ? tmp$_1.left : null)) {
+        uncle = (tmp$_3 = (tmp$_2 = current.parent) != null ? tmp$_2.parent : null) != null ? tmp$_3.right : null;
+        if ((uncle != null ? uncle.colorBlack : null) === false) {
+          (tmp$_4 = current.parent) != null ? (tmp$_4.colorBlack = true) : null;
+          uncle.colorBlack = true;
+          (tmp$_6 = (tmp$_5 = current.parent) != null ? tmp$_5.parent : null) != null ? (tmp$_6.colorBlack = false) : null;
+          current = (tmp$_7 = current.parent) != null ? tmp$_7.parent : null;
+        }
+         else {
+          var tmp$_25;
+          if (equals(current, (tmp$_25 = current.parent) != null ? tmp$_25.right : null)) {
+            current = current.parent;
+            if (((tmp$_8 = ensureNotNull(current).parent) != null ? tmp$_8.parent : null) == null)
+              this.root = current.parent;
+            current.rotateLeft();
+          }
+           else {
+            var tmp$_26;
+            if (equals(current, (tmp$_26 = current.parent) != null ? tmp$_26.left : null)) {
+              if (((tmp$_10 = (tmp$_9 = current.parent) != null ? tmp$_9.parent : null) != null ? tmp$_10.parent : null) == null)
+                this.root = current.parent;
+              (tmp$_12 = (tmp$_11 = current.parent) != null ? tmp$_11.parent : null) != null ? (tmp$_12.rotateRight(), Unit) : null;
+            }
+          }
+        }
+      }
+       else {
+        uncle = (tmp$_14 = (tmp$_13 = current.parent) != null ? tmp$_13.parent : null) != null ? tmp$_14.left : null;
+        if ((uncle != null ? uncle.colorBlack : null) === false) {
+          (tmp$_15 = current.parent) != null ? (tmp$_15.colorBlack = true) : null;
+          uncle.colorBlack = true;
+          (tmp$_17 = (tmp$_16 = current.parent) != null ? tmp$_16.parent : null) != null ? (tmp$_17.colorBlack = false) : null;
+          current = (tmp$_18 = current.parent) != null ? tmp$_18.parent : null;
+        }
+         else {
+          var tmp$_27;
+          if (equals(current, (tmp$_27 = current.parent) != null ? tmp$_27.left : null)) {
+            current = current.parent;
+            if (((tmp$_19 = ensureNotNull(current).parent) != null ? tmp$_19.parent : null) == null)
+              this.root = current.parent;
+            current.rotateRight();
+          }
+           else {
+            var tmp$_28;
+            if (equals(current, (tmp$_28 = current.parent) != null ? tmp$_28.right : null)) {
+              if (((tmp$_21 = (tmp$_20 = current.parent) != null ? tmp$_20.parent : null) != null ? tmp$_21.parent : null) == null)
+                this.root = current.parent;
+              (tmp$_23 = (tmp$_22 = current.parent) != null ? tmp$_22.parent : null) != null ? (tmp$_23.rotateLeft(), Unit) : null;
+            }
+          }
+        }
+      }
+    }
+    (tmp$_24 = this.root) != null ? (tmp$_24.colorBlack = true) : null;
+  };
+  RedBlackTree.prototype.find_mef7kx$ = function (key) {
+    var result = this.findNode_0(key);
+    if (result == null)
+      return null;
+    else
+      return new Pair(result.key, result.value);
+  };
+  RedBlackTree.prototype.findNode_0 = function (key) {
+    var current = this.root;
+    while (current != null) {
+      if (equals(key, current.key))
+        return current;
+      if (Kotlin.compareTo(key, current.key) < 0)
+        current = current.left;
+      else
+        current = current.right;
+    }
+    return null;
+  };
+  RedBlackTree.prototype.delete_mef7kx$ = function (key) {
+    var tmp$;
+    tmp$ = this.findNode_0(key);
+    if (tmp$ == null) {
+      return;
+    }
+    var node = tmp$;
+    this.deleteNode_0(node);
+  };
+  RedBlackTree.prototype.deleteNode_0 = function (node) {
+    var prev = this.max_0(node.left);
+    if (node.right != null && node.left != null) {
+      node.key = ensureNotNull(prev).key;
+      node.value = prev.value;
+      this.deleteNode_0(prev);
+      return;
+    }
+     else if (equals(node, this.root) && node.isLeaf()) {
+      this.root = null;
+      return;
+    }
+     else if (!node.colorBlack && node.isLeaf()) {
+      if (equals(node, ensureNotNull(node.parent).left))
+        ensureNotNull(node.parent).left = null;
+      else
+        ensureNotNull(node.parent).right = null;
+      return;
+    }
+     else if (node.colorBlack && node.left != null && !ensureNotNull(node.left).colorBlack) {
+      node.key = ensureNotNull(node.left).key;
+      node.value = ensureNotNull(node.left).value;
+      node.left = null;
+      return;
+    }
+     else if (node.colorBlack && node.right != null && !ensureNotNull(node.right).colorBlack) {
+      node.key = ensureNotNull(node.right).key;
+      node.value = ensureNotNull(node.right).value;
+      node.right = null;
+      return;
+    }
+     else {
+      this.deleteCase1_0(node);
+    }
+    if (equals(node, ensureNotNull(node.parent).left))
+      ensureNotNull(node.parent).left = null;
+    else
+      ensureNotNull(node.parent).right = null;
+  };
+  RedBlackTree.prototype.deleteCase1_0 = function (node) {
+    if (node.parent != null)
+      this.deleteCase2_0(node);
+  };
+  RedBlackTree.prototype.deleteCase2_0 = function (node) {
+    var brother = node.brother();
+    if (!ensureNotNull(brother).colorBlack) {
+      if (equals(node, ensureNotNull(node.parent).left))
+        ensureNotNull(node.parent).rotateLeft();
+      else if (equals(node, ensureNotNull(node.parent).right))
+        ensureNotNull(node.parent).rotateRight();
+      if (equals(this.root, node.parent))
+        this.root = ensureNotNull(node.parent).parent;
+    }
+    this.deleteCase3_0(node);
+  };
+  RedBlackTree.prototype.deleteCase3_0 = function (node) {
+    var brother = node.brother();
+    var a = ensureNotNull(brother).left == null || ensureNotNull(brother.left).colorBlack;
+    var b = brother.right == null || ensureNotNull(brother.right).colorBlack;
+    if (a && b && brother.colorBlack && ensureNotNull(node.parent).colorBlack) {
+      brother.colorBlack = false;
+      this.deleteCase1_0(ensureNotNull(node.parent));
+    }
+     else
+      this.deleteCase4_0(node);
+  };
+  RedBlackTree.prototype.deleteCase4_0 = function (node) {
+    var brother = node.brother();
+    var a = ensureNotNull(brother).left == null || ensureNotNull(brother.left).colorBlack;
+    var b = brother.right == null || ensureNotNull(brother.right).colorBlack;
+    if (a && b && brother.colorBlack && !ensureNotNull(node.parent).colorBlack) {
+      brother.colorBlack = false;
+      ensureNotNull(node.parent).colorBlack = true;
+    }
+     else
+      this.deleteCase5_0(node);
+  };
+  RedBlackTree.prototype.deleteCase5_0 = function (node) {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2;
+    var brother = node.brother();
+    var a = ensureNotNull(brother).left == null || ensureNotNull(brother.left).colorBlack;
+    var b = brother.right == null || ensureNotNull(brother.right).colorBlack;
+    if (brother.colorBlack) {
+      if (((tmp$ = brother.left) != null ? tmp$.colorBlack : null) === false && b && equals(node, (tmp$_0 = node.parent) != null ? tmp$_0.left : null))
+        brother.rotateRight();
+      else if (((tmp$_1 = brother.right) != null ? tmp$_1.colorBlack : null) === false && a && equals(node, (tmp$_2 = node.parent) != null ? tmp$_2.right : null))
+        brother.rotateLeft();
+    }
+    this.deleteCase6_0(node);
+  };
+  RedBlackTree.prototype.deleteCase6_0 = function (node) {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2;
+    var brother = node.brother();
+    if (equals(node, ensureNotNull(node.parent).left)) {
+      (tmp$ = brother != null ? brother.right : null) != null ? (tmp$.colorBlack = true) : null;
+      (tmp$_0 = node.parent) != null ? (tmp$_0.rotateLeft(), Unit) : null;
+    }
+     else {
+      (tmp$_1 = brother != null ? brother.left : null) != null ? (tmp$_1.colorBlack = true) : null;
+      (tmp$_2 = node.parent) != null ? (tmp$_2.rotateRight(), Unit) : null;
+    }
+    if (equals(this.root, node.parent))
+      this.root = ensureNotNull(node.parent).parent;
+  };
+  function RedBlackTree$iterator$ObjectLiteral(this$RedBlackTree) {
+    this.this$RedBlackTree = this$RedBlackTree;
+    this.node = this$RedBlackTree.max_0(this$RedBlackTree.root);
+    this.nxt = this$RedBlackTree.max_0(this$RedBlackTree.root);
+    this.lst = this$RedBlackTree.min_0(this$RedBlackTree.root);
+  }
+  RedBlackTree$iterator$ObjectLiteral.prototype.hasNext = function () {
+    return this.node != null && Kotlin.compareTo(ensureNotNull(this.node).key, ensureNotNull(this.lst).key) >= 0;
+  };
+  RedBlackTree$iterator$ObjectLiteral.prototype.next = function () {
+    this.nxt = this.node;
+    this.node = this.this$RedBlackTree.nextSmaller_0(this.node);
+    return new Pair(ensureNotNull(this.nxt).key, ensureNotNull(this.nxt).value);
+  };
+  RedBlackTree$iterator$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [Iterator]
+  };
+  RedBlackTree.prototype.iterator = function () {
+    return new RedBlackTree$iterator$ObjectLiteral(this);
+  };
+  RedBlackTree.prototype.nextSmaller_0 = function (node) {
+    var tmp$, tmp$_0;
+    if (node == null) {
+      return null;
+    }
+    var smaller = node;
+    if (smaller.left != null)
+      return this.max_0(ensureNotNull(smaller.left));
+    else if (equals(smaller, (tmp$ = smaller.parent) != null ? tmp$.left : null)) {
+      while (equals(smaller, (tmp$_0 = smaller.parent) != null ? tmp$_0.left : null))
+        smaller = ensureNotNull(smaller.parent);
+    }
+    return smaller.parent;
+  };
+  RedBlackTree.prototype.min_0 = function (node) {
+    if ((node != null ? node.left : null) == null)
+      return node;
+    else
+      return this.min_0(node.left);
+  };
+  RedBlackTree.prototype.max_0 = function (node) {
+    if ((node != null ? node.right : null) == null)
+      return node;
+    else
+      return this.max_0(node.right);
+  };
+  RedBlackTree.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'RedBlackTree',
+    interfaces: [Iterable, Tree]
+  };
   function ClientModel(ping, slowpoke) {
     if (slowpoke === void 0)
       slowpoke = false;
     this.ping = ping;
     this.slowpoke = slowpoke;
-    this.FREEZE_TICKS = Tick_init_0(div_2(new Duration(Kotlin.Long.fromInt(1000)), GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1)));
+    this.FREEZE_TICKS = Tick_init_0(div_2(new Duration(L1000), GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1)));
     this.CACHE = true;
     this.actions_0 = Common$Companion_getInstance().createConcurrentList_287e2$();
     this.myLocal_0 = ArrayList_init();
@@ -7925,7 +10300,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Object.defineProperty(ClientModel.prototype, 'latency', {
     get: function () {
       var tmp$;
-      return (tmp$ = this.recommendendLatency) != null ? tmp$ : new Duration(Kotlin.Long.fromInt(150));
+      return (tmp$ = this.recommendendLatency) != null ? tmp$ : new Duration(L150);
     }
   });
   Object.defineProperty(ClientModel.prototype, 'realtimeTick', {
@@ -7942,37 +10317,106 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   ClientModel.prototype.ready = function () {
     return this.welcome != null;
   };
-  Object.defineProperty(ClientModel.prototype, 'myCar', {
-    get: function () {
+  function ClientModel$get_ClientModel$myCar$lambda(this$ClientModel) {
+    return function () {
       var tmp$, tmp$_0;
       var tmp$_1;
-      if ((tmp$_0 = (tmp$ = this.calcDisplayState()) != null ? tmp$.cars : null) != null) {
-        var firstOrNull$result;
-        firstOrNull$break: do {
-          var tmp$_2;
-          tmp$_2 = tmp$_0.iterator();
-          while (tmp$_2.hasNext()) {
-            var element = tmp$_2.next();
-            var tmp$_3;
-            if (equals(element.owner, (tmp$_3 = this.welcome) != null ? tmp$_3.id : null)) {
-              firstOrNull$result = element;
-              break firstOrNull$break;
-            }
-          }
-          firstOrNull$result = null;
-        }
-         while (false);
-        tmp$_1 = firstOrNull$result;
-      }
-       else
-        tmp$_1 = null;
+      tmp$_1 = (tmp$_0 = (tmp$ = this$ClientModel.welcome) != null ? tmp$.id : null) != null ? getCar(this$ClientModel.calcDisplayState(), tmp$_0) : null;
       return tmp$_1;
+    };
+  }
+  function libObj$measure$lambda$lambda_1(closure$block, closure$result) {
+    return function () {
+      closure$result.v = closure$block();
+      return Unit;
+    };
+  }
+  var libObj$measure$lambda$lambda_2 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj) {
+      return function (it) {
+        println('#' + it.key + ': ' + it.value);
+        return Unit;
+      };
+    };
+  });
+  var libObj$measure$lambda_0 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj, closure$block, closure$hashTag) {
+      return function () {
+        var tmp$;
+        if (this$libObj.measurementsBegin == null) {
+          this$libObj.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_1(closure$block, result)).toNumber() / 1.0E9;
+        var $receiver = this$libObj.measurements;
+        var key = closure$hashTag;
+        var tmp$_0;
+        var value = $receiver.get_11rb$(key);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver.put_xwzc9p$(key, answer);
+          tmp$_0 = answer;
+        }
+         else {
+          tmp$_0 = value;
+        }
+        tmp$_0.add_14dthe$(t);
+        if (compareTo(this$libObj.time, plus_1(this$libObj.previousMeasurePrint, new Duration(L10000))) > 0) {
+          this$libObj.previousMeasurePrint = this$libObj.time;
+          println('measure: ');
+          var tmp$_1;
+          tmp$_1 = this$libObj.measurements.entries.iterator();
+          while (tmp$_1.hasNext()) {
+            var element = tmp$_1.next();
+            println('#' + element.key + ': ' + element.value);
+          }
+        }
+        return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+      };
+    };
+  });
+  Object.defineProperty(ClientModel.prototype, 'myCar', {
+    get: function () {
+      var $this = lib;
+      var tmp$;
+      if ($this.measurementsBegin == null) {
+        $this.measurementsBegin = package$lib.lib.time;
+      }
+      var result = {v: null};
+      Common.Companion.getCodeLineInfo_za3lpa$(2);
+      var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_1(ClientModel$get_ClientModel$myCar$lambda(this), result)).toNumber() / 1.0E9;
+      var $receiver = $this.measurements;
+      var tmp$_0;
+      var value = $receiver.get_11rb$('myCar');
+      if (value == null) {
+        var answer = new libObj$Measure();
+        $receiver.put_xwzc9p$('myCar', answer);
+        tmp$_0 = answer;
+      }
+       else {
+        tmp$_0 = value;
+      }
+      tmp$_0.add_14dthe$(t);
+      if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+        $this.previousMeasurePrint = $this.time;
+        println('measure: ');
+        var tmp$_1;
+        tmp$_1 = $this.measurements.entries.iterator();
+        while (tmp$_1.hasNext()) {
+          var element = tmp$_1.next();
+          println('#' + element.key + ': ' + element.value);
+        }
+      }
+      return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
     }
   });
   ClientModel.prototype.move_llbgdp$ = function (direction) {
     if (!this.ready())
       return;
-    var t = plus_8(this.realtimeTick, Tick_init_0(div_2(this.latency, GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1))));
+    var t = plus_9(this.realtimeTick, Tick_init_0(div_2(this.latency, GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1))));
     var a = new ClientPayload$ClientAction(t);
     a.moveDirection = direction;
     var tmp$;
@@ -7982,7 +10426,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   ClientModel.prototype.newCar = function () {
     if (!this.ready())
       return;
-    var t = plus_8(this.realtimeTick, Tick_init_0(div_2(this.latency, GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1))));
+    var t = plus_9(this.realtimeTick, Tick_init_0(div_2(this.latency, GameConst_getInstance().UPDATE).add(Kotlin.Long.fromInt(1))));
     var a = new ClientPayload$ClientAction(t);
     a.newCar = true;
     var tmp$;
@@ -8009,7 +10453,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   };
   ClientModel.prototype._getNearestCache_0 = function (tick) {
     var tmp$;
-    return (tmp$ = this.cache_0) != null ? plus_8(tick, this.FREEZE_TICKS).compareTo_11rb$(tmp$._state.tick) >= 0 ? tmp$ : null : null;
+    return (tmp$ = this.cache_0) != null ? plus_9(tick, this.FREEZE_TICKS).compareTo_11rb$(tmp$._state.tick) >= 0 ? tmp$ : null : null;
   };
   ClientModel.prototype.getState_0 = function (tick) {
     var result = {v: this.getNearestCache_0(tick)};
@@ -8146,9 +10590,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   };
   function touch($receiver, pos) {
     var car = $receiver.myCar;
-    if (car != null) {
-      var a = car.pos;
-      var direction = plus_4(calcAngle(pos.copy_lu1900$(pos.x - a.x, pos.y - a.y)), degreesAngle(0 * 180 | 0));
+    _touch($receiver, car != null ? car.pos : null, pos);
+  }
+  function _touch($receiver, myCarPos, pos) {
+    if (myCarPos != null) {
+      var direction = plus_4(calcAngle(newSXY(pos.x - myCarPos.x, pos.y - myCarPos.y)), degreesAngle(0));
       $receiver.move_llbgdp$(direction);
     }
      else {
@@ -8158,16 +10604,24 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   function calcRenderXY(state, pos, center) {
     var x = pos.x;
     var dx = center.x - x;
-    if (dx > get_width(state) / 2)
-      x += get_width(state);
-    else if (dx < -get_width(state) / 2)
-      x -= get_width(state);
+    if (dx > state.size / 2) {
+      x += state.size;
+    }
+     else {
+      if (dx < -state.size / 2) {
+        x -= state.size;
+      }
+    }
     var y = pos.y;
     var dy = center.y - y;
-    if (dy > get_height(state) / 2)
-      y += get_height(state);
-    else if (dy < -get_height(state) / 2)
-      y -= get_height(state);
+    if (dy > (state.size / 2 | 0)) {
+      y += state.size;
+    }
+     else {
+      if (dy < ((-state.size | 0) / 2 | 0)) {
+        y -= state.size;
+      }
+    }
     return new XY(x, y);
   }
   function Conf(port, host) {
@@ -8289,8 +10743,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     this.local = new Conf(5000, 'localhost');
     this.heroku = new Conf(80, 'mass-power.herokuapp.com');
     this.ramenki = new Conf(5000, '192.168.100.5');
-    this.tutu = new Conf(5000, '192.168.43.176');
-    this.current = this.heroku;
+    this.tutu = new Conf(5000, '10.8.44.123');
+    this.nexus = new Conf(5000, '192.168.43.176');
+    this.current = this.local;
+    this.clientSayBinary = false;
+    this.serverSayBinary = false;
   }
   confs.$metadata$ = {
     kind: Kind_OBJECT,
@@ -8320,7 +10777,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   };
   function FakePingClient(connectData) {
     this.connectData = connectData;
-    this.smartPingDelay_gkaf1w$_0 = new Duration(Kotlin.Long.fromInt(100));
+    this.smartPingDelay_gkaf1w$_0 = new Duration(L100);
     this.clientMessages_tjkwu3$_0 = 0;
   }
   Object.defineProperty(FakePingClient.prototype, 'state', {
@@ -8387,16 +10844,16 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     get: function () {
       var tmp$;
       if (this.pingDelays_0.size === 0)
-        return new Duration(Kotlin.Long.ZERO);
-      var sum = new Duration(Kotlin.Long.ZERO);
+        return new Duration(L0);
+      var sum = new Duration(L0);
       var weights = 0.0;
       var average = div(sumByDuration(this.pingDelays_0, PingClient$get_PingClient$smartPingDelay$lambda), this.pingDelays_0.size);
       tmp$ = this.pingDelays_0.iterator();
       while (tmp$.hasNext()) {
         var l = tmp$.next();
         var w = 100000.0;
-        w *= 1.0 - libObj_getInstance().Fun.arg0toInf_8n11ho$(minus(lib.time, l.clientTime), new Duration(Kotlin.Long.fromInt(10000)));
-        w *= 1.0 - libObj_getInstance().Fun.arg0toInf_8n11ho$(diffAbs(average, l.pingDelay), new Duration(Kotlin.Long.fromInt(100)));
+        w *= 1.0 - libObj_getInstance().Fun.arg0toInf_8n11ho$(minus(lib.time, l.clientTime), new Duration(L10000));
+        w *= 1.0 - libObj_getInstance().Fun.arg0toInf_8n11ho$(diffAbs(average, l.pingDelay), new Duration(L100));
         sum = plus_3(sum, times(l.pingDelay, w));
         weights += w;
       }
@@ -8447,7 +10904,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     try {
       this.clientMessages = this.clientMessages + 1 | 0;
       say.index = this.clientMessages;
-      this.socket_0.send_61zpoe$(lib.objStrSer.stringify_jsy488$(this.typeC, say));
+      if (confs_getInstance().clientSayBinary) {
+        this.socket_0.sendByte_fqrh44$(lib.binnarySer.stringify_20fw5n$(this.typeC, say));
+      }
+       else {
+        this.socket_0.send_61zpoe$(lib.strSer.stringify_jsy488$(this.typeC, say));
+      }
       return;
     }
      catch (t) {
@@ -8478,11 +10940,162 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   };
   PingClient_init$ObjectLiteral.prototype.onClose = function () {
   };
+  function PingClient_init$ObjectLiteral$onMessage$lambda(closure$typeS, closure$packet) {
+    return function () {
+      return lib.strSer.parse_67noqb$(closure$typeS, closure$packet);
+    };
+  }
+  function libObj$measure$lambda$lambda_3(closure$block, closure$result) {
+    return function () {
+      closure$result.v = closure$block();
+      return Unit;
+    };
+  }
+  var libObj$measure$lambda$lambda_4 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj) {
+      return function (it) {
+        println('#' + it.key + ': ' + it.value);
+        return Unit;
+      };
+    };
+  });
+  var libObj$measure$lambda_1 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj, closure$block, closure$hashTag) {
+      return function () {
+        var tmp$;
+        if (this$libObj.measurementsBegin == null) {
+          this$libObj.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_3(closure$block, result)).toNumber() / 1.0E9;
+        var $receiver = this$libObj.measurements;
+        var key = closure$hashTag;
+        var tmp$_0;
+        var value = $receiver.get_11rb$(key);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver.put_xwzc9p$(key, answer);
+          tmp$_0 = answer;
+        }
+         else {
+          tmp$_0 = value;
+        }
+        tmp$_0.add_14dthe$(t);
+        if (compareTo(this$libObj.time, plus_1(this$libObj.previousMeasurePrint, new Duration(L10000))) > 0) {
+          this$libObj.previousMeasurePrint = this$libObj.time;
+          println('measure: ');
+          var tmp$_1;
+          tmp$_1 = this$libObj.measurements.entries.iterator();
+          while (tmp$_1.hasNext()) {
+            var element = tmp$_1.next();
+            println('#' + element.key + ': ' + element.value);
+          }
+        }
+        return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+      };
+    };
+  });
   PingClient_init$ObjectLiteral.prototype.onMessage_61zpoe$ = function (packet) {
     var tmp$;
     try {
       lib.log.debug_6bul2c$(packet);
-      tmp$ = lib.objStrSer.parse_67noqb$(this.closure$typeS, packet);
+      var $this = lib;
+      var block = PingClient_init$ObjectLiteral$onMessage$lambda(this.closure$typeS, packet);
+      var tmp$_0;
+      if ($this.measurementsBegin == null) {
+        $this.measurementsBegin = package$lib.lib.time;
+      }
+      var result = {v: null};
+      Common.Companion.getCodeLineInfo_za3lpa$(2);
+      var t_0 = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_3(block, result)).toNumber() / 1.0E9;
+      var $receiver = $this.measurements;
+      var tmp$_1;
+      var value = $receiver.get_11rb$('parse');
+      if (value == null) {
+        var answer = new libObj$Measure();
+        $receiver.put_xwzc9p$('parse', answer);
+        tmp$_1 = answer;
+      }
+       else {
+        tmp$_1 = value;
+      }
+      tmp$_1.add_14dthe$(t_0);
+      if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+        $this.previousMeasurePrint = $this.time;
+        println('measure: ');
+        var tmp$_2;
+        tmp$_2 = $this.measurements.entries.iterator();
+        while (tmp$_2.hasNext()) {
+          var element = tmp$_2.next();
+          println('#' + element.key + ': ' + element.value);
+        }
+      }
+      tmp$ = (tmp$_0 = result.v) == null || Kotlin.isType(tmp$_0, Any) ? tmp$_0 : throwCCE();
+    }
+     catch (t) {
+      if (Kotlin.isType(t, Throwable)) {
+        tmp$ = lib.log.fatalError_nez7ok$('serverSay parse', t);
+      }
+       else
+        throw t;
+    }
+    var serverSay = tmp$;
+    if (serverSay.serverTime != null)
+      this.this$PingClient.timeSync_0.add_11rb$(new TimeSync(serverSay.serverTime, lib.time));
+    if (serverSay.pingDelay != null) {
+      this.this$PingClient.pingDelays_0.add_11rb$(new PingClient$PingDelay(serverSay.pingDelay, lib.time));
+      while (this.this$PingClient.pingDelays_0.size > 20)
+        removeFirst(this.this$PingClient.pingDelays_0);
+    }
+    if (serverSay.ping)
+      this.this$PingClient.say_0(new ClientSay(true));
+    if (serverSay.payload != null)
+      this.this$PingClient.incoming_0.dispatch_11rb$(serverSay.payload);
+  };
+  function PingClient_init$ObjectLiteral$onByteMessage$lambda(closure$typeS, closure$packet) {
+    return function () {
+      return lib.binnarySer.parse_8dtdds$(closure$typeS, closure$packet);
+    };
+  }
+  PingClient_init$ObjectLiteral.prototype.onByteMessage_fqrh44$ = function (packet) {
+    var tmp$;
+    lib.log.info_6bul2c$('packet: ' + packet);
+    try {
+      var $this = lib;
+      var block = PingClient_init$ObjectLiteral$onByteMessage$lambda(this.closure$typeS, packet);
+      var tmp$_0;
+      if ($this.measurementsBegin == null) {
+        $this.measurementsBegin = package$lib.lib.time;
+      }
+      var result = {v: null};
+      Common.Companion.getCodeLineInfo_za3lpa$(2);
+      var t_0 = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_3(block, result)).toNumber() / 1.0E9;
+      var $receiver = $this.measurements;
+      var tmp$_1;
+      var value = $receiver.get_11rb$('parse');
+      if (value == null) {
+        var answer = new libObj$Measure();
+        $receiver.put_xwzc9p$('parse', answer);
+        tmp$_1 = answer;
+      }
+       else {
+        tmp$_1 = value;
+      }
+      tmp$_1.add_14dthe$(t_0);
+      if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+        $this.previousMeasurePrint = $this.time;
+        println('measure: ');
+        var tmp$_2;
+        tmp$_2 = $this.measurements.entries.iterator();
+        while (tmp$_2.hasNext()) {
+          var element = tmp$_2.next();
+          println('#' + element.key + ': ' + element.value);
+        }
+      }
+      tmp$ = (tmp$_0 = result.v) == null || Kotlin.isType(tmp$_0, Any) ? tmp$_0 : throwCCE();
     }
      catch (t) {
       if (Kotlin.isType(t, Throwable)) {
@@ -8551,6 +11164,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   var MASS_POWER_TEXTURE_FRAG;
   var MASS_POWER_FOOD_VERTEX;
   var MASS_POWER_FOOD_FRAG;
+  var MASS_POWER_REACTIVE_VERTEX;
   function ServerCommon() {
     ServerCommon_instance = this;
   }
@@ -9008,7 +11622,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return Math_0.sqrt(x) / $receiver.size;
   }
   function sumByDuration($receiver, selector) {
-    var result = {v: new Duration(Kotlin.Long.ZERO)};
+    var result = {v: new Duration(L0)};
     var tmp$;
     tmp$ = $receiver.iterator();
     while (tmp$.hasNext()) {
@@ -9059,15 +11673,110 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         };
       };
     });
+    var Common = _.com.riseofcat.common.Common;
+    var Unit = Kotlin.kotlin.Unit;
+    var libObj$libObj$Measure_init = _.com.riseofcat.lib.libObj.Measure;
+    var L10000 = Kotlin.Long.fromInt(10000);
+    var Duration_init = _.com.riseofcat.lib.Duration;
+    var plus = _.com.riseofcat.lib.plus_gp4c0n$;
+    var compareTo = _.com.riseofcat.lib.compareTo_ms581$;
+    var Any = Object;
+    var throwCCE = Kotlin.throwCCE;
+    function libObj$measure$lambda$lambda(closure$block, closure$result) {
+      return function () {
+        closure$result.v = closure$block();
+        return Unit;
+      };
+    }
+    var libObj$measure$lambda$lambda_0 = wrapFunction(function () {
+      var println = Kotlin.kotlin.io.println_s8jyv4$;
+      return function (this$libObj) {
+        return function (it) {
+          println('#' + it.key + ': ' + it.value);
+          return Unit;
+        };
+      };
+    });
+    var libObj$measure$lambda = wrapFunction(function () {
+      var println = Kotlin.kotlin.io.println_s8jyv4$;
+      return function (this$libObj, closure$block, closure$hashTag) {
+        return function () {
+          var tmp$;
+          if (this$libObj.measurementsBegin == null) {
+            this$libObj.measurementsBegin = lib.lib.time;
+          }
+          var result = {v: null};
+          Common.Companion.getCodeLineInfo_za3lpa$(2);
+          var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(closure$block, result)).toNumber() / 1.0E9;
+          var $receiver = this$libObj.measurements;
+          var key = closure$hashTag;
+          var tmp$_0;
+          var value = $receiver.get_11rb$(key);
+          if (value == null) {
+            var answer = new libObj$libObj$Measure_init();
+            $receiver.put_xwzc9p$(key, answer);
+            tmp$_0 = answer;
+          }
+           else {
+            tmp$_0 = value;
+          }
+          tmp$_0.add_14dthe$(t);
+          if (compareTo(this$libObj.time, plus(this$libObj.previousMeasurePrint, new Duration_init(L10000))) > 0) {
+            this$libObj.previousMeasurePrint = this$libObj.time;
+            println('measure: ');
+            var tmp$_1;
+            tmp$_1 = this$libObj.measurements.entries.iterator();
+            while (tmp$_1.hasNext()) {
+              var element = tmp$_1.next();
+              println('#' + element.key + ': ' + element.value);
+            }
+          }
+          return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+        };
+      };
+    });
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
     return function (T_0, isT, $receiver) {
-      return lib.lib.measure_85cpgq$('deepCopy', deepCopy$lambda($receiver, T_0, isT));
+      var $this = lib.lib;
+      var hashTag = 'deepCopy';
+      var tmp$;
+      if ($this.measurementsBegin == null) {
+        $this.measurementsBegin = lib.lib.time;
+      }
+      var result = {v: null};
+      Common.Companion.getCodeLineInfo_za3lpa$(2);
+      var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(deepCopy$lambda($receiver, T_0, isT), result)).toNumber() / 1.0E9;
+      var $receiver_0 = $this.measurements;
+      var tmp$_0;
+      var value = $receiver_0.get_11rb$(hashTag);
+      if (value == null) {
+        var answer = new libObj$libObj$Measure_init();
+        $receiver_0.put_xwzc9p$(hashTag, answer);
+        tmp$_0 = answer;
+      }
+       else {
+        tmp$_0 = value;
+      }
+      tmp$_0.add_14dthe$(t);
+      if (compareTo($this.time, plus($this.previousMeasurePrint, new Duration_init(L10000))) > 0) {
+        $this.previousMeasurePrint = $this.time;
+        println('measure: ');
+        var tmp$_1;
+        tmp$_1 = $this.measurements.entries.iterator();
+        while (tmp$_1.hasNext()) {
+          var element = tmp$_1.next();
+          println('#' + element.key + ': ' + element.value);
+        }
+      }
+      return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
     };
   }));
   function libObj() {
     libObj_instance = this;
     this.MILLIS_IN_SECOND = 1000.0;
     this.json = new JSON_0(true, void 0, void 0, true);
-    this.objStrSer = this.json;
+    this.strSer = this.json;
+    this.binnarySer = libObj$cbor_getInstance();
     this.log = libObj$logObj_getInstance();
     this.measurementsBegin = null;
     this.previousMeasurePrint = this.time;
@@ -9103,14 +11812,35 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var b = Math_0.min(max, value);
     return Math_0.max(min, b);
   };
+  function libObj$hexCbor() {
+    libObj$hexCbor_instance = this;
+  }
+  libObj$hexCbor.prototype.stringify_20fw5n$ = function (saver, obj) {
+    return internal.HexConverter.printHexBinary_1fhb37$(CBOR.Companion.dump_20fw5n$(saver, obj), true);
+  };
+  libObj$hexCbor.prototype.parse_84810w$ = function (loader, str) {
+    return CBOR.Companion.load_8dtdds$(loader, internal.HexConverter.parseHexBinary_61zpoe$(str));
+  };
+  libObj$hexCbor.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'hexCbor',
+    interfaces: []
+  };
+  var libObj$hexCbor_instance = null;
+  function libObj$hexCbor_getInstance() {
+    if (libObj$hexCbor_instance === null) {
+      new libObj$hexCbor();
+    }
+    return libObj$hexCbor_instance;
+  }
   function libObj$cbor() {
     libObj$cbor_instance = this;
   }
   libObj$cbor.prototype.stringify_20fw5n$ = function (saver, obj) {
-    return internal.HexConverter.printHexBinary_1fhb37$(CBOR.Companion.dump_20fw5n$(saver, obj), true);
+    return CBOR.Companion.dump_20fw5n$(saver, obj);
   };
-  libObj$cbor.prototype.parse_84810w$ = function (loader, str) {
-    return CBOR.Companion.load_8dtdds$(loader, internal.HexConverter.parseHexBinary_61zpoe$(str));
+  libObj$cbor.prototype.parse_8dtdds$ = function (loader, data) {
+    return CBOR.Companion.load_8dtdds$(loader, data);
   };
   libObj$cbor.$metadata$ = {
     kind: Kind_OBJECT,
@@ -9292,18 +12022,117 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return libObj$logObj_instance;
   }
   libObj.prototype.debug_o14v8n$ = defineInlineFunction('game.com.riseofcat.lib.libObj.debug_o14v8n$', function (block) {
+    block();
   });
   libObj.prototype.release_o14v8n$ = defineInlineFunction('game.com.riseofcat.lib.libObj.release_o14v8n$', function (block) {
-    block();
   });
   libObj.prototype.releaseOrDebug_wrbvbq$ = defineInlineFunction('game.com.riseofcat.lib.libObj.releaseOrDebug_wrbvbq$', wrapFunction(function () {
     return function (rel, deb) {
-      return rel();
+      return deb();
     };
   }));
-  libObj.prototype.measure_85cpgq$ = function (hashTag, block) {
+  libObj.prototype.skip_measure_85cpgq$ = defineInlineFunction('game.com.riseofcat.lib.libObj.skip_measure_85cpgq$', function (hashTag, block) {
     return block();
-  };
+  });
+  libObj.prototype.measure_85cpgq$ = defineInlineFunction('game.com.riseofcat.lib.libObj.measure_85cpgq$', wrapFunction(function () {
+    var wrapFunction = Kotlin.wrapFunction;
+    var lib = _.com.riseofcat.lib;
+    var Common = _.com.riseofcat.common.Common;
+    var Unit = Kotlin.kotlin.Unit;
+    var libObj$libObj$Measure_init = _.com.riseofcat.lib.libObj.Measure;
+    var L10000 = Kotlin.Long.fromInt(10000);
+    var Duration_init = _.com.riseofcat.lib.Duration;
+    var plus = _.com.riseofcat.lib.plus_gp4c0n$;
+    var compareTo = _.com.riseofcat.lib.compareTo_ms581$;
+    var Any = Object;
+    var throwCCE = Kotlin.throwCCE;
+    function libObj$measure$lambda$lambda(closure$block, closure$result) {
+      return function () {
+        closure$result.v = closure$block();
+        return Unit;
+      };
+    }
+    var libObj$measure$lambda$lambda_0 = wrapFunction(function () {
+      var println = Kotlin.kotlin.io.println_s8jyv4$;
+      return function (this$libObj) {
+        return function (it) {
+          println('#' + it.key + ': ' + it.value);
+          return Unit;
+        };
+      };
+    });
+    var libObj$measure$lambda = wrapFunction(function () {
+      var println = Kotlin.kotlin.io.println_s8jyv4$;
+      return function (this$libObj, closure$block, closure$hashTag) {
+        return function () {
+          var tmp$;
+          if (this$libObj.measurementsBegin == null) {
+            this$libObj.measurementsBegin = lib.lib.time;
+          }
+          var result = {v: null};
+          Common.Companion.getCodeLineInfo_za3lpa$(2);
+          var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(closure$block, result)).toNumber() / 1.0E9;
+          var $receiver = this$libObj.measurements;
+          var key = closure$hashTag;
+          var tmp$_0;
+          var value = $receiver.get_11rb$(key);
+          if (value == null) {
+            var answer = new libObj$libObj$Measure_init();
+            $receiver.put_xwzc9p$(key, answer);
+            tmp$_0 = answer;
+          }
+           else {
+            tmp$_0 = value;
+          }
+          tmp$_0.add_14dthe$(t);
+          if (compareTo(this$libObj.time, plus(this$libObj.previousMeasurePrint, new Duration_init(L10000))) > 0) {
+            this$libObj.previousMeasurePrint = this$libObj.time;
+            println('measure: ');
+            var tmp$_1;
+            tmp$_1 = this$libObj.measurements.entries.iterator();
+            while (tmp$_1.hasNext()) {
+              var element = tmp$_1.next();
+              println('#' + element.key + ': ' + element.value);
+            }
+          }
+          return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+        };
+      };
+    });
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (hashTag, block) {
+      var tmp$;
+      if (this.measurementsBegin == null) {
+        this.measurementsBegin = lib.lib.time;
+      }
+      var result = {v: null};
+      Common.Companion.getCodeLineInfo_za3lpa$(2);
+      var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda(block, result)).toNumber() / 1.0E9;
+      var $receiver = this.measurements;
+      var tmp$_0;
+      var value = $receiver.get_11rb$(hashTag);
+      if (value == null) {
+        var answer = new libObj$libObj$Measure_init();
+        $receiver.put_xwzc9p$(hashTag, answer);
+        tmp$_0 = answer;
+      }
+       else {
+        tmp$_0 = value;
+      }
+      tmp$_0.add_14dthe$(t);
+      if (compareTo(this.time, plus(this.previousMeasurePrint, new Duration_init(L10000))) > 0) {
+        this.previousMeasurePrint = this.time;
+        println('measure: ');
+        var tmp$_1;
+        tmp$_1 = this.measurements.entries.iterator();
+        while (tmp$_1.hasNext()) {
+          var element = tmp$_1.next();
+          println('#' + element.key + ': ' + element.value);
+        }
+      }
+      return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+    };
+  }));
   function libObj$Measure() {
     this.average100s = null;
     this.average20s = null;
@@ -9329,7 +12158,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     if (beginTime != null) {
       result.v += 'sum%: ' + lib.formatDouble_12fank$(this.sum * 100 / get_s(lib.time).subtract(get_s(beginTime)).toNumber(), 9) + ' %    count:' + this.count;
       if ((tmp$ = this.average100s) != null) {
-        result.v += '\n' + 'avrg100: ' + lib.formatDouble_12fank$(tmp$ * 1000, 9) + ' ms';
+        result.v += ' | avrg100: ' + lib.formatDouble_12fank$(tmp$ * 1000, 9) + ' ms';
       }
     }
     return result.v;
@@ -9401,7 +12230,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return this.arg0toInf_3pjtqy$(y.ms, middle.ms);
   };
   libObj$FunObj.prototype.pillar_3pjtqy$ = function (value, max) {
-    if (equals(value.div(max).modulo(Kotlin.Long.fromInt(2)), Kotlin.Long.ZERO)) {
+    if (equals(value.div(max).modulo(Kotlin.Long.fromInt(2)), L0)) {
       return value.modulo(max);
     }
      else {
@@ -9422,6 +12251,76 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   libObj.prototype.smoothByTime_c4m5wc$ = function (lambda) {
     return new SmoothByTime(lambda);
+  };
+  function libObj$CacheResult() {
+    this.depends = LinkedHashMap_init();
+    this.result_empxts$_0 = this.result_empxts$_0;
+  }
+  Object.defineProperty(libObj$CacheResult.prototype, 'result', {
+    get: function () {
+      if (this.result_empxts$_0 == null)
+        return throwUPAE('result');
+      return this.result_empxts$_0;
+    },
+    set: function (result) {
+      this.result_empxts$_0 = result;
+    }
+  });
+  libObj$CacheResult.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'CacheResult',
+    interfaces: []
+  };
+  function libObj$CacheContext(previous) {
+    this.previous = previous;
+    this.previousId = 0;
+    this.cacheResult = new libObj$CacheResult();
+  }
+  libObj$CacheContext.prototype.depend_klfg04$ = defineInlineFunction('game.com.riseofcat.lib.libObj.CacheContext.depend_klfg04$', function (lambda) {
+    var tmp$, tmp$_0;
+    var value = lambda();
+    tmp$_0 = this.cacheResult.depends;
+    var key = (tmp$ = this.previousId, this.previousId = tmp$ + 1 | 0, tmp$);
+    tmp$_0.put_xwzc9p$(key, value);
+    return value;
+  });
+  libObj$CacheContext.prototype.cache_rijoe1$ = defineInlineFunction('game.com.riseofcat.lib.libObj.CacheContext.cache_rijoe1$', wrapFunction(function () {
+    var equals = Kotlin.equals;
+    return function (lambda) {
+      var tmp$, tmp$_0, tmp$_1;
+      tmp$_1 = this.cacheResult;
+      if (equals(this.cacheResult.depends, (tmp$ = this.previous) != null ? tmp$.depends : null)) {
+        tmp$_0 = this.previous.result;
+      }
+       else {
+        tmp$_0 = lambda();
+      }
+      tmp$_1.result = tmp$_0;
+      return this.cacheResult.result;
+    };
+  }));
+  libObj$CacheContext.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'CacheContext',
+    interfaces: []
+  };
+  function libObj$CacheDelegate(lambda) {
+    this.lambda = lambda;
+    this.previous = null;
+  }
+  libObj$CacheDelegate.prototype.getValue_t0xcdd$ = function (t, property) {
+    var tmp$ = this.lambda;
+    var $receiver = new libObj$CacheContext(this.previous);
+    this.previous = $receiver.cacheResult;
+    return tmp$.call(this, $receiver);
+  };
+  libObj$CacheDelegate.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'CacheDelegate',
+    interfaces: []
+  };
+  libObj.prototype.cacheDelegate_prf1os$ = function (lambda) {
+    return new libObj$CacheDelegate(lambda);
   };
   libObj.$metadata$ = {
     kind: Kind_OBJECT,
@@ -9455,21 +12354,25 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'SmoothByTime',
     interfaces: []
   };
-  function ShareTodo() {
-    ShareTodo_instance = this;
-    this.SIMPLIFY = true;
-  }
-  ShareTodo.$metadata$ = {
-    kind: Kind_OBJECT,
-    simpleName: 'ShareTodo',
-    interfaces: []
-  };
-  var ShareTodo_instance = null;
-  function ShareTodo_getInstance() {
-    if (ShareTodo_instance === null) {
-      new ShareTodo();
+  function countOnes($receiver) {
+    if (false) {
+      var n = $receiver;
+      n = n - (n >>> 1 & 1431655765) | 0;
+      n = (n >>> 2 & 858993459) + (n & 858993459) | 0;
+      n = (n >>> 4) + n & 252645135;
+      n = (n >>> 8) + n & 16711935;
+      n = (n >>> 16) + n | 0;
+      return n;
     }
-    return ShareTodo_instance;
+     else {
+      var n_0 = $receiver;
+      var res = 0;
+      while (n_0 !== 0) {
+        res = res + (n_0 & 1) | 0;
+        n_0 = n_0 >>> 1;
+      }
+      return res;
+    }
   }
   function SerializeHelp() {
     SerializeHelp_instance = this;
@@ -9490,89 +12393,23 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     return SerializeHelp_instance;
   }
-  var MAX_W;
-  var MAX_H;
-  function Mattr2D(COLS, ROWS, init) {
-    this.COLS = COLS;
-    this.ROWS = ROWS;
-    var $receiver = until(0, Kotlin.imul(this.COLS, this.ROWS));
-    var destination = ArrayList_init(collectionSizeOrDefault($receiver, 10));
-    var tmp$;
-    tmp$ = $receiver.iterator();
-    while (tmp$.hasNext()) {
-      var item = tmp$.next();
-      destination.add_11rb$(new Mattr2D$Cell(this, item / this.ROWS | 0, item % this.ROWS, init(item / this.ROWS | 0, item % this.ROWS)));
-    }
-    this.all = destination;
-    this.map = null;
-    var tmp$_0, tmp$_1;
-    this.map = LinkedHashMap_init();
-    tmp$_0 = this.COLS;
-    for (var col = 0; col < tmp$_0; col++) {
-      var m2 = LinkedHashMap_init();
-      this.map.put_xwzc9p$(col, m2);
-      tmp$_1 = this.ROWS;
-      for (var row = 0; row < tmp$_1; row++) {
-        var value = true ? this.all.get_za3lpa$(Kotlin.imul(col, this.ROWS) + row | 0) : new Mattr2D$Cell(this, col, row, init(col, row));
-        m2.put_xwzc9p$(row, value);
-      }
-    }
-  }
-  function Mattr2D$Cell($outer, col, row, value) {
-    this.$outer = $outer;
-    this.col = col;
-    this.row = row;
-    this.value = value;
-    this.matrix = this.$outer;
-  }
-  Mattr2D$Cell.$metadata$ = {
-    kind: Kind_CLASS,
-    simpleName: 'Cell',
-    interfaces: []
-  };
-  Mattr2D.prototype.get_vux9f0$ = defineInlineFunction('game.com.riseofcat.share.mass.Mattr2D.get_vux9f0$', wrapFunction(function () {
-    var ensureNotNull = Kotlin.ensureNotNull;
-    return function (col, row) {
-      return false ? this.all.get_za3lpa$(Kotlin.imul(col, this.ROWS) + row | 0) : ensureNotNull(ensureNotNull(this.map.get_11rb$(col)).get_11rb$(row));
-    };
-  }));
-  Mattr2D.prototype.loop_3nlwc9$ = function (lambda) {
-    throw new NotImplementedError_init();
-  };
-  Mattr2D.$metadata$ = {
-    kind: Kind_CLASS,
-    simpleName: 'Mattr2D',
-    interfaces: []
-  };
-  function clearCache($receiver) {
-    var tmp$;
-    tmp$ = $receiver.all.iterator();
-    while (tmp$.hasNext()) {
-      var element = tmp$.next();
-      element.value.clear();
-    }
-  }
-  function repeatTick($receiver, ticks, lambda) {
+  var PERFORMANCE_KOEFF;
+  var repeatTick = defineInlineFunction('game.com.riseofcat.share.mass.repeatTick_morbwt$', function ($receiver, ticks, lambda) {
     $receiver.repeatTickCalls = $receiver.repeatTickCalls + 1 | 0;
-    if (($receiver.tick.tick - $receiver.repeatTickCalls | 0) % ticks === 0) {
+    if (($receiver.tick.tick - $receiver.repeatTickCalls | 0) % ticks === 0)
       lambda();
-    }
-  }
+  });
   function GameConst() {
     GameConst_instance = this;
-    this.CHANGE_SIZE_PER_CAR = 400;
-    this.UPDATE = new Duration(Kotlin.Long.fromInt(40));
+    this.UPDATE = new Duration(L16);
     this.UPDATE_S = this.UPDATE.ms.toNumber() / lib.MILLIS_IN_SECOND;
-    this.MIN_SIZE = 20;
-    this.DEFAULT_CAR_SIZE = this.MIN_SIZE * 6 | 0;
-    this.FOOD_SIZE = 20;
-    this.MIN_RADIUS = 1.0;
-    this.FOODS = 200;
-    this.FOOD_PER_CAR = 10;
-    this.BASE_WIDTH = 2300.0;
-    this.BASE_HEIGHT = 2300.0;
+    this.MIN_SIZE = 500;
+    this.DEFAULT_CAR_SIZE = 3000;
+    this.FOOD_SIZE = 400;
     this.TITLE = 'mass-power.io';
-    this.REACTIVE_LIVE = new Tick(60);
+    this.REACTIVE_LIVE = Tick_init_0(div_2(new Duration(L2500), this.UPDATE));
+    this.FRICTION = 0.01;
+    this.INIT_SIZE = 3000;
   }
   GameConst.$metadata$ = {
     kind: Kind_OBJECT,
@@ -9614,11 +12451,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'SizeObject',
     interfaces: [PosObject]
   };
-  function EatMeWithSpeed() {
+  function MovedObject() {
   }
-  EatMeWithSpeed.$metadata$ = {
+  MovedObject.$metadata$ = {
     kind: Kind_INTERFACE,
-    simpleName: 'EatMeWithSpeed',
+    simpleName: 'MovedObject',
     interfaces: [SpeedObject, SizeObject]
   };
   function NewCarCommand(id) {
@@ -9647,7 +12484,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
      while (false);
     if (none$result) {
-      state.cars.add_11rb$(new Car(this.id, GameConst_getInstance().DEFAULT_CAR_SIZE, new XY(), new XY(rnd_2(state, 0, numberToInt(get_width(state))), rnd_2(state, 0, numberToInt(get_height(state))))));
+      var tmp$_1;
+      if (state.cars.size > 0) {
+        var tmp$_2;
+        var sum = 0;
+        tmp$_2 = state.cars.iterator();
+        while (tmp$_2.hasNext()) {
+          var element_0 = tmp$_2.next();
+          sum = sum + element_0.size | 0;
+        }
+        var a = numberToInt((sum / state.cars.size | 0) * 0.7);
+        tmp$_1 = Math_0.max(a, 500);
+      }
+       else
+        tmp$_1 = 3000;
+      var size = tmp$_1;
+      state.cars.add_11rb$(new Car(this.id, size, new SXY(), randomPos(state.random2)));
     }
   };
   function NewCarCommand$Companion() {
@@ -9736,8 +12588,15 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     this.id = id;
     this.direction = direction;
   }
+  function MoveCommand$act$xy($receiver, size) {
+    var x = $receiver.radians;
+    var tmp$ = toShort(numberToInt(Math_0.cos(x) * size));
+    var x_0 = $receiver.radians;
+    return new SXY(tmp$, toShort(numberToInt(Math_0.sin(x_0) * size)));
+  }
   MoveCommand.prototype.act_lvbgq3$ = function (state) {
     var tmp$;
+    var xy = MoveCommand$act$xy;
     var $receiver = state.cars;
     var firstOrNull$result;
     firstOrNull$break: do {
@@ -9760,16 +12619,16 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     var car = tmp$;
     var $receiver_0 = car.speed;
-    var a = xy(this.direction, 100.0);
-    car.speed = $receiver_0.copy_lu1900$($receiver_0.x + a.x, $receiver_0.y + a.y);
+    var a = xy(this.direction, kotlin_js_internal_ShortCompanionObject.MAX_VALUE / 100.0);
+    car.speed = newSXY($receiver_0.x + a.x, $receiver_0.y + a.y);
     var size = (car.size / 20 | 0) + 1 | 0;
-    if ((car.size - size | 0) >= GameConst_getInstance().MIN_SIZE)
+    if ((car.size - size | 0) >= 500)
       car.size = car.size - size | 0;
     var tmp$_2 = state.reactive;
     var tmp$_3 = this.id;
     var $receiver_1 = car.speed;
     var a_0 = xy(plus_4(this.direction, degreesAngle(180)), 400.0);
-    tmp$_2.add_11rb$(new Reactive(tmp$_3, size, $receiver_1.copy_lu1900$($receiver_1.x + a_0.x, $receiver_1.y + a_0.y), car.pos.copy_lu1900$(), state.tick.copy_za3lpa$()));
+    tmp$_2.add_11rb$(new Reactive(tmp$_3, size, newSXY($receiver_1.x + a_0.x, $receiver_1.y + a_0.y), car.pos.copy_8bdmd0$(), state.tick.copy_za3lpa$()));
   };
   function MoveCommand$Companion() {
     MoveCommand$Companion_instance = this;
@@ -9981,14 +12840,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   function minus_2($receiver, sub) {
     return new Angle($receiver.radians - sub.radians);
   }
-  function xy($receiver, size) {
-    if (size === void 0)
-      size = 1.0;
-    var x = $receiver.radians;
-    var tmp$ = Math_0.cos(x) * size;
-    var x_0 = $receiver.radians;
-    return new XY(tmp$, Math_0.sin(x_0) * size);
-  }
   function get_degrees($receiver) {
     return $receiver.radians * 180 / math.PI;
   }
@@ -10075,8 +12926,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var output = output_0.writeBegin_276rha$(this.serialClassDesc, []);
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 0, PlayerId$$serializer_getInstance(), obj.owner);
     output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 1, obj.size);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 2, XY$$serializer_getInstance(), obj.speed);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 3, XY$$serializer_getInstance(), obj.pos);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 2, SXY$$serializer_getInstance(), obj.speed);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 3, SXY$$serializer_getInstance(), obj.pos);
     output.writeEnd_f6e2p$(this.serialClassDesc);
   };
   Car$$serializer.prototype.load_ljkqvg$ = function (input_0) {
@@ -10103,12 +12954,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
           if (!readAll)
             break;
         case 2:
-          local2 = (bitMask0 & 4) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 2, XY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 2, XY$$serializer_getInstance(), local2);
+          local2 = (bitMask0 & 4) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 2, SXY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 2, SXY$$serializer_getInstance(), local2);
           bitMask0 |= 4;
           if (!readAll)
             break;
         case 3:
-          local3 = (bitMask0 & 8) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 3, XY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 3, XY$$serializer_getInstance(), local3);
+          local3 = (bitMask0 & 8) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 3, SXY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 3, SXY$$serializer_getInstance(), local3);
           bitMask0 |= 8;
           if (!readAll)
             break;
@@ -10155,7 +13006,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Car.$metadata$ = {
     kind: Kind_CLASS,
     simpleName: 'Car',
-    interfaces: [EatMeWithSpeed]
+    interfaces: [MovedObject]
   };
   Car.prototype.component1 = function () {
     return this.owner;
@@ -10169,7 +13020,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Car.prototype.component4 = function () {
     return this.pos;
   };
-  Car.prototype.copy_j0eshq$ = function (owner, size, speed, pos) {
+  Car.prototype.copy_r6e7uc$ = function (owner, size, speed, pos) {
     return new Car(owner === void 0 ? this.owner : owner, size === void 0 ? this.size : size, speed === void 0 ? this.speed : speed, pos === void 0 ? this.pos : pos);
   };
   Car.prototype.toString = function () {
@@ -10186,25 +13037,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Car.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.owner, other.owner) && Kotlin.equals(this.size, other.size) && Kotlin.equals(this.speed, other.speed) && Kotlin.equals(this.pos, other.pos)))));
   };
-  function Food(size, pos) {
+  function Food(pos) {
     Food$Companion_getInstance();
-    this.size_q5c0mn$_0 = size;
     this.pos_q1oez4$_0 = pos;
+    this.size_q5c0mn$_0 = 400;
   }
-  Object.defineProperty(Food.prototype, 'size', {
-    get: function () {
-      return this.size_q5c0mn$_0;
-    },
-    set: function (size) {
-      this.size_q5c0mn$_0 = size;
-    }
-  });
   Object.defineProperty(Food.prototype, 'pos', {
     get: function () {
       return this.pos_q1oez4$_0;
     },
     set: function (pos) {
       this.pos_q1oez4$_0 = pos;
+    }
+  });
+  Object.defineProperty(Food.prototype, 'size', {
+    get: function () {
+      return this.size_q5c0mn$_0;
     }
   });
   function Food$Companion() {
@@ -10227,8 +13075,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   }
   function Food$$serializer() {
     this.serialClassDesc_safnxj$_0 = new SerialClassDescImpl('com.riseofcat.share.mass.Food');
-    this.serialClassDesc.addElement_61zpoe$('size');
     this.serialClassDesc.addElement_61zpoe$('pos');
+    this.serialClassDesc.addElement_61zpoe$('size');
     Food$$serializer_instance = this;
   }
   Object.defineProperty(Food$$serializer.prototype, 'serialClassDesc', {
@@ -10238,8 +13086,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   });
   Food$$serializer.prototype.save_ejfkry$ = function (output_0, obj) {
     var output = output_0.writeBegin_276rha$(this.serialClassDesc, []);
-    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 0, obj.size);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 1, XY$$serializer_getInstance(), obj.pos);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 0, SXY$$serializer_getInstance(), obj.pos);
+    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 1, obj.size);
     output.writeEnd_f6e2p$(this.serialClassDesc);
   };
   Food$$serializer.prototype.load_ljkqvg$ = function (input_0) {
@@ -10254,12 +13102,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         case -2:
           readAll = true;
         case 0:
-          local0 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 0);
+          local0 = (bitMask0 & 1) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 0, SXY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 0, SXY$$serializer_getInstance(), local0);
           bitMask0 |= 1;
           if (!readAll)
             break;
         case 1:
-          local1 = (bitMask0 & 2) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 1, XY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 1, XY$$serializer_getInstance(), local1);
+          local1 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 1);
           bitMask0 |= 2;
           if (!readAll)
             break;
@@ -10283,43 +13131,39 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     return Food$$serializer_instance;
   }
-  function Food_init(seen, size, pos, serializationConstructorMarker) {
+  function Food_init(seen, pos, size, serializationConstructorMarker) {
     var $this = Object.create(Food.prototype);
     if ((seen & 1) === 0)
-      throw new MissingFieldException('size');
-    else
-      $this.size_q5c0mn$_0 = size;
-    if ((seen & 2) === 0)
       throw new MissingFieldException('pos');
     else
       $this.pos_q1oez4$_0 = pos;
+    if ((seen & 2) === 0)
+      throw new MissingFieldException('size');
+    else
+      $this.size_q5c0mn$_0 = size;
     return $this;
   }
   Food.$metadata$ = {
     kind: Kind_CLASS,
     simpleName: 'Food',
-    interfaces: [SizeObject, PosObject]
+    interfaces: [SizeObject]
   };
   Food.prototype.component1 = function () {
-    return this.size;
-  };
-  Food.prototype.component2 = function () {
     return this.pos;
   };
-  Food.prototype.copy_mwwf0d$ = function (size, pos) {
-    return new Food(size === void 0 ? this.size : size, pos === void 0 ? this.pos : pos);
+  Food.prototype.copy_vm1h4i$ = function (pos) {
+    return new Food(pos === void 0 ? this.pos : pos);
   };
   Food.prototype.toString = function () {
-    return 'Food(size=' + Kotlin.toString(this.size) + (', pos=' + Kotlin.toString(this.pos)) + ')';
+    return 'Food(pos=' + Kotlin.toString(this.pos) + ')';
   };
   Food.prototype.hashCode = function () {
     var result = 0;
-    result = result * 31 + Kotlin.hashCode(this.size) | 0;
     result = result * 31 + Kotlin.hashCode(this.pos) | 0;
     return result;
   };
   Food.prototype.equals = function (other) {
-    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.size, other.size) && Kotlin.equals(this.pos, other.pos)))));
+    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && Kotlin.equals(this.pos, other.pos))));
   };
   function Reactive(owner, size, speed, pos, born) {
     Reactive$Companion_getInstance();
@@ -10389,8 +13233,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     var output = output_0.writeBegin_276rha$(this.serialClassDesc, []);
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 0, PlayerId$$serializer_getInstance(), obj.owner);
     output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 1, obj.size);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 2, XY$$serializer_getInstance(), obj.speed);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 3, XY$$serializer_getInstance(), obj.pos);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 2, SXY$$serializer_getInstance(), obj.speed);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 3, SXY$$serializer_getInstance(), obj.pos);
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 4, Tick$$serializer_getInstance(), obj.born);
     output.writeEnd_f6e2p$(this.serialClassDesc);
   };
@@ -10419,12 +13263,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
           if (!readAll)
             break;
         case 2:
-          local2 = (bitMask0 & 4) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 2, XY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 2, XY$$serializer_getInstance(), local2);
+          local2 = (bitMask0 & 4) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 2, SXY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 2, SXY$$serializer_getInstance(), local2);
           bitMask0 |= 4;
           if (!readAll)
             break;
         case 3:
-          local3 = (bitMask0 & 8) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 3, XY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 3, XY$$serializer_getInstance(), local3);
+          local3 = (bitMask0 & 8) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 3, SXY$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 3, SXY$$serializer_getInstance(), local3);
           bitMask0 |= 8;
           if (!readAll)
             break;
@@ -10480,7 +13324,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Reactive.$metadata$ = {
     kind: Kind_CLASS,
     simpleName: 'Reactive',
-    interfaces: [EatMeWithSpeed]
+    interfaces: [MovedObject]
   };
   Reactive.prototype.component1 = function () {
     return this.owner;
@@ -10497,7 +13341,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Reactive.prototype.component5 = function () {
     return this.born;
   };
-  Reactive.prototype.copy_yjy2qv$ = function (owner, size, speed, pos, born) {
+  Reactive.prototype.copy_e0uzq5$ = function (owner, size, speed, pos, born) {
     return new Reactive(owner === void 0 ? this.owner : owner, size === void 0 ? this.size : size, speed === void 0 ? this.speed : speed, pos === void 0 ? this.pos : pos, born === void 0 ? this.born : born);
   };
   Reactive.prototype.toString = function () {
@@ -10515,7 +13359,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Reactive.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.owner, other.owner) && Kotlin.equals(this.size, other.size) && Kotlin.equals(this.speed, other.speed) && Kotlin.equals(this.pos, other.pos) && Kotlin.equals(this.born, other.born)))));
   };
-  function State(cars, foods, reactive, random, size, tick, repeatTickCalls, cacheFood, cacheReactive, cacheCars) {
+  function State(cars, foods, reactive, random, random2, size, tick, repeatTickCalls) {
     State$Companion_getInstance();
     if (cars === void 0) {
       cars = ArrayList_init();
@@ -10527,29 +13371,23 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       reactive = ArrayList_init();
     }
     if (random === void 0)
-      random = 0;
+      random = new Random();
+    if (random2 === void 0)
+      random2 = new Random();
     if (size === void 0)
-      size = 0;
+      size = 3000;
     if (tick === void 0)
       tick = new Tick(0);
     if (repeatTickCalls === void 0)
       repeatTickCalls = 0;
-    if (cacheFood === void 0)
-      cacheFood = new Mattr2D(MAX_W, MAX_H, State_init$lambda);
-    if (cacheReactive === void 0)
-      cacheReactive = new Mattr2D(MAX_W, MAX_H, State_init$lambda_0);
-    if (cacheCars === void 0)
-      cacheCars = new Mattr2D(MAX_W, MAX_H, State_init$lambda_1);
     this.cars = cars;
     this.foods = foods;
     this.reactive = reactive;
     this.random = random;
+    this.random2 = random2;
     this.size = size;
     this.tick = tick;
     this.repeatTickCalls = repeatTickCalls;
-    this.cacheFood = cacheFood;
-    this.cacheReactive = cacheReactive;
-    this.cacheCars = cacheCars;
   }
   function State$Companion() {
     State$Companion_instance = this;
@@ -10575,6 +13413,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     this.serialClassDesc.addElement_61zpoe$('foods');
     this.serialClassDesc.addElement_61zpoe$('reactive');
     this.serialClassDesc.addElement_61zpoe$('random');
+    this.serialClassDesc.addElement_61zpoe$('random2');
     this.serialClassDesc.addElement_61zpoe$('size');
     this.serialClassDesc.addElement_61zpoe$('tick');
     State$$serializer_instance = this;
@@ -10589,9 +13428,10 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 0, new ArrayListSerializer(Car$$serializer_getInstance()), obj.cars);
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 1, new ArrayListSerializer(Food$$serializer_getInstance()), obj.foods);
     output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 2, new ArrayListSerializer(Reactive$$serializer_getInstance()), obj.reactive);
-    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 3, obj.random);
-    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 4, obj.size);
-    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 5, Tick$$serializer_getInstance(), obj.tick);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 3, Random$$serializer_getInstance(), obj.random);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 4, Random$$serializer_getInstance(), obj.random2);
+    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 5, obj.size);
+    output.writeSerializableElementValue_k4al2t$(this.serialClassDesc, 6, Tick$$serializer_getInstance(), obj.tick);
     output.writeEnd_f6e2p$(this.serialClassDesc);
   };
   State$$serializer.prototype.load_ljkqvg$ = function (input_0) {
@@ -10602,7 +13442,8 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     , local2
     , local3
     , local4
-    , local5;
+    , local5
+    , local6;
     var input = input_0.readBegin_276rha$(this.serialClassDesc, []);
     loopLabel: while (true) {
       index = input.readElement_f6e2p$(this.serialClassDesc);
@@ -10625,18 +13466,23 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
           if (!readAll)
             break;
         case 3:
-          local3 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 3);
+          local3 = (bitMask0 & 8) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 3, Random$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 3, Random$$serializer_getInstance(), local3);
           bitMask0 |= 8;
           if (!readAll)
             break;
         case 4:
-          local4 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 4);
+          local4 = (bitMask0 & 16) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 4, Random$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 4, Random$$serializer_getInstance(), local4);
           bitMask0 |= 16;
           if (!readAll)
             break;
         case 5:
-          local5 = (bitMask0 & 32) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 5, Tick$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 5, Tick$$serializer_getInstance(), local5);
+          local5 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 5);
           bitMask0 |= 32;
+          if (!readAll)
+            break;
+        case 6:
+          local6 = (bitMask0 & 64) === 0 ? input.readSerializableElementValue_nqb5fm$(this.serialClassDesc, 6, Tick$$serializer_getInstance()) : input.updateSerializableElementValue_2bgl1k$(this.serialClassDesc, 6, Tick$$serializer_getInstance(), local6);
+          bitMask0 |= 64;
           if (!readAll)
             break;
         case -1:
@@ -10645,7 +13491,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       }
     }
     input.readEnd_f6e2p$(this.serialClassDesc);
-    return State_init(bitMask0, local0, local1, local2, local3, local4, local5, null);
+    return State_init(bitMask0, local0, local1, local2, local3, local4, local5, local6, null);
   };
   State$$serializer.$metadata$ = {
     kind: Kind_OBJECT,
@@ -10659,16 +13505,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     return State$$serializer_instance;
   }
-  function State_init$lambda(col, row, col_0, row_0) {
-    return ArrayList_init();
-  }
-  function State_init$lambda_0(col, row, col_0, row_0) {
-    return ArrayList_init();
-  }
-  function State_init$lambda_1(col, row, col_0, row_0) {
-    return ArrayList_init();
-  }
-  function State_init(seen, cars, foods, reactive, random, size, tick, serializationConstructorMarker) {
+  function State_init(seen, cars, foods, reactive, random, random2, size, tick, serializationConstructorMarker) {
     var $this = Object.create(State.prototype);
     if ((seen & 1) === 0) {
       $this.cars = ArrayList_init();
@@ -10690,27 +13527,19 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     else
       $this.random = random;
     if ((seen & 16) === 0)
+      throw new MissingFieldException('random2');
+    else
+      $this.random2 = random2;
+    if ((seen & 32) === 0)
       throw new MissingFieldException('size');
     else
       $this.size = size;
-    if ((seen & 32) === 0)
+    if ((seen & 64) === 0)
       throw new MissingFieldException('tick');
     else
       $this.tick = tick;
     $this.repeatTickCalls = 0;
-    $this.cacheFood = new Mattr2D(MAX_W, MAX_H, State_init$lambda);
-    $this.cacheReactive = new Mattr2D(MAX_W, MAX_H, State_init$lambda_0);
-    $this.cacheCars = new Mattr2D(MAX_W, MAX_H, State_init$lambda_1);
     return $this;
-  }
-  function State_init$lambda(col, row, col_0, row_0) {
-    return ArrayList_init();
-  }
-  function State_init$lambda_0(col, row, col_0, row_0) {
-    return ArrayList_init();
-  }
-  function State_init$lambda_1(col, row, col_0, row_0) {
-    return ArrayList_init();
   }
   State.$metadata$ = {
     kind: Kind_CLASS,
@@ -10730,28 +13559,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return this.random;
   };
   State.prototype.component5 = function () {
-    return this.size;
+    return this.random2;
   };
   State.prototype.component6 = function () {
-    return this.tick;
+    return this.size;
   };
   State.prototype.component7 = function () {
-    return this.repeatTickCalls;
+    return this.tick;
   };
   State.prototype.component8 = function () {
-    return this.cacheFood;
+    return this.repeatTickCalls;
   };
-  State.prototype.component9 = function () {
-    return this.cacheReactive;
-  };
-  State.prototype.component10 = function () {
-    return this.cacheCars;
-  };
-  State.prototype.copy_nsj3jp$ = function (cars, foods, reactive, random, size, tick, repeatTickCalls, cacheFood, cacheReactive, cacheCars) {
-    return new State(cars === void 0 ? this.cars : cars, foods === void 0 ? this.foods : foods, reactive === void 0 ? this.reactive : reactive, random === void 0 ? this.random : random, size === void 0 ? this.size : size, tick === void 0 ? this.tick : tick, repeatTickCalls === void 0 ? this.repeatTickCalls : repeatTickCalls, cacheFood === void 0 ? this.cacheFood : cacheFood, cacheReactive === void 0 ? this.cacheReactive : cacheReactive, cacheCars === void 0 ? this.cacheCars : cacheCars);
+  State.prototype.copy_160xrm$ = function (cars, foods, reactive, random, random2, size, tick, repeatTickCalls) {
+    return new State(cars === void 0 ? this.cars : cars, foods === void 0 ? this.foods : foods, reactive === void 0 ? this.reactive : reactive, random === void 0 ? this.random : random, random2 === void 0 ? this.random2 : random2, size === void 0 ? this.size : size, tick === void 0 ? this.tick : tick, repeatTickCalls === void 0 ? this.repeatTickCalls : repeatTickCalls);
   };
   State.prototype.toString = function () {
-    return 'State(cars=' + Kotlin.toString(this.cars) + (', foods=' + Kotlin.toString(this.foods)) + (', reactive=' + Kotlin.toString(this.reactive)) + (', random=' + Kotlin.toString(this.random)) + (', size=' + Kotlin.toString(this.size)) + (', tick=' + Kotlin.toString(this.tick)) + (', repeatTickCalls=' + Kotlin.toString(this.repeatTickCalls)) + (', cacheFood=' + Kotlin.toString(this.cacheFood)) + (', cacheReactive=' + Kotlin.toString(this.cacheReactive)) + (', cacheCars=' + Kotlin.toString(this.cacheCars)) + ')';
+    return 'State(cars=' + Kotlin.toString(this.cars) + (', foods=' + Kotlin.toString(this.foods)) + (', reactive=' + Kotlin.toString(this.reactive)) + (', random=' + Kotlin.toString(this.random)) + (', random2=' + Kotlin.toString(this.random2)) + (', size=' + Kotlin.toString(this.size)) + (', tick=' + Kotlin.toString(this.tick)) + (', repeatTickCalls=' + Kotlin.toString(this.repeatTickCalls)) + ')';
   };
   State.prototype.hashCode = function () {
     var result = 0;
@@ -10759,56 +13582,324 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     result = result * 31 + Kotlin.hashCode(this.foods) | 0;
     result = result * 31 + Kotlin.hashCode(this.reactive) | 0;
     result = result * 31 + Kotlin.hashCode(this.random) | 0;
+    result = result * 31 + Kotlin.hashCode(this.random2) | 0;
     result = result * 31 + Kotlin.hashCode(this.size) | 0;
     result = result * 31 + Kotlin.hashCode(this.tick) | 0;
     result = result * 31 + Kotlin.hashCode(this.repeatTickCalls) | 0;
-    result = result * 31 + Kotlin.hashCode(this.cacheFood) | 0;
-    result = result * 31 + Kotlin.hashCode(this.cacheReactive) | 0;
-    result = result * 31 + Kotlin.hashCode(this.cacheCars) | 0;
     return result;
   };
   State.prototype.equals = function (other) {
-    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.cars, other.cars) && Kotlin.equals(this.foods, other.foods) && Kotlin.equals(this.reactive, other.reactive) && Kotlin.equals(this.random, other.random) && Kotlin.equals(this.size, other.size) && Kotlin.equals(this.tick, other.tick) && Kotlin.equals(this.repeatTickCalls, other.repeatTickCalls) && Kotlin.equals(this.cacheFood, other.cacheFood) && Kotlin.equals(this.cacheReactive, other.cacheReactive) && Kotlin.equals(this.cacheCars, other.cacheCars)))));
+    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.cars, other.cars) && Kotlin.equals(this.foods, other.foods) && Kotlin.equals(this.reactive, other.reactive) && Kotlin.equals(this.random, other.random) && Kotlin.equals(this.random2, other.random2) && Kotlin.equals(this.size, other.size) && Kotlin.equals(this.tick, other.tick) && Kotlin.equals(this.repeatTickCalls, other.repeatTickCalls)))));
   };
+  function short($receiver, s) {
+    return toShort(numberToInt($receiver / get_semiWidth(s) * 65536));
+  }
+  function int($receiver, s) {
+    return numberToInt($receiver / get_semiWidth(s) * 65536);
+  }
+  function int_0($receiver, s) {
+    return numberToInt($receiver / get_semiWidth(s) * 65536);
+  }
+  function byte($receiver, s) {
+    return toByte(numberToInt($receiver / get_semiWidth(s) * 256));
+  }
+  function short_0($receiver, s) {
+    return toShort(numberToInt($receiver / get_semiWidth(s) * 65536));
+  }
+  function byte_0($receiver, s) {
+    return toByte(numberToInt($receiver / get_semiWidth(s) * 256));
+  }
+  function real($receiver, s) {
+    return $receiver * get_semiWidth(s) / 65536;
+  }
+  function realLikeShortResult($receiver, s) {
+    return $receiver * get_semiWidth(s) / 65536;
+  }
+  function realLikeShortResult_0($receiver, s) {
+    return $receiver * get_semiWidth(s) / 65536;
+  }
+  function real_0($receiver, s) {
+    return $receiver * get_semiWidth(s) / 256;
+  }
+  function floatToShort($receiver, f) {
+    return short(f, $receiver);
+  }
+  function floatToShortInt($receiver, f) {
+    return int(f, $receiver);
+  }
+  function floatToShortInt_0($receiver, f) {
+    return int_0(f, $receiver);
+  }
+  function doubleToShort($receiver, d) {
+    return short_0(d, $receiver);
+  }
+  function shortToReal($receiver, s) {
+    return real(s, $receiver);
+  }
+  function shortToReal_0($receiver, s) {
+    return realLikeShortResult(s, $receiver);
+  }
+  function realXY($receiver, pos) {
+    return new XY(real(pos.x, $receiver), real(pos.y, $receiver));
+  }
+  function realToShort($receiver, pos) {
+    return new SXY(short_0(pos.x, $receiver), short_0(pos.y, $receiver));
+  }
+  function get_semiWidth($receiver) {
+    return $receiver.size;
+  }
+  var get_radius = defineInlineFunction('game.com.riseofcat.share.mass.get_radius_j6xhqv$', wrapFunction(function () {
+    var Math_0 = Math;
+    return function ($receiver) {
+      var x = $receiver.size;
+      return Math_0.sqrt(x);
+    };
+  }));
+  function getCar($receiver, id) {
+    var $receiver_0 = $receiver.cars;
+    var firstOrNull$result;
+    firstOrNull$break: do {
+      var tmp$;
+      tmp$ = $receiver_0.iterator();
+      while (tmp$.hasNext()) {
+        var element = tmp$.next();
+        var tmp$_0;
+        if ((tmp$_0 = element.owner) != null ? tmp$_0.equals(id) : null) {
+          firstOrNull$result = element;
+          break firstOrNull$break;
+        }
+      }
+      firstOrNull$result = null;
+    }
+     while (false);
+    return firstOrNull$result;
+  }
   function deepCopy$lambda(this$deepCopy) {
     return function () {
-      var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4;
+      var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3;
       var $receiver = this$deepCopy.cars;
       var destination = ArrayList_init(collectionSizeOrDefault($receiver, 10));
-      var tmp$_5;
-      tmp$_5 = $receiver.iterator();
-      while (tmp$_5.hasNext()) {
-        var item = tmp$_5.next();
-        destination.add_11rb$(item.copy_j0eshq$());
+      var tmp$_4;
+      tmp$_4 = $receiver.iterator();
+      while (tmp$_4.hasNext()) {
+        var item = tmp$_4.next();
+        destination.add_11rb$(item.copy_r6e7uc$());
       }
       tmp$ = toMutableList(destination);
       var $receiver_0 = this$deepCopy.reactive;
       var destination_0 = ArrayList_init(collectionSizeOrDefault($receiver_0, 10));
-      var tmp$_6;
-      tmp$_6 = $receiver_0.iterator();
-      while (tmp$_6.hasNext()) {
-        var item_0 = tmp$_6.next();
-        destination_0.add_11rb$(item_0.copy_yjy2qv$());
+      var tmp$_5;
+      tmp$_5 = $receiver_0.iterator();
+      while (tmp$_5.hasNext()) {
+        var item_0 = tmp$_5.next();
+        destination_0.add_11rb$(item_0.copy_e0uzq5$());
       }
       tmp$_0 = toMutableList(destination_0);
       var $receiver_1 = this$deepCopy.foods;
       var destination_1 = ArrayList_init(collectionSizeOrDefault($receiver_1, 10));
-      var tmp$_7;
-      tmp$_7 = $receiver_1.iterator();
-      while (tmp$_7.hasNext()) {
-        var item_1 = tmp$_7.next();
-        destination_1.add_11rb$(item_1.copy_mwwf0d$());
+      var tmp$_6;
+      tmp$_6 = $receiver_1.iterator();
+      while (tmp$_6.hasNext()) {
+        var item_1 = tmp$_6.next();
+        destination_1.add_11rb$(item_1.copy_vm1h4i$());
       }
       tmp$_1 = toMutableList(destination_1);
-      tmp$_2 = this$deepCopy.cacheFood;
-      tmp$_3 = this$deepCopy.cacheReactive;
-      tmp$_4 = this$deepCopy.cacheCars;
-      return this$deepCopy.copy_nsj3jp$(tmp$, tmp$_1, tmp$_0, void 0, void 0, void 0, void 0, tmp$_2, tmp$_3, tmp$_4);
+      tmp$_2 = this$deepCopy.random.copy_za3lpa$();
+      tmp$_3 = this$deepCopy.random2.copy_za3lpa$();
+      return this$deepCopy.copy_160xrm$(tmp$, tmp$_1, tmp$_0, tmp$_2, tmp$_3);
     };
   }
-  function deepCopy_0($receiver) {
-    return lib.measure_85cpgq$('State.deepCopy', deepCopy$lambda($receiver));
+  function libObj$measure$lambda$lambda_5(closure$block, closure$result) {
+    return function () {
+      closure$result.v = closure$block();
+      return Unit;
+    };
   }
+  var libObj$measure$lambda$lambda_6 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj) {
+      return function (it) {
+        println('#' + it.key + ': ' + it.value);
+        return Unit;
+      };
+    };
+  });
+  var libObj$measure$lambda_2 = wrapFunction(function () {
+    var println = Kotlin.kotlin.io.println_s8jyv4$;
+    return function (this$libObj, closure$block, closure$hashTag) {
+      return function () {
+        var tmp$;
+        if (this$libObj.measurementsBegin == null) {
+          this$libObj.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_5(closure$block, result)).toNumber() / 1.0E9;
+        var $receiver = this$libObj.measurements;
+        var key = closure$hashTag;
+        var tmp$_0;
+        var value = $receiver.get_11rb$(key);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver.put_xwzc9p$(key, answer);
+          tmp$_0 = answer;
+        }
+         else {
+          tmp$_0 = value;
+        }
+        tmp$_0.add_14dthe$(t);
+        if (compareTo(this$libObj.time, plus_1(this$libObj.previousMeasurePrint, new Duration(L10000))) > 0) {
+          this$libObj.previousMeasurePrint = this$libObj.time;
+          println('measure: ');
+          var tmp$_1;
+          tmp$_1 = this$libObj.measurements.entries.iterator();
+          while (tmp$_1.hasNext()) {
+            var element = tmp$_1.next();
+            println('#' + element.key + ': ' + element.value);
+          }
+        }
+        return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+      };
+    };
+  });
+  function deepCopy_0($receiver) {
+    var $this = lib;
+    var hashTag = 'State.deepCopy';
+    var tmp$;
+    if ($this.measurementsBegin == null) {
+      $this.measurementsBegin = package$lib.lib.time;
+    }
+    var result = {v: null};
+    Common.Companion.getCodeLineInfo_za3lpa$(2);
+    var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_5(deepCopy$lambda($receiver), result)).toNumber() / 1.0E9;
+    var $receiver_0 = $this.measurements;
+    var tmp$_0;
+    var value = $receiver_0.get_11rb$(hashTag);
+    if (value == null) {
+      var answer = new libObj$Measure();
+      $receiver_0.put_xwzc9p$(hashTag, answer);
+      tmp$_0 = answer;
+    }
+     else {
+      tmp$_0 = value;
+    }
+    tmp$_0.add_14dthe$(t);
+    if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+      $this.previousMeasurePrint = $this.time;
+      println('measure: ');
+      var tmp$_1;
+      tmp$_1 = $this.measurements.entries.iterator();
+      while (tmp$_1.hasNext()) {
+        var element = tmp$_1.next();
+        println('#' + element.key + ': ' + element.value);
+      }
+    }
+    return (tmp$ = result.v) == null || Kotlin.isType(tmp$, Any) ? tmp$ : throwCCE();
+  }
+  function Random(seed) {
+    Random$Companion_getInstance();
+    if (seed === void 0)
+      seed = 0;
+    this.seed = seed;
+  }
+  function Random$Companion() {
+    Random$Companion_instance = this;
+  }
+  Random$Companion.prototype.serializer = function () {
+    return Random$$serializer_getInstance();
+  };
+  Random$Companion.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'Companion',
+    interfaces: []
+  };
+  var Random$Companion_instance = null;
+  function Random$Companion_getInstance() {
+    if (Random$Companion_instance === null) {
+      new Random$Companion();
+    }
+    return Random$Companion_instance;
+  }
+  function Random$$serializer() {
+    this.serialClassDesc_f0dt0i$_0 = new SerialClassDescImpl('com.riseofcat.share.mass.Random');
+    this.serialClassDesc.addElement_61zpoe$('seed');
+    Random$$serializer_instance = this;
+  }
+  Object.defineProperty(Random$$serializer.prototype, 'serialClassDesc', {
+    get: function () {
+      return this.serialClassDesc_f0dt0i$_0;
+    }
+  });
+  Random$$serializer.prototype.save_ejfkry$ = function (output_0, obj) {
+    var output = output_0.writeBegin_276rha$(this.serialClassDesc, []);
+    output.writeIntElementValue_j8ubi9$(this.serialClassDesc, 0, obj.seed);
+    output.writeEnd_f6e2p$(this.serialClassDesc);
+  };
+  Random$$serializer.prototype.load_ljkqvg$ = function (input_0) {
+    var index, readAll = false;
+    var bitMask0 = 0;
+    var local0;
+    var input = input_0.readBegin_276rha$(this.serialClassDesc, []);
+    loopLabel: while (true) {
+      index = input.readElement_f6e2p$(this.serialClassDesc);
+      switch (index) {
+        case -2:
+          readAll = true;
+        case 0:
+          local0 = input.readIntElementValue_xvmgof$(this.serialClassDesc, 0);
+          bitMask0 |= 1;
+          if (!readAll)
+            break;
+        case -1:
+          break loopLabel;
+        default:throw new UnknownFieldException(index);
+      }
+    }
+    input.readEnd_f6e2p$(this.serialClassDesc);
+    return Random_init(bitMask0, local0, null);
+  };
+  Random$$serializer.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: '$serializer',
+    interfaces: [KSerializer]
+  };
+  var Random$$serializer_instance = null;
+  function Random$$serializer_getInstance() {
+    if (Random$$serializer_instance === null) {
+      new Random$$serializer();
+    }
+    return Random$$serializer_instance;
+  }
+  function Random_init(seen, seed, serializationConstructorMarker) {
+    var $this = Object.create(Random.prototype);
+    if ((seen & 1) === 0)
+      throw new MissingFieldException('seed');
+    else
+      $this.seed = seed;
+    return $this;
+  }
+  Random.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'Random',
+    interfaces: []
+  };
+  Random.prototype.component1 = function () {
+    return this.seed;
+  };
+  Random.prototype.copy_za3lpa$ = function (seed) {
+    return new Random(seed === void 0 ? this.seed : seed);
+  };
+  Random.prototype.toString = function () {
+    return 'Random(seed=' + Kotlin.toString(this.seed) + ')';
+  };
+  Random.prototype.hashCode = function () {
+    var result = 0;
+    result = result * 31 + Kotlin.hashCode(this.seed) | 0;
+    return result;
+  };
+  Random.prototype.equals = function (other) {
+    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && Kotlin.equals(this.seed, other.seed))));
+  };
   function PlayerId(id) {
     PlayerId$Companion_getInstance();
     this.id = id;
@@ -10911,51 +14002,51 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   PlayerId.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && Kotlin.equals(this.id, other.id))));
   };
-  function XY(x, y) {
-    XY$Companion_getInstance();
+  function SXY(x, y) {
+    SXY$Companion_getInstance();
     if (x === void 0)
-      x = 0.0;
+      x = 0;
     if (y === void 0)
-      y = 0.0;
+      y = 0;
     this.x = x;
     this.y = y;
   }
-  function XY$Companion() {
-    XY$Companion_instance = this;
+  function SXY$Companion() {
+    SXY$Companion_instance = this;
   }
-  XY$Companion.prototype.serializer = function () {
-    return XY$$serializer_getInstance();
+  SXY$Companion.prototype.serializer = function () {
+    return SXY$$serializer_getInstance();
   };
-  XY$Companion.$metadata$ = {
+  SXY$Companion.$metadata$ = {
     kind: Kind_OBJECT,
     simpleName: 'Companion',
     interfaces: []
   };
-  var XY$Companion_instance = null;
-  function XY$Companion_getInstance() {
-    if (XY$Companion_instance === null) {
-      new XY$Companion();
+  var SXY$Companion_instance = null;
+  function SXY$Companion_getInstance() {
+    if (SXY$Companion_instance === null) {
+      new SXY$Companion();
     }
-    return XY$Companion_instance;
+    return SXY$Companion_instance;
   }
-  function XY$$serializer() {
-    this.serialClassDesc_f5pgas$_0 = new SerialClassDescImpl('com.riseofcat.share.mass.XY');
+  function SXY$$serializer() {
+    this.serialClassDesc_pr1qvx$_0 = new SerialClassDescImpl('com.riseofcat.share.mass.SXY');
     this.serialClassDesc.addElement_61zpoe$('x');
     this.serialClassDesc.addElement_61zpoe$('y');
-    XY$$serializer_instance = this;
+    SXY$$serializer_instance = this;
   }
-  Object.defineProperty(XY$$serializer.prototype, 'serialClassDesc', {
+  Object.defineProperty(SXY$$serializer.prototype, 'serialClassDesc', {
     get: function () {
-      return this.serialClassDesc_f5pgas$_0;
+      return this.serialClassDesc_pr1qvx$_0;
     }
   });
-  XY$$serializer.prototype.save_ejfkry$ = function (output_0, obj) {
+  SXY$$serializer.prototype.save_ejfkry$ = function (output_0, obj) {
     var output = output_0.writeBegin_276rha$(this.serialClassDesc, []);
-    output.writeDoubleElementValue_cy908x$(this.serialClassDesc, 0, obj.x);
-    output.writeDoubleElementValue_cy908x$(this.serialClassDesc, 1, obj.y);
+    output.writeShortElementValue_quoth0$(this.serialClassDesc, 0, obj.x);
+    output.writeShortElementValue_quoth0$(this.serialClassDesc, 1, obj.y);
     output.writeEnd_f6e2p$(this.serialClassDesc);
   };
-  XY$$serializer.prototype.load_ljkqvg$ = function (input_0) {
+  SXY$$serializer.prototype.load_ljkqvg$ = function (input_0) {
     var index, readAll = false;
     var bitMask0 = 0;
     var local0
@@ -10967,12 +14058,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
         case -2:
           readAll = true;
         case 0:
-          local0 = input.readDoubleElementValue_xvmgof$(this.serialClassDesc, 0);
+          local0 = input.readShortElementValue_xvmgof$(this.serialClassDesc, 0);
           bitMask0 |= 1;
           if (!readAll)
             break;
         case 1:
-          local1 = input.readDoubleElementValue_xvmgof$(this.serialClassDesc, 1);
+          local1 = input.readShortElementValue_xvmgof$(this.serialClassDesc, 1);
           bitMask0 |= 2;
           if (!readAll)
             break;
@@ -10982,22 +14073,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       }
     }
     input.readEnd_f6e2p$(this.serialClassDesc);
-    return XY_init(bitMask0, local0, local1, null);
+    return SXY_init(bitMask0, local0, local1, null);
   };
-  XY$$serializer.$metadata$ = {
+  SXY$$serializer.$metadata$ = {
     kind: Kind_OBJECT,
     simpleName: '$serializer',
     interfaces: [KSerializer]
   };
-  var XY$$serializer_instance = null;
-  function XY$$serializer_getInstance() {
-    if (XY$$serializer_instance === null) {
-      new XY$$serializer();
+  var SXY$$serializer_instance = null;
+  function SXY$$serializer_getInstance() {
+    if (SXY$$serializer_instance === null) {
+      new SXY$$serializer();
     }
-    return XY$$serializer_instance;
+    return SXY$$serializer_instance;
   }
-  function XY_init(seen, x, y, serializationConstructorMarker) {
-    var $this = Object.create(XY.prototype);
+  function SXY_init(seen, x, y, serializationConstructorMarker) {
+    var $this = Object.create(SXY.prototype);
     if ((seen & 1) === 0)
       throw new MissingFieldException('x');
     else
@@ -11008,16 +14099,48 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       $this.y = y;
     return $this;
   }
+  SXY.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'SXY',
+    interfaces: []
+  };
+  SXY.prototype.component1 = function () {
+    return this.x;
+  };
+  SXY.prototype.component2 = function () {
+    return this.y;
+  };
+  SXY.prototype.copy_8bdmd0$ = function (x, y) {
+    return new SXY(x === void 0 ? this.x : x, y === void 0 ? this.y : y);
+  };
+  SXY.prototype.toString = function () {
+    return 'SXY(x=' + Kotlin.toString(this.x) + (', y=' + Kotlin.toString(this.y)) + ')';
+  };
+  SXY.prototype.hashCode = function () {
+    var result = 0;
+    result = result * 31 + Kotlin.hashCode(this.x) | 0;
+    result = result * 31 + Kotlin.hashCode(this.y) | 0;
+    return result;
+  };
+  SXY.prototype.equals = function (other) {
+    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.x, other.x) && Kotlin.equals(this.y, other.y)))));
+  };
+  function newSXY(x, y) {
+    return new SXY(toShort(x), toShort(y));
+  }
+  function XY(x, y) {
+    if (x === void 0)
+      x = 0.0;
+    if (y === void 0)
+      y = 0.0;
+    this.x = x;
+    this.y = y;
+  }
   XY.$metadata$ = {
     kind: Kind_CLASS,
     simpleName: 'XY',
     interfaces: []
   };
-  function XY_init_0(x, y, $this) {
-    $this = $this || Object.create(XY.prototype);
-    XY.call($this, x, y);
-    return $this;
-  }
   XY.prototype.component1 = function () {
     return this.x;
   };
@@ -11039,12 +14162,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   XY.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.x, other.x) && Kotlin.equals(this.y, other.y)))));
   };
-  function get_radius($receiver) {
-    return get_radius_0($receiver.size);
-  }
-  function get_radius_0($receiver) {
-    return GameConst_getInstance().MIN_RADIUS + 5 * Math_0.sqrt($receiver);
-  }
   function degreesAngle(degrees) {
     return new Angle(degrees / 180.0 * math.PI);
   }
@@ -11055,122 +14172,15 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
     return $receiver;
   }
-  function Rect(pos, size) {
-    this.pos = pos;
-    this.size = size;
+  function get_leftByte($receiver) {
+    return toByte($receiver / 256 | 0);
   }
-  Rect.$metadata$ = {
-    kind: Kind_CLASS,
-    simpleName: 'Rect',
-    interfaces: []
-  };
-  Rect.prototype.component1 = function () {
-    return this.pos;
-  };
-  Rect.prototype.component2 = function () {
-    return this.size;
-  };
-  Rect.prototype.copy_p5hrhe$ = function (pos, size) {
-    return new Rect(pos === void 0 ? this.pos : pos, size === void 0 ? this.size : size);
-  };
-  Rect.prototype.toString = function () {
-    return 'Rect(pos=' + Kotlin.toString(this.pos) + (', size=' + Kotlin.toString(this.size)) + ')';
-  };
-  Rect.prototype.hashCode = function () {
-    var result = 0;
-    result = result * 31 + Kotlin.hashCode(this.pos) | 0;
-    result = result * 31 + Kotlin.hashCode(this.size) | 0;
-    return result;
-  };
-  Rect.prototype.equals = function (other) {
-    return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.pos, other.pos) && Kotlin.equals(this.size, other.size)))));
-  };
-  function get_topLeft($receiver) {
-    return $receiver.pos.copy_lu1900$();
+  function get_rightByte($receiver) {
+    return toByte($receiver % 256);
   }
-  function get_topRight($receiver) {
-    var tmp$ = $receiver.pos;
-    var $receiver_0 = $receiver.size;
-    var xy = new XY(1.0, 0.0);
-    var $receiver_1 = $receiver_0.copy_lu1900$().copy_lu1900$();
-    $receiver_1.x *= xy.x;
-    $receiver_1.y *= xy.y;
-    return tmp$.copy_lu1900$(tmp$.x + $receiver_1.x, tmp$.y + $receiver_1.y);
-  }
-  function get_bottomLeft($receiver) {
-    var tmp$ = $receiver.pos;
-    var $receiver_0 = $receiver.size;
-    var xy = new XY(0.0, 1.0);
-    var $receiver_1 = $receiver_0.copy_lu1900$().copy_lu1900$();
-    $receiver_1.x *= xy.x;
-    $receiver_1.y *= xy.y;
-    return tmp$.copy_lu1900$(tmp$.x + $receiver_1.x, tmp$.y + $receiver_1.y);
-  }
-  function get_bottomRight($receiver) {
-    var tmp$ = $receiver.pos;
-    var $receiver_0 = $receiver.size;
-    var xy = new XY(1.0, 1.0);
-    var $receiver_1 = $receiver_0.copy_lu1900$().copy_lu1900$();
-    $receiver_1.x *= xy.x;
-    $receiver_1.y *= xy.y;
-    return tmp$.copy_lu1900$(tmp$.x + $receiver_1.x, tmp$.y + $receiver_1.y);
-  }
-  function get_points($receiver) {
-    return [get_topLeft($receiver), get_topRight($receiver), get_bottomLeft($receiver), get_bottomRight($receiver)];
-  }
-  function Bucket(col, row) {
-    this.col = col;
-    this.row = row;
-    this.foods = ArrayList_init();
-    this.cars = ArrayList_init();
-    this.reactive = ArrayList_init();
-  }
-  Bucket.prototype.toString = function () {
-    return '[' + this.col + ', ' + this.row + ']';
-  };
-  Bucket.$metadata$ = {
-    kind: Kind_CLASS,
-    simpleName: 'Bucket',
-    interfaces: []
-  };
   function tick$lambda$lambda(this$tick) {
-    return function () {
-      var $receiver = plus_0(this$tick.cars, this$tick.reactive);
-      var tmp$;
-      tmp$ = $receiver.iterator();
-      while (tmp$.hasNext()) {
-        var element = tmp$.next();
-        var this$tick_0 = this$tick;
-        var $receiver_0 = element.pos;
-        var b = times_3(element.speed, GameConst_getInstance().UPDATE_S);
-        var $receiver_1 = $receiver_0.copy_lu1900$();
-        $receiver_1.x += b.x;
-        $receiver_1.y += b.y;
-        element.pos = $receiver_1;
-        var $receiver_2 = element.speed;
-        var xy = new XY(0.98, 0.98);
-        var $receiver_3 = $receiver_2.copy_lu1900$();
-        $receiver_3.x *= xy.x;
-        $receiver_3.y *= xy.y;
-        element.speed = $receiver_3;
-        if (element.pos.x >= get_width(this$tick_0))
-          element.pos.x = element.pos.x - get_width(this$tick_0);
-        else if (element.pos.x < 0)
-          element.pos.x = element.pos.x + get_width(this$tick_0);
-        if (element.pos.y >= get_height(this$tick_0))
-          element.pos.y = element.pos.y - get_height(this$tick_0);
-        else if (element.pos.y < 0)
-          element.pos.y = element.pos.y + get_height(this$tick_0);
-      }
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda_0(closure$reactItr, this$tick) {
-    return function () {
-      while (closure$reactItr.v.hasNext())
-        if (minus_4(this$tick.tick, closure$reactItr.v.next().born).compareTo_11rb$(GameConst_getInstance().REACTIVE_LIVE) > 0)
-          closure$reactItr.v.remove();
-      return Unit;
+    return function (it) {
+      return minus_5(this$tick.tick, it.born).compareTo_11rb$(GameConst_getInstance().REACTIVE_LIVE) > 0;
     };
   }
   function tick$lambda$lambda$lambda(it) {
@@ -11192,7 +14202,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     return this.closure$comparison(a, b);
   };
   Comparator$ObjectLiteral_1.$metadata$ = {kind: Kind_CLASS, interfaces: [Comparator]};
-  function tick$lambda$lambda_1(this$tick) {
+  function tick$lambda$lambda_0(this$tick) {
     return function () {
       var $receiver = this$tick.cars;
       if ($receiver.size > 1) {
@@ -11201,300 +14211,37 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       return Unit;
     };
   }
-  function tick$lambda$containsPoint($receiver, p) {
-    return p.x >= get_topLeft($receiver).x && p.y >= get_topLeft($receiver).y && p.x <= get_bottomRight($receiver).x && p.y <= get_bottomRight($receiver).y;
-  }
-  function tick$lambda$isOverlap(closure$containsPoint) {
-    return function ($receiver, other) {
-      var $receiver_0 = get_points($receiver);
-      var any$result;
-      any$break: do {
-        var tmp$;
-        for (tmp$ = 0; tmp$ !== $receiver_0.length; ++tmp$) {
-          var element = $receiver_0[tmp$];
-          if (closure$containsPoint(other, element)) {
-            any$result = true;
-            break any$break;
-          }
-        }
-        any$result = false;
-      }
-       while (false);
-      var tmp$_0 = any$result;
-      if (!tmp$_0) {
-        var $receiver_1 = get_points(other);
-        var any$result_0;
-        any$break: do {
-          var tmp$_1;
-          for (tmp$_1 = 0; tmp$_1 !== $receiver_1.length; ++tmp$_1) {
-            var element_0 = $receiver_1[tmp$_1];
-            if (closure$containsPoint($receiver, element_0)) {
-              any$result_0 = true;
-              break any$break;
-            }
-          }
-          any$result_0 = false;
-        }
-         while (false);
-        tmp$_0 = any$result_0;
-      }
-      return tmp$_0;
-    };
-  }
-  function tick$lambda$alternative(this$tick) {
-    return function ($receiver) {
-      var result = ArrayList_init();
-      result.add_11rb$($receiver);
-      var $receiver_0 = get_points($receiver);
-      var any$result;
-      any$break: do {
-        var tmp$;
-        for (tmp$ = 0; tmp$ !== $receiver_0.length; ++tmp$) {
-          var element = $receiver_0[tmp$];
-          if (element.x >= get_width(this$tick)) {
-            any$result = true;
-            break any$break;
-          }
-        }
-        any$result = false;
-      }
-       while (false);
-      if (any$result)
-        result.add_11rb$($receiver.copy_p5hrhe$($receiver.pos.copy_lu1900$($receiver.pos.x - get_width(this$tick))));
-      else {
-        var $receiver_1 = get_points($receiver);
-        var any$result_0;
-        any$break: do {
-          var tmp$_0;
-          for (tmp$_0 = 0; tmp$_0 !== $receiver_1.length; ++tmp$_0) {
-            var element_0 = $receiver_1[tmp$_0];
-            if (element_0.x < 0) {
-              any$result_0 = true;
-              break any$break;
-            }
-          }
-          any$result_0 = false;
-        }
-         while (false);
-        if (any$result_0)
-          result.add_11rb$($receiver.copy_p5hrhe$($receiver.pos.copy_lu1900$($receiver.pos.x + get_width(this$tick))));
-      }
-      var $receiver_2 = get_points($receiver);
-      var any$result_1;
-      any$break: do {
-        var tmp$_1;
-        for (tmp$_1 = 0; tmp$_1 !== $receiver_2.length; ++tmp$_1) {
-          var element_1 = $receiver_2[tmp$_1];
-          if (element_1.y >= get_height(this$tick)) {
-            any$result_1 = true;
-            break any$break;
-          }
-        }
-        any$result_1 = false;
-      }
-       while (false);
-      if (any$result_1) {
-        var $receiver_3 = copy(result);
-        var tmp$_2;
-        tmp$_2 = $receiver_3.iterator();
-        while (tmp$_2.hasNext()) {
-          var element_2 = tmp$_2.next();
-          result.add_11rb$(element_2.copy_p5hrhe$(element_2.pos.copy_lu1900$(void 0, element_2.pos.y - get_height(this$tick))));
-        }
-      }
-       else {
-        var $receiver_4 = get_points($receiver);
-        var any$result_2;
-        any$break: do {
-          var tmp$_3;
-          for (tmp$_3 = 0; tmp$_3 !== $receiver_4.length; ++tmp$_3) {
-            var element_3 = $receiver_4[tmp$_3];
-            if (element_3.y < 0) {
-              any$result_2 = true;
-              break any$break;
-            }
-          }
-          any$result_2 = false;
-        }
-         while (false);
-        if (any$result_2) {
-          var $receiver_5 = copy(result);
-          var tmp$_4;
-          tmp$_4 = $receiver_5.iterator();
-          while (tmp$_4.hasNext()) {
-            var element_4 = tmp$_4.next();
-            result.add_11rb$(element_4.copy_p5hrhe$(element_4.pos.copy_lu1900$(void 0, element_4.pos.y + get_height(this$tick))));
-          }
-        }
-      }
-      return result;
-    };
-  }
-  function tick$lambda$toRect($receiver) {
-    var $receiver_0 = $receiver.pos;
-    var a = XY_init_0(get_radius($receiver), get_radius($receiver));
-    return new Rect($receiver_0.copy_lu1900$($receiver_0.x - a.x, $receiver_0.y - a.y), XY_init_0(2 * get_radius($receiver), 2 * get_radius($receiver)));
-  }
-  function tick$lambda$isOverlapRect(closure$toRect, closure$alternative, closure$isOverlap) {
-    return function ($receiver, rect) {
-      var $receiver_0 = closure$alternative(closure$toRect($receiver));
-      var any$result;
-      any$break: do {
-        var tmp$;
-        if (Kotlin.isType($receiver_0, Collection) && $receiver_0.isEmpty()) {
-          any$result = false;
-          break any$break;
-        }
-        tmp$ = $receiver_0.iterator();
-        while (tmp$.hasNext()) {
-          var element = tmp$.next();
-          if (closure$isOverlap(element, rect)) {
-            any$result = true;
-            break any$break;
-          }
-        }
-        any$result = false;
-      }
-       while (false);
-      return any$result;
-    };
-  }
-  function tick$lambda$rect(this$tick) {
-    return function ($receiver) {
-      return new Rect(new XY($receiver.col * get_width(this$tick) / $receiver.matrix.COLS, $receiver.row * get_height(this$tick) / $receiver.matrix.ROWS), new XY(get_width(this$tick) / $receiver.matrix.COLS, get_height(this$tick) / $receiver.matrix.ROWS));
-    };
-  }
-  function tick$lambda$overlap(this$tick) {
-    return function ($receiver, xy) {
-      return distance(this$tick, $receiver.pos, xy) <= get_radius($receiver);
-    };
-  }
-  function tick$lambda$overlapCell(closure$rect, closure$isOverlapRect) {
-    return function ($receiver, matrix) {
-      var $receiver_0 = matrix.all;
-      var destination = ArrayList_init();
-      var tmp$;
-      tmp$ = $receiver_0.iterator();
-      while (tmp$.hasNext()) {
-        var element = tmp$.next();
-        var closure$rect_0 = closure$rect;
-        if (closure$isOverlapRect($receiver, closure$rect_0(element)))
-          destination.add_11rb$(element);
-      }
-      return destination;
-    };
-  }
-  function tick$lambda$mod(value, module_0) {
-    if (value < 0)
-      return value + module_0 | 0;
-    else if (value >= module_0)
-      return value - module_0 | 0;
-    else
-      return value;
-  }
-  function tick$lambda$storeCol(closure$w, closure$mod) {
-    return function ($receiver) {
-      return closure$mod(numberToInt($receiver.pos.x / closure$w), MAX_W);
-    };
-  }
-  function tick$lambda$storeRow(closure$h, closure$mod) {
-    return function ($receiver) {
-      return closure$mod(numberToInt($receiver.pos.y / closure$h), MAX_H);
-    };
-  }
-  function tick$lambda$lambda$lambda_0(this$tick, closure$storeCol, closure$storeRow) {
-    return function () {
-      clearCache(this$tick.cacheFood);
-      var $receiver = this$tick.foods;
-      var tmp$;
-      tmp$ = $receiver.iterator();
-      while (tmp$.hasNext()) {
-        var element = tmp$.next();
-        var this$tick_0 = this$tick;
-        var closure$storeCol_0 = closure$storeCol;
-        var closure$storeRow_0 = closure$storeRow;
-        var $this = this$tick_0.cacheFood;
-        var col = closure$storeCol_0(element);
-        var row = closure$storeRow_0(element);
-        (false ? $this.all.get_za3lpa$(Kotlin.imul(col, $this.ROWS) + row | 0) : ensureNotNull(ensureNotNull($this.map.get_11rb$(col)).get_11rb$(row))).value.add_11rb$(element);
-      }
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda_2(this$tick, closure$storeCol, closure$storeRow) {
-    return function () {
-      lib.measure_85cpgq$('tick.sortBuckets', tick$lambda$lambda$lambda_0(this$tick, closure$storeCol, closure$storeRow));
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda_3(this$tick, closure$storeCol, closure$storeRow) {
-    return function () {
-      clearCache(this$tick.cacheReactive);
-      var $receiver = this$tick.reactive;
-      var tmp$;
-      tmp$ = $receiver.iterator();
-      while (tmp$.hasNext()) {
-        var element = tmp$.next();
-        var this$tick_0 = this$tick;
-        var closure$storeCol_0 = closure$storeCol;
-        var closure$storeRow_0 = closure$storeRow;
-        var $this = this$tick_0.cacheReactive;
-        var col = closure$storeCol_0(element);
-        var row = closure$storeRow_0(element);
-        (false ? $this.all.get_za3lpa$(Kotlin.imul(col, $this.ROWS) + row | 0) : ensureNotNull(ensureNotNull($this.map.get_11rb$(col)).get_11rb$(row))).value.add_11rb$(element);
-      }
-      return Unit;
-    };
-  }
   var LinkedHashSet_init = Kotlin.kotlin.collections.LinkedHashSet_init_287e2$;
-  function tick$lambda$lambda$lambda_1(this$tick, closure$overlapCell, closure$overlap, closure$reactItr) {
+  function tick$lambda$lambda$lambda_0(this$tick) {
     return function () {
-      var tmp$;
+      var tmp$, tmp$_0;
       var handleFoodCars = this$tick.cars;
       while (handleFoodCars.size > 0) {
         var changedSizeCars = LinkedHashSet_init();
         tmp$ = handleFoodCars.iterator();
         while (tmp$.hasNext()) {
           var car = tmp$.next();
-          var overlapBuckets = closure$overlapCell(car, this$tick.cacheFood);
-          var tmp$_0;
-          tmp$_0 = overlapBuckets.iterator();
-          while (tmp$_0.hasNext()) {
-            var element = tmp$_0.next();
-            var closure$overlap_0 = closure$overlap;
-            var this$tick_0 = this$tick;
-            var foodItr = element.value.iterator();
-            while (foodItr.hasNext()) {
-              var f = foodItr.next();
-              if (closure$overlap_0(car, f.pos)) {
-                if (this$tick_0.foods.contains_11rb$(f)) {
-                  this$tick_0.foods.remove_11rb$(f);
-                  car.size = car.size + f.size | 0;
-                  changedSizeCars.add_11rb$(car);
-                }
-              }
+          var tmp$_1 = this$tick;
+          var x = car.size;
+          var rad = floatToShortInt_0(tmp$_1, Math_0.sqrt(x));
+          var foodItr = this$tick.foods.iterator();
+          while (foodItr.hasNext()) {
+            var f = foodItr.next();
+            if (overlap(this$tick, car.pos, rad, f.pos)) {
+              foodItr.remove();
+              car.size = car.size + f.size | 0;
+              changedSizeCars.add_11rb$(car);
             }
           }
-          var overlapBuckets2 = closure$overlapCell(car, this$tick.cacheReactive);
-          var tmp$_1;
-          tmp$_1 = overlapBuckets2.iterator();
-          while (tmp$_1.hasNext()) {
-            var element_0 = tmp$_1.next();
-            var closure$reactItr_0 = closure$reactItr;
-            var closure$overlap_1 = closure$overlap;
-            var this$tick_1 = this$tick;
-            var tmp$_2;
-            closure$reactItr_0.v = element_0.value.iterator();
-            while (closure$reactItr_0.v.hasNext()) {
-              var r = closure$reactItr_0.v.next();
-              if (!((tmp$_2 = r.owner) != null ? tmp$_2.equals(car.owner) : null))
-                if (closure$overlap_1(car, r.pos))
-                  if (this$tick_1.reactive.contains_11rb$(r)) {
-                    this$tick_1.reactive.remove_11rb$(r);
-                    car.size = car.size + r.size | 0;
-                    changedSizeCars.add_11rb$(car);
-                  }
-            }
+          var reactItr = this$tick.reactive.iterator();
+          while (reactItr.hasNext()) {
+            var r = reactItr.next();
+            if (!((tmp$_0 = r.owner) != null ? tmp$_0.equals(car.owner) : null))
+              if (overlap(this$tick, car.pos, rad, r.pos)) {
+                reactItr.remove();
+                car.size = car.size + r.size | 0;
+                changedSizeCars.add_11rb$(car);
+              }
           }
         }
         handleFoodCars = toMutableList(changedSizeCars);
@@ -11502,298 +14249,367 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       return Unit;
     };
   }
-  function tick$lambda$lambda_4(this$tick, closure$overlapCell, closure$overlap, closure$reactItr) {
+  function tick$lambda$lambda$lambda_1(this$tick) {
     return function () {
-      lib.measure_85cpgq$('tick.eatFoods', tick$lambda$lambda$lambda_1(this$tick, closure$overlapCell, closure$overlap, closure$reactItr));
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda_5(this$tick, closure$storeCol, closure$storeRow) {
-    return function () {
-      clearCache(this$tick.cacheCars);
-      var $receiver = this$tick.cars;
       var tmp$;
-      tmp$ = $receiver.iterator();
-      while (tmp$.hasNext()) {
-        var element = tmp$.next();
-        var this$tick_0 = this$tick;
-        var closure$storeCol_0 = closure$storeCol;
-        var closure$storeRow_0 = closure$storeRow;
-        var $this = this$tick_0.cacheCars;
-        var col = closure$storeCol_0(element);
-        var row = closure$storeRow_0(element);
-        (false ? $this.all.get_za3lpa$(Kotlin.imul(col, $this.ROWS) + row | 0) : ensureNotNull(ensureNotNull($this.map.get_11rb$(col)).get_11rb$(row))).value.add_11rb$(element);
-      }
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda$lambda_2(this$tick, closure$overlapCell) {
-    return function () {
-      var handleCarsDestroy = {v: true};
-      while (handleCarsDestroy.v) {
-        handleCarsDestroy.v = false;
+      var handleCarsDestroy = true;
+      while (handleCarsDestroy) {
+        handleCarsDestroy = false;
         var carItr = this$tick.cars.iterator();
+        var copy = copyToArray(this$tick.cars);
         while (carItr.hasNext()) {
           var del = carItr.next();
-          var overlapBuckets = closure$overlapCell(del, this$tick.cacheCars);
-          var tmp$;
-          tmp$ = overlapBuckets.iterator();
-          while (tmp$.hasNext()) {
-            var element = tmp$.next();
-            var this$tick_0 = this$tick;
-            var tmp$_0;
-            tmp$_0 = element.value.iterator();
-            while (tmp$_0.hasNext()) {
-              var c = tmp$_0.next();
-              if (!(del != null ? del.equals(c) : null))
-                if (del.size < c.size)
-                  if (distance(this$tick_0, c.pos, del.pos) <= get_radius(c))
-                    if (this$tick_0.cars.contains_11rb$(c)) {
-                      c.size = c.size + del.size | 0;
-                      carItr.remove();
-                      handleCarsDestroy.v = true;
-                      break;
-                    }
-            }
+          for (tmp$ = 0; tmp$ !== copy.length; ++tmp$) {
+            var c = copy[tmp$];
+            var tmp$_0 = this$tick;
+            var x = c.size;
+            var rad = floatToShortInt_0(tmp$_0, Math_0.sqrt(x));
+            if (!(del != null ? del.equals(c) : null))
+              if (del.size < c.size)
+                if (overlap(this$tick, c.pos, rad, del.pos))
+                  if (this$tick.cars.contains_11rb$(c)) {
+                    c.size = c.size + del.size | 0;
+                    carItr.remove();
+                    handleCarsDestroy = true;
+                    break;
+                  }
           }
         }
       }
       return Unit;
     };
   }
-  function tick$lambda$lambda_6(this$tick, closure$overlapCell) {
+  var abs_0 = Kotlin.kotlin.math.abs_za3lpa$;
+  function tick$lambda(this$tick) {
     return function () {
-      lib.measure_85cpgq$('tick.eatCars', tick$lambda$lambda$lambda_2(this$tick, closure$overlapCell));
-      return Unit;
-    };
-  }
-  function tick$lambda$lambda$lambda_3(this$tick) {
-    return function () {
-      var oldW = get_width(this$tick);
-      var oldH = get_height(this$tick);
-      var delta = get_targetSize(this$tick) - this$tick.size | 0;
-      var delta2 = numberToInt(delta * lib.Fun.arg0toInf_vux9f0$(abs_0(delta), 50));
-      var tmp$ = this$tick;
-      var tmp$_0 = this$tick.size;
-      var tmp$_1 = get_sign(delta2);
-      var a = abs_0(delta2);
-      tmp$.size = tmp$_0 + Kotlin.imul(tmp$_1, Math_0.min(a, 30)) | 0;
-      var $receiver = plus_0(plus_0(this$tick.cars, this$tick.reactive), this$tick.foods);
-      var tmp$_2;
-      tmp$_2 = $receiver.iterator();
-      while (tmp$_2.hasNext()) {
-        var element = tmp$_2.next();
+      this$tick.repeatTickCalls = 0;
+      this$tick.tick = plus_7(this$tick.tick, 1);
+      removeAll(this$tick.reactive, tick$lambda$lambda(this$tick));
+      var $receiver = plus_0(this$tick.cars, this$tick.reactive);
+      var tmp$;
+      tmp$ = $receiver.iterator();
+      while (tmp$.hasNext()) {
+        var element = tmp$.next();
         var this$tick_0 = this$tick;
         var $receiver_0 = element.pos;
-        var xy = new XY(get_width(this$tick_0) / oldW, get_height(this$tick_0) / oldH);
-        var $receiver_1 = $receiver_0.copy_lu1900$();
-        $receiver_1.x *= xy.x;
-        $receiver_1.y *= xy.y;
+        var b = times_3(element.speed, GameConst_getInstance().UPDATE_S * 15000 / this$tick_0.size);
+        var $receiver_1 = $receiver_0.copy_8bdmd0$();
+        $receiver_1.x = toShort($receiver_1.x + b.x);
+        $receiver_1.y = toShort($receiver_1.y + b.y);
         element.pos = $receiver_1;
+        element.speed = times_3(element.speed, 1.0 - GameConst_getInstance().FRICTION);
+      }
+      tick$lambda$lambda_0(this$tick)();
+      var $receiver_2 = this$tick;
+      $receiver_2.repeatTickCalls = $receiver_2.repeatTickCalls + 1 | 0;
+      if (($receiver_2.tick.tick - $receiver_2.repeatTickCalls | 0) % 1 === 0) {
+        var $this = lib;
+        var hashTag = 'tick.eatFoods and reactive';
+        var block = tick$lambda$lambda$lambda_0(this$tick);
+        if ($this.measurementsBegin == null) {
+          $this.measurementsBegin = package$lib.lib.time;
+        }
+        var result = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_5(block, result)).toNumber() / 1.0E9;
+        var $receiver_3 = $this.measurements;
+        var tmp$_0;
+        var value = $receiver_3.get_11rb$(hashTag);
+        if (value == null) {
+          var answer = new libObj$Measure();
+          $receiver_3.put_xwzc9p$(hashTag, answer);
+          tmp$_0 = answer;
+        }
+         else {
+          tmp$_0 = value;
+        }
+        tmp$_0.add_14dthe$(t);
+        if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+          $this.previousMeasurePrint = $this.time;
+          println('measure: ');
+          var tmp$_1;
+          tmp$_1 = $this.measurements.entries.iterator();
+          while (tmp$_1.hasNext()) {
+            var element_0 = tmp$_1.next();
+            println('#' + element_0.key + ': ' + element_0.value);
+          }
+        }
+        var tmp$_2;
+        (tmp$_2 = result.v) == null || Kotlin.isType(tmp$_2, Any) || throwCCE();
+      }
+      var $receiver_4 = this$tick;
+      $receiver_4.repeatTickCalls = $receiver_4.repeatTickCalls + 1 | 0;
+      if (($receiver_4.tick.tick - $receiver_4.repeatTickCalls | 0) % 1 === 0) {
+        var $this_0 = lib;
+        var hashTag_0 = 'tick.eatCars';
+        var block_0 = tick$lambda$lambda$lambda_1(this$tick);
+        if ($this_0.measurementsBegin == null) {
+          $this_0.measurementsBegin = package$lib.lib.time;
+        }
+        var result_0 = {v: null};
+        Common.Companion.getCodeLineInfo_za3lpa$(2);
+        var t_0 = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_5(block_0, result_0)).toNumber() / 1.0E9;
+        var $receiver_5 = $this_0.measurements;
+        var tmp$_3;
+        var value_0 = $receiver_5.get_11rb$(hashTag_0);
+        if (value_0 == null) {
+          var answer_0 = new libObj$Measure();
+          $receiver_5.put_xwzc9p$(hashTag_0, answer_0);
+          tmp$_3 = answer_0;
+        }
+         else {
+          tmp$_3 = value_0;
+        }
+        tmp$_3.add_14dthe$(t_0);
+        if (compareTo($this_0.time, plus_1($this_0.previousMeasurePrint, new Duration(L10000))) > 0) {
+          $this_0.previousMeasurePrint = $this_0.time;
+          println('measure: ');
+          var tmp$_4;
+          tmp$_4 = $this_0.measurements.entries.iterator();
+          while (tmp$_4.hasNext()) {
+            var element_1 = tmp$_4.next();
+            println('#' + element_1.key + ': ' + element_1.value);
+          }
+        }
+        var tmp$_5;
+        (tmp$_5 = result_0.v) == null || Kotlin.isType(tmp$_5, Any) || throwCCE();
+      }
+      var $receiver_6 = this$tick;
+      $receiver_6.repeatTickCalls = $receiver_6.repeatTickCalls + 1 | 0;
+      if (($receiver_6.tick.tick - $receiver_6.repeatTickCalls | 0) % 1 === 0) {
+        var this$tick_1 = this$tick;
+        while (this$tick_1.foods.size < get_targetFoods(this$tick_1)) {
+          this$tick_1.foods.add_11rb$(new Food(randomPos(this$tick_1.random)));
+        }
+      }
+      var $receiver_7 = this$tick;
+      $receiver_7.repeatTickCalls = $receiver_7.repeatTickCalls + 1 | 0;
+      if (($receiver_7.tick.tick - $receiver_7.repeatTickCalls | 0) % 4 === 0) {
+        var this$tick_2 = this$tick;
+        var tmp$_6;
+        var delta = get_targetSize(this$tick_2) - this$tick_2.size | 0;
+        if (delta !== 0) {
+          if (true) {
+            this$tick_2.size = this$tick_2.size + delta | 0;
+          }
+           else {
+            var MAX_SIZE_DELTA = 10;
+            if (abs_0(delta) > MAX_SIZE_DELTA) {
+              var mask = delta >> 31;
+              var it = numberToInt(delta * lib.Fun.arg0toInf_vux9f0$((mask ^ delta) - mask | 0, 50));
+              var tmp$_7 = get_sign(it);
+              var mask_0 = it >> 31;
+              var a = (mask_0 ^ it) - mask_0 | 0;
+              tmp$_6 = Kotlin.imul(tmp$_7, Math_0.min(a, MAX_SIZE_DELTA));
+            }
+             else {
+              tmp$_6 = delta;
+            }
+            var smallDelta = tmp$_6;
+            this$tick_2.size = this$tick_2.size + smallDelta | 0;
+          }
+        }
       }
       return Unit;
     };
   }
-  function tick$lambda$lambda_7(this$tick) {
-    return function () {
-      if (get_targetSize(this$tick) !== this$tick.size)
-        lib.measure_85cpgq$('tick.resize', tick$lambda$lambda$lambda_3(this$tick));
-      return Unit;
-    };
-  }
-  function tick$lambda(this$tick) {
-    return function () {
-      this$tick.repeatTickCalls = 0;
-      this$tick.tick = plus_6(this$tick.tick, 1);
-      lib.measure_85cpgq$('tick.move', tick$lambda$lambda(this$tick));
-      var reactItr = {v: this$tick.reactive.iterator()};
-      lib.measure_85cpgq$('tick.reactiveLife', tick$lambda$lambda_0(reactItr, this$tick));
-      lib.measure_85cpgq$('tick.sortCars', tick$lambda$lambda_1(this$tick));
-      var containsPoint = tick$lambda$containsPoint;
-      var isOverlap = tick$lambda$isOverlap(containsPoint);
-      var alternative = tick$lambda$alternative(this$tick);
-      var toRect = tick$lambda$toRect;
-      var isOverlapRect = tick$lambda$isOverlapRect(toRect, alternative, isOverlap);
-      var rect = tick$lambda$rect(this$tick);
-      var w = get_width(this$tick) / MAX_W;
-      var h = get_height(this$tick) / MAX_H;
-      var overlap = tick$lambda$overlap(this$tick);
-      var overlapCell = tick$lambda$overlapCell(rect, isOverlapRect);
-      var mod = tick$lambda$mod;
-      var storeCol = tick$lambda$storeCol(w, mod);
-      var storeRow = tick$lambda$storeRow(h, mod);
-      repeatTick(this$tick, 20, tick$lambda$lambda_2(this$tick, storeCol, storeRow));
-      repeatTick(this$tick, 5, tick$lambda$lambda_3(this$tick, storeCol, storeRow));
-      repeatTick(this$tick, 5, tick$lambda$lambda_4(this$tick, overlapCell, overlap, reactItr));
-      repeatTick(this$tick, 3, tick$lambda$lambda_5(this$tick, storeCol, storeRow));
-      repeatTick(this$tick, 3, tick$lambda$lambda_6(this$tick, overlapCell));
-      while (this$tick.foods.size < get_targetFoods(this$tick))
-        this$tick.foods.add_11rb$(new Food(GameConst_getInstance().FOOD_SIZE + rnd_2(this$tick, 0, GameConst_getInstance().FOOD_SIZE) | 0, rndPos(this$tick)));
-      repeatTick(this$tick, 3, tick$lambda$lambda_7(this$tick));
-      return Unit;
-    };
-  }
   function tick($receiver) {
-    lib.measure_85cpgq$('tick', tick$lambda($receiver));
-  }
-  function get_sign($receiver) {
-    if ($receiver > 0)
-      return 1;
-    else if ($receiver < 0)
-      return -1;
-    else
-      return 0;
+    var $this = lib;
+    if ($this.measurementsBegin == null) {
+      $this.measurementsBegin = package$lib.lib.time;
+    }
+    var result = {v: null};
+    Common.Companion.getCodeLineInfo_za3lpa$(2);
+    var t = Common.Companion.measureNanoTime_o14v8n$(libObj$measure$lambda$lambda_5(tick$lambda($receiver), result)).toNumber() / 1.0E9;
+    var $receiver_0 = $this.measurements;
+    var tmp$;
+    var value = $receiver_0.get_11rb$('TICK');
+    if (value == null) {
+      var answer = new libObj$Measure();
+      $receiver_0.put_xwzc9p$('TICK', answer);
+      tmp$ = answer;
+    }
+     else {
+      tmp$ = value;
+    }
+    tmp$.add_14dthe$(t);
+    if (compareTo($this.time, plus_1($this.previousMeasurePrint, new Duration(L10000))) > 0) {
+      $this.previousMeasurePrint = $this.time;
+      println('measure: ');
+      var tmp$_0;
+      tmp$_0 = $this.measurements.entries.iterator();
+      while (tmp$_0.hasNext()) {
+        var element = tmp$_0.next();
+        println('#' + element.key + ': ' + element.value);
+      }
+    }
+    var tmp$_1;
+    (tmp$_1 = result.v) == null || Kotlin.isType(tmp$_1, Any) || throwCCE();
   }
   function get_targetFoods($receiver) {
-    return GameConst_getInstance().FOODS + Kotlin.imul(GameConst_getInstance().FOOD_PER_CAR, $receiver.cars.size) | 0;
+    return $receiver.size * $receiver.size / 100000 * 1;
   }
   function get_targetSize($receiver) {
-    return Kotlin.imul($receiver.cars.size, GameConst_getInstance().CHANGE_SIZE_PER_CAR);
-  }
-  var widthCache;
-  var heightCache;
-  function get_width($receiver) {
-    var $receiver_0 = widthCache;
-    var key = $receiver.size;
     var tmp$;
-    var value = $receiver_0.get_11rb$(key);
-    if (value == null) {
-      var x = GameConst_getInstance().BASE_WIDTH * GameConst_getInstance().BASE_WIDTH + Kotlin.imul($receiver.size, $receiver.size);
-      var answer = Math_0.sqrt(x);
-      $receiver_0.put_xwzc9p$(key, answer);
-      tmp$ = answer;
+    var sum = 0;
+    tmp$ = $receiver.cars.iterator();
+    while (tmp$.hasNext()) {
+      var element = tmp$.next();
+      sum = sum + element.size | 0;
     }
-     else {
-      tmp$ = value;
-    }
-    return tmp$;
+    var x = sum * 700;
+    return 100 + numberToInt(Math_0.sqrt(x)) | 0;
   }
-  function get_height($receiver) {
-    var $receiver_0 = heightCache;
-    var key = $receiver.size;
-    var tmp$;
-    var value = $receiver_0.get_11rb$(key);
-    if (value == null) {
-      var x = GameConst_getInstance().BASE_HEIGHT * GameConst_getInstance().BASE_HEIGHT + Kotlin.imul($receiver.size, $receiver.size);
-      var answer = Math_0.sqrt(x);
-      $receiver_0.put_xwzc9p$(key, answer);
-      tmp$ = answer;
-    }
-     else {
-      tmp$ = value;
-    }
-    return tmp$;
-  }
-  function distance($receiver, a, b) {
-    var x = b.x - a.x;
-    var a_0 = Math_0.abs(x);
-    var b_0 = b.x + get_width($receiver) - a.x;
-    var dx = Math_0.min(a_0, b_0);
-    var a_1 = dx;
-    var b_1 = a.x + get_width($receiver) - b.x;
-    dx = Math_0.min(a_1, b_1);
-    var x_0 = b.y - a.y;
-    var a_2 = Math_0.abs(x_0);
-    var b_2 = b.y + get_height($receiver) - a.y;
-    var dy = Math_0.min(a_2, b_2);
-    var a_3 = dy;
-    var b_3 = a.y + get_height($receiver) - b.y;
-    dy = Math_0.min(a_3, b_3);
-    var x_1 = dx * dx + dy * dy;
-    return Math_0.sqrt(x_1);
-  }
-  function rnd_2($receiver, min, max) {
-    $receiver.random = Kotlin.imul($receiver.random, 1664525) + 1013904223 & 2147483647;
-    return min + $receiver.random % (max - min + 1 | 0) | 0;
-  }
-  function rnd_3($receiver, max) {
-    return rnd_2($receiver, 0, max);
-  }
-  function rnd_4($receiver, min, max) {
-    if (min === void 0)
-      min = 0.0;
-    if (max === void 0)
-      max = 1.0;
-    return min + rnd_3($receiver, 999) / 1000.0 * (max - min);
-  }
-  function rndPos($receiver) {
-    return new XY(rnd_4($receiver, get_width($receiver)), rnd_4($receiver, get_height($receiver)));
-  }
-  var plus_5 = defineInlineFunction('game.com.riseofcat.share.mass.plus_cii3jz$', function ($receiver, a) {
-    return $receiver.copy_lu1900$($receiver.x + a.x, $receiver.y + a.y);
+  var get_width = defineInlineFunction('game.com.riseofcat.share.mass.get_width_wc9598$', function ($receiver) {
+    return $receiver.size;
   });
-  var minus_3 = defineInlineFunction('game.com.riseofcat.share.mass.minus_cii3jz$', function ($receiver, a) {
-    return $receiver.copy_lu1900$($receiver.x - a.x, $receiver.y - a.y);
+  var get_height = defineInlineFunction('game.com.riseofcat.share.mass.get_height_wc9598$', function ($receiver) {
+    return $receiver.size;
   });
-  var mscale = defineInlineFunction('game.com.riseofcat.share.mass.mscale_f2s5ku$', wrapFunction(function () {
-    return function ($receiver, xy) {
-      var $receiver_0 = $receiver.copy_lu1900$();
-      $receiver_0.x *= xy.x;
-      $receiver_0.y *= xy.y;
-      return $receiver_0;
+  var abs_1 = defineInlineFunction('game.com.riseofcat.share.mass.abs_za3lpa$', function (x) {
+    var mask = x >> 31;
+    return (mask ^ x) - mask | 0;
+  });
+  var shortAbs = defineInlineFunction('game.com.riseofcat.share.mass.shortAbs_za3lpa$', function (a) {
+    var x = a << 16 >> 16;
+    var mask = x >> 31;
+    return (mask ^ x) - mask | 0;
+  });
+  var dx = defineInlineFunction('game.com.riseofcat.share.mass.dx_8ze964$', function (a, b) {
+    var x = b.x - a.x << 16 >> 16;
+    var mask = x >> 31;
+    return (mask ^ x) - mask | 0;
+  });
+  var dy = defineInlineFunction('game.com.riseofcat.share.mass.dy_8ze964$', function (a, b) {
+    var x = b.y - a.y << 16 >> 16;
+    var mask = x >> 31;
+    return (mask ^ x) - mask | 0;
+  });
+  function overlap($receiver, car, radius, f) {
+    var x = f.x - car.x << 16 >> 16;
+    var mask = x >> 31;
+    var dx = (mask ^ x) - mask | 0;
+    if (dx > radius)
+      return false;
+    var x_0 = f.y - car.y << 16 >> 16;
+    var mask_0 = x_0 >> 31;
+    var dy = (mask_0 ^ x_0) - mask_0 | 0;
+    if (dy > radius)
+      return false;
+    return distance($receiver, dx, dy) <= radius;
+  }
+  function distance($receiver, dx, dy) {
+    var x = (Kotlin.imul(dx, dx) / 4 | 0) + (Kotlin.imul(dy, dy) / 4 | 0) | 0;
+    var sqrt = 2 * Math_0.sqrt(x);
+    return realLikeShortResult_0(sqrt, $receiver);
+  }
+  function distance_0($receiver, a, b) {
+    var x = b.x - a.x << 16 >> 16;
+    var mask = x >> 31;
+    var dx = (mask ^ x) - mask | 0;
+    var x_0 = b.y - a.y << 16 >> 16;
+    var mask_0 = x_0 >> 31;
+    var dy = (mask_0 ^ x_0) - mask_0 | 0;
+    return distance($receiver, dx, dy);
+  }
+  var plus_5 = defineInlineFunction('game.com.riseofcat.share.mass.plus_rnr2q9$', wrapFunction(function () {
+    var newSXY = _.com.riseofcat.share.mass.newSXY_vux9f0$;
+    return function ($receiver, a) {
+      return newSXY($receiver.x + a.x, $receiver.y + a.y);
     };
   }));
-  var mscale_0 = defineInlineFunction('game.com.riseofcat.share.mass.mscale_n81ivb$', wrapFunction(function () {
+  var minus_3 = defineInlineFunction('game.com.riseofcat.share.mass.minus_rnr2q9$', wrapFunction(function () {
+    var newSXY = _.com.riseofcat.share.mass.newSXY_vux9f0$;
+    return function ($receiver, a) {
+      return newSXY($receiver.x - a.x, $receiver.y - a.y);
+    };
+  }));
+  var plus_6 = defineInlineFunction('game.com.riseofcat.share.mass.plus_cii3jz$', wrapFunction(function () {
     var XY_init = _.com.riseofcat.share.mass.XY;
-    return function ($receiver, scl) {
-      var xy = new XY_init(scl, scl);
-      var $receiver_0 = $receiver.copy_lu1900$();
-      $receiver_0.x *= xy.x;
-      $receiver_0.y *= xy.y;
-      return $receiver_0;
+    return function ($receiver, a) {
+      return new XY_init($receiver.x + a.x, $receiver.y + a.y);
     };
   }));
-  var scale = defineInlineFunction('game.com.riseofcat.share.mass.scale_f2s5ku$', wrapFunction(function () {
-    return function ($receiver, xy) {
-      var $receiver_0 = $receiver.copy_lu1900$().copy_lu1900$();
-      $receiver_0.x *= xy.x;
-      $receiver_0.y *= xy.y;
-      return $receiver_0;
-    };
-  }));
-  var scale_0 = defineInlineFunction('game.com.riseofcat.share.mass.scale_n81ivb$', wrapFunction(function () {
+  var minus_4 = defineInlineFunction('game.com.riseofcat.share.mass.minus_cii3jz$', wrapFunction(function () {
     var XY_init = _.com.riseofcat.share.mass.XY;
-    return function ($receiver, scl) {
-      var $receiver_0 = $receiver.copy_lu1900$();
-      var xy = new XY_init(scl, scl);
-      var $receiver_1 = $receiver_0.copy_lu1900$();
-      $receiver_1.x *= xy.x;
-      $receiver_1.y *= xy.y;
-      return $receiver_1;
+    return function ($receiver, a) {
+      return new XY_init($receiver.x - a.x, $receiver.y - a.y);
     };
   }));
-  var msum = defineInlineFunction('game.com.riseofcat.share.mass.msum_f2s5ku$', wrapFunction(function () {
+  var msum = defineInlineFunction('game.com.riseofcat.share.mass.msum_mpnmr6$', wrapFunction(function () {
+    var toShort = Kotlin.toShort;
     return function ($receiver, b) {
-      var $receiver_0 = $receiver.copy_lu1900$();
-      $receiver_0.x += b.x;
-      $receiver_0.y += b.y;
+      var $receiver_0 = $receiver.copy_8bdmd0$();
+      $receiver_0.x = toShort($receiver_0.x + b.x);
+      $receiver_0.y = toShort($receiver_0.y + b.y);
       return $receiver_0;
     };
   }));
-  var sum_1 = defineInlineFunction('game.com.riseofcat.share.mass.sum_f2s5ku$', wrapFunction(function () {
+  var sum_1 = defineInlineFunction('game.com.riseofcat.share.mass.sum_mpnmr6$', wrapFunction(function () {
+    var toShort = Kotlin.toShort;
     return function ($receiver, b) {
-      var $receiver_0 = $receiver.copy_lu1900$().copy_lu1900$();
-      $receiver_0.x += b.x;
-      $receiver_0.y += b.y;
+      var $receiver_0 = $receiver.copy_8bdmd0$().copy_8bdmd0$();
+      $receiver_0.x = toShort($receiver_0.x + b.x);
+      $receiver_0.y = toShort($receiver_0.y + b.y);
+      return $receiver_0;
+    };
+  }));
+  var mtimes = defineInlineFunction('game.com.riseofcat.share.mass.mtimes_6ibzmi$', wrapFunction(function () {
+    var numberToInt = Kotlin.numberToInt;
+    var toShort = Kotlin.toShort;
+    return function ($receiver, scl) {
+      var $receiver_0 = $receiver.copy_8bdmd0$();
+      $receiver_0.x = toShort(numberToInt($receiver_0.x * scl));
+      $receiver_0.y = toShort(numberToInt($receiver_0.y * scl));
       return $receiver_0;
     };
   }));
   function times_3($receiver, scl) {
-    var $receiver_0 = $receiver.copy_lu1900$();
-    var xy = new XY(scl, scl);
-    var $receiver_1 = $receiver_0.copy_lu1900$();
-    $receiver_1.x *= xy.x;
-    $receiver_1.y *= xy.y;
-    return $receiver_1;
+    var $receiver_0 = $receiver.copy_8bdmd0$().copy_8bdmd0$();
+    $receiver_0.x = toShort(numberToInt($receiver_0.x * scl));
+    $receiver_0.y = toShort(numberToInt($receiver_0.y * scl));
+    return $receiver_0;
   }
-  function get_len($receiver) {
-    return dst($receiver, new XY(0.0, 0.0));
+  var mtimes_0 = defineInlineFunction('game.com.riseofcat.share.mass.mtimes_n81ivb$', wrapFunction(function () {
+    return function ($receiver, scl) {
+      var $receiver_0 = $receiver.copy_lu1900$();
+      $receiver_0.x = $receiver_0.x * scl;
+      $receiver_0.y = $receiver_0.y * scl;
+      return $receiver_0;
+    };
+  }));
+  function times_4($receiver, scl) {
+    var $receiver_0 = $receiver.copy_lu1900$().copy_lu1900$();
+    $receiver_0.x = $receiver_0.x * scl;
+    $receiver_0.y = $receiver_0.y * scl;
+    return $receiver_0;
   }
-  function dst($receiver, xy) {
-    var x = (xy.x - $receiver.x) * (xy.x - $receiver.x) + (xy.y - $receiver.y) * (xy.y - $receiver.y);
-    return Math_0.sqrt(x);
+  function _rnd($receiver, min, max) {
+    $receiver.seed = Kotlin.imul($receiver.seed, 1664525) + 1013904223 & 2147483647;
+    return min + $receiver.seed % (max - min + 1 | 0) | 0;
+  }
+  function rnd_2($receiver, min, max) {
+    return rnd_3($receiver, min, max);
+  }
+  function rnd_3($receiver, min, max) {
+    var сдвиг = 65536;
+    var diapasone = max - min | 0;
+    var tmp$ = diapasone / сдвиг | 0;
+    $receiver.seed = Kotlin.imul($receiver.seed, 1664525) + 1013904223 & 2147483647;
+    var tmp$_0 = min + Kotlin.imul(tmp$, 0 + $receiver.seed % (сдвиг - 0 + 1 | 0) | 0);
+    var tmp$_1 = diapasone % сдвиг;
+    $receiver.seed = Kotlin.imul($receiver.seed, 1664525) + 1013904223 & 2147483647;
+    return tmp$_0 + (Kotlin.imul(tmp$_1, 0 + $receiver.seed % (сдвиг - 0 + 1 | 0) | 0) / сдвиг | 0) | 0;
+  }
+  function randomPos($receiver) {
+    return newSXY(rnd_2($receiver, kotlin_js_internal_ShortCompanionObject.MIN_VALUE, kotlin_js_internal_ShortCompanionObject.MAX_VALUE), rnd_2($receiver, kotlin_js_internal_ShortCompanionObject.MIN_VALUE, kotlin_js_internal_ShortCompanionObject.MAX_VALUE));
   }
   function calcAngle($receiver) {
+    var y = $receiver.y;
+    var x = $receiver.x;
+    return new Angle(Math_0.atan2(y, x));
+  }
+  function calcAngle_0($receiver) {
     var y = $receiver.y;
     var x = $receiver.x;
     return new Angle(Math_0.atan2(y, x));
@@ -11908,22 +14724,22 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Tick.prototype.equals = function (other) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && Kotlin.equals(this.tick, other.tick))));
   };
-  function times_4($receiver, multiply) {
+  function times_5($receiver, multiply) {
     return new Tick(Kotlin.imul($receiver.tick, multiply));
   }
-  function plus_6($receiver, i) {
+  function plus_7($receiver, i) {
     return new Tick($receiver.tick + i | 0);
   }
-  function plus_7($receiver, l) {
+  function plus_8($receiver, l) {
     return Tick_init_0(Kotlin.Long.fromInt($receiver.tick).add(l));
   }
-  function plus_8($receiver, other) {
+  function plus_9($receiver, other) {
     return new Tick($receiver.tick + other.tick | 0);
   }
-  function minus_4($receiver, other) {
+  function minus_5($receiver, other) {
     return new Tick($receiver.tick - other.tick | 0);
   }
-  function times_5($receiver, scl) {
+  function times_6($receiver, scl) {
     return new Tick(numberToInt($receiver.tick * scl));
   }
   function AllCommand(tick, pid, newCarCmd, moveCmd) {
@@ -12621,48 +15437,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'ServerError',
     interfaces: []
   };
-  function rotate($receiver, angleA) {
-    var result = $receiver.copy_lu1900$();
-    var angle = plus_4(calcAngle($receiver), angleA);
-    var len = get_len($receiver);
-    var x = angle.radians;
-    result.x = len * Math_0.cos(x);
-    var x_0 = angle.radians;
-    result.y = len * Math_0.sin(x_0);
-    return result;
-  }
-  function degreesAngle_0(degrees) {
-    return new Angle(degrees / 180 * math.PI);
-  }
-  function deepCopyOld($receiver) {
-    var $receiver_0 = $receiver.cars;
-    var destination = ArrayList_init(collectionSizeOrDefault($receiver_0, 10));
-    var tmp$;
-    tmp$ = $receiver_0.iterator();
-    while (tmp$.hasNext()) {
-      var item = tmp$.next();
-      destination.add_11rb$(item.copy_j0eshq$());
-    }
-    var tmp$_0 = toMutableList(destination);
-    var $receiver_1 = $receiver.foods;
-    var destination_0 = ArrayList_init(collectionSizeOrDefault($receiver_1, 10));
-    var tmp$_1;
-    tmp$_1 = $receiver_1.iterator();
-    while (tmp$_1.hasNext()) {
-      var item_0 = tmp$_1.next();
-      destination_0.add_11rb$(item_0.copy_mwwf0d$());
-    }
-    var tmp$_2 = toMutableList(destination_0);
-    var $receiver_2 = $receiver.reactive;
-    var destination_1 = ArrayList_init(collectionSizeOrDefault($receiver_2, 10));
-    var tmp$_3;
-    tmp$_3 = $receiver_2.iterator();
-    while (tmp$_3.hasNext()) {
-      var item_1 = tmp$_3.next();
-      destination_1.add_11rb$(item_1.copy_yjy2qv$());
-    }
-    return $receiver.copy_nsj3jp$(tmp$_0, tmp$_2, toMutableList(destination_1));
-  }
   function ClientSay(pong, payload, index) {
     ClientSay$Companion_getInstance();
     if (pong === void 0)
@@ -12906,6 +15680,1515 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     simpleName: 'ServerSay',
     interfaces: []
   };
+  function EmptyBufferViewPool() {
+    EmptyBufferViewPool_instance = this;
+    NoPoolImpl.call(this);
+  }
+  EmptyBufferViewPool.prototype.borrow = function () {
+    return BufferView$Companion_getInstance().Empty;
+  };
+  EmptyBufferViewPool.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'EmptyBufferViewPool',
+    interfaces: [NoPoolImpl]
+  };
+  var EmptyBufferViewPool_instance = null;
+  function EmptyBufferViewPool_getInstance() {
+    if (EmptyBufferViewPool_instance === null) {
+      new EmptyBufferViewPool();
+    }
+    return EmptyBufferViewPool_instance;
+  }
+  function releaseAll($receiver, pool) {
+    if ($receiver == null)
+      return;
+    $receiver.release_2r3c1x$(pool);
+    releaseAll($receiver.next, pool);
+  }
+  function copyAll($receiver) {
+    var tmp$;
+    var copied = $receiver.makeView();
+    tmp$ = $receiver.next;
+    if (tmp$ == null) {
+      return copied;
+    }
+    var next = tmp$;
+    return copyAll_0(next, copied, copied);
+  }
+  function copyAll_0($receiver, head, prev) {
+    var tmp$;
+    var copied = $receiver.makeView();
+    prev.next = copied;
+    tmp$ = $receiver.next;
+    if (tmp$ == null) {
+      return head;
+    }
+    var next = tmp$;
+    return copyAll_0(next, head, copied);
+  }
+  function findTail($receiver) {
+    var tmp$;
+    tmp$ = $receiver.next;
+    if (tmp$ == null) {
+      return $receiver;
+    }
+    var next = tmp$;
+    return findTail(next);
+  }
+  function remainingAll($receiver) {
+    return remainingAll_0($receiver, L0);
+  }
+  function remainingAll_0($receiver, n) {
+    var tmp$;
+    var rem = Kotlin.Long.fromInt($receiver.readRemaining).add(n);
+    tmp$ = $receiver.next;
+    if (tmp$ == null) {
+      return rem;
+    }
+    var next = tmp$;
+    return remainingAll_0(next, rem);
+  }
+  function isEmpty($receiver) {
+    var tmp$;
+    if ($receiver.readRemaining > 0)
+      return false;
+    tmp$ = $receiver.next;
+    if (tmp$ == null) {
+      return true;
+    }
+    var next = tmp$;
+    return isEmpty(next);
+  }
+  function BufferLimitExceededException(message) {
+    Exception_init(message, this);
+    this.name = 'BufferLimitExceededException';
+  }
+  BufferLimitExceededException.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BufferLimitExceededException',
+    interfaces: [Exception]
+  };
+  var buildPacket = defineInlineFunction('game.kotlinx.io.core.buildPacket_tmk3ki$', wrapFunction(function () {
+    var BytePacketBuilder = _.kotlinx.io.core.BytePacketBuilder_za3lpa$;
+    var Throwable = Error;
+    return function (headerSizeHint, block) {
+      if (headerSizeHint === void 0)
+        headerSizeHint = 0;
+      var builder = BytePacketBuilder(headerSizeHint);
+      try {
+        block(builder);
+        return builder.build();
+      }
+       catch (t) {
+        if (Kotlin.isType(t, Throwable)) {
+          builder.release();
+          throw t;
+        }
+         else
+          throw t;
+      }
+    };
+  }));
+  function BytePacketBuilder_0(headerSizeHint, pool) {
+    this.headerSizeHint_0 = headerSizeHint;
+    this.pool_0 = pool;
+    if (!(this.headerSizeHint_0 >= 0)) {
+      var message = "shouldn't be negative: headerSizeHint = " + this.headerSizeHint_0;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    this.size_p2iquw$_0 = 0;
+    this.byteOrder_hf45cl$_0 = ByteOrder$BIG_ENDIAN_getInstance();
+    this.head_0 = BufferView$Companion_getInstance().Empty;
+    this.tail_0 = this.head_0;
+  }
+  Object.defineProperty(BytePacketBuilder_0.prototype, 'size', {
+    get: function () {
+      return this.size_p2iquw$_0;
+    },
+    set: function (size) {
+      this.size_p2iquw$_0 = size;
+    }
+  });
+  Object.defineProperty(BytePacketBuilder_0.prototype, 'byteOrder', {
+    get: function () {
+      return this.byteOrder_hf45cl$_0;
+    },
+    set: function (value) {
+      this.byteOrder_hf45cl$_0 = value;
+      this.tail_0.byteOrder = value;
+    }
+  });
+  BytePacketBuilder_0.prototype.writeFully_fqrh44$ = function (src) {
+    this.writeFully_mj6st8$(src, 0, src.length);
+  };
+  BytePacketBuilder_0.prototype.writeFully_mj6st8$ = function (src, offset, length) {
+    var copied = {v: 0};
+    while (copied.v < length) {
+      var tmp$;
+      var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 1 ? tmp$ : null : null;
+      var tmp$_0;
+      tmp$_0 = this.size;
+      var tmp$_1;
+      if (buffer == null) {
+        var buffer_0 = this.appendNewBuffer_0();
+        var a = buffer_0.writeRemaining;
+        var b = length - copied.v | 0;
+        var size = Math_0.min(a, b);
+        buffer_0.write_mj6st8$(src, offset + copied.v | 0, size);
+        copied.v = copied.v + size | 0;
+        tmp$_1 = size;
+      }
+       else {
+        var a_0 = buffer.writeRemaining;
+        var b_0 = length - copied.v | 0;
+        var size_0 = Math_0.min(a_0, b_0);
+        buffer.write_mj6st8$(src, offset + copied.v | 0, size_0);
+        copied.v = copied.v + size_0 | 0;
+        tmp$_1 = size_0;
+      }
+      this.size = tmp$_0 + tmp$_1 | 0;
+    }
+  };
+  BytePacketBuilder_0.prototype.writeLong_s8cxhz$ = function (l) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 8 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeLong_s8cxhz$(l);
+      tmp$_1 = 8;
+    }
+     else {
+      buffer.writeLong_s8cxhz$(l);
+      tmp$_1 = 8;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.writeInt_za3lpa$ = function (i) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 4 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeInt_za3lpa$(i);
+      tmp$_1 = 4;
+    }
+     else {
+      buffer.writeInt_za3lpa$(i);
+      tmp$_1 = 4;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.writeShort_mq22fl$ = function (s) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 2 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeShort_mq22fl$(s);
+      tmp$_1 = 2;
+    }
+     else {
+      buffer.writeShort_mq22fl$(s);
+      tmp$_1 = 2;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.writeByte_s8j3t7$ = function (b) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 1 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeByte_s8j3t7$(b);
+      tmp$_1 = 1;
+    }
+     else {
+      buffer.writeByte_s8j3t7$(b);
+      tmp$_1 = 1;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.writeDouble_14dthe$ = function (d) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 8 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeDouble_14dthe$(d);
+      tmp$_1 = 8;
+    }
+     else {
+      buffer.writeDouble_14dthe$(d);
+      tmp$_1 = 8;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.writeFloat_mx4ult$ = function (f) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 4 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      this.appendNewBuffer_0().writeFloat_mx4ult$(f);
+      tmp$_1 = 4;
+    }
+     else {
+      buffer.writeFloat_mx4ult$(f);
+      tmp$_1 = 4;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+  };
+  BytePacketBuilder_0.prototype.append_s8itvh$ = function (c) {
+    var tmp$;
+    var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= 3 ? tmp$ : null : null;
+    var tmp$_0;
+    tmp$_0 = this.size;
+    var tmp$_1;
+    if (buffer == null) {
+      var it = this.appendNewBuffer_0();
+      var v = (c | 0) & 65535;
+      var putUtf8Char_0$result;
+      if (1 <= v && v <= 127) {
+        it.writeByte_s8j3t7$(toByte(v));
+        putUtf8Char_0$result = 1;
+      }
+       else if (v > 2047) {
+        it.writeByte_s8j3t7$(toByte(224 | v >> 12 & 15));
+        it.writeByte_s8j3t7$(toByte(128 | v >> 6 & 63));
+        it.writeByte_s8j3t7$(toByte(128 | v & 63));
+        putUtf8Char_0$result = 3;
+      }
+       else {
+        it.writeByte_s8j3t7$(toByte(192 | v >> 6 & 31));
+        it.writeByte_s8j3t7$(toByte(128 | v & 63));
+        putUtf8Char_0$result = 2;
+      }
+      tmp$_1 = putUtf8Char_0$result;
+    }
+     else {
+      var v_0 = (c | 0) & 65535;
+      var putUtf8Char_0$result_0;
+      if (1 <= v_0 && v_0 <= 127) {
+        buffer.writeByte_s8j3t7$(toByte(v_0));
+        putUtf8Char_0$result_0 = 1;
+      }
+       else if (v_0 > 2047) {
+        buffer.writeByte_s8j3t7$(toByte(224 | v_0 >> 12 & 15));
+        buffer.writeByte_s8j3t7$(toByte(128 | v_0 >> 6 & 63));
+        buffer.writeByte_s8j3t7$(toByte(128 | v_0 & 63));
+        putUtf8Char_0$result_0 = 3;
+      }
+       else {
+        buffer.writeByte_s8j3t7$(toByte(192 | v_0 >> 6 & 31));
+        buffer.writeByte_s8j3t7$(toByte(128 | v_0 & 63));
+        putUtf8Char_0$result_0 = 2;
+      }
+      tmp$_1 = putUtf8Char_0$result_0;
+    }
+    this.size = tmp$_0 + tmp$_1 | 0;
+    return this;
+  };
+  BytePacketBuilder_0.prototype.append_gw00v9$ = function (csq) {
+    if (csq == null) {
+      this.append_gw00v9$('null');
+    }
+     else {
+      this.append_ezbsdh$(csq, 0, csq.length);
+    }
+    return this;
+  };
+  BytePacketBuilder_0.prototype.append_ezbsdh$ = function (csq, start, end) {
+    if (csq == null) {
+      return this.append_ezbsdh$('null', start, end);
+    }
+    this.appendASCII_0(csq, start, end);
+    return this;
+  };
+  BytePacketBuilder_0.prototype.writePacket_8awntw$ = function (p) {
+    var tmp$, tmp$_0, tmp$_1;
+    var foreignStolen = p.stealAll_8be2vx$();
+    if (foreignStolen == null) {
+      p.release();
+      return;
+    }
+    var tail = this.tail_0;
+    if (tail === BufferView$Companion_getInstance().Empty) {
+      this.head_0 = foreignStolen;
+      this.tail_0 = findTail(foreignStolen);
+      this.size = remainingAll(foreignStolen).toInt();
+      return;
+    }
+    var lastSize = tail.readRemaining;
+    var nextSize = foreignStolen.readRemaining;
+    var maxCopySize = PACKET_MAX_COPY_SIZE;
+    if (nextSize < maxCopySize && nextSize <= (tail.endGap + tail.writeRemaining | 0)) {
+      tmp$ = nextSize;
+    }
+     else
+      tmp$ = -1;
+    var appendSize = tmp$;
+    if (lastSize < maxCopySize && lastSize <= foreignStolen.startGap && foreignStolen.isExclusivelyOwned()) {
+      tmp$_0 = lastSize;
+    }
+     else
+      tmp$_0 = -1;
+    var prependSize = tmp$_0;
+    if (appendSize === -1 && prependSize === -1) {
+      tail.next = foreignStolen;
+      this.tail_0 = findTail(foreignStolen);
+      this.size = remainingAll(this.head_0).toInt();
+    }
+     else if (prependSize === -1 || appendSize <= prependSize) {
+      tail.writeBufferAppend_xdubrm$(foreignStolen, tail.writeRemaining + tail.endGap | 0);
+      tail.next = foreignStolen.next;
+      var $receiver = findTail(foreignStolen);
+      this.tail_0 = (tmp$_1 = !($receiver === foreignStolen) ? $receiver : null) != null ? tmp$_1 : tail;
+      foreignStolen.release_2r3c1x$(p.pool);
+      this.size = remainingAll(this.head_0).toInt();
+    }
+     else if (appendSize === -1 || prependSize < appendSize) {
+      foreignStolen.writeBufferPrepend_wscfq8$(tail);
+      if (this.head_0 === tail) {
+        this.head_0 = foreignStolen;
+      }
+       else {
+        var pre = this.head_0;
+        while (true) {
+          var next = ensureNotNull(pre.next);
+          if (next === tail)
+            break;
+          pre = next;
+        }
+        pre.next = foreignStolen;
+      }
+      tail.release_2r3c1x$(this.pool_0);
+      this.tail_0 = findTail(foreignStolen);
+      this.size = remainingAll(this.head_0).toInt();
+    }
+     else {
+      throw IllegalStateException_init('prep = ' + prependSize + ', app = ' + appendSize);
+    }
+  };
+  BytePacketBuilder_0.prototype.appendASCII_0 = function (csq, start, end) {
+    var bb = this.ensure_0();
+    var b = start + bb.writeRemaining | 0;
+    var limitedEnd = Math_0.min(end, b);
+    for (var i = start; i < limitedEnd; i++) {
+      var chi = (csq.charCodeAt(i) | 0) & 65535;
+      if (chi >= 128) {
+        this.appendUTF8_0(csq, i, end, bb);
+        return;
+      }
+      bb.writeByte_s8j3t7$(toByte(chi));
+      this.size = this.size + 1 | 0;
+    }
+    if (limitedEnd < end) {
+      return this.appendASCII_0(csq, limitedEnd, end);
+    }
+  };
+  BytePacketBuilder_0.prototype.appendUTF8_0 = function (csq, start, end, bb) {
+    var tmp$;
+    var rem = bb.writeRemaining;
+    var b = start + rem | 0;
+    var limitedEnd = Math_0.min(end, b);
+    for (var i = start; i < limitedEnd; i++) {
+      var chi = (csq.charCodeAt(i) | 0) & 65535;
+      if (chi <= 127)
+        tmp$ = 1;
+      else if (chi > 2047)
+        tmp$ = 3;
+      else
+        tmp$ = 2;
+      var requiredSize = tmp$;
+      if (rem < requiredSize) {
+        return this.appendUTF8_0(csq, i, end, this.appendNewBuffer_0());
+      }
+      var putUtf8Char_0$result;
+      if (1 <= chi && chi <= 127) {
+        bb.writeByte_s8j3t7$(toByte(chi));
+        putUtf8Char_0$result = 1;
+      }
+       else if (chi > 2047) {
+        bb.writeByte_s8j3t7$(toByte(224 | chi >> 12 & 15));
+        bb.writeByte_s8j3t7$(toByte(128 | chi >> 6 & 63));
+        bb.writeByte_s8j3t7$(toByte(128 | chi & 63));
+        putUtf8Char_0$result = 3;
+      }
+       else {
+        bb.writeByte_s8j3t7$(toByte(192 | chi >> 6 & 31));
+        bb.writeByte_s8j3t7$(toByte(128 | chi & 63));
+        putUtf8Char_0$result = 2;
+      }
+      var chSize = putUtf8Char_0$result;
+      rem = rem - chSize | 0;
+      this.size = this.size + chSize | 0;
+    }
+    if (limitedEnd < end) {
+      return this.appendUTF8_0(csq, limitedEnd, end, this.appendNewBuffer_0());
+    }
+  };
+  BytePacketBuilder_0.prototype.appendChars_uc2sr1$ = function (ca, start, end) {
+    return this.appendASCII_1(ca, start, end);
+  };
+  BytePacketBuilder_0.prototype.appendASCII_1 = function (csq, start, end) {
+    var bb = this.ensure_0();
+    var b = start + bb.writeRemaining | 0;
+    var limitedEnd = Math_0.min(end, b);
+    for (var i = start; i < limitedEnd; i++) {
+      var chi = (csq[i] | 0) & 65535;
+      if (chi >= 128) {
+        this.appendUTF8_1(csq, i, end, bb);
+        return;
+      }
+      bb.writeByte_s8j3t7$(toByte(chi));
+      this.size = this.size + 1 | 0;
+    }
+    if (limitedEnd < end) {
+      return this.appendASCII_1(csq, limitedEnd, end);
+    }
+  };
+  BytePacketBuilder_0.prototype.appendUTF8_1 = function (csq, start, end, bb) {
+    var tmp$;
+    var b = start + bb.writeRemaining | 0;
+    var limitedEnd = Math_0.min(end, b);
+    for (var i = start; i < limitedEnd; i++) {
+      var chi = (csq[i] | 0) & 65535;
+      if (chi <= 127)
+        tmp$ = 1;
+      else if (chi > 2047)
+        tmp$ = 3;
+      else
+        tmp$ = 2;
+      var requiredSize = tmp$;
+      if (bb.writeRemaining < requiredSize) {
+        return this.appendUTF8_1(csq, i, end, this.appendNewBuffer_0());
+      }
+      var tmp$_0 = this.size;
+      var putUtf8Char_0$result;
+      if (1 <= chi && chi <= 127) {
+        bb.writeByte_s8j3t7$(toByte(chi));
+        putUtf8Char_0$result = 1;
+      }
+       else if (chi > 2047) {
+        bb.writeByte_s8j3t7$(toByte(224 | chi >> 12 & 15));
+        bb.writeByte_s8j3t7$(toByte(128 | chi >> 6 & 63));
+        bb.writeByte_s8j3t7$(toByte(128 | chi & 63));
+        putUtf8Char_0$result = 3;
+      }
+       else {
+        bb.writeByte_s8j3t7$(toByte(192 | chi >> 6 & 31));
+        bb.writeByte_s8j3t7$(toByte(128 | chi & 63));
+        putUtf8Char_0$result = 2;
+      }
+      this.size = tmp$_0 + putUtf8Char_0$result | 0;
+    }
+    if (limitedEnd < end) {
+      return this.appendUTF8_1(csq, limitedEnd, end, this.appendNewBuffer_0());
+    }
+  };
+  BytePacketBuilder_0.prototype.writeStringUtf8_61zpoe$ = function (s) {
+    this.append_ezbsdh$(s, 0, s.length);
+  };
+  BytePacketBuilder_0.prototype.writeStringUtf8_6bul2c$ = function (cs) {
+    this.append_ezbsdh$(cs, 0, cs.length);
+  };
+  BytePacketBuilder_0.prototype.putUtf8Char_0 = function ($receiver, v) {
+    if (1 <= v && v <= 127) {
+      $receiver.writeByte_s8j3t7$(toByte(v));
+      return 1;
+    }
+     else if (v > 2047) {
+      $receiver.writeByte_s8j3t7$(toByte(224 | v >> 12 & 15));
+      $receiver.writeByte_s8j3t7$(toByte(128 | v >> 6 & 63));
+      $receiver.writeByte_s8j3t7$(toByte(128 | v & 63));
+      return 3;
+    }
+     else {
+      $receiver.writeByte_s8j3t7$(toByte(192 | v >> 6 & 31));
+      $receiver.writeByte_s8j3t7$(toByte(128 | v & 63));
+      return 2;
+    }
+  };
+  BytePacketBuilder_0.prototype.preview_6bo1y6$ = function (block) {
+    var tmp$;
+    var head = copyAll(this.head_0);
+    var pool = head === BufferView$Companion_getInstance().Empty ? EmptyBufferViewPool_getInstance() : this.pool_0;
+    var packet = new ByteReadPacket(head, pool);
+    try {
+      tmp$ = block(packet);
+    }
+    finally {
+      packet.release();
+    }
+    return tmp$;
+  };
+  BytePacketBuilder_0.prototype.build = function () {
+    var head = this.head_0;
+    this.head_0 = BufferView$Companion_getInstance().Empty;
+    this.tail_0 = BufferView$Companion_getInstance().Empty;
+    this.size = 0;
+    if (head === BufferView$Companion_getInstance().Empty)
+      return new ByteReadPacket(head, EmptyBufferViewPool_getInstance());
+    return new ByteReadPacket(head, this.pool_0);
+  };
+  BytePacketBuilder_0.prototype.release = function () {
+    var head = this.head_0;
+    var empty = BufferView$Companion_getInstance().Empty;
+    if (head !== empty) {
+      this.head_0 = empty;
+      this.tail_0 = empty;
+      releaseAll(head, this.pool_0);
+      this.size = 0;
+    }
+  };
+  BytePacketBuilder_0.prototype.reset = function () {
+    this.release();
+  };
+  BytePacketBuilder_0.prototype.write_rr6hsg$ = defineInlineFunction('game.kotlinx.io.core.BytePacketBuilder.write_rr6hsg$', wrapFunction(function () {
+    return function (size, block) {
+      var tmp$;
+      var buffer = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining >= size ? tmp$ : null : null;
+      var tmp$_0;
+      tmp$_0 = this.size;
+      var tmp$_1;
+      if (buffer == null) {
+        tmp$_1 = block(this.appendNewBuffer_0());
+      }
+       else {
+        tmp$_1 = block(buffer);
+      }
+      this.size = tmp$_0 + tmp$_1 | 0;
+    };
+  }));
+  BytePacketBuilder_0.prototype.ensure_0 = function () {
+    var tmp$, tmp$_0;
+    return (tmp$_0 = (tmp$ = this.last_0()) != null ? tmp$.writeRemaining > 0 ? tmp$ : null : null) != null ? tmp$_0 : this.appendNewBuffer_0();
+  };
+  BytePacketBuilder_0.prototype.appendNewBuffer_0 = function () {
+    var new_0 = this.pool_0.borrow();
+    if (this.head_0 === BufferView$Companion_getInstance().Empty) {
+      new_0.reserveStartGap_za3lpa$(this.headerSizeHint_0);
+    }
+    new_0.reserveEndGap_za3lpa$(ByteReadPacket$Companion_getInstance().ReservedSize);
+    new_0.byteOrder = this.byteOrder;
+    this.last_1(new_0);
+    return new_0;
+  };
+  BytePacketBuilder_0.prototype.last_0 = function () {
+    var $receiver = this.tail_0;
+    return $receiver !== BufferView$Companion_getInstance().Empty ? $receiver : null;
+  };
+  BytePacketBuilder_0.prototype.last_1 = function (new_0) {
+    if (this.head_0 === BufferView$Companion_getInstance().Empty) {
+      this.tail_0 = new_0;
+      this.head_0 = new_0;
+    }
+     else {
+      this.tail_0.next = new_0;
+      this.tail_0 = new_0;
+    }
+  };
+  BytePacketBuilder_0.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'BytePacketBuilder',
+    interfaces: [Appendable]
+  };
+  function ByteReadPacket(head, pool) {
+    ByteReadPacket$Companion_getInstance();
+    this.head_0 = head;
+    this.pool = pool;
+  }
+  Object.defineProperty(ByteReadPacket.prototype, 'remaining', {
+    get: function () {
+      return remainingAll(this.head_0).toInt();
+    }
+  });
+  Object.defineProperty(ByteReadPacket.prototype, 'isEmpty', {
+    get: function () {
+      return isEmpty(this.head_0);
+    }
+  });
+  ByteReadPacket.prototype.copy = function () {
+    return new ByteReadPacket(copyAll(this.head_0), this.pool);
+  };
+  ByteReadPacket.prototype.release = function () {
+    var head = this.head_0;
+    var empty = BufferView$Companion_getInstance().Empty;
+    if (head !== empty) {
+      this.head_0 = empty;
+      releaseAll(head, this.pool);
+    }
+  };
+  ByteReadPacket.prototype.stealAll_8be2vx$ = function () {
+    var head = this.head_0;
+    var empty = BufferView$Companion_getInstance().Empty;
+    if (head === empty)
+      return null;
+    this.head_0 = empty;
+    return head;
+  };
+  ByteReadPacket.prototype.steal_8be2vx$ = function () {
+    var head = this.head_0;
+    var next = head.next;
+    var empty = BufferView$Companion_getInstance().Empty;
+    if (head === empty)
+      return null;
+    this.head_0 = next != null ? next : empty;
+    return head;
+  };
+  ByteReadPacket.prototype.readByte = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(1);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 1 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readByte();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readShort = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(2);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 2 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readShort();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readInt = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(4);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 4 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readInt();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readLong = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(8);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 8 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readLong();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readFloat = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(4);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 4 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readFloat();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readDouble = function () {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(8);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + 8 + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = bb.readDouble();
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.readAvailable_fqrh44$ = function (dst) {
+    return this.readAvailable_mj6st8$(dst, 0, dst.length);
+  };
+  ByteReadPacket.prototype.readAvailable_mj6st8$ = function (dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.length;
+    if (!(offset >= 0)) {
+      var message = "offset shouldn't be negative: " + offset;
+      throw IllegalArgumentException_init(message.toString());
+    }
+    if (!(length >= 0)) {
+      var message_0 = "length shouldn't be negative: " + length;
+      throw IllegalArgumentException_init(message_0.toString());
+    }
+    if (!((offset + length | 0) <= dst.length)) {
+      throw IllegalArgumentException_init_0();
+    }
+    return this.readAsMuchAsPossible_0(dst, offset, length, 0);
+  };
+  ByteReadPacket.prototype.readFully_mj6st8$ = function (dst, offset, length) {
+    if (offset === void 0)
+      offset = 0;
+    if (length === void 0)
+      length = dst.length;
+    var rc = this.readAvailable_mj6st8$(dst, offset, length);
+    if (rc !== length)
+      throw new EOFException('Not enough data in packet to fill buffer: ' + (length - rc | 0) + ' more bytes required');
+  };
+  ByteReadPacket.prototype.discard_za3lpa$ = function (n) {
+    return this.discardAsMuchAsPossible_0(n, 0);
+  };
+  ByteReadPacket.prototype.discardExact_za3lpa$ = function (n) {
+    if (this.discard_za3lpa$(n) !== n)
+      throw new EOFException('Unable to discard ' + n + ' bytes due to end of packet');
+  };
+  ByteReadPacket.prototype.readUTF8LineTo_a5kscm$ = function (out, limit) {
+    var decoded = {v: 0};
+    var size = 1;
+    var cr = {v: false};
+    var end = {v: false};
+    while (!end.v) {
+      var buffer = this.prepareRead_kcn2v3$(size);
+      if (buffer == null) {
+        if (size === 1)
+          break;
+        throw new MalformedUTF8InputException('Premature end of stream: expected ' + size + ' bytes');
+      }
+      var decodeUTF8$result;
+      decodeUTF8$break: do {
+        var byteCount = 0;
+        var value = 0;
+        var lastByteCount = 0;
+        while (buffer.canRead()) {
+          var v = buffer.readByte() & 255;
+          if ((v & 128) === 0) {
+            if (byteCount !== 0)
+              throw new MalformedUTF8InputException('Expected ' + byteCount + ' more character bytes');
+            var ch = toBoxedChar(toChar(v));
+            var consumer$result;
+            consumer$break: do {
+              switch (unboxChar(ch)) {
+                case 13:
+                  if (cr.v) {
+                    end.v = true;
+                    consumer$result = false;
+                    break consumer$break;
+                  }
+
+                  cr.v = true;
+                  consumer$result = true;
+                  break consumer$break;
+                case 10:
+                  this.afterRead_0();
+                  return true;
+                default:if (cr.v) {
+                    end.v = true;
+                    consumer$result = false;
+                    break consumer$break;
+                  }
+
+                  if (decoded.v === limit) {
+                    this.afterRead_0();
+                    throw new BufferLimitExceededException('Too many characters in line: limit ' + limit + ' exceeded');
+                  }
+
+                  decoded.v = decoded.v + 1 | 0;
+                  out.append_s8itvh$(unboxChar(ch));
+                  consumer$result = true;
+                  break consumer$break;
+              }
+            }
+             while (false);
+            if (!consumer$result) {
+              buffer.pushBack_za3lpa$(1);
+              decodeUTF8$result = -1;
+              break decodeUTF8$break;
+            }
+          }
+           else if (byteCount === 0) {
+            var mask = 128;
+            value = v;
+            for (var i = 1; i <= 6; i++) {
+              if ((value & mask) !== 0) {
+                value = value & ~mask;
+                mask = mask >> 1;
+                byteCount = byteCount + 1 | 0;
+              }
+               else {
+                break;
+              }
+            }
+            lastByteCount = byteCount;
+            byteCount = byteCount - 1 | 0;
+            if (byteCount > buffer.readRemaining) {
+              buffer.pushBack_za3lpa$(1);
+              decodeUTF8$result = lastByteCount;
+              break decodeUTF8$break;
+            }
+          }
+           else {
+            value = value << 6 | v & 127;
+            byteCount = byteCount - 1 | 0;
+            if (byteCount === 0) {
+              if (isBmpCodePoint(value)) {
+                var ch_0 = toBoxedChar(toChar(value));
+                var consumer$result_0;
+                consumer$break: do {
+                  switch (unboxChar(ch_0)) {
+                    case 13:
+                      if (cr.v) {
+                        end.v = true;
+                        consumer$result_0 = false;
+                        break consumer$break;
+                      }
+
+                      cr.v = true;
+                      consumer$result_0 = true;
+                      break consumer$break;
+                    case 10:
+                      this.afterRead_0();
+                      return true;
+                    default:if (cr.v) {
+                        end.v = true;
+                        consumer$result_0 = false;
+                        break consumer$break;
+                      }
+
+                      if (decoded.v === limit) {
+                        this.afterRead_0();
+                        throw new BufferLimitExceededException('Too many characters in line: limit ' + limit + ' exceeded');
+                      }
+
+                      decoded.v = decoded.v + 1 | 0;
+                      out.append_s8itvh$(unboxChar(ch_0));
+                      consumer$result_0 = true;
+                      break consumer$break;
+                  }
+                }
+                 while (false);
+                if (!consumer$result_0) {
+                  buffer.pushBack_za3lpa$(lastByteCount);
+                  decodeUTF8$result = -1;
+                  break decodeUTF8$break;
+                }
+              }
+               else if (!isValidCodePoint(value)) {
+                throw IllegalArgumentException_init('Malformed code-point ' + value + ' found');
+              }
+               else {
+                var ch_1 = toBoxedChar(toChar(highSurrogate(value)));
+                var consumer$result_1;
+                consumer$break: do {
+                  switch (unboxChar(ch_1)) {
+                    case 13:
+                      if (cr.v) {
+                        end.v = true;
+                        consumer$result_1 = false;
+                        break consumer$break;
+                      }
+
+                      cr.v = true;
+                      consumer$result_1 = true;
+                      break consumer$break;
+                    case 10:
+                      this.afterRead_0();
+                      return true;
+                    default:if (cr.v) {
+                        end.v = true;
+                        consumer$result_1 = false;
+                        break consumer$break;
+                      }
+
+                      if (decoded.v === limit) {
+                        this.afterRead_0();
+                        throw new BufferLimitExceededException('Too many characters in line: limit ' + limit + ' exceeded');
+                      }
+
+                      decoded.v = decoded.v + 1 | 0;
+                      out.append_s8itvh$(unboxChar(ch_1));
+                      consumer$result_1 = true;
+                      break consumer$break;
+                  }
+                }
+                 while (false);
+                var tmp$ = !consumer$result_1;
+                if (!tmp$) {
+                  var ch_2 = toBoxedChar(toChar(lowSurrogate(value)));
+                  var consumer$result_2;
+                  consumer$break: do {
+                    switch (unboxChar(ch_2)) {
+                      case 13:
+                        if (cr.v) {
+                          end.v = true;
+                          consumer$result_2 = false;
+                          break consumer$break;
+                        }
+
+                        cr.v = true;
+                        consumer$result_2 = true;
+                        break consumer$break;
+                      case 10:
+                        this.afterRead_0();
+                        return true;
+                      default:if (cr.v) {
+                          end.v = true;
+                          consumer$result_2 = false;
+                          break consumer$break;
+                        }
+
+                        if (decoded.v === limit) {
+                          this.afterRead_0();
+                          throw new BufferLimitExceededException('Too many characters in line: limit ' + limit + ' exceeded');
+                        }
+
+                        decoded.v = decoded.v + 1 | 0;
+                        out.append_s8itvh$(unboxChar(ch_2));
+                        consumer$result_2 = true;
+                        break consumer$break;
+                    }
+                  }
+                   while (false);
+                  tmp$ = !consumer$result_2;
+                }
+                if (tmp$) {
+                  buffer.pushBack_za3lpa$(lastByteCount);
+                  decodeUTF8$result = -1;
+                  break decodeUTF8$break;
+                }
+              }
+              value = 0;
+            }
+          }
+        }
+        decodeUTF8$result = 0;
+      }
+       while (false);
+      size = decodeUTF8$result;
+      if (size === 0 || end.v) {
+        this.afterRead_0();
+        size = 1;
+      }
+    }
+    return decoded.v > 0 || !this.isEmpty;
+  };
+  ByteReadPacket.prototype.readDirect_hf2s3b$ = defineInlineFunction('game.kotlinx.io.core.ByteReadPacket.readDirect_hf2s3b$', wrapFunction(function () {
+    var BufferView = _.kotlinx.io.core.BufferView;
+    return function (block) {
+      var current = this.head_0;
+      if (current !== BufferView.Companion.Empty) {
+        block(current);
+        if (!current.canRead()) {
+          this.releaseHead_wscfq8$(current);
+        }
+      }
+    };
+  }));
+  function ByteReadPacket$readCbuf$ObjectLiteral(closure$cbuf, closure$off) {
+    this.closure$cbuf = closure$cbuf;
+    this.idx_0 = closure$off;
+  }
+  ByteReadPacket$readCbuf$ObjectLiteral.prototype.append_s8itvh$ = function (c) {
+    var tmp$;
+    this.closure$cbuf[tmp$ = this.idx_0, this.idx_0 = tmp$ + 1 | 0, tmp$] = c;
+    return this;
+  };
+  ByteReadPacket$readCbuf$ObjectLiteral.prototype.append_gw00v9$ = function (csq) {
+    throw UnsupportedOperationException_init();
+  };
+  ByteReadPacket$readCbuf$ObjectLiteral.prototype.append_ezbsdh$ = function (csq, start, end) {
+    throw UnsupportedOperationException_init();
+  };
+  ByteReadPacket$readCbuf$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [Appendable]
+  };
+  ByteReadPacket.prototype.readCbuf_uc2sr1$ = function (cbuf, off, len) {
+    if (this.isEmpty)
+      return -1;
+    var out = new ByteReadPacket$readCbuf$ObjectLiteral(cbuf, off);
+    return this.readText_5dvtqg$(out, 0, len);
+  };
+  ByteReadPacket.prototype.readText_5dvtqg$ = function (out, min, max) {
+    if (min === void 0)
+      min = 0;
+    if (max === void 0)
+      max = 2147483647;
+    return this.readASCII_0(out, min, max);
+  };
+  ByteReadPacket.prototype.readTextExact_a5kscm$ = function (out, exactCharacters) {
+    this.readText_5dvtqg$(out, exactCharacters, exactCharacters);
+  };
+  ByteReadPacket.prototype.readText_vux9f0$ = function (min, max) {
+    if (min === void 0)
+      min = 0;
+    if (max === void 0)
+      max = 2147483647;
+    if (min === 0 && (max === 0 || this.isEmpty))
+      return '';
+    var $receiver = StringBuilder_init(coerceAtMost(coerceAtLeast(min, 16), max));
+    this.readASCII_0($receiver, min, max);
+    return $receiver.toString();
+  };
+  ByteReadPacket.prototype.readTextExact_za3lpa$ = function (exactCharacters) {
+    return this.readText_vux9f0$(exactCharacters, exactCharacters);
+  };
+  ByteReadPacket.prototype.readASCII_0 = function (out, min, max) {
+    var tmp$;
+    if (max === 0 && min === 0)
+      return 0;
+    else if (this.isEmpty)
+      if (min === 0)
+        return 0;
+      else
+        throw new EOFException('at least ' + min + ' characters required but no bytes available');
+    else if (max < min)
+      throw IllegalArgumentException_init('min should be less or equal to max but min = ' + min + ', max = ' + max);
+    var copied = {v: 0};
+    while (copied.v < max) {
+      var buffer = this.prepareRead_kcn2v3$(1);
+      if (buffer == null) {
+        if (copied.v >= min)
+          break;
+        throw new MalformedUTF8InputException('Premature end of stream: expected at least ' + min + ' chars but had only ' + copied.v);
+      }
+      var decodeASCII$result;
+      decodeASCII$break: do {
+        var tmp$_0;
+        tmp$_0 = buffer.readRemaining;
+        for (var i = 0; i < tmp$_0; i++) {
+          var v = buffer.readByte() & 255;
+          var tmp$_1 = (v & 128) !== 0;
+          if (!tmp$_1) {
+            var it = toBoxedChar(toChar(v));
+            var consumer$result;
+            if (copied.v === max) {
+              consumer$result = false;
+            }
+             else {
+              out.append_s8itvh$(unboxChar(it));
+              copied.v = copied.v + 1 | 0;
+              consumer$result = true;
+            }
+            tmp$_1 = !consumer$result;
+          }
+          if (tmp$_1) {
+            buffer.pushBack_za3lpa$(1);
+            decodeASCII$result = false;
+            break decodeASCII$break;
+          }
+        }
+        decodeASCII$result = true;
+      }
+       while (false);
+      var rc = decodeASCII$result;
+      if (rc) {
+        this.afterRead_0();
+      }
+       else if (copied.v === max) {
+        break;
+      }
+       else {
+        return copied.v + this.readUtf8_0(out, min - copied.v | 0, max - copied.v | 0) | 0;
+      }
+    }
+    if (copied.v > 0)
+      tmp$ = copied.v;
+    else if (isEmpty(this.head_0))
+      tmp$ = -1;
+    else
+      tmp$ = 0;
+    return tmp$;
+  };
+  ByteReadPacket.prototype.readUtf8_0 = function (out, min, max) {
+    var size = 1;
+    var copied = {v: 0};
+    while (copied.v < max) {
+      var buffer = this.prepareRead_kcn2v3$(size);
+      if (buffer == null) {
+        if (copied.v >= min)
+          break;
+        throw new MalformedUTF8InputException('Premature end of stream: expected ' + size + ' bytes');
+      }
+      var decodeUTF8$result;
+      decodeUTF8$break: do {
+        var byteCount = 0;
+        var value = 0;
+        var lastByteCount = 0;
+        while (buffer.canRead()) {
+          var v = buffer.readByte() & 255;
+          if ((v & 128) === 0) {
+            if (byteCount !== 0)
+              throw new MalformedUTF8InputException('Expected ' + byteCount + ' more character bytes');
+            var it = toBoxedChar(toChar(v));
+            var consumer$result;
+            if (copied.v === max) {
+              consumer$result = false;
+            }
+             else {
+              out.append_s8itvh$(unboxChar(it));
+              copied.v = copied.v + 1 | 0;
+              consumer$result = true;
+            }
+            if (!consumer$result) {
+              buffer.pushBack_za3lpa$(1);
+              decodeUTF8$result = -1;
+              break decodeUTF8$break;
+            }
+          }
+           else if (byteCount === 0) {
+            var mask = 128;
+            value = v;
+            for (var i = 1; i <= 6; i++) {
+              if ((value & mask) !== 0) {
+                value = value & ~mask;
+                mask = mask >> 1;
+                byteCount = byteCount + 1 | 0;
+              }
+               else {
+                break;
+              }
+            }
+            lastByteCount = byteCount;
+            byteCount = byteCount - 1 | 0;
+            if (byteCount > buffer.readRemaining) {
+              buffer.pushBack_za3lpa$(1);
+              decodeUTF8$result = lastByteCount;
+              break decodeUTF8$break;
+            }
+          }
+           else {
+            value = value << 6 | v & 127;
+            byteCount = byteCount - 1 | 0;
+            if (byteCount === 0) {
+              if (isBmpCodePoint(value)) {
+                var it_0 = toBoxedChar(toChar(value));
+                var consumer$result_0;
+                if (copied.v === max) {
+                  consumer$result_0 = false;
+                }
+                 else {
+                  out.append_s8itvh$(unboxChar(it_0));
+                  copied.v = copied.v + 1 | 0;
+                  consumer$result_0 = true;
+                }
+                if (!consumer$result_0) {
+                  buffer.pushBack_za3lpa$(lastByteCount);
+                  decodeUTF8$result = -1;
+                  break decodeUTF8$break;
+                }
+              }
+               else if (!isValidCodePoint(value)) {
+                throw IllegalArgumentException_init('Malformed code-point ' + value + ' found');
+              }
+               else {
+                var it_1 = toBoxedChar(toChar(highSurrogate(value)));
+                var consumer$result_1;
+                if (copied.v === max) {
+                  consumer$result_1 = false;
+                }
+                 else {
+                  out.append_s8itvh$(unboxChar(it_1));
+                  copied.v = copied.v + 1 | 0;
+                  consumer$result_1 = true;
+                }
+                var tmp$ = !consumer$result_1;
+                if (!tmp$) {
+                  var it_2 = toBoxedChar(toChar(lowSurrogate(value)));
+                  var consumer$result_2;
+                  if (copied.v === max) {
+                    consumer$result_2 = false;
+                  }
+                   else {
+                    out.append_s8itvh$(unboxChar(it_2));
+                    copied.v = copied.v + 1 | 0;
+                    consumer$result_2 = true;
+                  }
+                  tmp$ = !consumer$result_2;
+                }
+                if (tmp$) {
+                  buffer.pushBack_za3lpa$(lastByteCount);
+                  decodeUTF8$result = -1;
+                  break decodeUTF8$break;
+                }
+              }
+              value = 0;
+            }
+          }
+        }
+        decodeUTF8$result = 0;
+      }
+       while (false);
+      size = decodeUTF8$result;
+      if (size === 0) {
+        this.afterRead_0();
+        size = 1;
+      }
+    }
+    return copied.v;
+  };
+  ByteReadPacket.prototype.discardAsMuchAsPossible_0 = function (n, skipped) {
+    var tmp$;
+    if (n === 0)
+      return skipped;
+    tmp$ = this.prepareRead_kcn2v3$(1);
+    if (tmp$ == null) {
+      return skipped;
+    }
+    var current = tmp$;
+    var a = current.readRemaining;
+    var size = Math_0.min(a, n);
+    current.discardExact_za3lpa$(size);
+    this.afterRead_0();
+    return this.discardAsMuchAsPossible_0(n - size | 0, skipped + size | 0);
+  };
+  ByteReadPacket.prototype.readAsMuchAsPossible_0 = function (array, offset, length, copied) {
+    var tmp$, tmp$_0;
+    if (length === 0)
+      return copied;
+    tmp$ = this.prepareRead_kcn2v3$(1);
+    if (tmp$ == null) {
+      return copied;
+    }
+    var current = tmp$;
+    var b = current.readRemaining;
+    var size = Math_0.min(length, b);
+    current.read_mj6st8$(array, offset, size);
+    if (size !== length || current.readRemaining === 0) {
+      this.afterRead_0();
+      tmp$_0 = this.readAsMuchAsPossible_0(array, offset + size | 0, length - size | 0, copied + size | 0);
+    }
+     else {
+      tmp$_0 = copied + size | 0;
+    }
+    return tmp$_0;
+  };
+  ByteReadPacket.prototype.readN_0 = function (n, block) {
+    var tmp$;
+    tmp$ = this.prepareRead_kcn2v3$(n);
+    if (tmp$ == null) {
+      throw new EOFException('Not enough data in packet to read ' + n + ' byte(s)');
+    }
+    var bb = tmp$;
+    var rc = block(bb);
+    this.afterRead_0();
+    return rc;
+  };
+  ByteReadPacket.prototype.prepareRead_kcn2v3$ = function (minSize) {
+    var tmp$;
+    var head = this.head_0;
+    var headSize = head.readRemaining;
+    if (headSize >= minSize)
+      return head;
+    tmp$ = head.next;
+    if (tmp$ == null) {
+      return null;
+    }
+    var next = tmp$;
+    head.writeBufferAppend_xdubrm$(next, minSize - headSize | 0);
+    if (next.readRemaining === 0) {
+      head.next = next.next;
+      next.release_2r3c1x$(this.pool);
+    }
+    if (head.readRemaining >= minSize)
+      return head;
+    if (minSize > ByteReadPacket$Companion_getInstance().ReservedSize)
+      throw IllegalStateException_init('minSize of ' + minSize + ' is too big (should be less than ' + ByteReadPacket$Companion_getInstance().ReservedSize);
+    return this.prepareRead_kcn2v3$(minSize);
+  };
+  ByteReadPacket.prototype.afterRead_0 = function () {
+    var head = this.head_0;
+    if (head.readRemaining === 0) {
+      this.releaseHead_wscfq8$(head);
+    }
+  };
+  ByteReadPacket.prototype.releaseHead_wscfq8$ = function (head) {
+    var next = head.next;
+    this.head_0 = next != null ? next : BufferView$Companion_getInstance().Empty;
+    head.release_2r3c1x$(this.pool);
+  };
+  function ByteReadPacket$Companion() {
+    ByteReadPacket$Companion_instance = this;
+    this.Empty = new ByteReadPacket(BufferView$Companion_getInstance().Empty, new ByteReadPacket$Companion$Empty$ObjectLiteral());
+    this.ReservedSize = 8;
+  }
+  function ByteReadPacket$Companion$Empty$ObjectLiteral() {
+    NoPoolImpl.call(this);
+  }
+  ByteReadPacket$Companion$Empty$ObjectLiteral.prototype.borrow = function () {
+    return BufferView$Companion_getInstance().Empty;
+  };
+  ByteReadPacket$Companion$Empty$ObjectLiteral.$metadata$ = {
+    kind: Kind_CLASS,
+    interfaces: [NoPoolImpl]
+  };
+  ByteReadPacket$Companion.$metadata$ = {
+    kind: Kind_OBJECT,
+    simpleName: 'Companion',
+    interfaces: []
+  };
+  var ByteReadPacket$Companion_instance = null;
+  function ByteReadPacket$Companion_getInstance() {
+    if (ByteReadPacket$Companion_instance === null) {
+      new ByteReadPacket$Companion();
+    }
+    return ByteReadPacket$Companion_instance;
+  }
+  ByteReadPacket.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'ByteReadPacket',
+    interfaces: []
+  };
+  function readUTF8Line($receiver, estimate, limit) {
+    if (estimate === void 0)
+      estimate = 16;
+    if (limit === void 0)
+      limit = 2147483647;
+    if ($receiver.isEmpty)
+      return null;
+    var sb = StringBuilder_init(estimate);
+    return $receiver.readUTF8LineTo_a5kscm$(sb, limit) ? sb.toString() : null;
+  }
+  function readBytes($receiver, n) {
+    if (n === void 0)
+      n = $receiver.remaining;
+    var $receiver_0 = new Int8Array(n);
+    $receiver.readFully_mj6st8$($receiver_0, 0, n);
+    return $receiver_0;
+  }
+  var decodeASCII = defineInlineFunction('game.kotlinx.io.core.decodeASCII_s9sy5v$', wrapFunction(function () {
+    var toChar = Kotlin.toChar;
+    var toBoxedChar = Kotlin.toBoxedChar;
+    return function ($receiver, consumer) {
+      var tmp$;
+      tmp$ = $receiver.readRemaining;
+      for (var i = 0; i < tmp$; i++) {
+        var v = $receiver.readByte() & 255;
+        if ((v & 128) !== 0 || !consumer(toBoxedChar(toChar(v)))) {
+          $receiver.pushBack_za3lpa$(1);
+          return false;
+        }
+      }
+      return true;
+    };
+  }));
+  var decodeUTF8 = defineInlineFunction('game.kotlinx.io.core.decodeUTF8_s9sy5v$', wrapFunction(function () {
+    var MalformedUTF8InputException_init = _.kotlinx.io.core.MalformedUTF8InputException;
+    var toChar = Kotlin.toChar;
+    var toBoxedChar = Kotlin.toBoxedChar;
+    var IllegalArgumentException_init = Kotlin.kotlin.IllegalArgumentException_init_pdl1vj$;
+    return function ($receiver, consumer) {
+      var byteCount = 0;
+      var value = 0;
+      var lastByteCount = 0;
+      while ($receiver.canRead()) {
+        var v = $receiver.readByte() & 255;
+        if ((v & 128) === 0) {
+          if (byteCount !== 0)
+            throw new MalformedUTF8InputException_init('Expected ' + byteCount + ' more character bytes');
+          if (!consumer(toBoxedChar(toChar(v)))) {
+            $receiver.pushBack_za3lpa$(1);
+            return -1;
+          }
+        }
+         else if (byteCount === 0) {
+          var mask = 128;
+          value = v;
+          for (var i = 1; i <= 6; i++) {
+            if ((value & mask) !== 0) {
+              value = value & ~mask;
+              mask = mask >> 1;
+              byteCount = byteCount + 1 | 0;
+            }
+             else {
+              break;
+            }
+          }
+          lastByteCount = byteCount;
+          byteCount = byteCount - 1 | 0;
+          if (byteCount > $receiver.readRemaining) {
+            $receiver.pushBack_za3lpa$(1);
+            return lastByteCount;
+          }
+        }
+         else {
+          value = value << 6 | v & 127;
+          byteCount = byteCount - 1 | 0;
+          if (byteCount === 0) {
+            if (isBmpCodePoint(value)) {
+              if (!consumer(toBoxedChar(toChar(value)))) {
+                $receiver.pushBack_za3lpa$(lastByteCount);
+                return -1;
+              }
+            }
+             else if (!isValidCodePoint(value)) {
+              throw IllegalArgumentException_init('Malformed code-point ' + value + ' found');
+            }
+             else {
+              if (!consumer(toBoxedChar(toChar(highSurrogate(value)))) || !consumer(toBoxedChar(toChar(lowSurrogate(value))))) {
+                $receiver.pushBack_za3lpa$(lastByteCount);
+                return -1;
+              }
+            }
+            value = 0;
+          }
+        }
+      }
+      return 0;
+    };
+  }));
+  var MaxCodePoint;
+  var MinLowSurrogate;
+  var MinHighSurrogate;
+  var MinSupplementary;
+  var HighSurrogateMagic;
+  function isBmpCodePoint(cp) {
+    return cp >>> 16 === 0;
+  }
+  function isValidCodePoint(codePoint) {
+    return codePoint <= 1114111;
+  }
+  function lowSurrogate(cp) {
+    return (cp & 1023) + 56320 | 0;
+  }
+  function highSurrogate(cp) {
+    return (cp >>> 10) + 55232 | 0;
+  }
+  function MalformedUTF8InputException(message) {
+    Exception_init(message, this);
+    this.name = 'MalformedUTF8InputException';
+  }
+  MalformedUTF8InputException.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'MalformedUTF8InputException',
+    interfaces: [Exception]
+  };
+  function ObjectPool() {
+  }
+  ObjectPool.$metadata$ = {
+    kind: Kind_INTERFACE,
+    simpleName: 'ObjectPool',
+    interfaces: []
+  };
+  function NoPoolImpl() {
+  }
+  Object.defineProperty(NoPoolImpl.prototype, 'capacity', {
+    get: function () {
+      return 0;
+    }
+  });
+  NoPoolImpl.prototype.recycle_trkh7z$ = function (instance) {
+  };
+  NoPoolImpl.prototype.dispose = function () {
+  };
+  NoPoolImpl.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'NoPoolImpl',
+    interfaces: [ObjectPool]
+  };
   Object.defineProperty(_, 'Gen', {
     get: Gen_getInstance
   });
@@ -13073,6 +17356,61 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$tetris.MapTileset = MapTileset;
   package$tetris.TilesetIndex_init = TilesetIndex_init;
   package$tetris.TilesetIndex = TilesetIndex;
+  Object.defineProperty(BufferView, 'Companion', {
+    get: BufferView$Companion_getInstance
+  });
+  var package$kotlinx = _.kotlinx || (_.kotlinx = {});
+  var package$io = package$kotlinx.io || (package$kotlinx.io = {});
+  var package$core = package$io.core || (package$io.core = {});
+  package$core.BufferView = BufferView;
+  Object.defineProperty(ByteOrder, 'BIG_ENDIAN', {
+    get: ByteOrder$BIG_ENDIAN_getInstance
+  });
+  Object.defineProperty(ByteOrder, 'LITTLE_ENDIAN', {
+    get: ByteOrder$LITTLE_ENDIAN_getInstance
+  });
+  Object.defineProperty(ByteOrder, 'Companion', {
+    get: ByteOrder$Companion_getInstance
+  });
+  package$core.ByteOrder = ByteOrder;
+  Object.defineProperty(package$core, 'PACKET_MAX_COPY_SIZE', {
+    get: function () {
+      return PACKET_MAX_COPY_SIZE;
+    }
+  });
+  Object.defineProperty(package$core, 'BUFFER_VIEW_POOL_SIZE_8be2vx$', {
+    get: function () {
+      return BUFFER_VIEW_POOL_SIZE;
+    }
+  });
+  Object.defineProperty(package$core, 'BUFFER_VIEW_SIZE_8be2vx$', {
+    get: function () {
+      return BUFFER_VIEW_SIZE;
+    }
+  });
+  package$core.BytePacketBuilder_za3lpa$ = BytePacketBuilder;
+  package$core.EOFException = EOFException;
+  var package$js = package$io.js || (package$io.js = {});
+  package$js.readText_5725gb$ = readText;
+  package$js.readText_g056j7$ = readText_0;
+  package$js.TextDecoderFatal_t8jjq2$ = TextDecoderFatal;
+  package$js.decodeStream_ggodax$ = decodeStream;
+  package$js.readAvailable_5dxkts$ = readAvailable;
+  package$js.readAvailable_yzr1a1$ = readAvailable_0;
+  package$js.readFully_yzr1a1$ = readFully;
+  package$js.readFully_5dxkts$ = readFully_0;
+  package$js.readArrayBuffer_3lionn$ = readArrayBuffer;
+  package$js.writeFully_omiljy$ = writeFully;
+  package$js.writeFully_w89fyx$ = writeFully_0;
+  package$js.sendPacket_tx3ju1$ = sendPacket;
+  package$core.buildPacket_tmk3ki$ = buildPacket;
+  package$js.sendPacket_wglm47$ = sendPacket_0;
+  package$js.getPacket_vafzv0$ = getPacket;
+  package$js.sendPacket_8zvei$ = sendPacket_2;
+  package$js.sendPacket_eks1ru$ = sendPacket_1;
+  package$js.responsePacket_rezk82$ = responsePacket;
+  var package$pool = package$io.pool || (package$io.pool = {});
+  package$pool.DefaultPool = DefaultPool;
   var package$kuden = _.kuden || (_.kuden = {});
   package$kuden.Matrix4 = Matrix4;
   Object.defineProperty(DrawMode, 'LINEAR', {
@@ -13188,11 +17526,14 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   });
   package$masspower.ImgData = ImgData;
   package$masspower.ImgCache = ImgCache;
-  package$masspower.RenderData = RenderData;
   package$masspower.View = View;
   package$masspower.FixedWidth = FixedWidth;
   package$masspower.Attr = Attr;
   package$masspower.IterAttr = IterAttr;
+  package$masspower.Color = Color_1;
+  var package$share = package$riseofcat.share || (package$riseofcat.share = {});
+  var package$mass = package$share.mass || (package$share.mass = {});
+  package$mass.realXY_wzlaku$ = realXY;
   MassPower.GameTexture = MassPower$GameTexture;
   MassPower.BackOffset = MassPower$BackOffset;
   MassPower.CircleData = MassPower$CircleData;
@@ -13247,7 +17588,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
       renderCalls = value;
     }
   });
-  package$masspower.onRender = onRender;
   package$masspower.SmoothByRenderCalls = SmoothByRenderCalls;
   package$masspower.CacheByRenderCalls = CacheByRenderCalls;
   package$masspower.mem_61zpoe$ = mem;
@@ -13299,6 +17639,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Object.defineProperty(Key, 'NINE', {
     get: Key$NINE_getInstance
   });
+  Object.defineProperty(Key, 'PLUS', {
+    get: Key$PLUS_getInstance
+  });
+  Object.defineProperty(Key, 'MINUS', {
+    get: Key$MINUS_getInstance
+  });
   Object.defineProperty(Key, 'Companion', {
     get: Key$Companion_getInstance
   });
@@ -13347,7 +17693,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$performance.TextureData = TextureData_0;
   package$performance.ImgData = ImgData_0;
   package$performance.ImgCache = ImgCache_0;
-  package$performance.RenderData = RenderData_0;
+  package$performance.RenderData = RenderData;
   package$performance.View = View_0;
   package$performance.FixedWidth = FixedWidth_0;
   package$performance.Attr = Attr_0;
@@ -13435,9 +17781,25 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$util.max_yni7l$ = max_0;
   package$util.min_cfdwmc$ = min_1;
   package$util.max_cfdwmc$ = max_1;
+  var package$github = package$com.github || (package$com.github = {});
+  var package$alkaizyr = package$github.alkaizyr || (package$github.alkaizyr = {});
+  var package$tree = package$alkaizyr.tree || (package$alkaizyr.tree = {});
+  package$tree.Tree = Tree;
+  var package$binarysearch = package$tree.binarysearch || (package$tree.binarysearch = {});
+  package$binarysearch.BinarySearchTree = BinarySearchTree;
+  package$binarysearch.Node = Node;
+  package$binarysearch.Printer = Printer;
+  var package$btree = package$tree.btree || (package$tree.btree = {});
+  package$btree.BNode = BNode;
+  package$btree.BTree = BTree;
+  var package$redblack = package$tree.redblack || (package$tree.redblack = {});
+  package$redblack.RBNode = RBNode;
+  package$redblack.RBPrinter = RBPrinter;
+  package$redblack.RedBlackTree = RedBlackTree;
   var package$client = package$riseofcat.client || (package$riseofcat.client = {});
   package$client.ClientModel = ClientModel;
-  package$client.touch_5h00rc$ = touch;
+  package$client.touch_rksfx9$ = touch;
+  package$client._touch_dsdcu0$ = _touch;
   package$client.calcRenderXY_aq8nq9$ = calcRenderXY;
   Object.defineProperty(Conf, 'Companion', {
     get: Conf$Companion_getInstance
@@ -13492,6 +17854,11 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Object.defineProperty(package$client, 'MASS_POWER_FOOD_FRAG', {
     get: function () {
       return MASS_POWER_FOOD_FRAG;
+    }
+  });
+  Object.defineProperty(package$client, 'MASS_POWER_REACTIVE_VERTEX', {
+    get: function () {
+      return MASS_POWER_REACTIVE_VERTEX;
     }
   });
   Object.defineProperty(package$common, 'ServerCommon', {
@@ -13567,6 +17934,9 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     }
   });
   $$importsForInline$$['kotlinx-serialization-runtime-js'] = $module$kotlinx_serialization_runtime_js;
+  Object.defineProperty(libObj.prototype, 'hexCbor', {
+    get: libObj$hexCbor_getInstance
+  });
   Object.defineProperty(libObj.prototype, 'cbor', {
     get: libObj$cbor_getInstance
   });
@@ -13599,6 +17969,9 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Object.defineProperty(libObj.prototype, 'FunObj', {
     get: libObj$FunObj_getInstance
   });
+  libObj.prototype.CacheResult = libObj$CacheResult;
+  libObj.prototype.CacheContext = libObj$CacheContext;
+  libObj.prototype.CacheDelegate = libObj$CacheDelegate;
   Object.defineProperty(package$lib, 'libObj', {
     get: libObj_getInstance
   });
@@ -13606,27 +17979,15 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$lib.rm_dwdffb$ = rm;
   package$lib.removeFirst_vvxzk3$ = removeFirst;
   package$lib.SmoothByTime = SmoothByTime;
-  var package$share = package$riseofcat.share || (package$riseofcat.share = {});
-  Object.defineProperty(package$share, 'ShareTodo', {
-    get: ShareTodo_getInstance
-  });
-  var package$mass = package$share.mass || (package$share.mass = {});
+  package$lib.countOnes_s8ev3n$ = countOnes;
   Object.defineProperty(package$mass, 'SerializeHelp', {
     get: SerializeHelp_getInstance
   });
-  Object.defineProperty(package$mass, 'MAX_W', {
+  Object.defineProperty(package$mass, 'PERFORMANCE_KOEFF', {
     get: function () {
-      return MAX_W;
+      return PERFORMANCE_KOEFF;
     }
   });
-  Object.defineProperty(package$mass, 'MAX_H', {
-    get: function () {
-      return MAX_H;
-    }
-  });
-  Mattr2D.Cell = Mattr2D$Cell;
-  package$mass.Mattr2D = Mattr2D;
-  package$mass.clearCache_4mgewv$ = clearCache;
   package$mass.repeatTick_morbwt$ = repeatTick;
   Object.defineProperty(package$mass, 'GameConst', {
     get: GameConst_getInstance
@@ -13635,7 +17996,7 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$mass.PosObject = PosObject;
   package$mass.SpeedObject = SpeedObject;
   package$mass.SizeObject = SizeObject;
-  package$mass.EatMeWithSpeed = EatMeWithSpeed;
+  package$mass.MovedObject = MovedObject;
   Object.defineProperty(NewCarCommand, 'Companion', {
     get: NewCarCommand$Companion_getInstance
   });
@@ -13659,7 +18020,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   package$mass.Angle = Angle;
   package$mass.plus_sjo4vl$ = plus_4;
   package$mass.minus_sjo4vl$ = minus_2;
-  package$mass.xy_hxrp0k$ = xy;
   package$mass.get_degrees_u2um1u$ = get_degrees;
   package$mass.set_degrees_hxrp0k$ = set_degrees;
   package$mass.get_sin_u2um1u$ = get_sin;
@@ -13692,7 +18052,34 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     get: State$$serializer_getInstance
   });
   package$mass.State = State;
+  package$mass.short_yn1p5h$ = short;
+  package$mass.int_9pc7q4$ = int;
+  package$mass.int_yn1p5h$ = int_0;
+  package$mass.byte_yn1p5h$ = byte;
+  package$mass.short_9pc7q4$ = short_0;
+  package$mass.byte_9pc7q4$ = byte_0;
+  package$mass.real_bqkd3f$ = real;
+  package$mass.realLikeShortResult_wn97ig$ = realLikeShortResult;
+  package$mass.realLikeShortResult_yn1p5h$ = realLikeShortResult_0;
+  package$mass.real_7egim3$ = real_0;
+  package$mass.floatToShort_2blex9$ = floatToShort;
+  package$mass.floatToShortInt_1unt46$ = floatToShortInt;
+  package$mass.floatToShortInt_2blex9$ = floatToShortInt_0;
+  package$mass.doubleToShort_1unt46$ = doubleToShort;
+  package$mass.shortToReal_24imr1$ = shortToReal;
+  package$mass.shortToReal_64rnuu$ = shortToReal_0;
+  package$mass.realToShort_3inyqr$ = realToShort;
+  package$mass.get_semiWidth_wc9598$ = get_semiWidth;
+  package$mass.get_radius_j6xhqv$ = get_radius;
+  package$mass.getCar_s0p97m$ = getCar;
   package$mass.deepCopy_wc9598$ = deepCopy_0;
+  Object.defineProperty(Random, 'Companion', {
+    get: Random$Companion_getInstance
+  });
+  Object.defineProperty(Random, '$serializer', {
+    get: Random$$serializer_getInstance
+  });
+  package$mass.Random = Random;
   Object.defineProperty(PlayerId, 'Companion', {
     get: PlayerId$Companion_getInstance
   });
@@ -13700,58 +18087,46 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     get: PlayerId$$serializer_getInstance
   });
   package$mass.PlayerId = PlayerId;
-  Object.defineProperty(XY, 'Companion', {
-    get: XY$Companion_getInstance
+  Object.defineProperty(SXY, 'Companion', {
+    get: SXY$Companion_getInstance
   });
-  Object.defineProperty(XY, '$serializer', {
-    get: XY$$serializer_getInstance
+  Object.defineProperty(SXY, '$serializer', {
+    get: SXY$$serializer_getInstance
   });
-  package$mass.XY_init_dleff0$ = XY_init_0;
+  package$mass.SXY = SXY;
+  package$mass.newSXY_vux9f0$ = newSXY;
   package$mass.XY = XY;
-  package$mass.get_radius_j6xhqv$ = get_radius;
-  package$mass.get_radius_s8ev3n$ = get_radius_0;
   package$mass.degreesAngle_za3lpa$ = degreesAngle;
   package$mass.act_mibzqj$ = act;
-  package$mass.Rect = Rect;
-  package$mass.get_topLeft_lui4rp$ = get_topLeft;
-  package$mass.get_topRight_lui4rp$ = get_topRight;
-  package$mass.get_bottomLeft_lui4rp$ = get_bottomLeft;
-  package$mass.get_bottomRight_lui4rp$ = get_bottomRight;
-  package$mass.get_points_lui4rp$ = get_points;
-  package$mass.Bucket = Bucket;
+  package$mass.get_leftByte_5vcgdc$ = get_leftByte;
+  package$mass.get_rightByte_5vcgdc$ = get_rightByte;
   package$mass.tick_wc9598$ = tick;
-  package$mass.get_sign_s8ev3n$ = get_sign;
   package$mass.get_targetFoods_wc9598$ = get_targetFoods;
   package$mass.get_targetSize_wc9598$ = get_targetSize;
-  Object.defineProperty(package$mass, 'widthCache', {
-    get: function () {
-      return widthCache;
-    }
-  });
-  Object.defineProperty(package$mass, 'heightCache', {
-    get: function () {
-      return heightCache;
-    }
-  });
   package$mass.get_width_wc9598$ = get_width;
   package$mass.get_height_wc9598$ = get_height;
-  package$mass.distance_bqkczi$ = distance;
-  package$mass.rnd_79kmrs$ = rnd_2;
-  package$mass.rnd_64rnuu$ = rnd_3;
-  package$mass.rnd_jhy5nw$ = rnd_4;
-  package$mass.rndPos_wc9598$ = rndPos;
-  package$mass.plus_cii3jz$ = plus_5;
-  package$mass.minus_cii3jz$ = minus_3;
-  package$mass.mscale_f2s5ku$ = mscale;
-  package$mass.mscale_n81ivb$ = mscale_0;
-  package$mass.scale_f2s5ku$ = scale;
-  package$mass.scale_n81ivb$ = scale_0;
-  package$mass.msum_f2s5ku$ = msum;
-  package$mass.sum_f2s5ku$ = sum_1;
-  package$mass.times_4o8t3e$ = times_3;
-  package$mass.get_len_vm1dfc$ = get_len;
-  package$mass.dst_cii3jz$ = dst;
-  package$mass.calcAngle_vm1dfc$ = calcAngle;
+  package$mass.abs_za3lpa$ = abs_1;
+  package$mass.shortAbs_za3lpa$ = shortAbs;
+  package$mass.dx_8ze964$ = dx;
+  package$mass.dy_8ze964$ = dy;
+  package$mass.overlap_4n1q5a$ = overlap;
+  package$mass.distance_79kmrs$ = distance;
+  package$mass.distance_pwvsu0$ = distance_0;
+  package$mass.plus_rnr2q9$ = plus_5;
+  package$mass.minus_rnr2q9$ = minus_3;
+  package$mass.plus_cii3jz$ = plus_6;
+  package$mass.minus_cii3jz$ = minus_4;
+  package$mass.msum_mpnmr6$ = msum;
+  package$mass.sum_mpnmr6$ = sum_1;
+  package$mass.mtimes_6ibzmi$ = mtimes;
+  package$mass.times_db5qv1$ = times_3;
+  package$mass.mtimes_n81ivb$ = mtimes_0;
+  package$mass.times_4o8t3e$ = times_4;
+  package$mass.rnd_6dilsq$ = rnd_2;
+  package$mass.rnd_9q5ta2$ = rnd_3;
+  package$mass.randomPos_vloi56$ = randomPos;
+  package$mass.calcAngle_egb0td$ = calcAngle;
+  package$mass.calcAngle_vm1dfc$ = calcAngle_0;
   Object.defineProperty(Tick, 'Companion', {
     get: Tick$Companion_getInstance
   });
@@ -13760,12 +18135,12 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   });
   package$mass.Tick_init_s8cxhz$ = Tick_init_0;
   package$mass.Tick = Tick;
-  package$mass.times_1fnjam$ = times_4;
-  package$mass.plus_1fnjam$ = plus_6;
-  package$mass.plus_qjsi77$ = plus_7;
-  package$mass.plus_r60du1$ = plus_8;
-  package$mass.minus_r60du1$ = minus_4;
-  package$mass.times_i0qo7i$ = times_5;
+  package$mass.times_1fnjam$ = times_5;
+  package$mass.plus_1fnjam$ = plus_7;
+  package$mass.plus_qjsi77$ = plus_8;
+  package$mass.plus_r60du1$ = plus_9;
+  package$mass.minus_r60du1$ = minus_5;
+  package$mass.times_i0qo7i$ = times_6;
   Object.defineProperty(AllCommand, 'Companion', {
     get: AllCommand$Companion_getInstance
   });
@@ -13808,10 +18183,6 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
     get: ServerError$$serializer_getInstance
   });
   package$mass.ServerError = ServerError;
-  var package$unused = package$mass.unused || (package$mass.unused = {});
-  package$unused.rotate_wzw29h$ = rotate;
-  package$unused.degreesAngle_14dthe$ = degreesAngle_0;
-  package$unused.deepCopyOld_wc9598$ = deepCopyOld;
   Object.defineProperty(ClientSay, 'Companion', {
     get: ClientSay$Companion_getInstance
   });
@@ -13823,6 +18194,27 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   });
   ServerSay.$serializer = ServerSay$$serializer;
   package$ping.ServerSay = ServerSay;
+  Object.defineProperty(package$core, 'EmptyBufferViewPool', {
+    get: EmptyBufferViewPool_getInstance
+  });
+  package$core.releaseAll_xrxjkl$ = releaseAll;
+  package$core.copyAll_lz4ryn$ = copyAll;
+  package$core.findTail_lz4ryn$ = findTail;
+  package$core.remainingAll_lz4ryn$ = remainingAll;
+  package$core.isEmpty_lz4ryn$ = isEmpty;
+  package$core.BufferLimitExceededException = BufferLimitExceededException;
+  package$core.BytePacketBuilder = BytePacketBuilder_0;
+  Object.defineProperty(ByteReadPacket, 'Companion', {
+    get: ByteReadPacket$Companion_getInstance
+  });
+  package$core.ByteReadPacket = ByteReadPacket;
+  package$core.readUTF8Line_i9nmip$ = readUTF8Line;
+  package$core.readBytes_3lionn$ = readBytes;
+  package$core.decodeASCII_s9sy5v$ = decodeASCII;
+  package$core.decodeUTF8_s9sy5v$ = decodeUTF8;
+  package$core.MalformedUTF8InputException = MalformedUTF8InputException;
+  package$pool.ObjectPool = ObjectPool;
+  package$pool.NoPoolImpl = NoPoolImpl;
   testFirst$lambda$A_15.prototype.isEmpty = ClosedRange.prototype.isEmpty;
   testFirst$lambda$Data$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   testFirst$lambda$Box$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
@@ -13837,8 +18229,9 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   Food$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   Reactive$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   State$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
+  Random$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   PlayerId$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
-  XY$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
+  SXY$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   Tick$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   AllCommand$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
   ServerPayload$$serializer.prototype.update_qkk2oh$ = KSerializer.prototype.update_qkk2oh$;
@@ -13859,6 +18252,15 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   DARK = 0.4;
   SHADOW = 0.2;
   SATURATION = 0.75;
+  PACKET_MAX_COPY_SIZE = 200;
+  BUFFER_VIEW_POOL_SIZE = 100;
+  BUFFER_VIEW_SIZE = 4096;
+  var $receiver = new Any();
+  $receiver.stream = true;
+  STREAM_TRUE = $receiver;
+  var $receiver_0 = new Any();
+  $receiver_0.fatal = true;
+  FATAL_TRUE = $receiver_0;
   vertxSrc = '\n  attribute vec2 a_position;\n  attribute vec2 a_boundingBox;\n  attribute vec2 a_texCoord;\n  attribute float a_scale;\n  attribute float a_rotation;\n  uniform mat4 u_projectionView;\n  varying vec2 v_textCoord;\n  varying vec4 myColor;\n  varying vec4 arr[gl_MaxVaryingVectors-2];//28-29\n\n  mat4 scale(float scale) {\n    return mat4(\n      vec4(scale, 0.0,   0.0,   0.0),\n      vec4(0.0,   scale, 0.0,   0.0),\n      vec4(0.0,   0.0,   scale, 0.0),\n      vec4(0.0,   0.0,   0.0,   1.0)\n    );\n  }\n  mat4 rotateZ(float angle) {\n    return mat4(\n      vec4(cos(angle),   sin(angle),  0.0,  0.0),\n      vec4(-sin(angle),  cos(angle),  0.0,  0.0),\n      vec4(0.0,          0.0,         1.0,  0.0),\n      vec4(0.0,          0.0,         0.0,  1.0)\n    );\n  }\n  void main(void) {\n    v_textCoord = a_texCoord;\n    vec4 scaledBox = vec4(a_boundingBox, 1.0, 1.0) * scale(a_scale) * rotateZ(a_rotation);\n    //myColor = vec4(1.0,0.3,0.3,0.5);\n    myColor = vec4(1.0,1.0,1.0,1.0);\n    gl_Position = u_projectionView * vec4(a_position + scaledBox.xy, 1.0, 1.0);\n  }\n';
   fragmSrc = '\n  precision mediump float;\n  uniform sampler2D u_sampler;\n  uniform lowp int u_test_array_size;\n  uniform lowp float u_arr[3];\n  uniform lowp vec4 u_vec_arr[gl_MaxVertexUniformVectors - 5];\n  varying vec2 v_textCoord;\n  varying vec4 myColor;\n  varying vec4 arr[gl_MaxVaryingVectors-2];//28-29\n\n  void main(void) {\n    gl_FragColor = myColor * texture2D(u_sampler, v_textCoord);\n    //gl_FragColor.a = gl_FragColor.a * (u_arr[0] + u_arr[1]);\n  }\n';
   FOOD_SCALE = 1.3;
@@ -13876,20 +18278,23 @@ var game = function (_, Kotlin, $module$kotlinx_serialization_runtime_js) {
   COUNT = 100;
   SCALE = 0.1;
   FULLSCREEN_VERTICES = toVertives([-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0]);
-  shader_default_vertex_shader_vert = '\nattribute vec4 a_position; //\u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432\u0435\u0440\u0448\u0438\u043D\u044B\nattribute vec4 a_color; //\u0446\u0432\u0435\u0442 \u0432\u0435\u0440\u0448\u0438\u043D\u044B\nattribute vec2 a_texCoord0; //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nuniform mat4 u_projTrans;  //\u043C\u0430\u0442\u0440\u0438\u0446\u0430, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u0442 \u0434\u0430\u043D\u043D\u044B\u0435 \u0434\u043B\u044F \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043F\u0440\u043E\u0435\u043A\u0446\u0438\u0438 \u0438 \u0432\u0438\u0434\u0430\nvarying vec4 v_color;  //\u0446\u0432\u0435\u0442 \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0434\u0430\u043D \u0432 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u043D\u044B\u0439 \u0448\u0435\u0439\u0434\u0435\u0440\nvarying vec4 vColor;  //\u0446\u0432\u0435\u0442 \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0434\u0430\u043D \u0432 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u043D\u044B\u0439 \u0448\u0435\u0439\u0434\u0435\u0440\nvarying vec2 v_texCoords;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvarying vec2 v_texCoord;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvarying vec2 vTexCoord;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvoid main(){\n    v_color=a_color;\n    vColor = a_color;\n    // \u041F\u0440\u0438 \u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0435 \u0446\u0432\u0435\u0442 \u0438\u0437 SpriteBatch \u0432 \u0448\u0435\u0439\u0434\u0435\u0440, \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0438\u0437 ABGR int \u0446\u0432\u0435\u0442\u0430 \u0432 float.\n    // \u0447\u0442\u043E-\u0431\u044B \u0438\u0437\u0431\u0435\u0436\u0430\u0442\u044C NAN  \u043F\u0440\u0438 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435, \u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D \u043D\u0435 \u0432\u0435\u0441\u044C \u0434\u0438\u0430\u043F\u0430\u0437\u043E\u043D \u0434\u043B\u044F \u0430\u043B\u044C\u0444\u044B, \u0430 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043E\u0442 (0-254)\n    //\u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043D\u0435\u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u043E\u0441\u0442\u044C \u0446\u0432\u0435\u0442\u0430, \u043A\u043E\u0433\u0434\u0430 \u0430\u043B\u044C\u0444\u0430 \u0432\u043E float \u0440\u0430\u0432\u043D\u0430 1, \u0442\u043E \u0432\u0441\u044E \u0430\u043B\u044C\u0444\u0443 \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u0443\u043C\u043D\u043E\u0436\u0430\u0442\u044C.\n    //\u044D\u0442\u043E \u0441\u043F\u0435\u0446\u0438\u0444\u0438\u043A\u0430 libgdx \u0438 \u043E \u043D\u0435\u0439 \u043D\u0430\u0434\u043E \u043F\u043E\u043C\u043D\u0438\u0442\u044C \u043F\u0440\u0438 \u043F\u0435\u0440\u0435\u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\u0435  \u0432\u0435\u0440\u0448\u0438\u043D\u043D\u043E\u0433\u043E \u0448\u0435\u0439\u0434\u0435\u0440\u0430.\n    v_color.a = v_color.a * (255.0/254.0);//todo\n    v_texCoords = a_texCoord0;\n    v_texCoord = a_texCoord0;\n    vTexCoord = a_texCoord0;\n    //\u043F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u043C \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u0438\u0434\u0430 \u0438 \u043F\u0440\u043E\u0435\u043A\u0446\u0438\u0438, \u043C\u043E\u0436\u043D\u043E \u043D\u0435 \u0437\u0430\u0431\u0438\u0432\u0430\u0442\u044C \u0441\u0435\u0431\u0435 \u044D\u0442\u0438\u043C \u0433\u043E\u043B\u043E\u0432\u0443\n    // \u0442\u0443\u0442 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u044F\u0442 \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0447\u0442\u043E-\u0431\u044B \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E \u0443\u0447\u0435\u0441\u0442\u044C \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B \u043A\u0430\u043C\u0435\u0440\u044B\n    // gl_Position \u044D\u0442\u043E \u043E\u043A\u043E\u043D\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432\u0435\u0440\u0448\u0438\u043D\u044B\n    gl_Position =  u_projTrans * a_position;\n}\n';
-  shader_background_stars_frag = '\n#ifdef GL_ES\n    precision highp float;//todo lowp\n    precision lowp int;\n#else\n#define highp;//todo test on non GL ES devices\n#endif\nuniform float time;//todo mediump\nuniform vec2 resolution;// = vec2(400.0, 400.0);//todo int? lowp?? \u043F\u0440\u043E\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043D\u0430 \u0431\u043E\u043B\u044C\u0448\u0438\u0445 \u044D\u043A\u0440\u0430\u043D\u0430\u0445\nuniform vec2 mouse;//todo highp, \u043F\u043E\u0442\u043E\u043C\u0443\u0447\u0442\u043E uniform mediump mouse \u043D\u0435 \u0434\u0430\u0435\u0442 \u0432\u044B\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u0443\u044E \u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\n#define VOLSTEPS 2//\u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u043B\u043E\u0451\u0432\n//\u041E\u0442 0.2 \u0434\u043E 1.0\n//\u0412\u0430\u0436\u043D\u044B\u0439 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\n#define STEPSIZE 0.65\n#define ZOOM   5.900\n#define TILE   0.850\n#define SPEED  0.150\n#define SATURATION 0.750\n//\u041C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043A\u0430\u043A \u043F\u043E\u043B\u043E\u0436\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0442\u0430\u043A \u0438 \u043E\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0446\u0435\u043B\u044B\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u044E\u0442 \u0432\u044B\u043F\u0430\u0434 \u043F\u044F\u0442\u0435\u043D\n#define INTERESTING1 2.2\n\n// Component wise blending\n#define Blend(base, blend, funcf)       vec3(funcf(base.r, blend.r), funcf(base.g, blend.g), funcf(base.b, blend.b))\n// Blend Funcs\n#define BlendScreenf(base, blend)       (1.0 - ((1.0 - base) * (1.0 - blend)))\n#define BlendMultiply(base, blend)       (base * blend)\n#define BlendScreen(base, blend)       Blend(base, blend, BlendScreenf)\n\nvoid mainImage( out vec3 fragColor, in vec2 fragCoord )\n{\n\t//get coords and direction\n\tvec2 uv= fragCoord.xy/resolution.xy-.5;\n\tuv.y*=resolution.y/resolution.x;\n\tvec3 dir=vec3(uv*ZOOM,1.1);\n\tfloat time=time*SPEED+.25;\n\ttime = time*1.0;\n\tfloat a1=.5+time/resolution.x*2.;\n\tfloat a2=.8+time/resolution.y*2.;\n\tmat2 rot1=mat2(cos(a1),sin(a1),-sin(a1),cos(a1));\n\tmat2 rot2=mat2(cos(a2),sin(a2),-sin(a2),cos(a2));\n\tdir.xz*=rot1;\n\tdir.xy*=rot2;\n\tvec3 from=vec3(0.9,.5,0.5);\n\tfrom+=vec3(mouse.x*5., mouse.y*5.,INTERESTING1);//\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F\n\tfrom.xz*=rot1;\n\tfrom.xy*=rot2;\n\n\t//volumetric rendering\n\tfloat s=0.1 + STEPSIZE,fade=1.1;\n\tvec3 v=vec3(0.);\n\tfor (int r=0; r<VOLSTEPS; r++) {\n\t\tvec3 p=from+s*dir*.5;\n\t\tp = abs(vec3(TILE)-mod(p,vec3(TILE*2.))); // tiling fold\n\t\tfloat a=0.;\n\t\tfloat pa = 6.0;\n\t\tfloat param = 0.8;\n\t\tif(r == 0) {\n\t\t    param = 1.2 * (1.0 + sin(time*3.1)*0.05);\n\t\t}\n\t\tif(r == 1) {\n\t\t    param = 0.8 * (1.0 + sin(time)*0.02);\n\t\t}\n        int limitI = 2 + 2*(VOLSTEPS - r - 1);\n        if(r==0) {\n            for (int i1=0; i1< 4; i1++) { //\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E\n                p=1.4*abs(p)/dot(p,p)-param; // the magic formula\n                a+=1.0 * abs(length(p)-pa); // absolute sum of average change\n                pa*=0.65;//length(p);\n            }\n        } else {\n            for (int i2=0; i2< 2; i2++) { //\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E\n                p=1.4*abs(p)/dot(p,p)-param; // the magic formula\n                a+=1.0 * abs(length(p)-pa); // absolute sum of average change\n                pa*=0.65;//length(p);\n            }\n        }\n\t\ta*=sqrt(sqrt(a))*(1.0 + sqrt(sqrt(a))*float(r)); // add contrast\n\t\tv+=fade;\n\t\tv+=vec3(sin(s/0.01999)*0.5*exp(s),s,0.25*exp(s))*a*fade * 0.770; // COLOR based on distance\n\t\tfade*= a * 0.008; // distance fading\n\t\ts+=STEPSIZE;\n\t}\n\tv=mix(vec3(length(v)),v,SATURATION); //color adjust\n\tfragColor = v*.009;\n}\nfloat snoise(vec3 uv, float res)\n{\n   const vec3 s = vec3(1e0, 1e2, 1e4);\n   uv *= res;\n   vec3 uv0 = floor(mod(uv, res))*s;\n   vec3 uv1 = floor(mod(uv+vec3(1.), res))*s;\n   vec3 f = fract(uv); f = f*f*f*(3.0-2.0*f);\n   vec4 v = vec4(uv0.x+uv0.y+uv0.z, uv1.x+uv0.y+uv0.z,uv0.x+uv1.y+uv0.z, uv1.x+uv1.y+uv0.z);\n   vec4 r = fract(sin(v*1e-3)*1e5);\n   float r0 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);\n   r = fract(sin((v + uv1.z - uv0.z)*1e-3)*1e5);\n   float r1 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);\n   return mix(r0, r1, f.z)*2.-0.3;\n}\nvec3 getrainbow(vec2 coords,float intensity)\n{\n\tcoords = coords/6000.0;\n\treturn normalize(vec3(snoise(vec3(coords,0.0),intensity),\n                  snoise(vec3(coords,0.1),intensity),\n                  snoise(vec3(coords,0.2),intensity)   ));\n}\nvoid main (void)\n{\n  vec3 color = vec3 (0.0, 0.0, 0.0);\n  mainImage (color, gl_FragCoord.xy);\n  //color.r = sqrt(sqrt(color.r));\n  //color.g = sqrt(sqrt(color.g));\n  //color.b = sqrt(color.b);\n  //color = color*0.23;\n  //color.w = 1.0;\n  vec2 p = 2.0 * (gl_FragCoord.xy / resolution) - 1.0 ;\n  p.x *= resolution.x/resolution.y;\n  p *= 500.0;\n  float dx = mouse.x*30.0;\n  float dy = mouse.y*30.0;\n  vec2 offset = vec2(dx*cos(dx/100.0),dy*sin(dy/100.0));\n  //vec3 rainbow = getrainbow(p.xy+offset*30.0,11.0)*0.1;\n  //gl_FragColor = vec4(rainbow, 1.0);\n\n  gl_FragColor = vec4(color, 1.0);//1\n  //float r = 1.0 - (1.0 - color.r) * (1.0 - rainbow.r);//2\n  //float g = 1.0 - (1.0 - color.g) * (1.0 - rainbow.g);//2\n  //float b = 1.0 - (1.0 - color.b) * (1.0 - rainbow.b);//2\n  //gl_FragColor = vec4(r, g, b, 1.0);//2\n\n  //gl_FragColor = vec4(BlendScreen(color.rgb, rainbow), 1.0);//test or not\n}\n';
+  shader_default_vertex_shader_vert = '\nattribute vec4 a_position; //\u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432\u0435\u0440\u0448\u0438\u043D\u044B\nattribute vec4 a_color; //\u0446\u0432\u0435\u0442 \u0432\u0435\u0440\u0448\u0438\u043D\u044B\nattribute vec2 a_texCoord0; //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nuniform mat4 u_projTrans;  //\u043C\u0430\u0442\u0440\u0438\u0446\u0430, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u0442 \u0434\u0430\u043D\u043D\u044B\u0435 \u0434\u043B\u044F \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043F\u0440\u043E\u0435\u043A\u0446\u0438\u0438 \u0438 \u0432\u0438\u0434\u0430\nvarying vec4 v_color;  //\u0446\u0432\u0435\u0442 \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0434\u0430\u043D \u0432 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u043D\u044B\u0439 \u0448\u0435\u0439\u0434\u0435\u0440\nvarying vec4 vColor;  //\u0446\u0432\u0435\u0442 \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0434\u0430\u043D \u0432 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u043D\u044B\u0439 \u0448\u0435\u0439\u0434\u0435\u0440\nvarying vec2 v_texCoords;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvarying vec2 v_texCoord;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvarying vec2 vTexCoord;  //\u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B\nvarying vec2 windowCoords;//\u042D\u043A\u0440\u0430\u043D\u043D\u044B\u0435 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B\nvoid main(){\n    v_color=a_color;\n    vColor = a_color;\n    // \u041F\u0440\u0438 \u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0435 \u0446\u0432\u0435\u0442 \u0438\u0437 SpriteBatch \u0432 \u0448\u0435\u0439\u0434\u0435\u0440, \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0438\u0437 ABGR int \u0446\u0432\u0435\u0442\u0430 \u0432 float.\n    // \u0447\u0442\u043E-\u0431\u044B \u0438\u0437\u0431\u0435\u0436\u0430\u0442\u044C NAN  \u043F\u0440\u0438 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435, \u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D \u043D\u0435 \u0432\u0435\u0441\u044C \u0434\u0438\u0430\u043F\u0430\u0437\u043E\u043D \u0434\u043B\u044F \u0430\u043B\u044C\u0444\u044B, \u0430 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043E\u0442 (0-254)\n    //\u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043D\u0435\u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u043E\u0441\u0442\u044C \u0446\u0432\u0435\u0442\u0430, \u043A\u043E\u0433\u0434\u0430 \u0430\u043B\u044C\u0444\u0430 \u0432\u043E float \u0440\u0430\u0432\u043D\u0430 1, \u0442\u043E \u0432\u0441\u044E \u0430\u043B\u044C\u0444\u0443 \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u0443\u043C\u043D\u043E\u0436\u0430\u0442\u044C.\n    //\u044D\u0442\u043E \u0441\u043F\u0435\u0446\u0438\u0444\u0438\u043A\u0430 libgdx \u0438 \u043E \u043D\u0435\u0439 \u043D\u0430\u0434\u043E \u043F\u043E\u043C\u043D\u0438\u0442\u044C \u043F\u0440\u0438 \u043F\u0435\u0440\u0435\u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\u0435  \u0432\u0435\u0440\u0448\u0438\u043D\u043D\u043E\u0433\u043E \u0448\u0435\u0439\u0434\u0435\u0440\u0430.\n    v_color.a = v_color.a * (255.0/254.0);//todo\n    v_texCoords = a_texCoord0;\n    v_texCoord = a_texCoord0;\n    vTexCoord = a_texCoord0;\n    //\u043F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u043C \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u0438\u0434\u0430 \u0438 \u043F\u0440\u043E\u0435\u043A\u0446\u0438\u0438, \u043C\u043E\u0436\u043D\u043E \u043D\u0435 \u0437\u0430\u0431\u0438\u0432\u0430\u0442\u044C \u0441\u0435\u0431\u0435 \u044D\u0442\u0438\u043C \u0433\u043E\u043B\u043E\u0432\u0443\n    // \u0442\u0443\u0442 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u044F\u0442 \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0447\u0442\u043E-\u0431\u044B \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E \u0443\u0447\u0435\u0441\u0442\u044C \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B \u043A\u0430\u043C\u0435\u0440\u044B\n    // gl_Position \u044D\u0442\u043E \u043E\u043A\u043E\u043D\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432\u0435\u0440\u0448\u0438\u043D\u044B\n    gl_Position =  u_projTrans * a_position;\n}\n';
+  shader_background_stars_frag = '\n#ifdef GL_ES\n    precision highp float;//todo lowp\n    precision lowp int;\n#else\n#define highp;//todo test on non GL ES devices\n#endif\nuniform float time;//todo mediump\nuniform vec2 windowResolution;// = vec2(400.0, 400.0);//todo int? lowp?? \u043F\u0440\u043E\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043D\u0430 \u0431\u043E\u043B\u044C\u0448\u0438\u0445 \u044D\u043A\u0440\u0430\u043D\u0430\u0445\nuniform vec2 mouse;//todo highp, \u043F\u043E\u0442\u043E\u043C\u0443\u0447\u0442\u043E uniform mediump mouse \u043D\u0435 \u0434\u0430\u0435\u0442 \u0432\u044B\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u0443\u044E \u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\n#define VOLSTEPS 2//\u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u043B\u043E\u0451\u0432\n//\u041E\u0442 0.2 \u0434\u043E 1.0\n//\u0412\u0430\u0436\u043D\u044B\u0439 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\n#define STEPSIZE 0.65\n#define ZOOM   5.900\n#define TILE   0.850\n#define SPEED  0.150\n#define SATURATION 0.750\n//\u041C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043A\u0430\u043A \u043F\u043E\u043B\u043E\u0436\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0442\u0430\u043A \u0438 \u043E\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0446\u0435\u043B\u044B\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u044E\u0442 \u0432\u044B\u043F\u0430\u0434 \u043F\u044F\u0442\u0435\u043D\n#define INTERESTING1 2.2\n\n// Component wise blending\n#define Blend(base, blend, funcf)       vec3(funcf(base.r, blend.r), funcf(base.g, blend.g), funcf(base.b, blend.b))\n// Blend Funcs\n#define BlendScreenf(base, blend)       (1.0 - ((1.0 - base) * (1.0 - blend)))\n#define BlendMultiply(base, blend)       (base * blend)\n#define BlendScreen(base, blend)       Blend(base, blend, BlendScreenf)\n\nvoid mainImage( out vec3 fragColor)\n{\n\t//get coords and direction\n\tvec2 uv= gl_FragCoord.xy/windowResolution.xy-.5;\n\tuv.y*=windowResolution.y/windowResolution.x;\n\tvec3 dir=vec3(uv*ZOOM,1.1);\n\tfloat time=time*SPEED+.25;\n\ttime = time*1.0;\n\tfloat a1=.5+time/windowResolution.x*2.;\n\tfloat a2=.8+time/windowResolution.y*2.;\n\tmat2 rot1=mat2(cos(a1),sin(a1),-sin(a1),cos(a1));\n\tmat2 rot2=mat2(cos(a2),sin(a2),-sin(a2),cos(a2));\n\tdir.xz*=rot1;\n\tdir.xy*=rot2;\n\tvec3 from=vec3(0.9,.5,0.5);\n\tfrom+=vec3(mouse.x*5., mouse.y*5.,INTERESTING1);//\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F\n\tfrom.xz*=rot1;\n\tfrom.xy*=rot2;\n\n\t//volumetric rendering\n\tfloat s=0.1 + STEPSIZE,fade=1.1;\n\tvec3 v=vec3(0.);\n\tfor (int r=0; r<VOLSTEPS; r++) {\n\t\tvec3 p=from+s*dir*.5;\n\t\tp = abs(vec3(TILE)-mod(p,vec3(TILE*2.))); // tiling fold\n\t\tfloat a=0.;\n\t\tfloat pa = 6.0;\n\t\tfloat param = 0.8;\n\t\tif(r == 0) {\n\t\t    param = 1.2 * (1.0 + sin(time*3.1)*0.05);\n\t\t}\n\t\tif(r == 1) {\n\t\t    param = 0.8 * (1.0 + sin(time)*0.02);\n\t\t}\n        int limitI = 2 + 2*(VOLSTEPS - r - 1);\n        if(r==0) {\n            for (int i1=0; i1< 4; i1++) { //\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E\n                p=1.4*abs(p)/dot(p,p)-param; // the magic formula\n                a+=1.0 * abs(length(p)-pa); // absolute sum of average change\n                pa*=0.65;//length(p);\n            }\n        } else {\n            for (int i2=0; i2< 2; i2++) { //\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E\n                p=1.4*abs(p)/dot(p,p)-param; // the magic formula\n                a+=1.0 * abs(length(p)-pa); // absolute sum of average change\n                pa*=0.65;//length(p);\n            }\n        }\n\t\ta*=sqrt(sqrt(a))*(1.0 + sqrt(sqrt(a))*float(r)); // add contrast\n\t\tv+=fade;\n\t\tv+=vec3(sin(s/0.01999)*0.5*exp(s),s,0.25*exp(s))*a*fade * 0.770; // COLOR based on distance\n\t\tfade*= a * 0.008; // distance fading\n\t\ts+=STEPSIZE;\n\t}\n\tv=mix(vec3(length(v)),v,SATURATION); //color adjust\n\tfragColor = v*.009;\n}\nfloat snoise(vec3 uv, float res)\n{\n   const vec3 s = vec3(1e0, 1e2, 1e4);\n   uv *= res;\n   vec3 uv0 = floor(mod(uv, res))*s;\n   vec3 uv1 = floor(mod(uv+vec3(1.), res))*s;\n   vec3 f = fract(uv); f = f*f*f*(3.0-2.0*f);\n   vec4 v = vec4(uv0.x+uv0.y+uv0.z, uv1.x+uv0.y+uv0.z,uv0.x+uv1.y+uv0.z, uv1.x+uv1.y+uv0.z);\n   vec4 r = fract(sin(v*1e-3)*1e5);\n   float r0 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);\n   r = fract(sin((v + uv1.z - uv0.z)*1e-3)*1e5);\n   float r1 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);\n   return mix(r0, r1, f.z)*2.-0.3;\n}\nvec3 getrainbow(vec2 coords,float intensity)\n{\n\tcoords = coords/6000.0;\n\treturn normalize(vec3(snoise(vec3(coords,0.0),intensity),\n                  snoise(vec3(coords,0.1),intensity),\n                  snoise(vec3(coords,0.2),intensity)   ));\n}\nvoid main (void)\n{\n  vec3 color = vec3 (0.0, 0.0, 0.0);\n  mainImage (color);\n  vec2 p = 2.0 * (gl_FragCoord.xy / windowResolution) - 1.0 ;\n  p.x *= windowResolution.x/windowResolution.y;\n  p *= 500.0;\n  float dx = mouse.x*30.0;\n  float dy = mouse.y*30.0;\n  vec2 offset = vec2(dx*cos(dx/100.0),dy*sin(dy/100.0));\n\n  vec3 rainbow = getrainbow(p.xy+offset*30.0,11.0)*0.15;\n//  gl_FragColor = vec4(rainbow, 1.0);\n\n//  gl_FragColor = vec4(color, 1.0);//1\n  float r = 1.0 - (1.0 - color.r) * (1.0 - rainbow.r);//2\n  float g = 1.0 - (1.0 - color.g) * (1.0 - rainbow.g);//2\n  float b = 1.0 - (1.0 - color.b) * (1.0 - rainbow.b);//2\n  gl_FragColor = vec4(r, g, b, 1.0);//2\n\n  //gl_FragColor = vec4(BlendScreen(color.rgb, rainbow), 1.0);//test or not\n}\n';
   shader_good_blur_frag = '\n#ifdef GL_ES\nprecision mediump float;\nprecision mediump int;\n#else\n#define highp;\n#endif\n\nvarying vec4 v_color;\nvarying vec2 v_texCoord;\n\nuniform sampler2D u_texture;\nuniform float resolution = 800.0;//width\nuniform float radius = 5.0;\nuniform vec2 dir = vec2(1.0, 0.0);//\u042D\u0442\u043E\u0442 \u0448\u0435\u0439\u0434\u0435\u0440 \u0440\u0430\u0441\u0447\u0438\u0442\u0430\u043D \u043D\u0430 \u0442\u043E \u0447\u0442\u043E\u0431\u044B \u0441\u043D\u0430\u0447\u0430\u043B\u0430 \u0440\u0435\u043D\u0434\u0435\u0440\u0438\u0442\u044C \u0432 \u043E\u0434\u0438\u043D frame buffer \u0441 \u0431\u043B\u044E\u0440\u043E\u043C \u043F\u043E \u0433\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u044C\u043D\u043E \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440 (dir = vec2(1.0,0.0)), \u0430 \u043F\u043E\u0442\u043E\u043C \u044D\u0442\u043E\u0442 frame buffer \u0440\u0435\u043D\u0434\u0435\u0440\u0438\u0442\u044C \u0432\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u043E dir=vec2(0.0,1.0)\n\nvoid main() {\n\tvec4 sum = vec4(0.0);\n\tvec2 tc = v_texCoord;\n\n\t// Number of pixels off the central pixel to sample from\n\tfloat blur = radius/resolution;\n\n\t// Blur direction\n\tfloat hstep = dir.x;\n\tfloat vstep = dir.y;\n\n\t// Apply blur using 9 samples and predefined gaussian weights\n\t//\u0421\u0443\u043C\u043C\u0430 \u043A\u043E\u044D\u0444\u0444\u0438\u0446\u0438\u0435\u043D\u0442\u043E\u0432 \u043D\u0430\u0432\u0435\u0440\u043D\u043E\u0435 \u0440\u0430\u0432\u043D\u0430 1\n\tsum += texture2D(u_texture, vec2(tc.x - 4.0*blur*hstep, tc.y - 4.0*blur*vstep)) * 0.006;\n\tsum += texture2D(u_texture, vec2(tc.x - 3.0*blur*hstep, tc.y - 3.0*blur*vstep)) * 0.044;\n\tsum += texture2D(u_texture, vec2(tc.x - 2.0*blur*hstep, tc.y - 2.0*blur*vstep)) * 0.121;\n\tsum += texture2D(u_texture, vec2(tc.x - 1.0*blur*hstep, tc.y - 1.0*blur*vstep)) * 0.194;\n\n\tsum += texture2D(u_texture, vec2(tc.x, tc.y)) * 0.27;\n\n\tsum += texture2D(u_texture, vec2(tc.x + 1.0*blur*hstep, tc.y + 1.0*blur*vstep)) * 0.194;\n\tsum += texture2D(u_texture, vec2(tc.x + 2.0*blur*hstep, tc.y + 2.0*blur*vstep)) * 0.121;\n\tsum += texture2D(u_texture, vec2(tc.x + 3.0*blur*hstep, tc.y + 3.0*blur*vstep)) * 0.044;\n\tsum += texture2D(u_texture, vec2(tc.x + 4.0*blur*hstep, tc.y + 4.0*blur*vstep)) * 0.006;\n\n\tgl_FragColor = sum;\n}\n';
   shader_mesh_default_vert = '\nattribute vec2 aVertexPosition;\n\nvoid main(void) {\n    gl_Position = vec4(aVertexPosition, 0.0, 1.0);\n}\n';
   MASS_POWER_TEXTURE_VERTEX = '\n//\u0415\u0441\u043B\u0438 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 \u0432 \u0448\u0435\u0439\u0434\u0435\u0440\u0435 \u043D\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F, \u0442\u043E \u043F\u0440\u0438 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u043E\u043D \u0431\u0443\u0434\u0435\u0442 \u0432\u044B\u0440\u0435\u0437\u0430\u043D, \u0438 \u043C\u043E\u0433\u0443\u0442 \u0432\u043E\u0437\u043D\u0438\u043A\u043D\u0443\u0442\u044C \u043E\u0448\u0438\u0431\u043A\u0438 "enableVertexAttribArray: index out of range"\nattribute float a_center_x;//\u0438\u0433\u0440\u043E\u0432\u044B\u0435 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0446\u0435\u043D\u0442\u0440\u0430 \u043A\u0440\u0443\u0433\u0430\nattribute float a_center_y;\nattribute float a_angle;\nattribute float a_game_radius;//\u0420\u0430\u0434\u0438\u0443\u0441 \u0442\u043E\u0447\u043A\u0438 \u043E\u0442 \u0446\u0435\u043D\u0442\u0440\u0430 \u0432 \u0438\u0433\u0440\u043E\u0432\u044B\u0445 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u0430\u0445.\n\nattribute float a_relative_radius;//\u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0440\u0430\u0434\u0438\u0443\u0441 \u043E\u0442 [0 \u0434\u043E 1] \u0432\u043D\u0443\u0442\u0440\u0438 \u043A\u0440\u0443\u0433\u0430 \u0438 \u043E\u0442 (1 \u0434\u043E inf) \u0432\u043D\u0435 \u043A\u0440\u0443\u0433\u0430\n\nuniform float u_game_width;\nuniform float u_game_height;\nuniform float u_game_camera_x;\nuniform float u_game_camera_y;\n\nvarying lowp vec2 v_textCoord;\nvarying lowp float v_distance;//\u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0434\u043E \u043A\u0440\u0443\u0433\u0430 \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0435\u043B\u044C\u043D\u043E a_relative_radius. \u0415\u0441\u043B\u0438 0 \u0442\u043E - \u0432 \u043A\u0440\u0443\u0433\u0435 , \u0435\u0441\u043B\u0438 > 0 \u0442\u043E \u0442\u043E\u0447\u043A\u0430 \u043D\u0430 \u0440\u0430\u0441\u0442\u043E\u044F\u043D\u0438\u0438 a_relative_radius * v_distance \u043E\u0442 \u043A\u0440\u0430\u044F \u043A\u0440\u0443\u0433\u0430\n\nvoid main(void) {\n  v_distance = max(a_relative_radius - 1.0, 0.0);\n  //\u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u0437 png \u0432\u044B\u0440\u0435\u0437\u0430\u0435\u0442\u0441\u044F \u044D\u043B\u0438\u043F\u0441, \u0430 \u0435\u0449\u0451 \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043D\u0430\u0442\u044F\u0433\u0438\u0432\u0430\u0442\u044C \u043F\u0440\u044F\u043C\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043F\u0430\u0434\u0430\u043B\u0438 \u0443\u0433\u043E\u043B\u043A\u0438 png\n  v_textCoord = vec2(0.5, 0.5) + vec2(cos(a_angle), sin(a_angle)) * 0.5 * min(a_relative_radius, 1.0);\n  mat2 screenScale = mat2(2.0/u_game_width,       0.0,\n                                0.0,       2.0/u_game_height);\n  vec2 gamePos = /*a_center_pos*/vec2(a_center_x, a_center_y) + vec2(cos(a_angle)*a_game_radius, sin(a_angle)*a_game_radius);\n  gl_Position = vec4(screenScale*(gamePos - vec2(u_game_camera_x, u_game_camera_y)), 1.0, 1.0);\n  }\n';
   MASS_POWER_TEXTURE_FRAG = '\nprecision mediump float;//todo lowp\nuniform sampler2D u_sampler;\nvarying lowp vec2 v_textCoord;\nvarying lowp float v_distance;//todo \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u0441 invariant\nvoid main(void) {\n  gl_FragColor = texture2D(u_sampler, v_textCoord);\n  gl_FragColor.a = gl_FragColor.a / pow(1.0 + v_distance, 6.0);//todo \u043F\u043E\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C performance pow() vs \u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u043C\u043D\u043E\u0433\u043E \u0440\u0430\u0437\n}\n';
   MASS_POWER_FOOD_VERTEX = '\n//\u0415\u0441\u043B\u0438 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 \u0432 \u0448\u0435\u0439\u0434\u0435\u0440\u0435 \u043D\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F, \u0442\u043E \u043F\u0440\u0438 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u043E\u043D \u0431\u0443\u0434\u0435\u0442 \u0432\u044B\u0440\u0435\u0437\u0430\u043D, \u0438 \u043C\u043E\u0433\u0443\u0442 \u0432\u043E\u0437\u043D\u0438\u043A\u043D\u0443\u0442\u044C \u043E\u0448\u0438\u0431\u043A\u0438 "enableVertexAttribArray: index out of range"\nattribute float a_center_x;//\u0438\u0433\u0440\u043E\u0432\u044B\u0435 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0446\u0435\u043D\u0442\u0440\u0430 \u043A\u0440\u0443\u0433\u0430\nattribute float a_center_y;\nattribute float a_angle;\nattribute float a_game_radius;//\u0420\u0430\u0434\u0438\u0443\u0441 \u0442\u043E\u0447\u043A\u0438 \u043E\u0442 \u0446\u0435\u043D\u0442\u0440\u0430 \u0432 \u0438\u0433\u0440\u043E\u0432\u044B\u0445 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u0430\u0445.\n\nattribute lowp vec4 a_color;\n\nuniform mediump float time;\nuniform float u_game_width;\nuniform float u_game_height;\nuniform float u_game_camera_x;\nuniform float u_game_camera_y;\n\nvarying lowp vec4 v_color;\n\nvoid main(void) {\n  float posDiff = a_game_radius + (a_center_x + a_center_y)/100.0;\n  v_color = a_color + vec4(cos(1.0*posDiff + a_angle + time*1.5), cos(1.5*posDiff + a_angle + time*2.0 + radians(120.0)), cos(2.0*posDiff + a_angle + time*2.5 + radians(240.0)), 0.0)*(sign(2.0*posDiff + a_game_radius)+0.3);\n  v_color = v_color - 0.4*(1.0 - sign(a_game_radius))*cos(time)*vec4(1.0,1.0,1.0,0.4);\n  //\u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u0437 png \u0432\u044B\u0440\u0435\u0437\u0430\u0435\u0442\u0441\u044F \u044D\u043B\u0438\u043F\u0441, \u0430 \u0435\u0449\u0451 \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043D\u0430\u0442\u044F\u0433\u0438\u0432\u0430\u0442\u044C \u043F\u0440\u044F\u043C\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043F\u0430\u0434\u0430\u043B\u0438 \u0443\u0433\u043E\u043B\u043A\u0438 png\n  mat2 screenScale = mat2(2.0/u_game_width,       0.0,\n                                0.0,       2.0/u_game_height);\n  vec2 gamePos = /*a_center_pos*/vec2(a_center_x, a_center_y) + vec2(cos(a_angle)*a_game_radius, sin(a_angle)*a_game_radius);\n  gl_Position = vec4(screenScale*(gamePos - vec2(u_game_camera_x, u_game_camera_y)), 1.0, 1.0);\n  }\n';
   MASS_POWER_FOOD_FRAG = '\nprecision mediump float;\nvarying lowp vec4 v_color;\nvoid main(void) {\n  gl_FragColor = v_color;\n}\n';
+  MASS_POWER_REACTIVE_VERTEX = '\n//\u0415\u0441\u043B\u0438 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 \u0432 \u0448\u0435\u0439\u0434\u0435\u0440\u0435 \u043D\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F, \u0442\u043E \u043F\u0440\u0438 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u043E\u043D \u0431\u0443\u0434\u0435\u0442 \u0432\u044B\u0440\u0435\u0437\u0430\u043D, \u0438 \u043C\u043E\u0433\u0443\u0442 \u0432\u043E\u0437\u043D\u0438\u043A\u043D\u0443\u0442\u044C \u043E\u0448\u0438\u0431\u043A\u0438 "enableVertexAttribArray: index out of range"\nattribute float a_center_x;//\u0438\u0433\u0440\u043E\u0432\u044B\u0435 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u044B \u0446\u0435\u043D\u0442\u0440\u0430 \u043A\u0440\u0443\u0433\u0430\nattribute float a_center_y;\nattribute float a_angle;\nattribute float a_game_radius;//\u0420\u0430\u0434\u0438\u0443\u0441 \u0442\u043E\u0447\u043A\u0438 \u043E\u0442 \u0446\u0435\u043D\u0442\u0440\u0430 \u0432 \u0438\u0433\u0440\u043E\u0432\u044B\u0445 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u0430\u0445.\n\nattribute lowp vec4 a_color;\n\nuniform mediump float time;\nuniform float u_game_width;\nuniform float u_game_height;\nuniform float u_game_camera_x;\nuniform float u_game_camera_y;\n\nvarying lowp vec4 v_color;\n\nvoid main(void) {\n  float posDiff = a_game_radius + (a_center_x + a_center_y)/100.0;\n//  v_color = a_color + vec4(cos(1.0*posDiff + a_angle + time*1.5), cos(1.5*posDiff + a_angle + time*2.0 + radians(120.0)), cos(2.0*posDiff + a_angle + time*2.5 + radians(240.0)), 0.0)*(sign(2.0*posDiff + a_game_radius)+0.3);\n//  v_color = v_color - 0.4*(1.0 - sign(a_game_radius))*cos(time)*vec4(1.0,1.0,1.0,0.4);\n  v_color = a_color;\n  //\u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u0437 png \u0432\u044B\u0440\u0435\u0437\u0430\u0435\u0442\u0441\u044F \u044D\u043B\u0438\u043F\u0441, \u0430 \u0435\u0449\u0451 \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043D\u0430\u0442\u044F\u0433\u0438\u0432\u0430\u0442\u044C \u043F\u0440\u044F\u043C\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043F\u0430\u0434\u0430\u043B\u0438 \u0443\u0433\u043E\u043B\u043A\u0438 png\n  mat2 screenScale = mat2(2.0/u_game_width,       0.0,\n                                0.0,       2.0/u_game_height);\n  vec2 gamePos = /*a_center_pos*/vec2(a_center_x, a_center_y) + vec2(cos(a_angle)*a_game_radius, sin(a_angle)*a_game_radius);\n  gl_Position = vec4(screenScale*(gamePos - vec2(u_game_camera_x, u_game_camera_y)), 1.0, 1.0);\n  }\n';
   createTime = libObj_getInstance().time;
   lib = libObj_getInstance();
-  MAX_W = 5;
-  MAX_H = 5;
-  widthCache = LinkedHashMap_init();
-  heightCache = LinkedHashMap_init();
+  PERFORMANCE_KOEFF = 1;
+  MaxCodePoint = 1114111;
+  MinLowSurrogate = 56320;
+  MinHighSurrogate = 55296;
+  MinSupplementary = 65536;
+  HighSurrogateMagic = 55232;
   main([]);
   Kotlin.defineModule('game', _);
   return _;
